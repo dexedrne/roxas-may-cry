@@ -1,11 +1,36 @@
-# Roxas May Cry 1.2.2
+# Roxas May Cry 1.2.3
 
-Play Nobody May Cry’s Roxas campaign through The World That Never Was, the ending and postgame in the Steam edition of Kingdom Hearts II Final Mix.
+![Roxas May Cry](docs/img/roxas-may-cry.webp)
+
+Play Nobody May Cry’s Roxas campaign through The World That Never Was, the ending and postgame in the Steam edition of Kingdom Hearts II Final Mix. This repository is a builder: it makes the mod on your PC from your own copy of the game. It holds patches and code, no game files.
+
+## what's in it
+
+<table>
+<tr>
+<td width="50%" valign="top"><img src="docs/img/late.webp" alt="A folded black coat on a rain-soaked rooftop ledge, pale towers under a full moon" width="100%"><br><b>the late game</b><br>the Land of Dragons Summit duel, the Organization encounters and the castle ascent, finished and fixed.</td>
+<td width="50%" valign="top"><img src="docs/img/holo.webp" alt="An old beige computer on a workbench at dusk, a glowing blue disc hovering over the keyboard" width="100%"><br><b>Holo-Missions</b><br>the computer in Merlin’s House runs all three missions again, with first clears, replays and rewards.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><img src="docs/img/modes.webp" alt="Four pale blue ice cream bars and a bare stick in a row on a stone ledge at sunset" width="100%"><br><b>four modes</b><br>Critical, Less Than Nothing, Xion Knows Best and Xion Always Cries.</td>
+<td width="50%" valign="top"><img src="docs/img/settings.webp" alt="Brass gears behind a glowing clock face, an open notebook of gear sketches on a beam" width="100%"><br><b>settings menu and cheats</b><br>infinite HP, MP and Drive, EXP and drop multipliers, names and title logos, changed in game.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><img src="docs/img/switch.webp" alt="A stone ledge split between sunset and moonlight: an ice cream bar, a folded black coat, a seashell" width="100%"><br><b>Character switching</b><br>swap between Roxas and Xion whenever you want, in every mode.</td>
+<td width="50%" valign="top"><img src="docs/img/ending.webp" alt="An empty beach at sunset, a seashell and two bare ice cream sticks in the sand" width="100%"><br><b>the ending and PS2 rules</b><br>the final battles with their PS2 resistance and one-HP rules, pause-to-skip and the results screen.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><img src="docs/img/postgame.webp" alt="A misty cavern with pale glowing crystals, stone pillars and stairs leading up into light" width="100%"><br><b>postgame</b><br>the Cavern of Remembrance, the Absent Silhouettes, the data fights and Mushroom XIII.</td>
+<td width="50%" valign="top"></td>
+</tr>
+</table>
 
 - Finish the Summit duel, the Organization encounters and the castle ascent. The Betwixt and Between reward includes Awakened alongside Bond of Flame.
+- New in 1.2.3: the Holo-Missions work from start to finish. The computer in Merlin’s House launches the Day 25, Day 96 and Day 193 missions, later terminal pages open, the Day 96 boss room loads, its chests give their own items, an aborted replay returns to the terminal and the Sandlot fight continues after the shield drops.
 - The final battles restore PS2 resistance and one-HP rules. The ending supports pause-to-skip and the results screen.
-- Postgame fixes cover the Cavern of Remembrance Necromancer, Absent Silhouette books, Data Marluxia’s Doom count and three Mushroom XIII encounters.
+- Postgame fixes cover the Cavern of Remembrance Necromancer, Absent Silhouette books, the Zexion fight, Data Marluxia’s Doom count and three Mushroom XIII encounters.
 - Change cheats, EXP and drop multipliers, tutorial HP, names and title logos in the settings menu. Open it with RB/R1 or F2 at New Game / Load, or hold L3 or Shift while opening camp.
+- Menu, pause screen, HUD and save point fixes for both characters.
 - The HD Xion pack adds character switching, Xion Knows Best and Xion Always Cries. The standard build offers Beginner, Standard, Critical and Less Than Nothing.
 
 ## build and install
