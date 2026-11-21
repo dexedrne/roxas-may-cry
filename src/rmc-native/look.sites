@@ -1,0 +1,56 @@
+1360f9 # SCD mode 2 retains the caller-owned buffer
+1363b0
+13b2e0
+13b3ce # SCD buffer and ownership-mode stores
+152590
+17e9a7 # gauge face accessor call
+17eb30
+1a4bb0
+1a4e30
+1de4a0
+29efa0 hook
+2cbd80 hook
+2d0350 hook
+2d21db
+2d2453
+2d2552
+3a09b0
+3a0b30 hook
+3a64f0
+3a6840
+3b43c0 hook
+3b4ec0 hook
+3b57b0 hook
+3cddf0 hook
+3cdf94 # player-bank enqueue call
+3cdff0 # voice request serialization
+3df930 hook
+3e6120 hook
+3e61e0 hook
+3e62e0
+3e6310
+3f9850
+4ad240
+4ad270
+713450
+717008
+9006b0
+9ba8d1
+9ba928
+abd248
+2a10504
+2a11100
+2a11268
+2a11428
+2a11478
+2a16310
+2a171c8
+2a17290
+2a244a8
+2a244d8
+2ae9fa8
+2bd4340
+9acdd4
+2a11404
+19c3a0 hook
+938730

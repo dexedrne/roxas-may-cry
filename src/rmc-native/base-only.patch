@@ -1,0 +1,172 @@
+--- a/campaign.c
++++ b/campaign.c
+@@ -49,19 +49,19 @@
+     unsigned level = rd32(save + LEVEL);
+     return level >= 2 && level <= 3 && (rd32(save + PORTRAIT) & ~511u) == tag[level] ? (int)level : 0;
+ }
+-int campaign_mode(void) { return saved_mode(data_at(0x9a98b0)); }
++int campaign_mode(void) { return look_available(1) ? saved_mode(data_at(0x9a98b0)) : 0; }
+ 
+ typedef u64 (*NoArgs)(void);
+ static NoArgs init, build, commit;
+ static u64 menu_init(void) {
+-    modes = rmc_int("gameplay", "xion_modes");
++    modes = look_available(1) && rmc_int("gameplay", "xion_modes");
+     u64 result = init();
+     if (modes)
+         wr32(data_at(0xb1d810), 0);
+     return result;
+ }
+ static u64 menu_build(void) {
+-    modes = rmc_int("gameplay", "xion_modes");
++    modes = look_available(1) && rmc_int("gameplay", "xion_modes");
+     u64 result = build();
+     if (modes)
+         wr32(data_at(0xb1d810), 0);
+@@ -156,7 +156,7 @@
+ }
+ void campaign_actor_plan(void);
+ void campaign_plan(void) {
+-    modes = rmc_int("gameplay", "xion_modes");
++    modes = look_available(1) && rmc_int("gameplay", "xion_modes");
+     u32 ids[8];
+     for (unsigned i = 0; i < 8; i++)
+         ids[i] = 0x8000 | (30000 + i);
+--- a/campaign_test.c
++++ b/campaign_test.c
+@@ -2,6 +2,8 @@
+ #include "campaign_actor.c"
+ #include <assert.h>
+ 
++static int pack_present = 1;
++int look_available(int target) { return target == 1 && pack_present; }
+ static unsigned resets;
+ void look_reset(void) { ++resets; }
+ unsigned char *rmc_base;
+@@ -219,6 +221,9 @@
+     assert(!campaign_message(92) && campaign_message(30003) == menu_text[2]);
+     expected_message = 0xc336;
+     assert(campaign_message(30004) == &original_msg);
++    pack_present = 0;
++    assert(menu_build() == 7 && rd32(cursor) == 1 && !campaign_mode());
++    pack_present = 1;
+     enable_modes = 0;
+     assert(menu_build() == 7 && rd32(cursor) == 1 && campaign_mode() == 3);
+     expected_message = 0xc332;
+--- a/settings.c
++++ b/settings.c
+@@ -54,6 +54,8 @@
+ static const char *feedback;
+ static const char *const characters[] = {"Roxas", "Xion", "Xion (hooded)"};
+ static const char *const logos[] = {"Auto", "Cycle", "Mod", "Roxas", "Xion", "XKB"};
++static int character_picker(void) { return look_available(1) || look_available(2); }
++static int short_home(void) { return from_title || !character_picker(); }
+ struct option {
+     const char *label, *section, *key;
+ };
+@@ -101,6 +103,10 @@
+         const char *s = "";
+         if ((page == CHEATS && i < 3) || (page == MULTIPLIERS && i < 2) || page == GAMEPLAY) {
+             const struct option *o = (page == CHEATS ? cheats : page == MULTIPLIERS ? multipliers : gameplay) + i;
++            if (page == GAMEPLAY && i == 3 && !look_available(1)) {
++                label(i, "");
++                continue;
++            }
+             int value = rmc_int(o->section, o->key);
+             if (page == MULTIPLIERS)
+                 snprintf(text, sizeof text, "%s x%d", o->label, value);
+@@ -109,10 +115,10 @@
+                          page == GAMEPLAY && i == 1 ? (value ? "All" : "Menus") : (value ? "On" : "Off"));
+             s = text;
+         } else {
+-            s = page == HOME && from_title ? (i < 3 ? fixed[HOME][i+1] : "") : fixed[page][i];
++            s = page == HOME && short_home() ? (i < 3 ? fixed[HOME][i+1] : "") : fixed[page][i];
+             if (page == CHARACTER && i < 3) {
+                 snprintf(text, sizeof text, "%s%s", characters[i], look_current() == i ? " (current)" : "");
+-                s = text;
++                s = look_available(i) ? text : "";
+             } else if (page == DISPLAY && i < 3) {
+                 int mode = rmc_int("display", "title_logo");
+                 snprintf(text, sizeof text, "%s%s", i == 2 && mode >= 2 ? logos[mode] : s,
+@@ -153,7 +159,11 @@
+ }
+ static void enter(enum page next, int cursor) {
+     page = next;
+-    wr16(active_list + 4, (next == MULTIPLIERS || (next == HOME && from_title)) ? 3 : 4);
++    int count = 4;
++    if (next == MULTIPLIERS || (next == HOME && short_home()) ||
++        (next == GAMEPLAY && !look_available(1))) count = 3;
++    if (next == STOCK && !character_picker()) count = stock_rows + 1;
++    wr16(active_list + 4, count);
+     if (next == STOCK)
+         for (int i = 0; i < 4; i++)
+             wr64(widget(active_list, i) + 0x1f8, saved[i]);
+@@ -184,7 +194,7 @@
+     menu_encode(root_labels[0], "Change Character");
+     menu_encode(root_labels[1], "Roxas May Cry");
+     for (int i = stock_rows; i < 4; i++)
+-        wr64(widget(active_list, i) + 0x1f8, (u64)root_labels[i - stock_rows]);
++        wr64(widget(active_list, i) + 0x1f8, (u64)root_labels[character_picker() ? i - stock_rows : 1]);
+     for (int i = 0; i < 4; i++)
+         saved[i] = rd64(widget(active_list, i) + 0x1f8);
+     feedback = NULL;
+@@ -217,13 +227,13 @@
+ static int select_row(int row) {
+     if (row == -1 || (row < 0 && row != -2 && row != -4))
+         return row;
+-    if (row >= 4)
++    if (row >= (int)rd16(active_list + 4))
+         return -1;
+     feedback = NULL;
+     if (page == STOCK) {
+         if (row < stock_rows)
+             return row;
+-        enter(row == stock_rows ? CHARACTER : HOME, 0);
++        enter(row == stock_rows && character_picker() ? CHARACTER : HOME, 0);
+     } else if (row < 0) {
+         if (page == HOME && standalone)
+             return row;
+@@ -234,12 +244,12 @@
+     } else if (page == HOME || page == MORE) {
+         static const enum page links[][4] = {{CHARACTER, CHEATS, CONTROLLER, MORE},
+                                              {DISPLAY, GAMEPLAY, ABOUT, HOME}};
+-        if (page == HOME && from_title && ++row > 3) return -1;
++        if (page == HOME && short_home() && ++row > 3) return -1;
+         enter(links[page == MORE][row], 0);
+     } else if (page == CHARACTER) {
+         if (row == 3)
+             enter(HOME, 0);
+-        else
++        else if (look_available(row))
+             feedback = look_request(row, !standalone);
+     } else if (page == CHEATS && row == 3) {
+         enter(MULTIPLIERS, 0);
+--- a/settings_test.c
++++ b/settings_test.c
+@@ -151,7 +151,8 @@
+     requested = appearance = target;
+     return NULL;
+ }
+-int look_available(int target) { return target != 2; }
++static int pack = 1;
++int look_available(int target) { return !target || (pack && target == 1); }
+ int settings_store(const char *s, const char *k, int v) {
+     if (fail_write)
+         return 0;
+@@ -238,6 +239,16 @@
+     assert(page == CONTROLLER);
+     select_row(3);
+     assert(page == HOME && select_row(-2) == -2);
++    pack = 0;
++    original_rows = 2;
++    assert(open_menu(1, 0, 0, 0) == 7 && page == STOCK && rd16(active + 4) == 3);
++    select_row(2);
++    assert(page == HOME && rd16(active + 4) == 3);
++    select_row(0);
++    assert(page == CHEATS);
++    enter(GAMEPLAY, 0);
++    assert(rd16(active + 4) == 3 && select_row(3) == -1);
++    pack = 1;
+ }
+ static void test_names(void) {
+     const unsigned char original[] = {7,    0x3f, 0xa8, 0xb1, 0,    0x3f, 0xa8, 0xb1, 0x9a,
