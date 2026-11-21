@@ -32,3 +32,14 @@ py -3 tools/build-rmc.py "STEAM_COLLECTION" --decomposition "NMC_DECOMPOSED" --n
 ```
 
 Use a fresh output path for each build. Both Xion looks use the player’s KH2/NMC HUD, shop faces and voice banks. The KH3 export supplies the face on the character model.
+
+## license
+
+our code is MIT ([LICENSE](LICENSE)). the two script fonts keep their SIL Open Font Licenses ([fonts/](fonts)). the OpenKH package reader keeps its own license ([tools/LICENSE-OpenKH](tools/LICENSE-OpenKH)).
+
+## more kingdom hearts stuff
+
+- [NMC Fixed](https://github.com/dexedrne/NMC-Fixed): the original mod with every fix and addition, for the Steam version through OpenKH
+- [Nobody May Cry: Recompiled](https://github.com/dexedrne/nmc-recomp): the game and the mod recompiled to run natively on iPhone, macOS and Linux
+- [nmc-decomposed](https://github.com/dexedrne/nmc-decomposed): the mod as readable patches, rebuilt from your own copy of the game
+- [kh2fm-save-converter](https://github.com/dexedrne/kh2fm-save-converter): bring a PS2 (PCSX2) Final Mix save into the Steam version
