@@ -12,12 +12,13 @@ import zipfile
 from assets import Game, apply_delta, digest
 from title import compose, decode
 import ps2
+import text
 
 ROOT = Path(__file__).resolve().parents[1]
 TITLE = 'menu/us/title.2ld'
 ATLAS = 'remastered/' + TITLE + '/-7.png'
 WORD = 'remastered/menu/fm/title.2ld/-7.png'
-DESCRIPTION = ("Version 1.2.3. Roxas's story played through to the end: the late game, The World That Never Was "
+DESCRIPTION = ("Version 1.2.4. Roxas's story played through to the end: the late game, The World That Never Was "
                "and the ending finished, PS2-version behaviours restored, four modes (Critical, Less Than Nothing, "
                "Xion Knows Best, Xion Always Cries), live Character switching and an in-game settings menu with cheats.")
 
@@ -64,7 +65,7 @@ def build(args,temp):
     if len(active)+2 != len(recipes):
         raise ValueError('release layout and recipes disagree')
     description = DESCRIPTION if args.looks else (
-        "Version 1.2.3. Roxas's story through the ending and postgame, with restored PS2 "
+        "Version 1.2.4. Roxas's story through the ending and postgame, with restored PS2 "
         "battle rules, Less Than Nothing difficulty and an in-game settings menu.")
     header = f'title: Roxas May Cry\ngame: kh2\ndescription: "{description}"\nassets:\n'
     manifest = header+''.join(f'- name: {n}\n  method: copy\n  source:\n  - name: {n}\n' for n in active)
@@ -108,7 +109,10 @@ def build(args,temp):
             data = ps2.costume(data,donor) if name.endswith('.mdlx') else donor
         if delta:
             pin,patch = delta
-            data = apply_delta(data,ROOT/'patches'/patch)
+            if patch=='text.json':
+                data = text.reword(data,json.loads((ROOT/'patches'/patch).read_text())[name])
+            else:
+                data = apply_delta(data,ROOT/'patches'/patch)
         if digest(data)!=pin:
             raise ValueError(f'output fingerprint mismatch: {name}')
         if name=='dll/rmc-native.dll' and not args.looks:

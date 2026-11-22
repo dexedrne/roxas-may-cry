@@ -1,0 +1,48 @@
+{
+ "msg/us/sys.bar": [
+  [
+   14093,
+   "067ebcfc46a89643ece50dea5bdcfbe87898db17c6cde222b4e897c5cf312bf9",
+   46,
+   0,
+   "4f0232aaaea2a901a2ad9ea6ac01ada801aeac9e01ada19ea601a2a7019b9aadada59e"
+  ],
+  [
+   482,
+   "ef6ca18649970ebb90cde1604ef360455f9beb3967d5706e1c059c4b9311e34f",
+   4,
+   0,
+   "0140a5a8ad"
+  ],
+  [
+   20020,
+   "02f6af17ca936c90c3fde704e5f1eab0f41b7a72a34f0540a83784ac2ba66e43",
+   39,
+   35,
+   "019aa0a0ab9eacaca2af9e4f023f9e9ca8af9eabb201a2ad9ea6ac019dab9aa2a701353d01a8ab013a3d"
+  ]
+ ],
+ "msg/us/sys.text": [
+  [
+   14093,
+   "067ebcfc46a89643ece50dea5bdcfbe87898db17c6cde222b4e897c5cf312bf9",
+   46,
+   0,
+   "4f0232aaaea2a901a2ad9ea6ac01ada801aeac9e01ada19ea601a2a7019b9aadada59e"
+  ],
+  [
+   482,
+   "ef6ca18649970ebb90cde1604ef360455f9beb3967d5706e1c059c4b9311e34f",
+   4,
+   0,
+   "0140a5a8ad"
+  ],
+  [
+   20020,
+   "02f6af17ca936c90c3fde704e5f1eab0f41b7a72a34f0540a83784ac2ba66e43",
+   39,
+   35,
+   "019aa0a0ab9eacaca2af9e4f023f9e9ca8af9eabb201a2ad9ea6ac019dab9aa2a701353d01a8ab013a3d"
+  ]
+ ]
+}

@@ -35,7 +35,7 @@ if __name__=='__main__':
     identity = hashlib.sha256(b''.join(
         name.encode() + b'\0' + bytes.fromhex(pin) for name,pin in sorted(reference.items())
     )).hexdigest()
-    if identity != "45c960ca647805e49b6e77ba1dadc5219cff8c82916f7e6bfe385d94ae73df8e":
+    if identity != "0deb32a1b150f1d2df94a368125e1a3da1465675364ef8d466d9667c73087782":
         parser.exit(1,'unsupported reference ZIP member inventory\n')
     actual=differences(reference,built)
     with (Path(__file__).resolve().parents[1]/'tests/release-differences.tsv').open(encoding='utf-8') as f:

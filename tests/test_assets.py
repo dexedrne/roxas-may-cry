@@ -11,6 +11,7 @@ import zlib
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]/"tools"))
 from assets import Game, apply_delta
 from kh2_package import HED, HD, decrypt_prefix, egs_mask
+from text import reword
 
 
 
@@ -62,6 +63,20 @@ class BuilderTest(unittest.TestCase):
             patch.write_bytes(lzma.compress(magic + bytes([69, 4, 3, 0])))
             with self.assertRaises(ValueError):
                 apply_delta(b'01234', patch)
+
+    def test_reword(self):
+        first, second = bytes([0x2e, 0x9a, 0]), bytes([0x07, 1, 2, 3, 4, 0x9b, 0])
+        pool = struct.pack('<6I', 1, 2, 9, 24, 5, 27) + first + second
+        head = struct.pack('<4sI8x', b'BAR\x01', 2) + struct.pack('<HH4sII', 2, 0, b'sys\0', 48, len(pool))
+        archive = head + struct.pack('<HH4sII', 24, 0, b'md_m', 96, 0) + pool
+        pin = hashlib.sha256(second).hexdigest()
+        result = reword(archive, [[5, pin, 5, 1, '9c9d']])
+        self.assertEqual(result[:24], archive[:24])
+        self.assertEqual(struct.unpack_from('<II', result, 24), (48, len(pool) + 1))
+        self.assertEqual(struct.unpack_from('<6I', result, 48), (1, 2, 5, 24, 9, 32))
+        self.assertEqual(result[72:], second[:5] + bytes([0x9c, 0x9d, 0]) + first)
+        with self.assertRaises(ValueError):
+            reword(archive, [[9, pin, 0, 0, '']])
 
 
 if __name__ == '__main__':

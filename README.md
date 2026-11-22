@@ -1,4 +1,4 @@
-# Roxas May Cry 1.2.3
+# Roxas May Cry 1.2.4
 
 ![Roxas May Cry](docs/img/roxas-may-cry.webp)
 
@@ -26,7 +26,8 @@ Play Nobody May Cry’s Roxas campaign through The World That Never Was, the end
 </table>
 
 - Finish the Summit duel, the Organization encounters and the castle ascent. The Betwixt and Between reward includes Awakened alongside Bond of Flame.
-- New in 1.2.3: the Holo-Missions work from start to finish. The computer in Merlin’s House launches the Day 25, Day 96 and Day 193 missions, later terminal pages open, the Day 96 boss room loads, its chests give their own items, an aborted replay returns to the terminal and the Sandlot fight continues after the shield drops.
+- New in 1.2.4: the Marluxia and Larxene story arenas are built as their own rooms from your game, their intro scenes show the right weapons, the Space Paranoids room of the Day 96 mission loads, and the menu text explains Item Slots and Less Than Nothing’s recovery drain.
+- The Holo-Missions work from start to finish. The computer in Merlin’s House launches the Day 25, Day 96 and Day 193 missions, later terminal pages open, the Day 96 boss room loads, its chests give their own items, an aborted replay returns to the terminal and the Sandlot fight continues after the shield drops.
 - The final battles restore PS2 resistance and one-HP rules. The ending supports pause-to-skip and the results screen.
 - Postgame fixes cover the Cavern of Remembrance Necromancer, Absent Silhouette books, the Zexion fight, Data Marluxia’s Doom count and three Mushroom XIII encounters.
 - Change cheats, EXP and drop multipliers, tutorial HP, names and title logos in the settings menu. Open it with RB/R1 or F2 at New Game / Load, or hold L3 or Shift while opening camp.
