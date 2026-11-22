@@ -1,0 +1,321 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "4cf2d7ee215d8ff10acc75b552914dea8e6ba0ab91857f6c7cfc19b34f98f6cd",
+    "op": "clean",
+    "from": "ca14:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8320da93a8424fa266ac060a0a64ce567a1885fcd2f9235e381aa13170cc88fd",
+    "op": "clean",
+    "from": "ca14:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "bec14036cda06daf47bf4ad1b601e63d3d16568e86d7e020a34df42e3de54826",
+    "op": "clean",
+    "from": "ca14:2"
+  },
+  {
+    "type": 12,
+    "name": "m_11",
+    "link": 0,
+    "gap": 0,
+    "sha256": "cda3f0eb8c06e79771be43000dfccb9e0b1c64645ccbb325302bab186e045277",
+    "op": "clean",
+    "from": "ca14:3"
+  },
+  {
+    "type": 12,
+    "name": "m_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d6847e45358b6865ab843fd11ce15e5b572fd4db4043d4609d59a6d391cd03c6",
+    "op": "clean",
+    "from": "ca14:4"
+  },
+  {
+    "type": 12,
+    "name": "m_22",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c62a2d8dc103ec6619f60d69c82455a6de74622cf434152c5269875e507e9d47",
+    "op": "clean",
+    "from": "ca14:5"
+  },
+  {
+    "type": 12,
+    "name": "m_70",
+    "link": 0,
+    "gap": 0,
+    "sha256": "fd79b5c982514c965027f35cb9cb2a11151d7130fcd0579684fab5de9f22a732",
+    "op": "clean",
+    "from": "ca14:6"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "4feb3c22209b039a84c99116a9a312fc6d925b3651e9f19a747d824f2b8b4eae",
+    "op": "clean",
+    "from": "ca14:7"
+  },
+  {
+    "type": 12,
+    "name": "b_30",
+    "link": 0,
+    "gap": 0,
+    "sha256": "2d08f5e27196846ad339bd007fd77cc04eb09a2cf9e0a6318622be541be889b0",
+    "op": "clean",
+    "from": "ca14:8"
+  },
+  {
+    "type": 12,
+    "name": "b_20",
+    "link": 0,
+    "gap": 0,
+    "sha256": "98d826ec7a7e2ba0a5c9cdad71d7ca8a2cea69a102e183049cadecf734f93988",
+    "op": "clean",
+    "from": "ca14:9"
+  },
+  {
+    "type": 12,
+    "name": "b_60",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1e21cb48062e632c66ae5c75508268fa49adb1f21b925f21aec0daba5388614e",
+    "from": "nm00:13",
+    "op": "records",
+    "splices": [
+      [
+        2,
+        24,
+        [
+          ["entity", 2, {"x": 905.791015625, "y": 1.3600000143051147, "z": 62.19499969482422, "ry": 4.522933483123779}],
+          ["entity", 3, {"x": 876.6519775390625}],
+          ["entity", 4, {"x": 980.1820068359375}],
+          ["group", 5, {"id": 1014, "u20": 0}],
+          ["entity", 6, {"object": 314, "x": -851.885986328125, "y": -421.4729919433594, "z": 344.3280029296875, "ry": 1.4434046745300293, "serial": 1008}],
+          ["entity", 7, {"object": 314, "x": -509.0880126953125, "y": -316.8919982910156, "z": 168.0240020751953, "ry": -4.779147624969482, "serial": 1010}],
+          ["entity", 8, {"object": 314, "x": -446.76800537109375, "y": -311.906005859375, "z": 495.4289855957031, "ry": -5.1949028968811035, "serial": 1011}],
+          [
+            "entity",
+            9,
+            {
+              "object": 318,
+              "x": -76.7249984741211,
+              "y": -222.0,
+              "z": 352.5010070800781,
+              "ry": -4.740087509155273,
+              "spawn_type": 3,
+              "serial": 1012,
+              "delay": 0,
+              "level": 0
+            }
+          ],
+          [
+            "entity",
+            10,
+            {
+              "object": 318,
+              "x": 392.9119873046875,
+              "y": -106.0,
+              "z": 142.80099487304688,
+              "ry": 1.3299058675765991,
+              "spawn_type": 3,
+              "serial": 1013,
+              "delay": 0,
+              "level": 0
+            }
+          ],
+          [
+            "entity",
+            11,
+            {
+              "object": 318,
+              "x": 441.9849853515625,
+              "y": -92.0,
+              "z": 370.9200134277344,
+              "ry": 1.294999361038208,
+              "spawn_type": 3,
+              "serial": 1236,
+              "delay": 0,
+              "level": 0
+            }
+          ],
+          [
+            "entity",
+            12,
+            {
+              "object": 752,
+              "x": 460.5039978027344,
+              "y": -81.0,
+              "z": 123.17900085449219,
+              "ry": 1.539345383644104,
+              "spawn_type": 3,
+              "serial": 1235,
+              "delay": 0,
+              "level": 0
+            }
+          ],
+          [
+            "entity",
+            13,
+            {
+              "object": 752,
+              "x": 603.6900024414062,
+              "y": -24.0,
+              "z": 300.9849853515625,
+              "ry": 1.4346256256103516,
+              "spawn_type": 3,
+              "serial": 1227,
+              "delay": 0,
+              "level": 0
+            }
+          ],
+          [
+            "entity",
+            14,
+            {
+              "object": 752,
+              "x": 627.2730102539062,
+              "y": -44.0,
+              "z": 58.645999908447266,
+              "ry": 1.539345383644104,
+              "spawn_type": 3,
+              "serial": 1228,
+              "delay": 0,
+              "level": 0
+            }
+          ],
+          [
+            "entity",
+            15,
+            {"object": 314, "x": 36.5260009765625, "y": 28.0, "z": -1272.3470458984375, "ry": -4.464587211608887, "serial": 1239, "delay": 0, "level": 1}
+          ],
+          [
+            "entity",
+            16,
+            {"object": 314, "x": 679.3920288085938, "y": -13.0, "z": -1092.2340087890625, "ry": -4.307507514953613, "serial": 1240, "delay": 0, "level": 1}
+          ],
+          [
+            "entity",
+            17,
+            {"object": 314, "x": -118.01799774169922, "y": 58.2140007019043, "z": -583.697998046875, "ry": 1.29154372215271, "serial": 1229, "delay": 0}
+          ],
+          [
+            "entity",
+            18,
+            {"object": 314, "x": 529.9819946289062, "y": 65.16100311279297, "z": -588.697998046875, "ry": 1.483529806137085, "serial": 1233, "delay": 0}
+          ],
+          [
+            "entity",
+            19,
+            {"object": 314, "x": 336.98199462890625, "y": 84.65499877929688, "z": -866.697998046875, "ry": 1.7627824544906616, "serial": 1230, "delay": 0}
+          ],
+          ["entity", 20, {"object": 752}],
+          ["entity", 21, {"object": 752}],
+          ["entity", 22, {"object": 752}],
+          ["entity", 23, {"object": 752}],
+          ["entity", 24, {"object": 752}],
+          ["entity", 25, {"object": 752}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "b_70",
+    "link": 0,
+    "gap": 0,
+    "sha256": "96551b5afbc885678f2e55adc15aa9772fa3a8c3d266fd3f71af2895f5d25fa3",
+    "op": "clean",
+    "from": "ca14:11"
+  },
+  {
+    "type": 12,
+    "name": "b_71",
+    "link": 0,
+    "gap": 0,
+    "sha256": "73abb2112b77e26f31eca9d74e3f08ec2bc0e9a0960be3ceff3168e338b1cf6a",
+    "op": "clean",
+    "from": "ca14:12"
+  },
+  {
+    "type": 12,
+    "name": "b_80",
+    "link": 0,
+    "gap": 0,
+    "sha256": "0c68e099a8ee6b5d3ced0b4546469e8a802c9d4ae0ec75fecf310a999fdf7e9b",
+    "op": "clean",
+    "from": "ca14:13"
+  },
+  {
+    "type": 12,
+    "name": "b_81",
+    "link": 0,
+    "gap": 0,
+    "sha256": "2301a4a1f5ded34392be8b900bc12c87b37857103fb612ccc1106c5f054d8b41",
+    "op": "clean",
+    "from": "ca14:14"
+  },
+  {
+    "type": 12,
+    "name": "b_82",
+    "link": 0,
+    "gap": 0,
+    "sha256": "586a559f2ee762fbc442d9a0823a60b709f6ecc157eb600ed5077c5d81a835c9",
+    "op": "clean",
+    "from": "ca14:15"
+  },
+  {
+    "type": 12,
+    "name": "b_83",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1ee8add0cd0ec6bdac15bb252461ff83b168d729b4ad0f403f0fcadc3844e2e5",
+    "op": "clean",
+    "from": "ca14:16"
+  },
+  {
+    "type": 12,
+    "name": "b_99",
+    "link": 0,
+    "gap": 0,
+    "sha256": "686fcdd4d171002dd3622157907221348bd6b90ba710d076c6c8056d5c2bd34b",
+    "op": "clean",
+    "from": "ca14:17"
+  },
+  {
+    "type": 12,
+    "name": "b_90",
+    "link": 0,
+    "gap": 0,
+    "sha256": "7d35c454ed848cdb39154d1a85c02857dbf0497ca5772bdfff929ccf72be2043",
+    "op": "clean",
+    "from": "ca14:18"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "934f24dd2d54939d0091e04a964b0e85d5b22920a398afecbbe3277089dc7a6f",
+    "op": "clean",
+    "from": "ca14:19"
+  },
+  {"type": 22, "name": "210", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "211", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "212s", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

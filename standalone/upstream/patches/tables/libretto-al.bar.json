@@ -1,0 +1,22 @@
+{
+  "base_sha256": "2fb054fb3f0ae6b19bf885b770d2d0d68d501c7874103db0e8fa6b5d6af0f36a",
+  "alignment": 16,
+  "members": [
+    {
+      "ordinal": 0,
+      "kind": 2,
+      "name": "al",
+      "link": 0,
+      "talk": {
+        "1890": {"append_textbox": [2, 118]},
+        "1891": {"append_textbox": [2, 119]},
+        "1892": {"append_textbox": [2, 120]},
+        "1893": {"append_textbox": [2, 121]},
+        "1894": {"append_textbox": [2, 122]},
+        "1895": {"append_textbox": [2, 123]},
+        "1896": {"append_textbox": [2, 124]},
+        "1897": {"append_textbox": [2, 126]}
+      }
+    }
+  ]
+}

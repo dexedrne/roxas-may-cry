@@ -1,0 +1,123 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "dc8c40e6877f2cd1cf23dbf4342bddb42530747af53febcc6bb759ac1ef0cd80",
+    "op": "clean",
+    "from": "he01:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1318aa507dab5f56579aed901c5f5088c1831c5831a9a8756260334504ea6128",
+    "op": "clean",
+    "from": "he01:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "a1463a32441554e7ff69f19a09e396e64483b9c9f85d819fb5cbff7da9740721",
+    "op": "clean",
+    "from": "he01:2"
+  },
+  {
+    "type": 12,
+    "name": "m_11",
+    "link": 0,
+    "gap": 0,
+    "sha256": "7ee834e6c407c3dd838a4fc2e158279b089c81e32f55a68e99a51fb88f9e703d",
+    "op": "clean",
+    "from": "he01:3"
+  },
+  {
+    "type": 12,
+    "name": "m_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "0b657550fb7e5ee48a2f06265588a7cc2378687caf59d16fe69ea69339d39101",
+    "op": "clean",
+    "from": "he01:4"
+  },
+  {
+    "type": 12,
+    "name": "m_80",
+    "link": 0,
+    "gap": 0,
+    "sha256": "bb93488236c4022545511349529be2b632dc248336c58fd5161ecec7adbe8100",
+    "op": "clean",
+    "from": "he01:5"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "2407ec092eb4aca8c1b04ef3251a6f2927ac79bb53ec80f30d862c0853a15984",
+    "from": "he01:6",
+    "op": "records",
+    "splices": [
+      [3, 1, [["AreaSettings", 0, -1, ["flag", 6226], ["jump", 0, 1, 6, 1, 50, 0, 1], ["set7", 0]]]],
+      [6, 1, [["AreaSettings", 0, -1, ["jump", 0, 2, 6, 0, 0, 228, 1], ["set7", 0]]]],
+      [9, 1, [["AreaSettings", 9, -1, ["flag", 6166], ["jump", 0, 1, 6, 4, 0, 0, 1], ["set7", 0]]]],
+      [13, 1, [["AreaSettings", 0, -1, ["jump", 0, 2, 6, 0, 0, 227, 1], ["set7", 0]]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "e_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "704ae4911e938320c63e77e122ec66ea5e52ada45f99df6ffa8d84f527902f1d",
+    "op": "clean",
+    "from": "he01:7"
+  },
+  {
+    "type": 12,
+    "name": "e_02",
+    "link": 0,
+    "gap": 0,
+    "sha256": "f309102f2593b99f47881cbecefd1d2cbc81acbd08be7e2e33c4cc8a14032a12",
+    "op": "clean",
+    "from": "he01:8"
+  },
+  {
+    "type": 22,
+    "name": "121",
+    "link": 0,
+    "gap": 0,
+    "sha256": "4e67d6b5fd417a3ee48f01610cf51b9bf68d5c66332bd697409eb0895efb9157",
+    "op": "clean",
+    "from": "he01:9"
+  },
+  {
+    "type": 22,
+    "name": "122",
+    "link": 0,
+    "gap": 2,
+    "sha256": "71947b214f976955a431c7b2ecfefa6e0eb4bf15d8ded296535b3d219f09ea2c",
+    "op": "clean",
+    "from": "he01:10"
+  },
+  {
+    "type": 22,
+    "name": "140s",
+    "link": 0,
+    "gap": 0,
+    "sha256": "35eb70b7f38b3e53bbeacfae9f69a5ac189d8d7def9b49c5012b143d937f844b",
+    "from": "he01:11",
+    "op": "records",
+    "splices": [
+      [0, 1, [["performance", 0, 1]]],
+      [3, 1, [["record", "al00:45", 3]]],
+      [12, 1, [["record", "al00:45", 12]]],
+      [17, 2, [["record", "al00:45", 17], ["event21", {"frame": 920, "line": 0, "message": 21501, "hide": 1}]]]
+    ],
+    "performance_sha256": "858a48962e60838bcbe5395f0bbd6814111c9aa914e2aebbb69789332447158d"
+  }
+]

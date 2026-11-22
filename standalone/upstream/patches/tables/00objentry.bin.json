@@ -1,0 +1,262 @@
+{
+  "base_sha256": "bdff8d46bdb71512792c3bdf352b8c7e1ca8c9aa1ab3c481f0f50f7259ad93a5",
+  "sections": [
+    {
+      "schema": "object",
+      "offset": 8,
+      "clean_rows": 1900,
+      "edits": {
+        "14": {"set": {"Flags": 8, "Spawn1": 1788}, "clean_key": {"ObjectId": 15}},
+        "18": {"set": {"Flags": 8, "Target": 1, "NeoStatus": 1014, "SpawnLimiter": 10}, "clean_key": {"ObjectId": 19}},
+        "54": {
+          "set": {"Animation": "P_EX100_KH1F.mset", "NeoStatus": 12, "NeoMoveset": 66, "Form": 10},
+          "clean_key": {"ObjectId": 85}
+        },
+        "55": {"set": {"NeoMoveset": 6}, "clean_key": {"ObjectId": 86}},
+        "57": {"set": {"NeoMoveset": 2}, "clean_key": {"ObjectId": 88}},
+        "59": {"set": {"WeaponJoint": 1, "NeoStatus": 1, "NeoMoveset": 1}, "clean_key": {"ObjectId": 90}},
+        "61": {
+          "set": {"Type": 9, "NeoStatus": 0, "NeoMoveset": 0, "Shadow": 0, "Spawn1": 439, "Spawn2": 2386, "Spawn3": 2387},
+          "clean_key": {"ObjectId": 92}
+        },
+        "62": {"set": {"Type": 8, "NeoStatus": 0, "NeoMoveset": 0, "Shadow": 0}, "clean_key": {"ObjectId": 93}},
+        "63": {
+          "set": {
+            "Type": 0,
+            "WeaponJoint": 1,
+            "Model": "P_EX101_BTLF",
+            "Animation": "P_EX100_KH1F.mset",
+            "NeoStatus": 1,
+            "NeoMoveset": 66,
+            "Weight": 100.0,
+            "Shadow": 2,
+            "Form": 10
+          },
+          "clean_key": {"ObjectId": 94}
+        },
+        "64": {
+          "set": {"Type": 4, "WeaponJoint": 0, "NeoStatus": 0, "NeoMoveset": 0, "Weight": 500.0},
+          "clean_key": {"ObjectId": 95}
+        },
+        "65": {"set": {"Type": 8, "Model": "P_EX030", "Animation": "P_EX030.mset", "Shadow": 0}, "clean_key": {"ObjectId": 96}},
+        "67": {
+          "set": {
+            "Type": 0,
+            "WeaponJoint": 1,
+            "Model": "P_EX101",
+            "Animation": "P_EX100.mset",
+            "NeoStatus": 1,
+            "NeoMoveset": 1,
+            "Weight": 100.0,
+            "Shadow": 2,
+            "Form": 0
+          },
+          "clean_key": {"ObjectId": 98}
+        },
+        "130": {
+          "set": {"Type": 15, "Model": "N_LM020_LOUIE_RTN", "Animation": "N_LM020_LOUIE_RTN.mset"},
+          "clean_key": {"ObjectId": 168}
+        },
+        "209": {"set": {"SpawnLimiter": 17}, "clean_key": {"ObjectId": 313}},
+        "210": {"set": {"SpawnLimiter": 15}, "clean_key": {"ObjectId": 314}},
+        "248": {"set": {"Type": 12, "Flags": 0, "Weight": 0.0, "Shadow": 1, "Spawn1": 302}, "clean_key": {"ObjectId": 355}},
+        "301": {
+          "set": {
+            "Type": 9,
+            "Model": "N_HB581_BTL",
+            "Animation": "N_HB581_BTL.mset",
+            "Flags": 0,
+            "NeoStatus": 5043,
+            "Weight": 100.0,
+            "SpawnLimiter": 20
+          },
+          "clean_key": {"ObjectId": 418}
+        },
+        "313": {
+          "set": {"Type": 3, "Animation": "N_CM000.mset", "Flags": 0, "Weight": 500.0, "Spawn2": 432},
+          "clean_key": {"ObjectId": 430}
+        },
+        "314": {"set": {"Type": 5, "Animation": "N_CM010.mset", "Flags": 0}, "clean_key": {"ObjectId": 431}},
+        "315": {"set": {"Type": 5, "Animation": "N_CM020.mset", "Flags": 0}, "clean_key": {"ObjectId": 432}},
+        "316": {"set": {"Type": 1, "Flags": 0}, "clean_key": {"ObjectId": 433}},
+        "319": {"set": {"Type": 13, "WeaponJoint": 25, "Animation": "H_CM000.mset", "Flags": 0}, "clean_key": {"ObjectId": 436}},
+        "320": {"set": {"Type": 13, "WeaponJoint": 25, "Animation": "H_CM020.mset", "Flags": 0}, "clean_key": {"ObjectId": 437}},
+        "321": {
+          "set": {"Type": 13, "WeaponJoint": 25, "Model": "H_CM000", "Animation": "H_CM040.mset", "Flags": 0},
+          "clean_key": {"ObjectId": 438}
+        },
+        "322": {
+          "set": {"Type": 5, "WeaponJoint": 25, "Animation": "H_CM050_TSURU.mset", "Flags": 0},
+          "clean_key": {"ObjectId": 439}
+        },
+        "323": {"set": {"Type": 3, "Animation": "H_CM060.mset", "Flags": 0}, "clean_key": {"ObjectId": 440}},
+        "324": {"set": {"Animation": "H_CM070.mset", "Flags": 0}, "clean_key": {"ObjectId": 441}},
+        "325": {
+          "set": {
+            "Type": 4,
+            "Animation": "H_CM080.mset",
+            "Flags": 0,
+            "Target": 1,
+            "NeoStatus": 1003,
+            "Weight": 100.0,
+            "SpawnLimiter": 15,
+            "Page": 1,
+            "Shadow": 5
+          },
+          "clean_key": {"ObjectId": 442}
+        },
+        "328": {"set": {"Type": 8, "Animation": "N_CM080_TSURU.mset", "Flags": 0}, "clean_key": {"ObjectId": 445}},
+        "380": {
+          "set": {"Type": 15, "Model": "N_LM020_HUEY_RTN", "Animation": "N_LM020_HUEY_RTN.mset"},
+          "clean_key": {"ObjectId": 680}
+        },
+        "381": {
+          "set": {"Type": 15, "Model": "N_LM020_DEWEY_RTN", "Animation": "N_LM020_DEWEY_RTN.mset"},
+          "clean_key": {"ObjectId": 681}
+        },
+        "465": {"set": {"Flags": 8, "NeoStatus": 204}, "clean_key": {"ObjectId": 778}},
+        "483": {"set": {"WeaponJoint": 1, "NeoStatus": 12, "NeoMoveset": 66}, "clean_key": {"ObjectId": 803}},
+        "588": {"set": {"NeoMoveset": 16}, "clean_key": {"ObjectId": 999}},
+        "590": {"set": {"NeoMoveset": 12}, "clean_key": {"ObjectId": 1001}},
+        "636": {
+          "set": {"Type": 9, "Flags": 0, "NeoStatus": 5070, "Weight": 100.0, "Spawn1": 2162},
+          "clean_key": {"ObjectId": 1064}
+        },
+        "637": {"set": {"Flags": 0}, "clean_key": {"ObjectId": 1065}},
+        "672": {
+          "set": {"Type": 21, "Model": "M_LK100_GRV", "Animation": "M_LK100_GRV.mset", "Flags": 8, "Shadow": 2, "Spawn1": 0},
+          "clean_key": {"ObjectId": 1113}
+        },
+        "758": {
+          "set": {"Type": 10, "Model": "F_EX030_LM", "Animation": "F_EX030.mset", "Flags": 0},
+          "clean_key": {"ObjectId": 1259}
+        },
+        "767": {"set": {"NeoStatus": 204}, "clean_key": {"ObjectId": 1268}},
+        "903": {"set": {"Model": "F_BARRICADE_03", "Flags": 0}, "clean_key": {"ObjectId": 1458}},
+        "904": {
+          "set": {
+            "Type": 4,
+            "Animation": "F_PO680.mset",
+            "Flags": 8,
+            "Target": 1,
+            "NeoStatus": 1029,
+            "Weight": 10.0,
+            "SpawnLimiter": 10
+          },
+          "clean_key": {"ObjectId": 1459}
+        },
+        "905": {
+          "set": {
+            "Type": 4,
+            "Animation": "F_PO690.mset",
+            "Flags": 0,
+            "Target": 1,
+            "NeoStatus": 1009,
+            "Weight": 100.0,
+            "SpawnLimiter": 9,
+            "Shadow": 1
+          },
+          "clean_key": {"ObjectId": 1460}
+        },
+        "908": {"set": {"Type": 7, "Model": "F_BARRICADE_01", "Flags": 0}, "clean_key": {"ObjectId": 1463}},
+        "909": {"set": {"Type": 7, "Flags": 0}, "clean_key": {"ObjectId": 1464}},
+        "910": {
+          "set": {
+            "Type": 4,
+            "Animation": "F_PO650.mset",
+            "Flags": 0,
+            "NeoStatus": 1009,
+            "Weight": 100.0,
+            "SpawnLimiter": 9,
+            "Shadow": 1
+          },
+          "clean_key": {"ObjectId": 1465}
+        },
+        "911": {
+          "set": {"Type": 4, "Animation": "F_PO660.mset", "Flags": 8, "NeoStatus": 1007, "Weight": 500.0, "SpawnLimiter": 10},
+          "clean_key": {"ObjectId": 1466}
+        },
+        "913": {"set": {"NeoStatus": 1003, "SpawnLimiter": 8}, "clean_key": {"ObjectId": 1468}},
+        "935": {"set": {"Flags": 0}, "clean_key": {"ObjectId": 1490}},
+        "964": {
+          "set": {
+            "Type": 0,
+            "WeaponJoint": 1,
+            "Model": "P_EX121",
+            "Animation": "P_EX100.mset",
+            "NeoStatus": 12,
+            "NeoMoveset": 1,
+            "Weight": 100.0,
+            "Shadow": 2,
+            "Form": 0
+          },
+          "clean_key": {"ObjectId": 1519}
+        },
+        "981": {"set": {"Type": 7, "Model": "F_BARRICADE_02", "Flags": 0}, "clean_key": {"ObjectId": 1536}},
+        "1010": {
+          "set": {
+            "Type": 21,
+            "Model": "F_PO090_DOG",
+            "Animation": "F_PO090_DOG.mset",
+            "NeoStatus": 1005,
+            "Weight": 100.0,
+            "SpawnLimiter": 15,
+            "Shadow": 2
+          },
+          "clean_key": {"ObjectId": 1573}
+        },
+        "1034": {"set": {"Type": 13, "Flags": 0}, "clean_key": {"ObjectId": 1608}},
+        "1066": {"set": {"NeoMoveset": 42}, "clean_key": {"ObjectId": 1643}},
+        "1067": {"set": {"NeoMoveset": 48}, "clean_key": {"ObjectId": 1644}},
+        "1070": {"set": {"NeoMoveset": 38}, "clean_key": {"ObjectId": 1647}},
+        "1071": {"set": {"NeoMoveset": 44}, "clean_key": {"ObjectId": 1648}},
+        "1098": {"set": {"Flags": 8, "NeoStatus": 1036}, "clean_key": {"ObjectId": 1675}},
+        "1127": {"set": {"Animation": "M_EX600_LC_ATK.mset", "Flags": 8, "NeoStatus": 1014}, "clean_key": {"ObjectId": 1717}},
+        "1128": {
+          "set": {"Animation": "M_EX600_LC_CHG.mset", "NeoStatus": 1028, "Weight": 500.0, "SpawnLimiter": 15},
+          "clean_key": {"ObjectId": 1718}
+        },
+        "1129": {
+          "set": {"Animation": "M_EX600_LC_GRD.mset", "NeoStatus": 1028, "Weight": 500.0, "SpawnLimiter": 15},
+          "clean_key": {"ObjectId": 1719}
+        },
+        "1146": {"set": {"Spawn1": 0}, "clean_key": {"ObjectId": 1736}},
+        "1152": {"set": {"NeoStatus": 5000, "Weight": 100.0, "Spawn1": 0}, "clean_key": {"ObjectId": 1742}},
+        "1163": {
+          "set": {"Type": 21, "NeoStatus": 1005, "Weight": 100.0, "SpawnLimiter": 15, "Shadow": 2},
+          "clean_key": {"ObjectId": 1756}
+        },
+        "1180": {
+          "set": {"Type": 21, "Flags": 4, "NeoStatus": 1001, "Weight": 100.0, "SpawnLimiter": 15, "Shadow": 2},
+          "clean_key": {"ObjectId": 1773}
+        },
+        "1194": {"set": {"NeoStatus": 101}, "clean_key": {"ObjectId": 1787}},
+        "1195": {"set": {"Type": 4}, "clean_key": {"ObjectId": 1788}},
+        "1415": {"set": {"NeoStatus": 204, "Spawn1": 2098}, "clean_key": {"ObjectId": 2037}},
+        "1467": {
+          "set": {"Type": 19, "Animation": "P_EX360.mset", "NeoStatus": 204, "Weight": 100.0},
+          "clean_key": {"ObjectId": 2098}
+        },
+        "1468": {
+          "set": {"Type": 21, "Model": "M_LK100_WTR", "Animation": "M_LK100_WTR.mset", "Flags": 8, "SpawnLimiter": 15, "Shadow": 2},
+          "clean_key": {"ObjectId": 2099}
+        },
+        "1497": {"set": {"Animation": "F_EX030.mset"}, "clean_key": {"ObjectId": 2132}},
+        "1527": {"set": {"Type": 5, "Flags": 0, "Weight": 0.0}, "clean_key": {"ObjectId": 2162}},
+        "1529": {
+          "set": {"Type": 21, "Flags": 0, "NeoStatus": 1000, "Weight": 100.0, "SpawnLimiter": 15, "Shadow": 2},
+          "clean_key": {"ObjectId": 2164}
+        },
+        "1595": {"set": {"Type": 9, "Flags": 0, "NeoStatus": 5000, "Weight": 100.0}, "clean_key": {"ObjectId": 2233}},
+        "1699": {"set": {"Flags": 0, "NeoStatus": 1028, "Weight": 500.0}, "clean_key": {"ObjectId": 2342}},
+        "1700": {"set": {"Type": 3, "Flags": 0, "NeoStatus": 1028}, "clean_key": {"ObjectId": 2343}},
+        "1701": {"set": {"NeoStatus": 1036, "SpawnLimiter": 10}, "clean_key": {"ObjectId": 2344}},
+        "1702": {"set": {"NeoStatus": 1028}, "clean_key": {"ObjectId": 2345}},
+        "1704": {"set": {"NeoStatus": 1014, "SpawnLimiter": 10}, "clean_key": {"ObjectId": 2347}},
+        "1748": {"set": {"NeoMoveset": 16}, "clean_key": {"ObjectId": 2391}},
+        "1750": {"set": {"NeoMoveset": 12}, "clean_key": {"ObjectId": 2393}}
+      }
+    }
+  ],
+  "clean_end": 182408
+}

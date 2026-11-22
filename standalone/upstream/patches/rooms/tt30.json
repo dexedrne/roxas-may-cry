@@ -1,0 +1,165 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ec762ef16edec605d07ad46c435b84fb60b95fc9b6f306fcc8a995d1a9ad2276",
+    "op": "clean",
+    "from": "tt30:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d27169e8f13b112f1e1e156fee53cff6a7b5dde1266d25199558b28fab298341",
+    "op": "clean",
+    "from": "tt30:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "28feb67a4191481bf33385c446ea4267b66706e4306a660cccf5f75c68d0caf4",
+    "op": "clean",
+    "from": "tt30:2"
+  },
+  {
+    "type": 12,
+    "name": "m_11",
+    "link": 0,
+    "gap": 0,
+    "sha256": "31ef78ac0af6b84f766b52c5ba253c78f2fd778838af5e47cc61d4e98c7c47d9",
+    "op": "clean",
+    "from": "tt30:3"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "142918727325fe6a4313528403c23534423b2e9e95c99e325950942dfbfcb715",
+    "op": "clean",
+    "from": "tt30:4"
+  },
+  {
+    "type": 12,
+    "name": "b_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "6db5aaf3b2360cbbc91d9bdca117ff9701cfb9ee2df3bd6c2ac147ec24ec17f1",
+    "op": "clean",
+    "from": "tt30:5"
+  },
+  {
+    "type": 12,
+    "name": "b_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "a90fcbde81f4a309dca41d79f05fa3a64d356d4f6a986e22cca7eab52915c07d",
+    "op": "clean",
+    "from": "tt30:6"
+  },
+  {
+    "type": 12,
+    "name": "b_20",
+    "link": 0,
+    "gap": 0,
+    "sha256": "31976b315f283723827d39817a80a72577bd86c4c955721bd61f84150877aa1f",
+    "op": "clean",
+    "from": "tt30:7"
+  },
+  {
+    "type": 12,
+    "name": "b_21",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e7659c8501bbebcdd271f10ce13d8d11af52119f67cb946be08c0e9b458e339e",
+    "op": "clean",
+    "from": "tt30:8"
+  },
+  {
+    "type": 12,
+    "name": "b_40",
+    "link": 0,
+    "gap": 0,
+    "sha256": "728c3419a33d4617371fa94b47a495c4cbcb7464fe683e1abbfbc0799e837299",
+    "from": "tt30:9",
+    "op": "records",
+    "splices": [
+      [
+        6,
+        9,
+        [
+          ["entity", 6, {"object": 120, "x": 515.7849731445312, "z": 553.4619750976562, "ry": -0.6334148645401001}],
+          ["entity", 7, {"object": 120, "x": 21.027999877929688, "z": 778.666015625, "ry": -0.19708256423473358}],
+          ["entity", 8, {"object": 752}],
+          ["entity", 9, {"object": 752}],
+          ["entity", 10, {"object": 752}],
+          ["entity", 11, {"object": 120, "x": 249.35699462890625, "z": 825.8590087890625, "ry": 6.0737457275390625}],
+          ["entity", 12, {"object": 120, "x": -12.642999649047852}],
+          ["entity", 13, {"object": 120, "x": 792.3569946289062, "z": -166.14100646972656, "ry": 4.625122547149658}],
+          ["entity", 14, {"object": 120, "x": -803.6430053710938, "ry": 1.483529806137085}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "z_70",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "op": "clean",
+    "from": "tt30:10"
+  },
+  {
+    "type": 12,
+    "name": "z_71",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "op": "clean",
+    "from": "tt30:11"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c33968118c2fafeec9b9af7179f9b15bac9217ecbd5fa66ec577b50a744f68cf",
+    "from": "tt30:12",
+    "op": "records",
+    "splices": [[2, 1, [["AreaSettings", 7, -1, ["flag", 2214], ["set5", 3], ["jump", 0, 1, 2, 30, 50, 0, 1], ["set7", 0]]]]]
+  },
+  {
+    "type": 12,
+    "name": "e_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1c9c99efb178ae4a711861d83d15f2889cb5fbdd97a37b4467a70f694a31f9ae",
+    "op": "clean",
+    "from": "tt30:13"
+  },
+  {
+    "type": 22,
+    "name": "804",
+    "link": 0,
+    "gap": 0,
+    "sha256": "9cb5a216042271c6ed5bbdc66a4b1b3b190f1d7c52f89920a8af815acee2251f",
+    "from": "tt30:14",
+    "op": "records",
+    "splices": [
+      [4, 1, [["performance", 4, 2]]],
+      [24, 1, [["record", "al00:37", 117]]],
+      [30, 1, [["record", "tt29:14", 28]]],
+      [36, 1, [["performance", 37, 1]]],
+      [40, 1, [["performance", 41, 1]]],
+      [57, 1, [["performance", 58, 1]]],
+      [65, 1, [["performance", 66, 1]]]
+    ],
+    "performance_sha256": "4a2f5a7f583666bacf1625961e1b305d905348f7d992bb9642a4d5c6268c9c70"
+  }
+]

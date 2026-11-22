@@ -1,0 +1,32 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "cdf879bc21d3318468bfc31d59ac0ced6eebdcd8885dc537b605ecca3e304bfe",
+    "op": "clean",
+    "from": "al04:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 12,
+    "sha256": "e62658b033556cb72940b69451fd933252bea9b5b3f29327e8145c612a2f85cc",
+    "op": "clean",
+    "from": "al04:1"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 12,
+    "sha256": "984b91b451a9d027aacd52d0430fba4ac0ea585737ea5736ca3d1c42eed04bfa",
+    "op": "clean",
+    "from": "al04:2"
+  },
+  {"type": 22, "name": "116", "link": 0, "gap": 12, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "201", "link": 0, "gap": 8, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "302s", "link": 0, "gap": 8, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

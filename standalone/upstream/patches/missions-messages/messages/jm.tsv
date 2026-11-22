@@ -1,0 +1,9 @@
+ids_hex	operation	argument
+26b9	rename	100 Acre Wood -> Holo-Missions
+26ba	rename	Pride Lands -> Neverland
+26bb	rename	Atlantica -> Traverse Town
+4f7b	rename	Awakening -> Recollection
+4f7c	rename	Heart -> Boundary
+4f7e	clean-id	jm/4f80
+4f7f	rename	Daylight -> Nightfall
+4f80	rename	Sunset -> Daybreak

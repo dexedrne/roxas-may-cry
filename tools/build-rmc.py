@@ -89,10 +89,20 @@ def build(args,temp):
         atlas = decode(checked(mod/ATLAS,'e7aba349b65d20de4adf16725d5d50da373bbd1edc592daea42a2465c65f0379'))
         return compose(name,word,atlas,checked(mod/TITLE,'45eeab550359e1f38dd42bb1702c06ac373b69121f0521e8bb00804852fb5ca1'))
 
+    @lru_cache(maxsize=1)
+    def arena_rooms():
+        sys.path.insert(0,str(ROOT/'standalone/stage2'))
+        import t100_rooms
+        if args.clean:
+            game.loose.extend(Game(args.clean).loose)
+        return {p:data for p,data,_ in t100_rooms.build(game,temp/'retail-room-events')}
+
     def asset(name):
         kind,path,pin,*delta = recipes[name]
         if kind=='game':
             data = game.read(path,pin)
+        elif kind=='retail-room':
+            data = arena_rooms()[name]
         elif kind=='game-pair':
             data = b''.join(game.read(member, expected) for member, expected in path)
             if digest(data)!=pin:

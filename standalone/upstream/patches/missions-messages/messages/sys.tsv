@@ -1,0 +1,50 @@
+ids_hex	operation	argument
+01e6,0644,3353,3bcc,432b,457f,4587,4589,45ab	rename	Wisdom -> Bladeless
+01e8,0461-0462,0648,3bd0,432d,4581,458d,458f,45ad	rename	Final -> Awakened
+021b	rename	Pride Lands -> Neverland
+021c	rename	Atlantica -> Traverse Town
+023d-0240,0242,025b-0260,0269-0271,027a,027e,0298,02a4,02a8,04c3,04cf,0511-0516,053b,0549,0561,0565,0586,0588,058e,059c,05a5,05c3,05c5,05c7,05e7,05f2-05f3,05fd,063a-063d,0640-0641,0645,0649,0654-0656,0658,065a,066d,0a48,0ab5,1d42,1d4c,1e60-1e61,1f43-1f44,1f4f,285b-285c,28cc,2f3c,2f67,32e3,32ec,32f3-32fa,3309-330c,331e-331f,3324-3325,332e-332f,3626,3633-363e,3642-3646,368d,36b4,36b6,3708,392b,3981-3986,3989-3998,399c-399f,39a1-39a2,39fc,3a10,3a18,3a1a,3a22,3a32,3a34,3a3e,3a42,3a50,3a58,3a5a,3a5c,3a9e,3b68,3b7a-3b7b,3b94,3bb0,3bc2-3bc4,3bcd,3bd1,3bef,3c00-3c03,3c12-3c15,3c7e,3c81-3c84,3c86-3c88,3c96-3ca1,3ca3,3ca5,3ca8-3cab,3cad,3cb4-3cbd,3dfa-3dfd,3e2e-3e49,3e4b-3e4f,3f18,40be,411c,41bb,429b,42a5,4336,4357-4358,43f5,43f9,454e,4598-4599,459b,45b9,4657-4658,4682,468a,468e,4690,4821-4828,488d,4943,4978,497a,497c,4a59,4aa9,4b72,4b76,4b90,4b92,4c6a,4e2d,4e31,4e34,4e36,4e38,4e72-4e79,4e7f-4e80,4e82,4e8b-4e8c,4e8e-4e92,4e94-4e9c,4e9e,4ea0-4ea1,4ef9,4eff-4f00,4f03,4f05,4f66-4f68,4f8c,5090,562e	local-wording	
+0241	clean-id	sys/02e6
+027c,0296,029c,02aa,0533,0535,0537,0543,0545,0547,054d,054f,0551,0553,0555,0557,0559,055b,055d,0563,056d,056f,0571,0573,0575,0577,0579,057b,057d,057f,058a,058c,0590,0592,0594,0596,0598-059a,05cb,1d3e,1d40,1d44,1d46,1d48,1d4a,1f4d-1f4e,1f50,2f26,368f,3b5a,3f05,413d,413f,4141,41bd,41bf,41c1,42c0-42c3,43f3,43f7,454a,454c,45b7,45bb,4663,4665,4667,4669,466b,466d,466f,4671,4673,4675,4677,4684,4686,4688,468c,4692,4830,49a7-49ae,49f0,4a3f,4a57-4a58,4b6f,4b74,4bb0,4beb,4ca4,4f6a,4fae,4fb2	rename	Sora -> Roxas
+029a	result-id	0298
+02a2,02a6,02ac,0569,056b,1f60-1f63,4bbc	clean-id	sys/1f51
+051c,4591	clean-id	jm/2d10
+051d,4592	clean-id	jm/2f14
+051f	clean-id	sys/052d
+0520-0521,4e37	clean-id	sys/02b8
+053d,053f,0541	result-id	053b
+0580	clean-id	sys/1f3f
+0657,0659,065b	result-id	0655
+191f,373a,4333	clean-id	sys/4e30
+3625	clean-id	sys/3cff
+373d	clean-id	sys/4e31
+399b	clean-id	sys/4e74
+39fd-39fe	result-id	39fc
+3b79,4594	clean-id	jm/2cde
+3baf	result-id	3989
+3bd4,3bd6,3bd8,3be2,3be4,3be6,3bea,3bf2,3bf4,3bf6,3bf8,3bfa,3bfc,3bfe,3c04,4e2a,4e2e	append-icon	1d
+3c7d	clean-id	sys/01ec
+3c85	result-id	32e3
+3ca2	clean-id	sys/3868
+3ca4	clean-id	sys/049d
+3cac	clean-id	sys/04b3
+418e,4aaa-4aac	clean-id	sys/4175
+41de	result-id	3c87
+4313,4e93,4ef6	clean-id	sys/26c9
+4944-4946	result-id	4943
+4c75-4c7a	clean-id	sys/4186
+4e30,4e32-4e33	rename	Critical Mode -> Less Than Nothing
+4e81	result-id	4e7f
+4e8d,4efe	clean-id	sys/4821
+4e9f	result-id	4e80
+4ef7-4ef8	clean-id	sys/3b65
+4f01	result-id	4e8f
+4f02	clean-id	jm/2f0e
+4f04	result-id	4e91
+4f06	clean-id	sys/4297
+4f65	result-id	2f3c
+4fa8,4fac,4fb8-4fbd,4fc0,4fc2-4fc3	result-id	4f8c
+4fa9-4fab,4fca,4fcc,4fce,4fdf,4fe3,4fe8,4fee,4ff3,4ff7	rename	Heart -> Boundary
+4fd5-4fde,4fe0-4fe2,4fe4-4fe7,4fe9-4fed,4fef-4ff2,4ff4-4ff6,4ff8-500a	rename	Daylight -> Nightfall
+503a,5047,504b,504e,5051,5054,505b,505e,5060-5061,5063-5064	clean-id	sys/5092
+5092-509d,50a0,50a2-50a8,50ad-50ae,50b0-50c1,50c3-50ca	rename	Sunset -> Daybreak

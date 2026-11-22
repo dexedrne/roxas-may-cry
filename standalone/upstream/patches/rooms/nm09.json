@@ -1,0 +1,261 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8945afc6c911e1cc2cf342b03c7365904ebe93ae9d1c224659e778dd4d383dea",
+    "from": "nm09:0",
+    "op": "records",
+    "splices": [[36, 1, [["MapVisibility", 76461, 0]]]]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "7cf510f06e03966c22b4bcd5bd35eb30e206f6b42351b04d34d28c34db4cdfc6",
+    "op": "clean",
+    "from": "nm09:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "42c5c4ecfcaed955abd90229a70f0fd75b65107651f07daeb574af9f34a444db",
+    "op": "clean",
+    "from": "nm09:2"
+  },
+  {
+    "type": 12,
+    "name": "m_11",
+    "link": 0,
+    "gap": 0,
+    "sha256": "4547bd2d6ee6c16d9b9bf1eb0146c7cb942622a5f4755b607fd430f68691ff93",
+    "op": "clean",
+    "from": "nm09:3"
+  },
+  {
+    "type": 12,
+    "name": "m_22",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d62af0349844f2b094610bdbc3f9bf494956a9eeac8a0aec4a03460c89e1fae6",
+    "op": "clean",
+    "from": "nm09:4"
+  },
+  {
+    "type": 12,
+    "name": "m_51",
+    "link": 0,
+    "gap": 0,
+    "sha256": "79d68201527cf7b9ec0d30fdb597910e2a3bcc9d55702ff64cefd7b317990116",
+    "op": "clean",
+    "from": "nm09:5"
+  },
+  {
+    "type": 12,
+    "name": "m_80",
+    "link": 0,
+    "gap": 0,
+    "sha256": "f9798e142f8e0ea40eafc0a8373931c4b295a237037786afbcaba17d48f0d083",
+    "op": "clean",
+    "from": "nm09:6"
+  },
+  {
+    "type": 12,
+    "name": "m_40",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b9269a3b560581c1181fc6ad22e331d78496ddade881775ed2753ee981b22b07",
+    "op": "clean",
+    "from": "nm09:7"
+  },
+  {
+    "type": 12,
+    "name": "m_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "01e321f3c7eb419cc3cebba85ac0fbc49ae438425f05d812efb0145fa1b3e607",
+    "op": "clean",
+    "from": "nm09:8"
+  },
+  {
+    "type": 12,
+    "name": "m_94",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1184ccb6353f32f9e18022fc47e51beb85497eb687a3716c5c1981bb90223d37",
+    "op": "clean",
+    "from": "nm09:9"
+  },
+  {
+    "type": 12,
+    "name": "m_99",
+    "link": 0,
+    "gap": 0,
+    "sha256": "0f01609d0e657e7dc4be66c22c0c879d088c7eacf0bf83dfaa4b67da975a0203",
+    "op": "clean",
+    "from": "nm09:10"
+  },
+  {
+    "type": 12,
+    "name": "m_95",
+    "link": 0,
+    "gap": 0,
+    "sha256": "4964e36817ebe2c21a47db88f18f3a7a849f7eb2a6cdadfa822cd3cc14522980",
+    "op": "clean",
+    "from": "nm09:11"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "63027d71e0fec98b4acd6d96d650969a65ed6538f8afcae7fb6a559bf88b3d4f",
+    "op": "clean",
+    "from": "nm09:12"
+  },
+  {
+    "type": 12,
+    "name": "b_40",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1476dffb88ce9887f344841a9a6d0c706d134ee4e57c103927b0225f4b5b252a",
+    "from": "nm09:13",
+    "op": "records",
+    "splices": [
+      [1, 1, [["group", 1, {"entities": 5}]]],
+      [
+        5,
+        1,
+        [
+          ["entity", 5, {"x": -509.05499267578125}],
+          ["entity", null, {"object": 95, "x": -506.05499267578125, "y": -150.0, "z": -1561.0, "ry": 2.879793405532837, "spawn_type": 3, "serial": 1000}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "b_52",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3fea87dcd7bb6d44700c69e8d6340babb5a11e7f7613d8f8668bad2c64357ea3",
+    "op": "clean",
+    "from": "nm09:14"
+  },
+  {
+    "type": 12,
+    "name": "b_51",
+    "link": 0,
+    "gap": 0,
+    "sha256": "870c6b397783126aca720839665018166c552dae4eb8637b260ba17fb21154f4",
+    "op": "clean",
+    "from": "nm09:15"
+  },
+  {
+    "type": 12,
+    "name": "b_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ed6cd6265cf9f468aa7728bbac3e1eaac6524126d9ff323e56ab499cbe2144c4",
+    "op": "clean",
+    "from": "nm09:16"
+  },
+  {
+    "type": 12,
+    "name": "s_99",
+    "link": 0,
+    "gap": 0,
+    "sha256": "a486d0cbb23f922838f28b3010914b400798d3721c2596f63da99ee8c5111605",
+    "op": "clean",
+    "from": "nm09:17"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "34bba6ca2ea477782ed0aaae751ae1f943a8a99fb54c877369439dafcd12de67",
+    "op": "clean",
+    "from": "nm09:18"
+  },
+  {
+    "type": 12,
+    "name": "f01_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "9946d00fa7fe3c8eec8d3923de6236a6f96b0539ae49440e10eecb3a8e166fb9",
+    "op": "clean",
+    "from": "nm09:19"
+  },
+  {
+    "type": 12,
+    "name": "f50_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c1d84e5e9bde3999bc9a2933fbd917afcdb8250a967547e8eb8c680b103480a2",
+    "op": "clean",
+    "from": "nm09:20"
+  },
+  {
+    "type": 12,
+    "name": "g50_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "56aac2ca83d48fd69f42de68ccf6bfb9d8f52a242726745ecdc7b66bfb8bca81",
+    "op": "clean",
+    "from": "nm09:21"
+  },
+  {
+    "type": 12,
+    "name": "f54_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "943a0ba8e2dc1bdd253b2f18b1545f11bbb44b562e6fbe6a1b2e8b1042172cf6",
+    "op": "clean",
+    "from": "nm09:22"
+  },
+  {
+    "type": 12,
+    "name": "g52_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "bfd82b2a5881dc52878ea8d2bb1cee0f63ca32cf86a214544e08075209e03d9e",
+    "op": "clean",
+    "from": "nm09:23"
+  },
+  {
+    "type": 12,
+    "name": "g51_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "10adee5c3e80f1fa19851c192ce2b26167b9fcbe834f8bbf52b3d5d5fcd9bfb4",
+    "op": "clean",
+    "from": "nm09:24"
+  },
+  {
+    "type": 12,
+    "name": "g53_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "a19033a413b246c1fa169a7be037a8f28b077165ebe4b4c3e2e62f734ebaa03f",
+    "op": "clean",
+    "from": "nm09:25"
+  },
+  {
+    "type": 12,
+    "name": "g54_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "9301abcced8524880cabbf2e63090cc7bad83d62580b1a5f1c87c0a84166d8e1",
+    "op": "clean",
+    "from": "nm09:26"
+  },
+  {"type": 22, "name": "114", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "122", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "124", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "125", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

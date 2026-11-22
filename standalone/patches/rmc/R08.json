@@ -1,0 +1,16 @@
+[
+  {
+    "path": "msg/us/sys.bar",
+    "sha256": "c0f84007d677c977e0cc89ab1377e93451653f0c0eb893fd1d0d73d615844ce3",
+    "mirror": "msg/us/sys.text",
+    "op": "wording",
+    "ordinal": 0,
+    "name": "sys",
+    "kind": 2,
+    "link": 0,
+    "id": 20020,
+    "old": "Enemies are more\naggressive and healing is weakened",
+    "new": "Enemies are more aggressive.\nRecovery items drain HP or MP",
+    "old_sha256": "02f6af17ca936c90c3fde704e5f1eab0f41b7a72a34f0540a83784ac2ba66e43"
+  }
+]

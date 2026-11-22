@@ -1,0 +1,316 @@
+{
+  "base_sha256": "20e95f3fc7f7cb6c21ef6658cd7930394ef476d5e49660764cf1d6834fdcf321",
+  "alignment": 16,
+  "members": [
+    {
+      "ordinal": 2,
+      "kind": 2,
+      "name": "tt",
+      "link": 0,
+      "flag_count": 256,
+      "flags": {
+        "20": [[8, 1, {"operation": "ChangeArdProgram", "operands": {"19": 1}}]],
+        "33": [[0, 0, [["RaiseProgress", 2121]]]],
+        "180": [[0, 0, [["ChangeBGM", 2], ["UnblockArea", 121]]]],
+        "181": [[0, 0, [["ChangeBGM", 3], ["BlockArea", 121, -24768, -24749], ["ChangeArdProgram", 4, 8, 8, 4]]]],
+        "196": [],
+        "197": [[0, 0, [["RaiseProgress", 2146]]]],
+        "201": [[1, 1, {"operation": "ChangeArdProgram", "operands": {"1": 2, "2": 1}}]],
+        "202": [[5, 1, {"operation": "ChangeArdProgram", "operands": {"21": 0}}]]
+      }
+    },
+    {
+      "ordinal": 4,
+      "kind": 2,
+      "name": "hb",
+      "link": 0,
+      "flag_count": 197,
+      "flags": {
+        "60": [[1, 1, [["ChangeArdProgram", 9, 1, 1, 0, 13, -1, -1, 1]]]],
+        "64": [[1, 0, [["ChangeArdProgram", 4, -1, -1, 2]]]],
+        "91": [[5, 1, {"operation": "ChangeArdProgram", "operands": {"101": 0, "102": 0}}]],
+        "127": [[0, 1, {"operation": "ChangeArdProgram", "operands": {"6": 11}}]],
+        "153": [[0, 1, [["ChangeArdProgram", 1, -1, -1, 0]]]]
+      }
+    },
+    {
+      "ordinal": 7,
+      "kind": 2,
+      "name": "al",
+      "link": 0,
+      "flag_count": 82,
+      "flags": {
+        "54": [[0, 1, [["ChangeArdProgram", 11, 0, -1, 0, 5, -1, -1, 10]]]],
+        "59": [[1, 0, [["RaiseProgress", 4252]]]],
+        "60": [
+          [
+            1,
+            1,
+            [
+              [
+                "ChangeArdProgram",
+                3,
+                -1,
+                0,
+                20,
+                15,
+                3,
+                -1,
+                21,
+                6,
+                -1,
+                -1,
+                18,
+                0,
+                4,
+                10,
+                0,
+                1,
+                -1,
+                10,
+                -1,
+                10,
+                -1,
+                2,
+                -1,
+                11,
+                -1,
+                -1,
+                22
+              ]
+            ]
+          ]
+        ],
+        "74": [[1, 0, [["ChangeArdProgram", 11, 1, -1, 10, 14, 0, 17, 0]]]]
+      }
+    },
+    {
+      "ordinal": 8,
+      "kind": 2,
+      "name": "mu",
+      "link": 0,
+      "flag_count": 89,
+      "flags": {"34": [[1, 0, [["RaiseProgress", 4254]]]]}
+    },
+    {
+      "ordinal": 9,
+      "kind": 2,
+      "name": "po",
+      "link": 0,
+      "flag_count": 84,
+      "flags": {
+        "1": [[1, 1, [["ChangeArdProgram", 0, -1, -1, 22]]]],
+        "2": [[0, 1, [["ChangeArdProgram", 1, 1, 1, 1, 2, 1, 1, 1, 3, 1, 1, 1], ["LowerProgress", 9220]]]],
+        "3": [[0, 2, [["ChangeArdProgram", 1, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2], ["LowerProgress", 9221]]]],
+        "4": [[0, 1, [["LowerProgress", 9218, 9222]]]],
+        "5": [[0, 1, [["LowerProgress", 9219, 9226]]]],
+        "6": [[0, 1, [["ChangeArdProgram", 1, -1, -1, 22]]]],
+        "7": [[1, 2, [["ChangeArdProgram", 0, -1, -1, 23], ["RaiseProgress", 4148, 4153, 9275]]]],
+        "9": [[1, 1, [["ChangeArdProgram", 0, -1, -1, 24]]]],
+        "10": [[0, 1, [["ChangeArdProgram", 1, -1, -1, 23]]]],
+        "11": [[0, 1, [["ChangeArdProgram", 4, 1, 1, 1, 5, 1, 1, 1, 6, 1, 1, 1, 7, 1, 1, 1], ["LowerProgress", 9228]]]],
+        "12": [[0, 0, [["LowerProgress", 9227, 9229]]]],
+        "13": [[0, 0, [["ChangeArdProgram", 4, -1, -1, 22]]]],
+        "14": [[0, 1, [["ChangeArdProgram", 4, 2, 2, 2, 5, 2, 2, 2, 6, 2, 2, 2, 7, 2, 2, 2], ["LowerProgress", 9234]]]],
+        "15": [[0, 1, [["ChangeArdProgram", 0, 5, -1, 4]]]],
+        "17": [[1, 1, [["ChangeArdProgram", 0, 7, -1, 26]]]],
+        "18": [[0, 1, [["LowerProgress", 9230, 9235]]]],
+        "19": [[0, 1, [["ChangeArdProgram", 4, -1, -1, 23]]]],
+        "20": [[0, 0, [["ChangeArdProgram", 1, -1, -1, 24]]]],
+        "21": [
+          [
+            0,
+            0,
+            [["ChangeArdProgram", 1, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 3, 8, 0, 0, 1, 9, 3, 3, 3], ["LowerProgress", 9238]]
+          ]
+        ],
+        "22": [[0, 1, [["LowerProgress", 9237, 9236, 9239]]]],
+        "23": [[0, 1, [["ChangeArdProgram", 8, 3, 3, 3]]]],
+        "28": [[0, 0, [["ChangeArdProgram", 1, -1, -1, 25]]]],
+        "29": [
+          [
+            0,
+            0,
+            [["ChangeArdProgram", 1, 4, 4, 4, 2, 4, 4, 4, 3, 4, 4, 4, 8, 0, 0, 1, 9, 4, 4, 4], ["LowerProgress", 9246]]
+          ]
+        ],
+        "30": [[0, 1, [["LowerProgress", 9244, 9245, 9239]]]],
+        "52": [[1, 1, [["ChangeArdProgram", 0, -1, -1, 25]]]],
+        "53": [[1, 2, [["ChangeArdProgram", 0, -1, -1, 27], ["RaiseProgress", 9290, 4228], ["LowerProgress", 9239]]]]
+      }
+    },
+    {
+      "ordinal": 10,
+      "kind": 2,
+      "name": "lk",
+      "link": 0,
+      "flag_count": 71,
+      "flags": {
+        "1": [[1, 1, [["ChangeArdProgram", 5, 1, -1, 19]]]],
+        "2": [[0, 1, [["ChangeArdProgram", 5, -1, -1, 0]]]],
+        "3": [[0, 1, [["ChangeArdProgram", 5, 2, -1, 2]]]],
+        "4": [[0, 1, [["ChangeArdProgram", 5, -1, -1, 0]]]],
+        "5": [[0, 2, [["BlockArea", 112, -31377, -31376], ["ChangeArdProgram", 5, 3, 1, 22, 4, -1, -1, 1, 3, -1, 1, -1]]]],
+        "6": [[0, 3, [["UnblockArea", 112], ["ChangeArdProgram", 4, -1, 1, 0, 2, -1, -1, 1]]]],
+        "7": [[0, 1, [["ChangeArdProgram", 2, -1, 0, 0, 1, 1, -1, 1]]]],
+        "8": [[0, 5, [["BlockArea", 83, -31377, -31376], ["ChangeArdProgram", 1, 2, -1, 2, 2, -1, -1, 2]]]],
+        "9": [[0, 1, [["LowerProgress", 10282]]]],
+        "24": [
+          [1, 1, [["RemoveWorldPoint", 83]]],
+          [4, 1, [["ChangeArdProgram", 0, 0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 4, 0, 0, 0, 5, 0, 0, 10]]]
+        ],
+        "25": [[1, 1, [["ChangeArdProgram", 5, 3, 2, 11, 4, -1, 2, 0, 3, -1, -1, 10]]]],
+        "26": [[0, 2, [["ChangeArdProgram", 5, -1, -1, 0, 3, -1, -1, 0]]]],
+        "27": [[0, 1, [["ChangeArdProgram", 3, -1, 2, 11, 2, -1, 2, -1, 1, 3, -1, 10]]]],
+        "28": [[0, 1, [["ChangeArdProgram", 3, -1, -1, 0, 1, 4, -1, 11, 5, 4, -1, -1, 0, -1, -1, 10]]]],
+        "29": [[0, 3, [["ChangeArdProgram", 0, -1, -1, 0, 1, 0, -1, 0]]]],
+        "39": [
+          [
+            1,
+            1,
+            [["UnblockArea", 83], ["ChangeArdProgram", 1, 0, -1, 0, 2, -1, 1, 0, 3, -1, 1, 0, 4, -1, 1, 0, 5, -1, 1, 0]]
+          ]
+        ],
+        "42": [[3, 1, {"operation": "ChangeArdProgram", "operands": {"23": 1, "55": 0}}]],
+        "51": [[1, 1, [["ChangeArdProgram", 0, -1, 1, -1]]]],
+        "52": [],
+        "53": [],
+        "54": [],
+        "55": [],
+        "56": [],
+        "57": [],
+        "58": [],
+        "59": [],
+        "60": [],
+        "61": [],
+        "62": [],
+        "63": [],
+        "64": [],
+        "65": [],
+        "66": [],
+        "67": [],
+        "68": [],
+        "69": [],
+        "70": []
+      }
+    },
+    {
+      "ordinal": 11,
+      "kind": 2,
+      "name": "lm",
+      "link": 0,
+      "flag_count": 73,
+      "flags": {
+        "4": [[0, 1, [["ChangeArdProgram", 4, -1, -1, 0]]]],
+        "10": [[0, 1, {"operation": "ChangeArdProgram", "operands": {"5": 1, "6": 1, "29": 1, "30": 1}}]],
+        "15": [[1, 1, [["ChangeArdProgram", 0, -1, -1, 21, 2, 3, -1, 6, 4, -1, -1, 0, 7, -1, -1, 0]]]],
+        "16": [[0, 1, {"operation": "ChangeArdProgram", "operands": {"5": 2, "6": 2, "13": 2, "14": 2, "29": 2, "30": 2}}]],
+        "19": [[1, 1, [["ChangeArdProgram", 6, -1, -1, 0, 0, -1, -1, 20, 2, 4, -1, 7, 4, -1, -1, 0, 7, -1, -1, 0]]]],
+        "20": [[0, 1, {"operation": "ChangeArdProgram", "operands": {"5": 3, "6": 3, "13": 3, "14": 3, "29": 3, "30": 3}}]],
+        "24": [[0, 1, {"operation": "ChangeArdProgram", "operands": {"3": 0}}]],
+        "31": [
+          [
+            0,
+            1,
+            {"operation": "ChangeArdProgram", "operands": {"5": 4, "6": 4, "7": 0, "13": 4, "14": 4, "29": 4, "30": 4}}
+          ]
+        ],
+        "33": [[1, 1, [["ChangeArdProgram", 0, -1, -1, 18, 2, 0, -1, 13, 4, 5, 5, 0, 6, 5, 5, 0, 7, 5, 5, 0]]]],
+        "37": [[2, 1, [["ChangeArdProgram", 5, -1, -1, 0, 0, -1, -1, 22, 2, 2, -1, 4, 4, -1, -1, 0, 7, -1, -1, 0]]]],
+        "44": [[1, 1, [["ChangeArdProgram", 0, -1, -1, 19, 2, 5, -1, 12, 4, -1, -1, 0, 7, -1, -1, 0]]]]
+      }
+    },
+    {
+      "ordinal": 16,
+      "kind": 2,
+      "name": "ca",
+      "link": 0,
+      "flag_count": 101,
+      "flags": {"47": [[1, 0, [["RaiseProgress", 4255]]]]}
+    },
+    {
+      "ordinal": 18,
+      "kind": 2,
+      "name": "eh",
+      "link": 0,
+      "flag_count": 85,
+      "flags": {
+        "1": [[0, 0, [["ChangeArdProgram", 3, 0, 1, 0, 2, 0, 1, 0], ["LowerProgress", 2070, 2076, 2081, 2121]]]],
+        "3": [[0, 0, [["ChangeArdProgram", 7, 0, 1, 0]]]],
+        "4": [[5, 1, {"operation": "ChangeArdProgram", "operands": {"2": -1, "3": 3, "17": 0, "18": 0, "19": 6}}]],
+        "5": [[1, 1, {"operation": "ChangeArdProgram", "operands": {"0": 2, "1": 0, "2": 0, "3": 10}}]],
+        "6": [[0, 1, [["ChangeArdProgram", 3, -1, -1, 0]]]],
+        "7": [[0, 1, {"operation": "ChangeArdProgram", "operands": {"3": 4}}]],
+        "8": [[0, 0, [["ChangeArdProgram", 3, -1, -1, 2]]]],
+        "13": [[0, 1, [["ChangeArdProgram", 6, -1, -1, 0, 7, 29, 2, 1, 16, -1, -1, 1]]]],
+        "19": [[0, 1, {"operation": "ChangeArdProgram", "operands": {"1": 3, "2": 2, "3": 3}}]],
+        "20": [[0, 1, {"operation": "ChangeArdProgram", "operands": {"2": 0, "3": 1}}]],
+        "40": [[0, 0, [["RaiseProgress", 2070, 2076, 2081, 2121]]]],
+        "42": [],
+        "51": [[0, 0, [["ChangeArdProgram", 2, 4, 10, 2]]]],
+        "52": [[0, 0, [["ChangeArdProgram", 2, -1, 11, 3]]]],
+        "53": [[0, 0, [["ChangeArdProgram", 2, -1, 12, 4]]]],
+        "54": [[0, 0, [["ChangeArdProgram", 2, -1, 13, 5]]]],
+        "57": [[0, 0, [["ChangeArdProgram", 2, 0, 1, 0, 3, -1, 0, 1]]]],
+        "84": [[0, 0, [["ChangeArdProgram", 2, 3, 3, 1]]]]
+      }
+    },
+    {
+      "ordinal": 20,
+      "kind": 2,
+      "name": "wlds",
+      "link": 0,
+      "sections": [
+        {
+          "schema": "spawn",
+          "offset": 8,
+          "clean_rows": 34,
+          "edits": {"17": {"set": {"Destination": 5}}, "18": {"set": {"Destination": 5}}, "31": {"set": {"Destination": 1}}}
+        }
+      ]
+    },
+    {
+      "ordinal": 23,
+      "kind": 2,
+      "name": "wldf",
+      "link": 0,
+      "sections": [
+        {
+          "schema": "world-flag",
+          "offset": 8,
+          "clean_rows": 151,
+          "edits": {
+            "15": {"set": {"StoryFlag": 4190, "Word6": 0}},
+            "16": {"set": {"StoryFlag": 4190, "Word6": 0}},
+            "18": {"set": {"StoryFlag": 16461, "Word6": 0}},
+            "21": {"set": {"StoryFlag": 16461, "Word6": 0}},
+            "22": {"set": {"StoryFlag": 6175, "Word6": 0}},
+            "23": {"set": {"StoryFlag": 10283, "Word6": 0}},
+            "24": {"set": {"StoryFlag": 12306, "Word6": 0}},
+            "26": {"set": {"StoryFlag": 12306, "Word6": 0}}
+          }
+        }
+      ]
+    },
+    {
+      "ordinal": 24,
+      "kind": 2,
+      "name": "link",
+      "link": 0,
+      "sections": [
+        {
+          "schema": "link",
+          "offset": 8,
+          "clean_rows": 82,
+          "edits": {
+            "72": {"set": {"Argument2": 2237}},
+            "73": {"set": {"Argument2": 7227}},
+            "74": {"set": {"Argument2": 8226}},
+            "79": {"set": {"Argument2": 16431}},
+            "80": {"set": {"Argument1": 14384}}
+          }
+        }
+      ]
+    }
+  ]
+}

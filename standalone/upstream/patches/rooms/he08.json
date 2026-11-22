@@ -1,0 +1,141 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "35446e8d1576302359f87213199b88495dc9db8d278598d2d318cf81def0c293",
+    "op": "clean",
+    "from": "he08:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 4,
+    "sha256": "881d21471dc5f0d347c1289d23f896460a5a838cc2050b81f66ecfc4ce852ecc",
+    "op": "clean",
+    "from": "he08:1"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 12,
+    "sha256": "60b31e5511cb37432586ac8c396862d16ed1c31b45e1b6a15850899759f0e016",
+    "op": "clean",
+    "from": "he08:2"
+  },
+  {
+    "type": 12,
+    "name": "b_20",
+    "link": 0,
+    "gap": 8,
+    "sha256": "c02f662a154a6135d43e292d002684af7f2f60c076e0dd7d372da7a23a82107f",
+    "op": "clean",
+    "from": "he08:3"
+  },
+  {
+    "type": 12,
+    "name": "b_40",
+    "link": 0,
+    "gap": 12,
+    "sha256": "a2481551f60a18b49bdb4a6f0c33688d25c1498137b8b483ffa841c3425fa579",
+    "op": "clean",
+    "from": "he08:4"
+  },
+  {
+    "type": 12,
+    "name": "b_41",
+    "link": 0,
+    "gap": 8,
+    "sha256": "f348724699d380e2038cefa141c938a087b6ad4e75c1d8a7fd1a18c499288556",
+    "op": "clean",
+    "from": "he08:5"
+  },
+  {
+    "type": 12,
+    "name": "b_80",
+    "link": 0,
+    "gap": 8,
+    "sha256": "046c41fdadbb6fd67cc2bed0e2ff8d4cb64cc0e22090c725e3d07bcb1ae0ac79",
+    "op": "clean",
+    "from": "he08:6"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "079a6133ab0fe638167418209bfe501b153403101a8d8d088ee363e6859bfa38",
+    "from": "he08:7",
+    "op": "records",
+    "splices": [
+      [2, 1, [["AreaSettings", 0, -1, ["jump", 0, 2, 6, 0, 0, 240, 1], ["set7", 0]]]],
+      [5, 1, [["AreaSettings", 0, -1, ["jump", 0, 2, 6, 0, 0, 241, 1], ["set7", 0]]]],
+      [8, 1, [["AreaSettings", 15, -1, ["flag", 6238], ["jump", 0, 1, 6, 12, 0, 0, 1], ["set7", 0]]]],
+      [11, 1, [["AreaSettings", 16, -1, ["flag", 6241], ["set5", 3], ["jump", 0, 1, 6, 3, 0, 0, 1], ["set7", 0]]]],
+      [14, 1, [["AreaSettings", 0, -1, ["flag", 6180], ["event", 2, "132"], ["jump", 0, 2, 6, 0, 0, 116, 1], ["set7", 0]]]],
+      [19, 1, [["AreaSettings", 0, -1, ["flag", 6180], ["jump", 0, 2, 6, 0, 0, 116, 1], ["set7", 0]]]],
+      [22, 1, [["AreaSettings", 0, -1, ["jump", 0, 2, 6, 0, 0, 242, 1], ["set7", 0]]]],
+      [25, 1, [["AreaSettings", 0, -1, ["jump", 0, 2, 6, 0, 0, 237, 1], ["set7", 0]]]],
+      [28, 1, [["AreaSettings", 0, -1, ["jump", 0, 2, 6, 0, 0, 238, 1], ["set7", 0]]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "e_50",
+    "link": 0,
+    "gap": 8,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "op": "clean",
+    "from": "he08:8"
+  },
+  {"type": 22, "name": "132", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {
+    "type": 22,
+    "name": "133",
+    "link": 0,
+    "gap": 8,
+    "sha256": "e5c329becf995a6e542bbf7de1f4e2b881353c6ddfc5fdd31233f7238244c6aa",
+    "op": "clean",
+    "from": "he08:10"
+  },
+  {
+    "type": 22,
+    "name": "135",
+    "link": 0,
+    "gap": 6,
+    "sha256": "c677636491f01df738a7fcbf2e869d3e4477de2d4be368906e23383110d0e860",
+    "from": "he08:11",
+    "op": "records",
+    "splices": [
+      [4, 1, [["performance", 4, 2]]],
+      [44, 2, [["performance", 45, 2]]],
+      [63, 1, [["performance", 64, 1]]],
+      [75, 1, [["performance", 76, 1]]],
+      [90, 2, [["performance", 91, 2]]],
+      [102, 1, [["performance", 103, 1]]],
+      [117, 1, [["performance", 118, 1]]]
+    ],
+    "performance_sha256": "8b998c74b8b3843f92538912ead14f53479cc91106501cd0d3a28dc4d26c7e37"
+  },
+  {
+    "type": 22,
+    "name": "136",
+    "link": 0,
+    "gap": 4,
+    "sha256": "1a14017d6d731a78bfd591a8972cdfaa1eecbac5e911b90a1ecb863cf8641f37",
+    "op": "clean",
+    "from": "he08:12"
+  },
+  {
+    "type": 22,
+    "name": "137s",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c54d2d91f0b0622099efae72fad6b28143b67d5e3e81ee5ec07d7454ec2af26e",
+    "op": "clean",
+    "from": "he08:13"
+  }
+]

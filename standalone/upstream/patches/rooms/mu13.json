@@ -1,0 +1,169 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1b2f7612b9fcff53b89c6655fcec0ebfb5be7b5ffdecec7953858d80dccc3a65",
+    "from": "tt29:0",
+    "op": "records",
+    "splices": [
+      [1, 1, [["MapVisibility", 15, 0]]],
+      [3, 4, [["program", null, {"id": 1}], ["MapVisibility", 17, 0]]],
+      [8, 0, [["program", null, {"id": 79}], ["MapVisibility", 15, 0]]],
+      [9, 2, [["MapVisibility", 15, 0]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c2cabc174c943497736b2af902368ff893958f70e86ddc592f15e435a4e4454c",
+    "from": "al02:1",
+    "op": "records",
+    "splices": [
+      [0, 1, [["record", "al00:2", 0]]],
+      [
+        2,
+        7,
+        [
+          ["entity", 2, {"x": 300.0, "y": -29.932830810546875, "z": -50.0, "ry": 0.0, "argument": 0, "serial": 1}],
+          ["entity", 3, {"x": 450.0, "y": -27.945850372314453, "z": 50.0, "ry": 0.0, "argument": 0, "serial": 2}],
+          ["entity", 4, {"x": 150.0, "y": -35.02262878417969, "z": 50.0, "ry": 0.0, "argument": 0, "serial": 3}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "9420f21ce401d7edbc9668b59e1955a8446eb5ac82f803d35b86aa3e396c5e3c",
+    "from": "he10:9",
+    "op": "records",
+    "splices": [[0, 6, [["program", 0, {"id": 79}], ["AllocEnemy", 3145728], ["Party", 1], ["AllocEffect", 1048576, 524288], ["Mission", 407, "MU13_FM_ZEX", 32]]]]
+  },
+  {
+    "type": 12,
+    "name": "b_81",
+    "link": 0,
+    "gap": 0,
+    "sha256": "57e65449c42b7389938b3cefbf14eb44dffa97259d5e4bba43e0775cfaa3c6d5",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        0,
+        [
+          ["record", "al00:2", 0],
+          ["group", null, {"type": 1, "id": 64, "entities": 4}],
+          ["entity", null, {"object": 566, "x": 150.0, "y": -35.409400939941406, "z": -50.00006103515625, "ry": 3.1415927410125732, "serial": 9}],
+          ["entity", null, {"object": 567, "x": 50.000030517578125, "y": -23.630409240722656, "z": -150.00010681152344, "ry": 3.1415927410125732, "serial": 10}],
+          ["entity", null, {"object": 568, "x": 250.0, "y": -25.90595054626465, "z": -149.99989318847656, "ry": 3.1415927410125732, "serial": 11}],
+          ["entity", null, {"object": 2427, "x": 150.0, "y": -1.1244499546592124e-05, "z": 300.0, "spawn_type": 3, "serial": 13}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "b_80",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b458d2ad531370bb1a1eeb741e7a9836e63c50a2064a7bce68fbebb48c595f25",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        0,
+        [
+          ["record", "al00:2", 0],
+          ["group", null, {"type": 1, "id": 32, "entities": 4}],
+          ["entity", null, {"object": 566, "x": 150.0, "y": -35.409400939941406, "z": -50.00006103515625, "ry": 3.1415927410125732, "serial": 5}],
+          ["entity", null, {"object": 567, "x": 50.000030517578125, "y": -23.630409240722656, "z": -150.00010681152344, "ry": 3.1415927410125732, "serial": 6}],
+          ["entity", null, {"object": 568, "x": 250.0, "y": -25.90595054626465, "z": -149.99989318847656, "ry": 3.1415927410125732, "serial": 7}],
+          ["entity", null, {"object": 2427, "x": 150.0, "y": -1.1244499546592124e-05, "z": 300.0, "spawn_type": 3, "serial": 12, "arg2": 1}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "63d73fc8a1a4af571e741a86ce21d076ae21664303f017f232bc307cd1aefeec",
+    "from": "tt29:4",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        20,
+        [
+          ["program", 0, {"id": 79}],
+          ["Bgm", 63, 63],
+          ["AreaSettings", 16, -1, ["flag", 8226], ["event", 3, "726"], ["list", 546], ["jump", 0, 1, 8, 11, 0, 0, 1], ["set7", 0]]
+        ]
+      ],
+      [21, 2, [["Bgm", 63, 63], ["AreaSettings", 16, -1, ["flag", 4274], ["jump", 0, 2, 4, 0, 0, 135, 16386], ["set7", 0]], ["program", null, {"id": 134}]]],
+      [
+        24,
+        2,
+        [
+          ["Bgm", 0, 0],
+          ["AreaSettings", 0, -1, ["event", 2, "735"], ["jump", 0, 2, 4, 0, 0, 152, 1], ["set7", 0]],
+          ["program", null, {"id": 135}],
+          ["Party", 1],
+          ["Bgm", 63, 63],
+          ["AreaSettings", 0, -1, ["set5", 2], ["event", 3, "736"], ["jump", 0, 1, 4, 26, 26, 0, 1], ["list", 551], ["set7", 0]],
+          ["program", null, {"id": 131}],
+          ["Party", 1],
+          ["Bgm", 0, 0],
+          ["AreaSettings", 0, -1, ["event", 2, "725"], ["jump", 0, 2, 8, 0, 0, 79, 1], ["set7", 0]],
+          ["program", null, {"id": 125}],
+          ["Party", 1],
+          ["Bgm", 63, 63],
+          ["AreaSettings", 0, -1, ["set5", 2], ["event", 3, "726"], ["jump", 0, 1, 6, 10, 21, 0, 1], ["list", 546, 551], ["set7", 0]]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 22,
+    "name": "725",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ade923e72005dc6d704d934cfa967bad1ad2f98ea96aeab4ead51b48519aa57b",
+    "op": "reuse",
+    "from": "hb42:6"
+  },
+  {
+    "type": 22,
+    "name": "726",
+    "link": 0,
+    "gap": 2,
+    "sha256": "320c907d66f96ab9d48072b70e7949841b187d07a718f2737a4eb9b81a05ab05",
+    "op": "reuse",
+    "from": "hb42:7"
+  },
+  {
+    "type": 22,
+    "name": "735",
+    "link": 0,
+    "gap": 2,
+    "sha256": "777de0ef732f2272eaed74bc1e79adfada15237536eb8af55db6c0df834e2b1e",
+    "op": "reuse",
+    "from": "hb42:8"
+  },
+  {
+    "type": 22,
+    "name": "736",
+    "link": 0,
+    "gap": 0,
+    "sha256": "fdf8c4b5672e0febcd0b5ba5e83a9bdeb5c16c760d5f92bf3cfe61b618dfca2c",
+    "op": "reuse",
+    "from": "hb42:9"
+  }
+]

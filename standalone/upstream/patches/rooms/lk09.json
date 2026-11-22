@@ -1,0 +1,220 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "41ef88ae526b98db90aabe5fd77ae4068443eac096cbf3431c4387b5a573ee8d",
+    "from": "lk09:0",
+    "op": "records",
+    "splices": [
+      [14, 0, [["Spawn", "SAVE"]]],
+      [21, 0, [["Spawn", "SAVE"]]],
+      [29, 0, [["Spawn", "SAVE"]]],
+      [36, 0, [["Spawn", "SAVE"]]],
+      [43, 0, [["Spawn", "SAVE"]]],
+      [50, 0, [["Spawn", "SAVE"]]],
+      [56, 0, [["Spawn", "SAVE"]]],
+      [61, 0, [["Spawn", "SAVE"]]],
+      [68, 0, [["Spawn", "SAVE"]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ef3326063f826f862b5ff85c176168560e29220b0c559a47ca5b8121ab2c0267",
+    "op": "clean",
+    "from": "lk09:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "261345be4e4667571959c295f2f30841855eacbe7ac0c3858bfae57173ef2663",
+    "op": "clean",
+    "from": "lk09:2"
+  },
+  {
+    "type": 12,
+    "name": "m_20",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5cb9d4084628aecf62d28a8e74c65412d13b070e81fe5864211406d250d7c18b",
+    "op": "clean",
+    "from": "lk09:3"
+  },
+  {
+    "type": 12,
+    "name": "m_70",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c927ff2a802b501f4ee78932f55bfa1154f1520abb0954a83a7b1cdd2aa475c0",
+    "op": "clean",
+    "from": "lk09:4"
+  },
+  {
+    "type": 12,
+    "name": "m_22",
+    "link": 0,
+    "gap": 0,
+    "sha256": "48c84aaf4ccc1b401ef6d2ea1d445b6741f5210efdfe34e1a6fd9fc36a136b83",
+    "op": "clean",
+    "from": "lk09:5"
+  },
+  {
+    "type": 12,
+    "name": "m_01",
+    "link": 0,
+    "gap": 0,
+    "sha256": "a90137fd5f345283af1760d92accaa7d5ad722dc100b20dee59d2322847ec91e",
+    "op": "clean",
+    "from": "lk09:6"
+  },
+  {
+    "type": 12,
+    "name": "m_21",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ab9cbbc10987602991c6f4c29a25eff7e86a557d4495a80fd5a9f30506c21c8d",
+    "op": "clean",
+    "from": "lk09:7"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "db767bdf595a5df77a93a5af2f2c5057b8e82a74d06f85ff5b519dcc8310471e",
+    "op": "clean",
+    "from": "lk09:8"
+  },
+  {
+    "type": 12,
+    "name": "e_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d9f4ceb7336ffc4a1db158a77d040c591c393c2b66c13c0ddd55ec019a4b1e3f",
+    "op": "clean",
+    "from": "lk09:9"
+  },
+  {
+    "type": 12,
+    "name": "j01_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "25539a2cf034520cad1cfecedd17fd55c62cf35cfb15a1c1d290273e02919751",
+    "from": "lk09:10",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 92, "talk": 0, "reaction": 0}]]], [23, 1, [["entity", 23, {"object": 752}]]]]
+  },
+  {
+    "type": 12,
+    "name": "a00e",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d372dfa6f39223ea76e35dc0269df4b42751cd46742a101e3f715f6579db64f9",
+    "op": "clean",
+    "from": "lk09:11"
+  },
+  {
+    "type": 12,
+    "name": "e00_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "80b73beae915ce33d5c92dfda98f652de3911e29179f854472a2fca11428e49d",
+    "op": "clean",
+    "from": "lk09:12"
+  },
+  {
+    "type": 12,
+    "name": "f00_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "18eb99b83876dd8c6c247f1109da0d55765b4de403336c0c99549b11e67eadce",
+    "op": "clean",
+    "from": "lk09:13"
+  },
+  {
+    "type": 12,
+    "name": "e01_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d334e209b03730b4ec8bd3db6923be207afd414fc3803ac5a57a871f106197e9",
+    "op": "clean",
+    "from": "lk09:14"
+  },
+  {
+    "type": 12,
+    "name": "f01_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "261d90a48a405207314d88cc326bdff78e5e76064562433f22cc0f0593f56a72",
+    "op": "clean",
+    "from": "lk09:15"
+  },
+  {
+    "type": 12,
+    "name": "e02_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "45a4602bb6a8ca520c377198091695b7a16baab1047a17323937574f32fe193d",
+    "op": "clean",
+    "from": "lk09:16"
+  },
+  {
+    "type": 12,
+    "name": "f02_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d844c905811dcf019b2440dc43feb0c86021247292e40b69f7e99837fc972790",
+    "op": "clean",
+    "from": "lk09:17"
+  },
+  {
+    "type": 12,
+    "name": "z00s",
+    "link": 0,
+    "gap": 0,
+    "sha256": "462723b3cbf04e47eb184ecf486ae1bc37c4159999f4a2ad213071c77c7d37c2",
+    "from": "lk09:18",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 1159, "y": -335.0}]]]]
+  },
+  {
+    "type": 12,
+    "name": "e51_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "14f761e5e0226c6d94f3eb340e1132fa8474f82f15c6c5a479532dfe7a6db110",
+    "op": "clean",
+    "from": "lk09:19"
+  },
+  {
+    "type": 12,
+    "name": "f51_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "4081495d829d5e4d6c7854b285f78ab450c319207005a9a5c12010ec7a13b55f",
+    "op": "clean",
+    "from": "lk09:20"
+  },
+  {"type": 22, "name": "109", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "113", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "115", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "116", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "209", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "210", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {
+    "type": 12,
+    "name": "SAVE",
+    "link": 0,
+    "gap": 0,
+    "sha256": "f3201289c5ae91cfa1fcd78ba1e6575c046d2836b3b0a0edcc70864876a4b772",
+    "from": "al11:3",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 445, "x": -70.0, "y": -60.000030517578125, "z": -500.0, "ry": 0.0, "serial": 3}]]]]
+  }
+]

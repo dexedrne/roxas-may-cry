@@ -1,0 +1,324 @@
+[
+  {
+    "source": "map/mu09.map",
+    "path": "map/mu13.map",
+    "sha256": "da63e72ffee7ab418555a5813b3e3ec16c0a08819556ddad01bacad4754d1956",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-0.dds",
+    "path": "remastered/map/mu13.map/-0.dds",
+    "sha256": "21f63a962bfdddcd96084b62b0084294b94853469e87017bd099070256011904",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-1.dds",
+    "path": "remastered/map/mu13.map/-1.dds",
+    "sha256": "d1b4baac98527be0c8558114c3f697b933ec55bcd3e24fd8658595fa40519062",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-10.dds",
+    "path": "remastered/map/mu13.map/-10.dds",
+    "sha256": "8f0eda9840eba760a7c9994d08c308ab8fc2f0046ee85e7d03244d753bca8dd5",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-11.dds",
+    "path": "remastered/map/mu13.map/-11.dds",
+    "sha256": "e4d2a719af8efcca371aa1fd369535de5b0dd16abc769809a0ccee21a2118c93",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-12.dds",
+    "path": "remastered/map/mu13.map/-12.dds",
+    "sha256": "4bcf3c365492d95c56cc1ee8bcbaabb94f7cde2c626c20843bb87d1f4f4012f6",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-13.dds",
+    "path": "remastered/map/mu13.map/-13.dds",
+    "sha256": "281ba5a73011feecbc384344911c7e887dca73e97071604920af122f5762a851",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-14.dds",
+    "path": "remastered/map/mu13.map/-14.dds",
+    "sha256": "6dc3f5d11275344e3b918674d667cb3775582d983c1cf4fc9f461052c1f34476",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-15.dds",
+    "path": "remastered/map/mu13.map/-15.dds",
+    "sha256": "568298b966ba7884061bd9fce712871e529ab692dbd0d7925d73b588a8ffbd82",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-16.dds",
+    "path": "remastered/map/mu13.map/-16.dds",
+    "sha256": "fc7abfed9de611f2f2fd0604364c74a329ef8d798e3a4c5cee1209f207174c59",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-17.dds",
+    "path": "remastered/map/mu13.map/-17.dds",
+    "sha256": "4d220a5fc588c8d90702c81bec64c12951f8824d97779d89a6482b6a0576f70f",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-18.dds",
+    "path": "remastered/map/mu13.map/-18.dds",
+    "sha256": "e51e68b90eb1eea1d1bbebe093b28b9d0fc1383357d7d86544d74c3058b4dcbe",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-19.dds",
+    "path": "remastered/map/mu13.map/-19.dds",
+    "sha256": "4a22b94d24661b48762f9e1267f1b32fd78922d995a11881dc64678a8849c11e",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-2.dds",
+    "path": "remastered/map/mu13.map/-2.dds",
+    "sha256": "25be40365629220ebb15ac6ff43a171a2782306fd2846d4c73b21475026c2031",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-20.dds",
+    "path": "remastered/map/mu13.map/-20.dds",
+    "sha256": "a292caf0a81776315aaa952bb3ad46662585c8aafdaa1e88f87ba8779adfdf4f",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-21.dds",
+    "path": "remastered/map/mu13.map/-21.dds",
+    "sha256": "08649ae0e93da244de40e973e9585df5db0a19fdaa1833c26d12cac1cc936be2",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-22.dds",
+    "path": "remastered/map/mu13.map/-22.dds",
+    "sha256": "66eae3604267cea51c13bea15825fdb6753cb126ea3943e5cb6eeaefe35b7a57",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-23.dds",
+    "path": "remastered/map/mu13.map/-23.dds",
+    "sha256": "4abfd304161b6def092bac2349183be1e6b59b96ca109476afef4d5d85566069",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-24.dds",
+    "path": "remastered/map/mu13.map/-24.dds",
+    "sha256": "1b0932a8276892e40b8521ba3d0ca0a748b7b2febbe64cb5a44c07ffcfafd322",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-25.dds",
+    "path": "remastered/map/mu13.map/-25.dds",
+    "sha256": "4a75883b5ddc90ba994217c824e133b9df904983160b157e816b18cb4175acd7",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-26.dds",
+    "path": "remastered/map/mu13.map/-26.dds",
+    "sha256": "0b659f1af10b0b894788b57e877980080f738020afcd80bc8ba8591176293ec3",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-27.dds",
+    "path": "remastered/map/mu13.map/-27.dds",
+    "sha256": "1e3cd5b9a82ab068aa8caca42dd63a1fd4bdcaab6375345fc95365474e4b553d",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-28.dds",
+    "path": "remastered/map/mu13.map/-28.dds",
+    "sha256": "aaf7c8ce7fd20aee88b0513e24bf11cce7a9214d558bda1319fea354ecb271b8",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-29.dds",
+    "path": "remastered/map/mu13.map/-29.dds",
+    "sha256": "df9eb805b2c56dd3056f198d87ee0549614a5427e0639aa68040b41e1f5ad216",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-3.dds",
+    "path": "remastered/map/mu13.map/-3.dds",
+    "sha256": "d53b4a0288bb91607c3e5df8f3c4668b8f39808e047e1c2a672d6ea0c6a239ea",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-30.dds",
+    "path": "remastered/map/mu13.map/-30.dds",
+    "sha256": "9efe4ab10afa8438dd3b795ed7454e5d8e6394af1620feeb6ed250c689677175",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-31.dds",
+    "path": "remastered/map/mu13.map/-31.dds",
+    "sha256": "f4f1bcc576c1a6e99f74fffad52f58c015da6a5d00a505f702df685d07919666",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-32.dds",
+    "path": "remastered/map/mu13.map/-32.dds",
+    "sha256": "aafa0cafe8c73b26746c603544a4c54362e69b9f68eba55845a9a809ef1ba257",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-33.dds",
+    "path": "remastered/map/mu13.map/-33.dds",
+    "sha256": "6ce9b178a262ac65d31bcf55e632f206dd02c1d71e90581d1f80d162255f3a21",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-34.dds",
+    "path": "remastered/map/mu13.map/-34.dds",
+    "sha256": "8c4ee0a996aa05613070a0a4cda87ffa08b2197755e84dfb6b4b6fe89f666a47",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-35.dds",
+    "path": "remastered/map/mu13.map/-35.dds",
+    "sha256": "e1edcec24d97fcedc82ac002d51c95a002e04ea0bb7bb17be470bfab3be55c06",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-36.dds",
+    "path": "remastered/map/mu13.map/-36.dds",
+    "sha256": "857e0c6ee2186f8998f01999f9d834d9c9a83e4c1c1f790aa6462de55513544b",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-37.dds",
+    "path": "remastered/map/mu13.map/-37.dds",
+    "sha256": "5fa45278be7a343281ca47633c712d60a21fc29f7ed343a8f3bed47ccacca1b4",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-38.dds",
+    "path": "remastered/map/mu13.map/-38.dds",
+    "sha256": "f15e7bb996993bbfc1162e8c63c34681a3afc408f3dd70c1cd5abe1edf372a5f",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-39.dds",
+    "path": "remastered/map/mu13.map/-39.dds",
+    "sha256": "3bc3921fe39256374efcbeee65da58ab832f4a6660402c434aeaa1ce9c50bf02",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-4.dds",
+    "path": "remastered/map/mu13.map/-4.dds",
+    "sha256": "5adac3281d204268b5b85999c88b4582a0c3449a97eddf0503ab6a645c503040",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-40.dds",
+    "path": "remastered/map/mu13.map/-40.dds",
+    "sha256": "8643eb6a5d1529beb9c9aa70999da7c948622b79a7bf3c46c92b7648c91d5d08",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-41.dds",
+    "path": "remastered/map/mu13.map/-41.dds",
+    "sha256": "bc7151f582ae95049d3e3b667a3ebe13b0c8efd238eb8b868a29ffa762b5ca1b",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-42.dds",
+    "path": "remastered/map/mu13.map/-42.dds",
+    "sha256": "ba0e42b540c711c8c368ceaa92cf570c9aae757ff861b5588c72c56298321208",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-5.dds",
+    "path": "remastered/map/mu13.map/-5.dds",
+    "sha256": "7af03c322156185f7d62a374b874a36fd843fb1765c8a72e1521099bed5d0db1",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-6.dds",
+    "path": "remastered/map/mu13.map/-6.dds",
+    "sha256": "aff5bb45609689cca92ab85fa7b725a23fb0d8c12b03b066dd78c0ba4ff28371",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-7.dds",
+    "path": "remastered/map/mu13.map/-7.dds",
+    "sha256": "f1c88de01738b0c899a6a363fa370ae8577cfdd7bce61c87a2fcef14abd42ce1",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-8.dds",
+    "path": "remastered/map/mu13.map/-8.dds",
+    "sha256": "f70798b72517c603cf204cb4212cde10b4c8252897fc8c18f38730267d6f3770",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/mu09.map/-9.dds",
+    "path": "remastered/map/mu13.map/-9.dds",
+    "sha256": "c6abcbbf23bf4bfee1370904c65e04d1f7787be7ca4a18f48cc919ad32d5c723",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "map/us/mu09.bar",
+    "path": "map/us/mu13.bar",
+    "sha256": "d44279e499b421138f03b974665a961c2f7ac94ec98d0de268dc38ba20e7f4b8",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/us/mu09.bar/US_mu09_bar0.dds",
+    "path": "remastered/map/us/mu13.bar/US_mu13_bar0.dds",
+    "sha256": "42cac713f34679e035296caa83dd0acfb2ad5b686c0b6842e841424d904f71fb",
+    "old": null,
+    "op": "copy"
+  }
+]

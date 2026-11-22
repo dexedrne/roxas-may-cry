@@ -1,0 +1,24 @@
+{
+  "base_sha256": "d9628d82ce1ced8d56b039caeb847da9faf7c353003f659cd2be72f8d992e926",
+  "sections": [
+    {
+      "schema": "puzzle",
+      "offset": 8,
+      "clean_rows": 158,
+      "edits": {
+        "90": {"set": {"Room": 1}, "clean_key": {"Picture": 4, "Part": 17}},
+        "91": {"set": {"Room": 2}, "clean_key": {"Picture": 4, "Part": 1}},
+        "92": {"set": {"Room": 2}, "clean_key": {"Picture": 4, "Part": 47}},
+        "93": {"set": {"Room": 3}, "clean_key": {"Picture": 4, "Part": 29}},
+        "94": {"set": {"Room": 3}, "clean_key": {"Picture": 4, "Part": 41}},
+        "95": {"set": {"Room": 4}, "clean_key": {"Picture": 4, "Part": 0}},
+        "96": {"set": {"Room": 4}, "clean_key": {"Picture": 4, "Part": 2}},
+        "97": {"set": {"Room": 5}, "clean_key": {"Picture": 4, "Part": 46}},
+        "98": {"set": {"Room": 5}, "clean_key": {"Picture": 4, "Part": 3}},
+        "99": {"set": {"Room": 6}, "clean_key": {"Picture": 3, "Part": 10}},
+        "100": {"set": {"Room": 6}, "clean_key": {"Picture": 3, "Part": 11}}
+      }
+    }
+  ],
+  "clean_end": 1588
+}

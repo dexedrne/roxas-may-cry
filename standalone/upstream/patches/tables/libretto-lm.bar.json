@@ -1,0 +1,18 @@
+{
+  "base_sha256": "847f5909e5cb97fecf7f81c64832f5253b7af1bedcb8dd1b4c8e3cb0b46da9ff",
+  "alignment": 16,
+  "members": [
+    {
+      "ordinal": 0,
+      "kind": 2,
+      "name": "lm",
+      "link": 0,
+      "talk": {
+        "1542": {"edit_words": [[2, 0, [{"words": [65537, 18177]}]]]},
+        "1545": {"edit_words": [[2, 0, [{"words": [65537, 18180]}]]]},
+        "1550": {"edit_words": [[2, 0, [{"words": [65537, 18185]}]]]}
+      },
+      "declared_size": 1444
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "bea7dec2611e71f8af0b4517eb60342d9609ee6a3e7b6823b5436b3567ab22dc",
+    "op": "clean",
+    "from": "wi08:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 12,
+    "sha256": "38590c97ba24fb5bd6e60ddb0ed8bf1e36d6c20400080d6fc5900ff6151eeb76",
+    "op": "clean",
+    "from": "wi08:1"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 12,
+    "sha256": "bba1cd903fd69bbe73257c36de5c6ad7d6609625787ad18fb470c92ec5d747c2",
+    "op": "clean",
+    "from": "wi08:2"
+  },
+  {
+    "type": 12,
+    "name": "e_01",
+    "link": 0,
+    "gap": 12,
+    "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+    "op": "clean",
+    "from": "wi08:3"
+  },
+  {
+    "type": 12,
+    "name": "e_02",
+    "link": 0,
+    "gap": 8,
+    "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+    "op": "clean",
+    "from": "wi08:4"
+  },
+  {
+    "type": 12,
+    "name": "e_03",
+    "link": 0,
+    "gap": 8,
+    "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+    "op": "clean",
+    "from": "wi08:5"
+  },
+  {
+    "type": 12,
+    "name": "e_04",
+    "link": 0,
+    "gap": 8,
+    "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+    "op": "clean",
+    "from": "wi08:6"
+  },
+  {"type": 22, "name": "123", "link": 0, "gap": 8, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "124", "link": 0, "gap": 8, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "125", "link": 0, "gap": 8, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "126", "link": 0, "gap": 8, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

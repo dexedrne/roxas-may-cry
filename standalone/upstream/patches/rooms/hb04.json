@@ -1,0 +1,150 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b62d6125bbeea3129fd2f593a832c6bb6eb32df5a8ef82539df8d10f92750481",
+    "op": "clean",
+    "from": "hb04:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "92ba2358a75913d6669a83294dd04c36790bd7846eee60c8b54ae8e564fc167e",
+    "op": "clean",
+    "from": "hb04:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "26ada8a856e8afdf382d79000e30f5d09dda36876d7bcc6afbb3265ca51509fa",
+    "op": "clean",
+    "from": "hb04:2"
+  },
+  {
+    "type": 12,
+    "name": "m_11",
+    "link": 0,
+    "gap": 0,
+    "sha256": "03c787d28d8869477d318958c2c2df5e837c2adca1415973678c9eac265357a0",
+    "op": "clean",
+    "from": "hb04:3"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8bcc1b8d05dc2e589b509be8fcfe2a2b7231e377faf4f8761fb5b856785af8b0",
+    "op": "clean",
+    "from": "hb04:4"
+  },
+  {
+    "type": 12,
+    "name": "b_20",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1cafc2c769ab3bf640a1e85e150d5fa827b4c8ce3c1c8f1b83521a39d2703a71",
+    "op": "clean",
+    "from": "hb04:5"
+  },
+  {
+    "type": 12,
+    "name": "b_40",
+    "link": 0,
+    "gap": 0,
+    "sha256": "86502f4e7622e85dd1df0eac90e1fa38cd8a2a9d51624c38073d3cc9cf7ceeec",
+    "op": "clean",
+    "from": "hb04:6"
+  },
+  {
+    "type": 12,
+    "name": "b_81",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c57892d971b7da25063ff762cae4a70074c171317bd449529602c35d8d1455af",
+    "op": "clean",
+    "from": "hb04:7"
+  },
+  {
+    "type": 12,
+    "name": "b_80",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5a1cdda4e401f451b4a2e110d5642cae1936d8d1deeddce060140125cc1f4fe1",
+    "op": "clean",
+    "from": "hb04:8"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "2baebb131026ef4669a2bb6e261a530f51868c60f9543bcc7619aa05e4bad3dd",
+    "from": "hb04:9",
+    "op": "records",
+    "splices": [
+      [
+        21,
+        1,
+        [
+          ["AreaSettings", 16, -1, ["flag", 4160], ["set4", 6], ["set5", 1], ["event", 18, "412"], ["jump", 0, 1, 4, 4, 50, 0, 1], ["set7", 2]],
+          ["program", null, {"id": 2}],
+          ["Bgm", 185, 185],
+          ["AreaSettings", 9, -1, ["jump", 0, 2, 4, 0, 0, 62, 1], ["set7", 0]],
+          ["Spawn", "e_50"],
+          ["Spawn", "e_01"]
+        ]
+      ]
+    ]
+  },
+  {"type": 22, "name": "411", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "412", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "741", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "742", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {
+    "type": 12,
+    "name": "e_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "13e136c84709b23bf8ad55ecbdf185b5929dd0e3c6b12ed0dff86b25d8833abc",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        0,
+        [
+          ["record", "al00:2", 0],
+          ["group", null, {"type": 1, "id": 2000, "entities": 3}],
+          ["entity", null, {"object": 566, "x": 147.0, "z": 92.0, "ry": 3.1415927410125732, "spawn_type": 1, "argument": 50, "serial": 2000}],
+          ["entity", null, {"object": 567, "x": 957.0, "y": -3.0, "z": 39.0, "ry": -1.675516128540039, "spawn_type": 1, "argument": 50, "serial": 2001}],
+          ["entity", null, {"object": 568, "x": 979.0, "y": -3.0, "z": 242.0, "ry": -1.6580628156661987, "spawn_type": 1, "argument": 50, "serial": 2002}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "e_01",
+    "link": 0,
+    "gap": 0,
+    "sha256": "58b44942373239ddef5fed246c45aff8e266e4ba59c723b7234d35bbeaec30e2",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        0,
+        [
+          ["record", "al00:2", 0],
+          ["group", null, {"type": 3, "id": 1010, "activators": 1, "area": 9}],
+          ["activator", null, {"x": 1059.0, "y": -1050.0, "z": 2100.0, "sx": 266.0, "sy": 1250.0, "sz": 525.0}]
+        ]
+      ]
+    ]
+  }
+]

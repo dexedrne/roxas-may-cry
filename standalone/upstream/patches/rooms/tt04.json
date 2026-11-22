@@ -1,0 +1,1122 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ec51a0e63d0bad584cd53baf5a477f953e1d2ce45252888d25b0c9d5a79e3e5d",
+    "from": "tt04:0",
+    "op": "records",
+    "splices": [
+      [
+        72,
+        0,
+        [
+          ["program", null, {"id": 8}],
+          ["MapVisibility", 3221226511, 4095],
+          ["Spawn", "m_00"],
+          ["Spawn", "m_10"],
+          ["Spawn", "m_11"],
+          ["program", null, {"id": 385}],
+          ["MapVisibility", 3221226511, 4095],
+          ["Spawn", "m_10"]
+        ]
+      ],
+      [230, 0, [["program", null, {"id": 255}], ["MapVisibility", 3221225473, 1073745919], ["BarrierFlag", 0, 1073741824]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "04a64dda00fa2593544b042f44ea8aad3cf88ae05039c2964dae6e59a409c59d",
+    "op": "clean",
+    "from": "tt04:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "4075c90228a9bbdf4703b05835675a0bded094c49cb80c68477f2892afe02023",
+    "op": "clean",
+    "from": "tt04:2"
+  },
+  {
+    "type": 12,
+    "name": "m_11",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b116ab0acb68b142453bab7bbd025f1a486ddb985b566953448c34e51688fef3",
+    "op": "clean",
+    "from": "tt04:3"
+  },
+  {
+    "type": 12,
+    "name": "m_12",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b38b253167d00cf50904923593bb2484299662d2c8029930c376b9e580b6d618",
+    "op": "clean",
+    "from": "tt04:4"
+  },
+  {
+    "type": 12,
+    "name": "m_80",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d4eee3f0627bd0632469d8a32f0ec3254162eda2acc242576129c18bd9159fe9",
+    "op": "clean",
+    "from": "tt04:5"
+  },
+  {
+    "type": 12,
+    "name": "m_83",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8468e85fdb002d697fbda2fe6621a3a8e6ef915e71736d7aad3acac6f0a096d6",
+    "op": "clean",
+    "from": "tt04:6"
+  },
+  {
+    "type": 12,
+    "name": "m_94",
+    "link": 0,
+    "gap": 0,
+    "sha256": "40cafe4d36000c7f7934a026dcf6d8de0a1b439bd5db2be6b2629d2b553179b0",
+    "op": "clean",
+    "from": "tt04:7"
+  },
+  {
+    "type": 12,
+    "name": "m_95",
+    "link": 0,
+    "gap": 0,
+    "sha256": "680eac8d54f32d474ad379e0741de42555a59e0544ff1ac0b149885da72e5e9d",
+    "op": "clean",
+    "from": "tt04:8"
+  },
+  {
+    "type": 12,
+    "name": "m_99",
+    "link": 0,
+    "gap": 0,
+    "sha256": "25cb00e1aecdd78ee0cff546b73432806308c52c8b6451d504d80354096ff258",
+    "op": "clean",
+    "from": "tt04:9"
+  },
+  {
+    "type": 12,
+    "name": "m_81",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c1f1b09ec6bd58fef882837ae3640d5c3761d1f4e7977470bb84602d99282340",
+    "op": "clean",
+    "from": "tt04:10"
+  },
+  {
+    "type": 12,
+    "name": "m_96",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1ce77176360b0d9590768b8b8bb0054dc68e0439348af3fffa353dc5ed700b22",
+    "op": "clean",
+    "from": "tt04:11"
+  },
+  {
+    "type": 12,
+    "name": "m_97",
+    "link": 0,
+    "gap": 0,
+    "sha256": "45b0704a2aa54592e80ded41e0517380108bcaa3d05bec7ef829c8ee3da2beea",
+    "op": "clean",
+    "from": "tt04:12"
+  },
+  {
+    "type": 12,
+    "name": "m_82",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e64c047845acb6e25eb6452c4defac91bef5d150e11d6ee90fda81b809996096",
+    "op": "clean",
+    "from": "tt04:13"
+  },
+  {
+    "type": 12,
+    "name": "m_84",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5e0de398d61c2344d512519122a51832c40f6cc8179974863350c41fd1a66c87",
+    "op": "clean",
+    "from": "tt04:14"
+  },
+  {
+    "type": 12,
+    "name": "m_85",
+    "link": 0,
+    "gap": 0,
+    "sha256": "84bddeadd1552179d078911502ae0050a4699c5b5225cd565b20afbba481206c",
+    "op": "clean",
+    "from": "tt04:15"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "2e180fd461ddcb3f482caa058089d6d020e3852bef679abdecad94476bd40acf",
+    "from": "tt04:16",
+    "op": "records",
+    "splices": [
+      [22, 1, []],
+      [
+        29,
+        0,
+        [
+          ["program", null, {"id": 8}],
+          ["Party", 1],
+          ["Mission", 428, "TT42_CONFINE_1", 32],
+          ["Spawn", "b_70"],
+          ["Spawn", "b_71"],
+          ["program", null, {"id": 385}],
+          ["Party", 1],
+          ["Mission", 428, "TT42_CONFINE_1", 32],
+          ["Spawn", "b_70"]
+        ]
+      ],
+      [70, 0, [["program", null, {"id": 255}], ["Mission", 194, "TT04_BETA", 32], ["Spawn", "b_99"]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "b_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5e5199a5cc51ce5597bc2bf0eeed02f1b39b0d4084685be4de3357312fa10d67",
+    "op": "clean",
+    "from": "tt04:17"
+  },
+  {
+    "type": 12,
+    "name": "b_21",
+    "link": 0,
+    "gap": 0,
+    "sha256": "19a18c44ce9dae70b12801935ea7f39f8a498cb877bd241a5b4bd840083564d7",
+    "op": "clean",
+    "from": "tt04:18"
+  },
+  {
+    "type": 3,
+    "name": "tt04",
+    "link": 0,
+    "gap": 0,
+    "sha256": "58fc6e1cdd74315d7fa30142cf0590c40455df332c9e1c8797c2df1a55e7af58",
+    "op": "clean",
+    "from": "tt04:19"
+  },
+  {
+    "type": 12,
+    "name": "b_40",
+    "link": 0,
+    "gap": 2,
+    "sha256": "4efe8073b77caf7584576808491fd61764cda9d84cd4e35c7dea407c6e31e7f0",
+    "op": "clean",
+    "from": "tt04:20"
+  },
+  {
+    "type": 12,
+    "name": "b_41",
+    "link": 0,
+    "gap": 0,
+    "sha256": "242e5d26a560c7316d619f002c31a5a9a13718a58a7fbc4ef48c7b6f7f20fc6a",
+    "op": "clean",
+    "from": "tt04:21"
+  },
+  {
+    "type": 12,
+    "name": "b_42",
+    "link": 0,
+    "gap": 0,
+    "sha256": "2f3291da12587f2627492206d39142922f69ec5dc37b7b544fb28abe65442191",
+    "op": "clean",
+    "from": "tt04:22"
+  },
+  {
+    "type": 12,
+    "name": "b_43",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e6a6002f20c425d6de6ef3590d77e07bf9bc16525852f6cec184cb51671710b7",
+    "op": "clean",
+    "from": "tt04:23"
+  },
+  {
+    "type": 12,
+    "name": "b_44",
+    "link": 0,
+    "gap": 0,
+    "sha256": "2ac8085c63a55e6bb45b4a940cd1d9b714745914e04c5eeb0259ee33c2225c35",
+    "op": "clean",
+    "from": "tt04:24"
+  },
+  {
+    "type": 12,
+    "name": "b_45",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b5611b710354288148ae7fdb2cabedbe1401d6534ef7fd46d9dc69c06e137f28",
+    "op": "clean",
+    "from": "tt04:25"
+  },
+  {
+    "type": 12,
+    "name": "b_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "216225d2914a01271527dcb631b022cecb3f04d47fa64abdc440b599a4d50b77",
+    "op": "clean",
+    "from": "tt04:26"
+  },
+  {
+    "type": 12,
+    "name": "b_60",
+    "link": 0,
+    "gap": 0,
+    "sha256": "4e93b05794fdc77fe95dd1725238b507176e32e7d18521f59aa2e5a16f58cdc9",
+    "op": "clean",
+    "from": "tt04:27"
+  },
+  {
+    "type": 12,
+    "name": "b_52",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e98f0d81e304122fa58499d01305e875d6b03cbf2a4926358546d7ff14c6a0d5",
+    "op": "clean",
+    "from": "tt04:28"
+  },
+  {
+    "type": 12,
+    "name": "b_51",
+    "link": 0,
+    "gap": 0,
+    "sha256": "0ca6a9a1ce44d2c19cf5df313b7c4193a59d2808046d698560166a34be3117be",
+    "op": "clean",
+    "from": "tt04:29"
+  },
+  {
+    "type": 12,
+    "name": "b_80",
+    "link": 0,
+    "gap": 0,
+    "sha256": "6188e5692cf8e009e7a1cc5d944122ab3614b16884c1eed7c48f785204606dd6",
+    "op": "clean",
+    "from": "tt04:30"
+  },
+  {
+    "type": 12,
+    "name": "z_70",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "op": "clean",
+    "from": "tt04:31"
+  },
+  {
+    "type": 12,
+    "name": "z_71",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "op": "clean",
+    "from": "tt04:32"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3978a5292c9aa5dc456a13a53d8016a870711ba7f12ae98e7d41188990777711",
+    "from": "tt04:33",
+    "op": "records",
+    "splices": [
+      [35, 0, [["MapScript", 95]]],
+      [
+        66,
+        0,
+        [["AreaSettings", 7, -1, ["flag", 2229], ["set5", 3], ["jump", 0, 1, 2, 4, 50, 0, 1], ["set7", 0]], ["program", null, {"id": 4}], ["Bgm", 0, 251]]
+      ],
+      [
+        67,
+        0,
+        [
+          ["Spawn", "e_50"],
+          ["program", null, {"id": 385}],
+          ["Bgm", 121, 121],
+          ["AreaSettings", 7, -1, ["flag", 2228], ["set5", 3], ["event", 8, "904"], ["jump", 0, 1, 2, 4, 50, 0, 1], ["list", 294], ["set7", 0]],
+          ["Spawn", "e_50"]
+        ]
+      ],
+      [137, 1, [["AreaSettings", 0, -1, ["flag", 2294], ["jump", 0, 1, 2, 4, 56, 0, 1], ["set7", 0]]]],
+      [141, 1, [["AreaSettings", 7, -1, ["event", 2, "903"], ["set5", 3], ["jump", 0, 2, 2, 0, 0, 204, 1], ["list", 593], ["set7", 0]]]],
+      [172, 0, [["program", null, {"id": 255}], ["Bgm", 121, 121], ["AreaSettings", 7, -1, ["set5", 3], ["jump", 0, 1, 2, 4, 50, 0, 1], ["set7", 0]]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "e_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "f3e32a90ad87cc83c81531df5fb0eb4cf2d4db144f22d6d5b037f9f0960f9b29",
+    "from": "tt04:34",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"y": 10.0}]]]]
+  },
+  {
+    "type": 12,
+    "name": "a10_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b2ed71bcb0e443fff5d96a59263b9dc65b70b58ff3ef8679235683ba700fcce2",
+    "op": "clean",
+    "from": "tt04:35"
+  },
+  {
+    "type": 12,
+    "name": "b10_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "df51d591fabe94baad233874458999c2ae679bf553651aa3496bf6ceb376f91b",
+    "op": "clean",
+    "from": "tt04:36"
+  },
+  {
+    "type": 12,
+    "name": "c10_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "bceba2099e8f0332cb531f0914b96a0205269c423296fee88125d3ffe20fdb72",
+    "op": "clean",
+    "from": "tt04:37"
+  },
+  {
+    "type": 12,
+    "name": "d10_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "20066106c42929c55bd9e2c56267eb2ae54df2bacd360cc620c10ac82b9b0731",
+    "op": "clean",
+    "from": "tt04:38"
+  },
+  {
+    "type": 12,
+    "name": "e10_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "04da676f09a4d99bde7e451eae538c0fbc5fb31a0a2330c61bcedad728a40b7f",
+    "op": "clean",
+    "from": "tt04:39"
+  },
+  {
+    "type": 12,
+    "name": "f10_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "178d1b3387784846f999df06e8613ee284b0188a7d08d559ec32bafd40d66e92",
+    "op": "clean",
+    "from": "tt04:40"
+  },
+  {
+    "type": 12,
+    "name": "h10_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "811a195acc403261f1e0a39fadd60c82983d5b41645f425cd8d1eb9c97f05ac4",
+    "op": "clean",
+    "from": "tt04:41"
+  },
+  {
+    "type": 12,
+    "name": "900y",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e9e44efaa13a1ffbafaf578f3cfc35e02c9db47282921c87e07db55f99455ec9",
+    "op": "clean",
+    "from": "tt04:42"
+  },
+  {
+    "type": 12,
+    "name": "a11_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "382940281c8a206d01f9a656e501dfa7acf462594c5673689633a891a72fc8a7",
+    "op": "clean",
+    "from": "tt04:43"
+  },
+  {
+    "type": 12,
+    "name": "b11_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3eec194551064127add0f22c3375f99d588733200f3f349fc5be75222ddc119f",
+    "op": "clean",
+    "from": "tt04:44"
+  },
+  {
+    "type": 12,
+    "name": "c11_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "f7fdea5b66c2b2ea20bccb48f64336fe64eb1de2feb3d8fd3a97da2061327938",
+    "op": "clean",
+    "from": "tt04:45"
+  },
+  {
+    "type": 12,
+    "name": "e11_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d67a90586b2fd52c8817d3810b6fb9887ac37c86123175752f1fb5409c80dba6",
+    "op": "clean",
+    "from": "tt04:46"
+  },
+  {
+    "type": 12,
+    "name": "f11_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ac599a3f75129453ec54ea84804531bb67ccb923f9877fa4e9fdfd54422e2381",
+    "op": "clean",
+    "from": "tt04:47"
+  },
+  {
+    "type": 12,
+    "name": "h11_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "242bc51596d7145575464147fe8fa1ec8a26aa720ec2ed859234a1eef5302ff3",
+    "op": "clean",
+    "from": "tt04:48"
+  },
+  {
+    "type": 12,
+    "name": "820_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3ed5477e9d5dfec35608c64c9b7bbd823dd041ebade53115e3dd97329c3fb2a7",
+    "op": "clean",
+    "from": "tt04:49"
+  },
+  {
+    "type": 12,
+    "name": "d50_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "a209801cb2accbd88161402e8560639028eb79e09fdfa8f6bd80649178ccd1f3",
+    "op": "clean",
+    "from": "tt04:50"
+  },
+  {
+    "type": 12,
+    "name": "e50_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e8fc7d2042f0a9e5f333ea4f798ae2b483bb16d3a0d4214d8cb81b91e6c49460",
+    "op": "clean",
+    "from": "tt04:51"
+  },
+  {
+    "type": 12,
+    "name": "f50_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1c241ce2fd3db9201289b38145d830703804545d529886e25cfcba12cfa3e312",
+    "op": "clean",
+    "from": "tt04:52"
+  },
+  {
+    "type": 12,
+    "name": "g50_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "4d33d5d82fe2092f507391a96f0f93d7f11343a34e89f856647f301956143658",
+    "op": "clean",
+    "from": "tt04:53"
+  },
+  {
+    "type": 12,
+    "name": "y07_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "490735bc99ae9a2e0e39348594dcc425ec17ff0949ab5fe9508ad09d603900f7",
+    "op": "clean",
+    "from": "tt04:54"
+  },
+  {
+    "type": 12,
+    "name": "e55_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3a6b4506f9565e50a06b4c333caf638674f56778a3cef2dab9429470e6e4ee4c",
+    "op": "clean",
+    "from": "tt04:55"
+  },
+  {
+    "type": 12,
+    "name": "f55_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "630bf4546e102ee65967a5666194c2d90f926e153fd1675bc5a55325f1f4306d",
+    "op": "clean",
+    "from": "tt04:56"
+  },
+  {
+    "type": 12,
+    "name": "d52_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "a7aa202c667e0ab766ce13da9b6f7cf97ee8e7ab84549425ff6890c5103f535b",
+    "op": "clean",
+    "from": "tt04:57"
+  },
+  {
+    "type": 12,
+    "name": "e52_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "46510cd8124e80bbc3f83c6a5446ca35bbb374ab6cc8537e06282261ee958d93",
+    "op": "clean",
+    "from": "tt04:58"
+  },
+  {
+    "type": 12,
+    "name": "f52_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b26fa2aad056eb2b19e1dced72a3cc325f992a75f89a11da34039a232d7fd104",
+    "op": "clean",
+    "from": "tt04:59"
+  },
+  {
+    "type": 12,
+    "name": "d53_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8a6fde9e22b4deedeefe2d7fbabe475e402a9a5c1e7f724b62f54bffb29edade",
+    "op": "clean",
+    "from": "tt04:60"
+  },
+  {
+    "type": 12,
+    "name": "e53_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ca0085c4b5c2de791bde2c66d2172233e563431c5ce80e1bee57657f257ebcee",
+    "op": "clean",
+    "from": "tt04:61"
+  },
+  {
+    "type": 12,
+    "name": "f53_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "be4ccc3391df9c06f041dd9115bde1af727f1ba2c661392320b74b582c37d297",
+    "op": "clean",
+    "from": "tt04:62"
+  },
+  {
+    "type": 12,
+    "name": "d70_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c11acc02aa34bdd88162f97a6a12d538d0f18a7ea6cce91911139cdfd72719ef",
+    "op": "clean",
+    "from": "tt04:63"
+  },
+  {
+    "type": 12,
+    "name": "e70_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "66c04ec37358f849a909321361b0c63b923ec0ff33c60bd83f3cb984f4b6fa27",
+    "op": "clean",
+    "from": "tt04:64"
+  },
+  {
+    "type": 12,
+    "name": "f70_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e4cae8194561c5bd2a1115472f7c758931b547591254c7fe4ff61d0ee92cea59",
+    "op": "clean",
+    "from": "tt04:65"
+  },
+  {
+    "type": 12,
+    "name": "y70_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "25b6d5e639328b9adf745b898ee9c063203550b637ecb761bf752dcbe595767c",
+    "op": "clean",
+    "from": "tt04:66"
+  },
+  {
+    "type": 12,
+    "name": "991_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c997caebcb0013231b4f1b23403af188720f66cd66c5c382a7d95d2f6025cc61",
+    "op": "clean",
+    "from": "tt04:67"
+  },
+  {
+    "type": 12,
+    "name": "990_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8d0a05e40a83c9d052a9993e42cc22d602fc5857e92c05fdb8d1b0ff60e01256",
+    "from": "tt04:68",
+    "op": "records",
+    "splices": [[2, 2, [["entity", 2, {"object": 752}], ["entity", 3, {"object": 752}]]]]
+  },
+  {
+    "type": 12,
+    "name": "992_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b49bb7f34484b82a1b4d9214c5e4412681ee310021dafdf3f3a7dfe7e888f520",
+    "op": "clean",
+    "from": "tt04:69"
+  },
+  {
+    "type": 12,
+    "name": "b81_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1b78c4a9046f778f36db84c26ac0278674d014609aca864d2da1f17a829fdeea",
+    "op": "clean",
+    "from": "tt04:70"
+  },
+  {
+    "type": 12,
+    "name": "d81_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3790cd53ab298f41f2f10341d27bb771a86f696276249850c3c7ceb7637dbbb2",
+    "op": "clean",
+    "from": "tt04:71"
+  },
+  {
+    "type": 12,
+    "name": "e81_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "98700eeea1d3ae9e2fa1eb04e7a4d025695d6b5e88ebb81516e5154a502e0a7f",
+    "op": "clean",
+    "from": "tt04:72"
+  },
+  {
+    "type": 12,
+    "name": "f81_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "93019c147ab8d9f24299a669190b93b26c23cdb24d01899b64270116a21a728d",
+    "op": "clean",
+    "from": "tt04:73"
+  },
+  {
+    "type": 12,
+    "name": "y71_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b4614f1ea23110ab95a64558a3130b6e4a22d6c9a2b1b3315b4364cb3bd0b4ee",
+    "op": "clean",
+    "from": "tt04:74"
+  },
+  {
+    "type": 12,
+    "name": "y72_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5b157340a44b598673300fc0a387cd02289c7d3a588dc74e20f9cc5b89276724",
+    "op": "clean",
+    "from": "tt04:75"
+  },
+  {
+    "type": 12,
+    "name": "y73_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "9ec34f7bf06914a6ce828dc241505541b7828621f1a2a5bbcbf4aabbf8c539e4",
+    "op": "clean",
+    "from": "tt04:76"
+  },
+  {
+    "type": 22,
+    "name": "111",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d16c2451632ea236c8eaacd604a9be497291ae7ae3273b847a4d9f32124a905e",
+    "op": "clean",
+    "from": "tt04:77"
+  },
+  {
+    "type": 22,
+    "name": "109",
+    "link": 0,
+    "gap": 0,
+    "sha256": "0fffd2fd4b6dd7d9b23622e7eb31a952ee95d8edeb151be64645a4e3849c7d10",
+    "from": "tt04:78",
+    "op": "records",
+    "splices": [[0, 1, [["performance", 0, 1]]], [4, 1, [["performance", 4, 4]]]],
+    "performance_sha256": "dbab82b474cd07bafe4bb289ecd7eca2615ac95c259e3baaa68d07274d1527e4"
+  },
+  {
+    "type": 22,
+    "name": "110a",
+    "link": 0,
+    "gap": 0,
+    "sha256": "fb7168b24a1f02f147ba28015113132e5f859d2730243cf6b7ee72c7f2f4d550",
+    "op": "clean",
+    "from": "tt04:79"
+  },
+  {
+    "type": 22,
+    "name": "110b",
+    "link": 0,
+    "gap": 0,
+    "sha256": "31047608e520990f158c1943bb9286591447356a04547ef04561b018bf79aa06",
+    "op": "clean",
+    "from": "tt04:80"
+  },
+  {
+    "type": 22,
+    "name": "110c",
+    "link": 0,
+    "gap": 0,
+    "sha256": "2bd147cf474e454b3b3d0823ce271417363cda8a7c292c17385f71b653966be7",
+    "op": "clean",
+    "from": "tt04:81"
+  },
+  {
+    "type": 22,
+    "name": "110",
+    "link": 0,
+    "gap": 0,
+    "sha256": "9d30caee4a381d731c3c5d8f9fb4d48ae44a606155e769b5c04672a73c742259",
+    "op": "clean",
+    "from": "tt04:82"
+  },
+  {
+    "type": 22,
+    "name": "112",
+    "link": 0,
+    "gap": 0,
+    "sha256": "17f94171e6262e94c069039987cae402197282655f4db53f28ec09f577df6918",
+    "from": "tt04:83",
+    "op": "records",
+    "splices": [
+      [0, 1, [["performance", 0, 1]]],
+      [4, 1, [["performance", 4, 2]]],
+      [36, 1, [["performance", 37, 1]]],
+      [44, 1, [["performance", 45, 1]]],
+      [60, 1, [["performance", 61, 1]]],
+      [76, 1, [["performance", 77, 1]]],
+      [92, 1, [["performance", 93, 1]]],
+      [115, 1, [["performance", 116, 1]]],
+      [125, 1, [["performance", 126, 1]]]
+    ],
+    "performance_sha256": "69f64249f5e39179c28a4872531ad27f5c624972b4b7d80046a1465f28534372"
+  },
+  {
+    "type": 22,
+    "name": "192",
+    "link": 0,
+    "gap": 0,
+    "sha256": "f3c8f0d2f9b49b0357b088baa4fb1f7194351dd6d87e1ed2f7b8258bce46df6b",
+    "from": "tt04:84",
+    "op": "records",
+    "splices": [
+      [0, 1, [["performance", 0, 1]]],
+      [4, 1, [["performance", 4, 2]]],
+      [36, 1, [["performance", 37, 1]]],
+      [47, 1, [["performance", 48, 1]]],
+      [58, 1, [["performance", 59, 1]]],
+      [72, 1, [["performance", 73, 1]]],
+      [91, 1, [["performance", 92, 1]]],
+      [102, 1, [["performance", 103, 1]]],
+      [122, 1, [["performance", 123, 1]]]
+    ],
+    "performance_sha256": "82ec420a44c84f2ea69f6fe9d74de237f630e7092f54cd0d6eb13a06339bb3f8"
+  },
+  {
+    "type": 22,
+    "name": "308",
+    "link": 0,
+    "gap": 0,
+    "sha256": "73a8dd91a78f9ad8e670ce0ad789ff041d54558e68b86e2ee681886fe5d0b893",
+    "op": "clean",
+    "from": "tt04:85"
+  },
+  {
+    "type": 22,
+    "name": "309",
+    "link": 0,
+    "gap": 2,
+    "sha256": "22c1b431059a60d4d68ff2a06efb6be525358e4d8827339893c8f38a2d17b716",
+    "from": "tt04:86",
+    "op": "records",
+    "splices": [
+      [0, 1, [["performance", 0, 1]]],
+      [4, 1, [["performance", 4, 3]]],
+      [53, 1, [["performance", 55, 1]]],
+      [64, 5, [["performance", 66, 5]]],
+      [73, 1, [["performance", 75, 1]]],
+      [75, 1, [["performance", 77, 1]]],
+      [81, 1, [["performance", 83, 1]]],
+      [88, 1, [["performance", 90, 1]]],
+      [90, 1, [["performance", 92, 1]]],
+      [105, 4, [["performance", 107, 4]]],
+      [117, 3, [["performance", 119, 2]]],
+      [122, 2, [["performance", 123, 2]]],
+      [132, 2, [["performance", 133, 2]]],
+      [139, 2, [["performance", 140, 2]]],
+      [144, 1, [["performance", 145, 1]]],
+      [149, 1, [["performance", 150, 1]]],
+      [153, 1, [["performance", 154, 1]]],
+      [155, 1, [["performance", 156, 1]]],
+      [159, 1, [["performance", 160, 1]]],
+      [162, 1, [["performance", 163, 1]]],
+      [166, 1, [["performance", 167, 1]]],
+      [169, 1, [["performance", 170, 1]]],
+      [171, 2, [["performance", 172, 2]]]
+    ],
+    "performance_sha256": "60883cc1176a366d46210febb2bf9ed8c97da4828ba5c5b3bb93a2068faa4237"
+  },
+  {
+    "type": 22,
+    "name": "317",
+    "link": 0,
+    "gap": 0,
+    "sha256": "94c7fbad44f7285fe0a9500dd1daeac44069075879dccd7e9c14958a97b19a4e",
+    "from": "tt04:87",
+    "op": "records",
+    "splices": [
+      [0, 1, [["performance", 0, 1]]],
+      [3, 2, [["event8", {"frame": 1717, "parameter": 18}], ["performance", 4, 4]]],
+      [49, 3, [["record", "lm04:11", 61], ["performance", 53, 2]]],
+      [53, 4, [["performance", 56, 4]]],
+      [58, 1, [["performance", 61, 1]]],
+      [60, 2, [["record", "al00:37", 117], ["performance", 64, 1]]],
+      [74, 6, [["record", "eh16:9", 118], ["performance", 78, 5]]],
+      [88, 2, []],
+      [92, 2, [["performance", 93, 2]]],
+      [100, 2, [["performance", 101, 1]]],
+      [103, 2, [["performance", 103, 1]]],
+      [111, 5, [["performance", 110, 5]]],
+      [119, 2, [["performance", 118, 1]]],
+      [126, 2, [["performance", 124, 1]]],
+      [131, 2, [["performance", 128, 2]]],
+      [141, 2, [["performance", 138, 1]]],
+      [145, 4, [["performance", 141, 2]]],
+      [157, 2, [["performance", 151, 1]]],
+      [161, 2, [["performance", 154, 2]]],
+      [165, 2, [["performance", 158, 1]]],
+      [169, 2, [["performance", 161, 1]]],
+      [173, 2, [["performance", 164, 1]]],
+      [177, 2, [["performance", 167, 1]]],
+      [184, 4, [["performance", 173, 4]]],
+      [196, 6, [["performance", 185, 6]]],
+      [211, 3, [["performance", 200, 3]]],
+      [218, 2, [["performance", 207, 2]]],
+      [228, 4, [["performance", 217, 4]]],
+      [233, 1, []],
+      [240, 1, [["performance", 228, 1]]],
+      [246, 3, [["performance", 234, 3]]],
+      [250, 1, [["performance", 238, 1]]],
+      [259, 6, [["performance", 247, 6]]]
+    ],
+    "performance_sha256": "691864cd9c279749edaf06b1fd0313458b7b182602f8acab22a5ad76022632a3"
+  },
+  {
+    "type": 22,
+    "name": "712",
+    "link": 0,
+    "gap": 2,
+    "sha256": "c0d66bbbbdb198c0c468ddeeccf58a40f2550cc4944c997d0b7a30e8397cfb02",
+    "op": "clean",
+    "from": "tt04:88"
+  },
+  {"type": 22, "name": "903", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "904", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {
+    "type": 22,
+    "name": "308v",
+    "link": 0,
+    "gap": 0,
+    "sha256": "2ea2116b4618ba0088f4e69d0cd110776e59d7e2e85b488619b7cb408f5027f4",
+    "op": "clean",
+    "from": "tt04:91"
+  },
+  {
+    "type": 12,
+    "name": "dona",
+    "link": 0,
+    "gap": 2,
+    "sha256": "93033e5b0ef2c0fa8d0871f78ba7182ca12e264e9eabae7eab281af2a08259f4",
+    "op": "reuse",
+    "from": "dc00:22"
+  },
+  {
+    "type": 12,
+    "name": "b_70",
+    "link": 0,
+    "gap": 0,
+    "sha256": "091e4c45c1f1616b06e1572601a97922bcbac4506b499e21bcf5079d0426c1f5",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        0,
+        [
+          ["record", "al00:34", 0],
+          ["group", null, {"type": 2, "flags": 1, "id": 1136, "entities": 5, "activators": 1, "returns": 3, "signals": 1}],
+          ["entity", null, {"object": 1718, "x": -326.0, "y": 2.020129977609031e-05, "z": 11.0, "ry": 3.1415927410125732, "spawn_type": 2, "serial": 1025}],
+          ["entity", null, {"object": 1719, "x": 296.0, "y": 2.020129977609031e-05, "z": 11.0, "ry": 3.1415927410125732, "spawn_type": 2, "serial": 1028}],
+          ["entity", null, {"object": 1018, "x": -1368.0, "y": 439.0, "z": 1487.0, "ry": -0.6981316804885864, "spawn_type": 2, "serial": 1026}],
+          ["entity", null, {"object": 1018, "x": 1715.0, "y": 270.0, "z": 1045.0, "ry": 3.6128315925598145, "spawn_type": 2, "serial": 1029}],
+          ["entity", null, {"object": 1018, "x": -1755.0, "y": 111.0, "z": -1144.0, "ry": 0.01745329238474369, "spawn_type": 2, "serial": 1027}],
+          [
+            "activator",
+            null,
+            {
+              "shape": 2,
+              "x": 2514.10400390625,
+              "y": 379.197998046875,
+              "z": -1484.2650146484375,
+              "sx": 391.52850341796875,
+              "sy": 100.0,
+              "sz": 280.77301025390625
+            }
+          ],
+          ["record", "al00:12", 3],
+          ["record", "al00:12", 3],
+          ["record", "al00:12", 3],
+          ["signal", null, {"id": 82, "argument": 137}],
+          ["group", null, {"type": 3, "id": 137, "activators": 3, "returns": 3, "area": 82}],
+          [
+            "activator",
+            null,
+            {"x": -1423.508056640625, "y": -5755.90185546875, "z": -974.2990112304688, "sx": 285.531005859375, "sy": 897.0999755859375, "sz": 482.5249938964844}
+          ],
+          [
+            "activator",
+            null,
+            {"x": 1745.491943359375, "y": -691.9019775390625, "z": 968.7009887695312, "sx": 967.0, "sy": 857.0999755859375, "sz": 353.5249938964844}
+          ],
+          [
+            "activator",
+            null,
+            {"x": -837.5079956054688, "y": -5677.90185546875, "z": 1619.7010498046875, "sx": 622.531005859375, "sy": 857.0999755859375, "sz": 578.5250244140625}
+          ],
+          ["record", "al00:12", 3],
+          ["record", "al00:12", 3],
+          ["record", "al00:12", 3]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "b_71",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d5e6eb3331241f813dae8826fb2ea9cc56aa0cb692fd314ea32c865117ef6cb3",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        0,
+        [
+          ["record", "al00:2", 0],
+          ["group", null, {"type": 2, "id": 1663, "entities": 7, "activators": 1}],
+          ["entity", null, {"object": 441, "x": 1134.1510009765625, "z": 885.5989990234375, "ry": -1.2511043548583984, "serial": 5253}],
+          ["entity", null, {"object": 1017, "x": 1178.0, "z": -392.5899963378906, "spawn_type": 2, "serial": 5254}],
+          ["entity", null, {"object": 1017, "x": 2167.298095703125, "z": 584.719970703125, "ry": 1.5707963705062866, "spawn_type": 2, "serial": 5252}],
+          ["entity", null, {"object": 1017, "x": -1182.47705078125, "y": -0.0, "z": 327.0799865722656, "spawn_type": 2, "serial": 5255}],
+          ["entity", null, {"object": 1017, "x": -2175.173095703125, "y": -1.996999979019165, "z": -652.3759765625, "spawn_type": 2, "serial": 1257}],
+          [
+            "entity",
+            null,
+            {
+              "object": 1017,
+              "x": -1145.260986328125,
+              "y": -1.996999979019165,
+              "z": 1728.4759521484375,
+              "ry": -0.6981316804885864,
+              "spawn_type": 2,
+              "serial": 1265
+            }
+          ],
+          ["entity", null, {"object": 1017, "x": 819.0, "z": -1303.0, "ry": -0.767944872379303, "spawn_type": 2, "serial": 1266}],
+          ["activator", null, {"x": -117.3550033569336, "z": 315.1000061035156, "sx": 1845.844970703125, "sy": 1196.0, "sz": 2043.8900146484375}]
+        ]
+      ]
+    ]
+  },
+  {"type": 3, "name": "mp95", "link": 0, "gap": 0, "sha256": "77725b396bb6080cbc8cd793fe2ce01d3088520493885c68ed15e3dfae67e5bb", "op": "asset"},
+  {
+    "type": 12,
+    "name": "b_99",
+    "link": 0,
+    "gap": 2,
+    "sha256": "30c0274b3b099cc0310cf32d6859c0988bd19ebf93ca6d1d18aa5e6d1511be76",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        0,
+        [
+          ["record", "al00:34", 0],
+          ["group", null, {"type": 2, "id": 505, "entities": 26, "activators": 1}],
+          ["entity", null, {"object": 310, "z": 450.0, "spawn_type": 3, "serial": 1031}],
+          ["entity", null, {"object": 310, "x": -500.0, "z": 100.0, "ry": 1.1780972480773926, "spawn_type": 3, "serial": 1032, "level": 2}],
+          ["entity", null, {"object": 310, "x": 500.0, "z": 100.0, "ry": -1.1780972480773926, "spawn_type": 3, "serial": 1033}],
+          ["entity", null, {"object": 318, "x": 500.0, "z": -435.0, "ry": -2.094395160675049, "spawn_type": 3, "serial": 1034}],
+          ["entity", null, {"object": 318, "x": -500.0, "z": -435.0, "ry": 2.094395160675049, "spawn_type": 3, "serial": 1035}],
+          ["entity", null, {"object": 318, "x": -15.0, "y": -239.0, "z": 369.0, "spawn_type": 2, "serial": 1036, "level": 1}],
+          ["entity", null, {"object": 313, "z": 30.0, "spawn_type": 2, "serial": 1037, "level": 1}],
+          ["entity", null, {"object": 310, "x": 550.0, "z": -168.0, "ry": -1.5707963705062866, "spawn_type": 2, "serial": 1038, "level": 1}],
+          ["entity", null, {"object": 310, "x": -550.0, "z": -168.0, "ry": 1.5707963705062866, "spawn_type": 2, "serial": 1039, "level": 1}],
+          ["entity", null, {"object": 310, "x": -450.0, "z": 400.0, "spawn_type": 2, "serial": 1000, "level": 3}],
+          ["entity", null, {"object": 310, "x": -450.0, "z": -400.0, "spawn_type": 2, "serial": 1001, "level": 3}],
+          ["entity", null, {"object": 310, "x": 450.0, "z": 400.0, "spawn_type": 2, "serial": 1002, "level": 3}],
+          ["entity", null, {"object": 310, "x": 450.0, "z": -400.0, "spawn_type": 2, "serial": 1003, "level": 3}],
+          ["entity", null, {"object": 313, "x": 450.0, "spawn_type": 2, "serial": 1004, "level": 4}],
+          ["entity", null, {"object": 313, "x": -450.0, "spawn_type": 2, "serial": 1005, "level": 4}],
+          ["entity", null, {"object": 318, "y": -302.0, "z": 393.0, "spawn_type": 2, "serial": 1006, "level": 4}],
+          ["entity", null, {"object": 318, "y": -302.0, "spawn_type": 2, "serial": 1007, "level": 4}],
+          ["entity", null, {"object": 318, "y": -302.0, "z": -393.0, "spawn_type": 2, "serial": 1008, "level": 4}],
+          ["entity", null, {"object": 313, "z": 200.0, "spawn_type": 2, "serial": 1009, "level": 5}],
+          ["entity", null, {"object": 310, "z": -200.0, "spawn_type": 2, "serial": 1010, "level": 5}],
+          ["entity", null, {"object": 318, "x": 422.0, "spawn_type": 2, "serial": 1011, "level": 5}],
+          ["entity", null, {"object": 318, "x": -422.0, "spawn_type": 2, "serial": 1012, "level": 5}],
+          ["entity", null, {"object": 313, "spawn_type": 2, "serial": 1013, "level": 5}],
+          ["entity", null, {"object": 310, "x": -461.0, "z": 4.0, "spawn_type": 2, "serial": 1014, "level": 5}],
+          ["entity", null, {"object": 310, "x": 461.0, "spawn_type": 2, "serial": 1015, "level": 5}],
+          ["entity", null, {"object": 313, "y": -269.0, "spawn_type": 2, "serial": 1016, "level": 5}],
+          [
+            "activator",
+            null,
+            {"shape": 2, "x": 14.144000053405762, "y": -317.0, "z": 839.9169921875, "sx": 100.0, "sy": 100.0, "sz": 100.0, "ry": 0.41887903213500977}
+          ],
+          ["group", null, {"type": 2, "id": 2000, "entities": 3}],
+          ["entity", null, {"object": 566, "z": 50.0, "ry": 3.1415927410125732, "serial": 2001}],
+          ["entity", null, {"object": 567, "serial": 2002}],
+          ["entity", null, {"object": 568, "serial": 2003}]
+        ]
+      ]
+    ]
+  }
+]

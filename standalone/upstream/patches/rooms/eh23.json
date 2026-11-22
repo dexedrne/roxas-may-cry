@@ -1,0 +1,76 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5cf79f10d43a00bb8fb1428e9c87b5270ac307b9b25f5a94c0ee4b72d51d23de",
+    "op": "clean",
+    "from": "eh23:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ff9b14f2ee07e21af4eb930bd702365dc09a0721ce7116616776117c755be25d",
+    "op": "clean",
+    "from": "eh23:1"
+  },
+  {
+    "type": 12,
+    "name": "m_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3c5dbb5130c95ff61a57a6d5035421a54584a3e09b5f71975e736934b0fff59e",
+    "op": "clean",
+    "from": "eh23:2"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "2c796fc5b7952342e845f3078233e3342d1699d34941806362bba784386808a3",
+    "op": "clean",
+    "from": "eh23:3"
+  },
+  {
+    "type": 12,
+    "name": "b_99",
+    "link": 0,
+    "gap": 0,
+    "sha256": "85ed4370f40027ca902b5faeec28c3c270a744920132aab27f29fdf24177e7c8",
+    "from": "eh23:4",
+    "op": "records",
+    "splices": [[3, 1, [["entity", 3, {"object": 92}]]]]
+  },
+  {
+    "type": 12,
+    "name": "b_40",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c8efd883a5326ddab694e609b91063baaa6c1fc68cd7caf8337d8462d58d1aaf",
+    "op": "clean",
+    "from": "eh23:5"
+  },
+  {
+    "type": 12,
+    "name": "b_97",
+    "link": 0,
+    "gap": 0,
+    "sha256": "46b65bfe87ffb9d6af77849c4eb22f1c1c4c87a5fefc26a4f812d23e4e58a793",
+    "op": "clean",
+    "from": "eh23:6"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "9efac792998e6ed68b0eaaa23a31d8644f546312d4c69892d89043378280e1de",
+    "op": "clean",
+    "from": "eh23:7"
+  },
+  {"type": 22, "name": "138", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

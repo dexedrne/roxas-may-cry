@@ -1,0 +1,98 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "dc0e8104fe71c90f080600e4ba24f08b0008091ac366db4f8f8e2d5c66ab8950",
+    "op": "clean",
+    "from": "tt34:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "23cb615551db22e0bfafd6658e43a974b45a36aec9831ce58e99edcec1816261",
+    "op": "clean",
+    "from": "tt34:1"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "24a5dcb094d69dce7ac5b71c936288cb56bcab2bf8b10af7f9dc203795119a94",
+    "op": "clean",
+    "from": "tt34:2"
+  },
+  {
+    "type": 12,
+    "name": "b_40",
+    "link": 0,
+    "gap": 0,
+    "sha256": "df63b399e924be250dd378b8885e922170d1d15a63124fccba132db2facd9be2",
+    "from": "tt34:3",
+    "op": "records",
+    "splices": [[1, 1, [["record", "bb15:4", 1]]], [4, 0, [["entity", null, {"object": 567, "serial": 100}], ["entity", null, {"object": 568, "serial": 101}]]]]
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1f9819d4c36b5d6c5fd37463f605f5e94a63c76b9d419404718ac42757f3231a",
+    "from": "tt34:4",
+    "op": "records",
+    "splices": [[2, 1, []]]
+  },
+  {
+    "type": 12,
+    "name": "e_01",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ddf2a4616ff2605f05ae0b4847324fa2fc2343573674c0bb7f5ad4b2a2698897",
+    "op": "clean",
+    "from": "tt34:5"
+  },
+  {
+    "type": 22,
+    "name": "314",
+    "link": 0,
+    "gap": 0,
+    "sha256": "6a5f531b6a08bc9e7fe6176f2aaa9622d71fb9924a9c654c563e35d3b4f358a0",
+    "from": "tt34:6",
+    "op": "records",
+    "splices": [
+      [3, 2, [["event8", {"frame": 1147, "parameter": 18}], ["performance", 4, 3]]],
+      [32, 1, [["performance", 34, 1]]],
+      [38, 1, [["performance", 40, 1]]],
+      [43, 1, [["performance", 45, 1]]],
+      [49, 2, [["performance", 51, 2]]],
+      [54, 1, [["performance", 56, 1]]],
+      [58, 2, [["performance", 60, 2]]],
+      [63, 1, [["performance", 65, 1]]],
+      [68, 2, [["performance", 70, 2]]],
+      [73, 5, [["performance", 75, 2]]]
+    ],
+    "performance_sha256": "7fcc8220b57be319df86f24e2f22c6e332032ffe3b8bf714b815037aaad766c7"
+  },
+  {
+    "type": 22,
+    "name": "315",
+    "link": 0,
+    "gap": 0,
+    "sha256": "a826a7ed8994e51b389d6188d64884adc2794287b093f23790e4c9261d3331a0",
+    "op": "clean",
+    "from": "tt34:7"
+  },
+  {
+    "type": 12,
+    "name": "dona",
+    "link": 0,
+    "gap": 2,
+    "sha256": "93033e5b0ef2c0fa8d0871f78ba7182ca12e264e9eabae7eab281af2a08259f4",
+    "op": "reuse",
+    "from": "dc00:22"
+  }
+]

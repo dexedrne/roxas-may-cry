@@ -1,0 +1,89 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "4235a4a8d4a2da6da2fbe04c3522fd43318362e780285887b136eff1b52eb2a4",
+    "from": "bb10:0",
+    "op": "records",
+    "splices": [[6, 0, [["Spawn", "SAVE"]]], [12, 0, [["Spawn", "SAVE"]]], [17, 0, [["Spawn", "SAVE"]]], [23, 0, [["Spawn", "SAVE"]]]]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 4,
+    "sha256": "45b89d14da6d442a58eacb4adad1155b06139ff9a96507a6c8a4dabf34bc4fe3",
+    "op": "clean",
+    "from": "bb10:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "cde364125ffa1bb6d259a6578157e91fd09caa9c30cd7138d3c14d61062fd5d2",
+    "op": "clean",
+    "from": "bb10:2"
+  },
+  {
+    "type": 12,
+    "name": "m_20",
+    "link": 0,
+    "gap": 12,
+    "sha256": "b979215510b82194ebd7733959d4e55997ffbfc530c4619e614f5c57dddb8e8c",
+    "op": "clean",
+    "from": "bb10:3"
+  },
+  {
+    "type": 12,
+    "name": "m_70",
+    "link": 0,
+    "gap": 12,
+    "sha256": "8a8da10395ab716996f0b745f532d59630d620f50c1ec705e831c2e08dbb732e",
+    "op": "clean",
+    "from": "bb10:4"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 12,
+    "sha256": "5149ef17e1f70f0ba19b40f758751911b5e6596d5d5782fc80d70efb724b364f",
+    "from": "bb10:5",
+    "op": "records",
+    "splices": [[4, 1, [["AreaSettings", 0, -1, ["set4", 1], ["flag", 5174], ["event", 2, "110"], ["jump", 0, 1, 5, 10, 50, 0, 1], ["set7", 1]]]]]
+  },
+  {
+    "type": 12,
+    "name": "e_50",
+    "link": 0,
+    "gap": 8,
+    "sha256": "c32ec27d39a4a145c999c682ea2f1eef18e9505bd5d759835e967e2b7e1261a6",
+    "op": "clean",
+    "from": "bb10:6"
+  },
+  {
+    "type": 12,
+    "name": "e_01",
+    "link": 0,
+    "gap": 12,
+    "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+    "op": "clean",
+    "from": "bb10:7"
+  },
+  {"type": 22, "name": "110", "link": 0, "gap": 8, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "110v", "link": 0, "gap": 8, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "110s", "link": 0, "gap": 8, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {
+    "type": 12,
+    "name": "SAVE",
+    "link": 0,
+    "gap": 8,
+    "sha256": "c0ee941651b19703fe059dc6cee45c4291ec6aedd80e58a72faffe716a84db2c",
+    "from": "al11:3",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 445, "x": -310.0, "y": 9.062379831448197e-05, "z": 170.0, "ry": 0.0}]]]]
+  }
+]

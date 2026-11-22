@@ -1,0 +1,5 @@
+path	donor	pin
+obj/F_BARRICADE_03.a.us	obj/F_TR100.a.us	5946b3d2769a0c2cf64556c99a00c8bc095b1a38bae00722aa66ce5e78e5e105
+obj/F_BARRICADE_03.mdlx	obj/F_TR100.mdlx	3a44c5bc3bee91e5fa07ba43b1ac6193f25157f57b1907a8e765f527f72f1627
+obj/H_CM050_TSURU.mset	obj/P_EX020.mset	7ecfcb45ee2e8c4c5a3ad9dfd617bfb5531f3decfc1cc1f699adc08fd6d30051
+obj/W_EX010_KH1F_L.mset	obj/W_EX010_RX_BTLF_L.mset	adb34d6fd9c92bf9565aa329306a3b4358cb7ef8f6721e22b1f7c93b8ecd14c6

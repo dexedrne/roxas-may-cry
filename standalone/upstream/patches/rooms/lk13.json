@@ -1,0 +1,67 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "198518fe30b5670f7b29df6244e17baf4a772a188d6076f67ccc119811a3088d",
+    "op": "clean",
+    "from": "lk13:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "f9eb90b766f6810c046429335565cf4ec2731c44081e8382a23f4aede18c7ff4",
+    "op": "clean",
+    "from": "lk13:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "9d3f8c5ff589974af0d3773ce541122ca749485e23926b4ce1abac24cc3f84bf",
+    "op": "clean",
+    "from": "lk13:2"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "96f3c642529391c7d81bb2656eada566f4c3ce520fda298c78147f0c4a4fe904",
+    "op": "clean",
+    "from": "lk13:3"
+  },
+  {
+    "type": 12,
+    "name": "b_20",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d17b59c23c71dc8c77e7cb85c8e01b8650da2d8f9a7b7e7361234e018bc0216e",
+    "op": "clean",
+    "from": "lk13:4"
+  },
+  {
+    "type": 12,
+    "name": "b_21",
+    "link": 0,
+    "gap": 0,
+    "sha256": "48d5c9624a8dbdac373382c94337b53c9641c193316d51226f0a80ae33d71efd",
+    "op": "clean",
+    "from": "lk13:5"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5302bafb031d70a57241d6e0393db91802cd845156e84420109eb0ad404e79d4",
+    "from": "lk13:6",
+    "op": "records",
+    "splices": [[3, 1, [["AreaSettings", 0, -1, ["flag", 10261], ["set5", 1], ["event", 2, "121"], ["jump", 0, 2, 10, 0, 0, 55, 1], ["set7", 0]]]]]
+  },
+  {"type": 22, "name": "121", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

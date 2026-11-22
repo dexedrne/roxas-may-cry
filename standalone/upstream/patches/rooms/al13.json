@@ -1,0 +1,244 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "84d2cc5caa50a4214413a6c4e24bf00597e75a5e556e3f1217100efceca3f97f",
+    "from": "al13:0",
+    "op": "records",
+    "splices": [
+      [8, 0, [["Spawn", "SAVE"]]],
+      [23, 0, [["Spawn", "SAVE"]]],
+      [53, 0, [["Spawn", "SAVE"]]],
+      [71, 0, [["Spawn", "SAVE"]]],
+      [88, 0, [["Spawn", "SAVE"]]],
+      [99, 0, [["Spawn", "SAVE"]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 12,
+    "sha256": "e0a8938354e5d22a7e4597634b35a88079bd723056797d24c8d881823192189a",
+    "op": "clean",
+    "from": "al13:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "51d446aeea633c7c00b69185cd74cbe9c08e776ee2d493f5d37aa29d2cc5ed34",
+    "op": "clean",
+    "from": "al13:2"
+  },
+  {
+    "type": 12,
+    "name": "m_11",
+    "link": 0,
+    "gap": 12,
+    "sha256": "dbc080400434a32b9e54edfcef207b2f40183a577513794d932e128a5fd4b22e",
+    "op": "clean",
+    "from": "al13:3"
+  },
+  {
+    "type": 12,
+    "name": "m_12",
+    "link": 0,
+    "gap": 12,
+    "sha256": "0285d6e65450ff141ef5d8e1317a3d65dd1a4ffc488daf8b846dd34f2acb9028",
+    "op": "clean",
+    "from": "al13:4"
+  },
+  {
+    "type": 12,
+    "name": "m_20",
+    "link": 0,
+    "gap": 12,
+    "sha256": "74bbc6b6ac71b53a5a9f1434c9a2deb64c9d578187ec08db54d2ff4100bf5df9",
+    "op": "clean",
+    "from": "al13:5"
+  },
+  {
+    "type": 12,
+    "name": "m_22",
+    "link": 0,
+    "gap": 12,
+    "sha256": "83b6d573185ab6b3810fff3090a1ba36f8ad00052a9ff6869d695b4c0f375cdb",
+    "op": "clean",
+    "from": "al13:6"
+  },
+  {
+    "type": 12,
+    "name": "m_50",
+    "link": 0,
+    "gap": 12,
+    "sha256": "945bbe94862483b0926098243d92c557134f947926a56c3629eb3ba264eebeab",
+    "op": "clean",
+    "from": "al13:7"
+  },
+  {
+    "type": 12,
+    "name": "m_54",
+    "link": 0,
+    "gap": 12,
+    "sha256": "5a0dd15a6378819868af17a6bc4681f24fcebd0193621961a37911e1983f9acf",
+    "op": "clean",
+    "from": "al13:8"
+  },
+  {
+    "type": 12,
+    "name": "m_55",
+    "link": 0,
+    "gap": 12,
+    "sha256": "40ee2cbc364b554c185bdccc28420ce902dee108dc528419f1857c35a8bd5cb1",
+    "op": "clean",
+    "from": "al13:9"
+  },
+  {
+    "type": 12,
+    "name": "m_56",
+    "link": 0,
+    "gap": 12,
+    "sha256": "aae81cbc70237689b9dd702cb8b997c6dfca3dcc015aca501ca6809523e6465d",
+    "op": "clean",
+    "from": "al13:10"
+  },
+  {
+    "type": 12,
+    "name": "m_70",
+    "link": 0,
+    "gap": 12,
+    "sha256": "d25b29db37ffd9c3e7d280e3ae92c305bfdfa628a561bfbd2c365ea75f8641c9",
+    "op": "clean",
+    "from": "al13:11"
+  },
+  {
+    "type": 12,
+    "name": "m_81",
+    "link": 0,
+    "gap": 12,
+    "sha256": "9112c484999c2a258e85c39a571797b40ed8568e7c3bab29cf93902de09e955e",
+    "op": "clean",
+    "from": "al13:12"
+  },
+  {
+    "type": 12,
+    "name": "m_51",
+    "link": 0,
+    "gap": 12,
+    "sha256": "f476974df98668585a20c9c650caba4c20999d9812130d85869f915543be74cc",
+    "op": "clean",
+    "from": "al13:13"
+  },
+  {
+    "type": 12,
+    "name": "m_53",
+    "link": 0,
+    "gap": 12,
+    "sha256": "14e2b2fb144ca7eb02773071c70e4d3b8595d734b5319ed47efe5a9c196a9c55",
+    "op": "clean",
+    "from": "al13:14"
+  },
+  {
+    "type": 12,
+    "name": "m_80",
+    "link": 0,
+    "gap": 12,
+    "sha256": "88464e6584b07486c3b2aff875cec466746d606378d61e657e86611ae3c8cbb4",
+    "op": "clean",
+    "from": "al13:15"
+  },
+  {
+    "type": 12,
+    "name": "m_52",
+    "link": 0,
+    "gap": 12,
+    "sha256": "27af874d3b995606a3eb62b667d6f0be428c58f674b0b0ad52356bc845d5acba",
+    "op": "clean",
+    "from": "al13:16"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 12,
+    "sha256": "09a1c49aa39f566d1635fb685ef66f4ee24784a8b7ac7f908c0828d6f21f22f9",
+    "op": "clean",
+    "from": "al13:17"
+  },
+  {
+    "type": 12,
+    "name": "b_20",
+    "link": 0,
+    "gap": 4,
+    "sha256": "1dd711a849f6b8f57df94e48666776cf37aad9986dc9e5dac9d457c1e902871b",
+    "op": "clean",
+    "from": "al13:18"
+  },
+  {
+    "type": 12,
+    "name": "b_40",
+    "link": 0,
+    "gap": 4,
+    "sha256": "772822832259b9092e9588189a2695c0d5f5ea79a79809601adabff1c103a64b",
+    "from": "al13:19",
+    "op": "records",
+    "splices": [
+      [9, 1, [["entity", 9, {"object": 76}]]],
+      [11, 1, [["entity", 11, {"object": 76}]]],
+      [14, 4, [["entity", 14, {"object": 12}], ["entity", 15, {"object": 12}], ["entity", 16, {"object": 12}], ["entity", 17, {"object": 752}]]],
+      [23, 3, [["entity", 23, {"object": 12}], ["entity", 24, {"object": 12}], ["entity", 25, {"object": 752}]]]
+    ]
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 4,
+    "sha256": "123a06015272cb37583962c958574e75ed4107003f13913bca42fdec5bccb3c5",
+    "op": "clean",
+    "from": "al13:20"
+  },
+  {
+    "type": 12,
+    "name": "e_50",
+    "link": 0,
+    "gap": 4,
+    "sha256": "c22e1bc3891c7b6930ac460aae7e943522c3cfa89f998a101ddfdadbf91163de",
+    "op": "clean",
+    "from": "al13:21"
+  },
+  {
+    "type": 12,
+    "name": "e_51",
+    "link": 0,
+    "gap": 12,
+    "sha256": "5bb0f300985e51ab028ca40bbeb9eecee6ff8b3a12ce6223898435c240fcc30c",
+    "op": "clean",
+    "from": "al13:22"
+  },
+  {
+    "type": 12,
+    "name": "b03_",
+    "link": 0,
+    "gap": 12,
+    "sha256": "42aec4a89665bc6268a6cee308a46f39e3e4f43cf7f467372b96c18d180b97cb",
+    "op": "clean",
+    "from": "al13:23"
+  },
+  {"type": 22, "name": "153", "link": 0, "gap": 4, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "154", "link": 0, "gap": 8, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {
+    "type": 12,
+    "name": "SAVE",
+    "link": 0,
+    "gap": 8,
+    "sha256": "1faf7f8b3163b20082809b9d880b9d38f6a36556b29b364c3ae474a7126dc976",
+    "from": "al09:4",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 445, "x": 500.0, "y": 21300.0, "z": 2420.0, "ry": 0.0}]]]]
+  }
+]

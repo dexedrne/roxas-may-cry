@@ -1,0 +1,153 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3ea8d12d6ac161de4649a0085854280ac20fb03fe8cc9f5748b7b7c893a35e9f",
+    "op": "clean",
+    "from": "tt23:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "85ff422e2e060a91311883ee291cf3ec12e8c8c801729b10df555d3ffa5ad145",
+    "op": "clean",
+    "from": "tt23:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "df3a2c83b236ef63cce93542045b14cfad87b14ef2e000ca5be71f2363adebdf",
+    "op": "clean",
+    "from": "tt23:2"
+  },
+  {
+    "type": 12,
+    "name": "m_22",
+    "link": 0,
+    "gap": 0,
+    "sha256": "fc9ed41f7d5b91793c9417a31da2eb45ded34df1c071d1a15271cef2aa145075",
+    "op": "clean",
+    "from": "tt23:3"
+  },
+  {
+    "type": 12,
+    "name": "m_80",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3a6e3d08e0ba5d23d3d25ffd14acae68bddc7bf255d654bef5f6b5c04c1089ea",
+    "op": "clean",
+    "from": "tt23:4"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "2af890e28418c1ff6d7e4bda7c0c5177d77f43a7b8c5bc8dbd49016a47d62fb6",
+    "from": "tt23:5",
+    "op": "records",
+    "splices": [[3, 1, [["AreaSettings", 0, -1, ["flag", 2197], ["set4", 1], ["set5", 1], ["jump", 0, 1, 2, 14, 50, 0, 16386], ["set7", 1]]]]]
+  },
+  {
+    "type": 12,
+    "name": "e_01",
+    "link": 0,
+    "gap": 0,
+    "sha256": "cc68d451b9e96d376a714c395e5bc529bb76d55ce34a5c07c98c55f0b8305aa6",
+    "op": "clean",
+    "from": "tt23:6"
+  },
+  {
+    "type": 12,
+    "name": "e_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "731b20a428065cfae27dcfb6e7ef5d95637d2936438fd5091303ce28cd77f5e9",
+    "op": "clean",
+    "from": "tt23:7"
+  },
+  {
+    "type": 22,
+    "name": "302",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ecba4cc4efe743d9e91070d9acc0fd95f76a4c578c7246c68a71bad390246c76",
+    "op": "clean",
+    "from": "tt23:8"
+  },
+  {
+    "type": 22,
+    "name": "617",
+    "link": 0,
+    "gap": 0,
+    "sha256": "34f88be38758fff09c85231610303dd4024308b217522b99f8b3fcc0f4bdeda6",
+    "from": "tt23:9",
+    "op": "records",
+    "splices": [
+      [0, 1, [["performance", 0, 1]]],
+      [4, 1, [["performance", 4, 6]]],
+      [70, 1, [["performance", 75, 1]]],
+      [80, 1, [["performance", 85, 1]]],
+      [90, 1, [["performance", 95, 1]]],
+      [94, 1, [["performance", 99, 1]]],
+      [100, 2, [["performance", 105, 2]]],
+      [104, 1, [["performance", 109, 1]]],
+      [106, 1, [["performance", 111, 1]]],
+      [110, 2, [["performance", 115, 2]]],
+      [117, 1, [["performance", 122, 1]]],
+      [120, 1, [["performance", 125, 1]]],
+      [122, 3, [["performance", 127, 3]]],
+      [128, 1, [["performance", 133, 1]]],
+      [138, 1, [["performance", 143, 1]]],
+      [153, 2, [["performance", 158, 2]]],
+      [160, 2, [["performance", 165, 2]]],
+      [174, 2, [["performance", 179, 2]]],
+      [187, 2, [["performance", 192, 2]]],
+      [192, 1, [["performance", 197, 1]]],
+      [201, 2, [["performance", 206, 2]]],
+      [240, 2, [["performance", 245, 2]]],
+      [269, 2, [["performance", 274, 2]]],
+      [280, 1, [["performance", 285, 1]]],
+      [288, 2, [["performance", 293, 2]]]
+    ],
+    "performance_sha256": "fcf513e69b5dcf541781137c3ea19b9bcc1be3640914520bc36c044a729df7a4"
+  },
+  {
+    "type": 22,
+    "name": "618",
+    "link": 0,
+    "gap": 0,
+    "sha256": "f1de12b4524fa6b75718dc857161735ab412acb7ec4614f3b9ffcc0b83d8d9fb",
+    "from": "tt23:10",
+    "op": "records",
+    "splices": [
+      [0, 1, [["performance", 0, 1]]],
+      [3, 1, [["event8", {"frame": 2024, "parameter": 18}]]],
+      [49, 2, [["performance", 49, 2]]],
+      [59, 2, [["performance", 59, 1]]],
+      [62, 2, [["performance", 61, 1]]],
+      [70, 2, [["performance", 68, 1]]],
+      [73, 6, [["performance", 70, 1]]],
+      [82, 2, [["performance", 74, 2]]],
+      [106, 2, [["performance", 98, 2]]],
+      [135, 2, [["performance", 127, 2]]],
+      [147, 2, [["performance", 139, 2]]]
+    ],
+    "performance_sha256": "010e454e5ac905bc706e52a1b71a235373a8513965907e8574c36b912a9aeaeb"
+  },
+  {
+    "type": 22,
+    "name": "702",
+    "link": 0,
+    "gap": 2,
+    "sha256": "229118d26c11720df4379469f989fd5e4e4aecbf23954393a42bcea61045b640",
+    "op": "clean",
+    "from": "tt23:11"
+  }
+]

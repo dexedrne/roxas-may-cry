@@ -1,0 +1,310 @@
+[
+  {
+    "source": "map/nm07.map",
+    "path": "map/nm11.map",
+    "sha256": "9248ea138c8bc4c37122648acdbc3431e70b594d8cf534578c48a322d49ebf52",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-0.dds",
+    "path": "remastered/map/nm11.map/-0.dds",
+    "sha256": "3e003a46e353f42aa3041f213898947c23bf7705f2d020f740cf1565cc3c4bfa",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-1.dds",
+    "path": "remastered/map/nm11.map/-1.dds",
+    "sha256": "21592db0c9d9ef7914b1306b3da12a94314ef5776ee290052fcc1b43855e8037",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-10.dds",
+    "path": "remastered/map/nm11.map/-10.dds",
+    "sha256": "adf6d9323e190d0bfc161473a13d59eb0e553f6e10758455e37560f5c9b5aab9",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-11.dds",
+    "path": "remastered/map/nm11.map/-11.dds",
+    "sha256": "d7799eaaef43619e67715cbc9d634f1ff4ec2345fcc0f2c46a6370bc9a05486b",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-12.dds",
+    "path": "remastered/map/nm11.map/-12.dds",
+    "sha256": "107643e31319335486a175f8201fef33acca89449db2508993808e0bb8604815",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-13.dds",
+    "path": "remastered/map/nm11.map/-13.dds",
+    "sha256": "c6eeea4c35e522bdcc0ec72a04179008dbfcea8523012b105bc84d8f337a7deb",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-14.dds",
+    "path": "remastered/map/nm11.map/-14.dds",
+    "sha256": "2df3f3f5082fe4b5b9af277369faa5b501f080497780d12acfa2486acdb2a8a8",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-15.dds",
+    "path": "remastered/map/nm11.map/-15.dds",
+    "sha256": "1b43f63d91e2757a3058416da80bbca8ba5b36a8307282090dc0a383662bafee",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-16.dds",
+    "path": "remastered/map/nm11.map/-16.dds",
+    "sha256": "12a6329951a6930d119ea7cf47cfc23fe7c5fe93ca322464e1d09239bd15161d",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-17.dds",
+    "path": "remastered/map/nm11.map/-17.dds",
+    "sha256": "e10f13e1fea49938707f8dc768f129fc81379c1ecf1de88cd898a18861249f98",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-18.dds",
+    "path": "remastered/map/nm11.map/-18.dds",
+    "sha256": "583432637096748a348f18a7b9468b433456e014c0d98e328619ffe3dfe54f1f",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-19.dds",
+    "path": "remastered/map/nm11.map/-19.dds",
+    "sha256": "a1805758c9c5a97627ca3e94f6a557947136714584c19eb1763adbe76399c88c",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-2.dds",
+    "path": "remastered/map/nm11.map/-2.dds",
+    "sha256": "4caa37576a90276de2e6307b7ad201db003c87b94306af2b5a4edee86f2c6f81",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-20.dds",
+    "path": "remastered/map/nm11.map/-20.dds",
+    "sha256": "0beba7c06e5a1f20128d6939374bce1a40e9a1b8c4f0d377ac22cc865967a111",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-21.dds",
+    "path": "remastered/map/nm11.map/-21.dds",
+    "sha256": "ac95ebc729b1a12c405c8ce95f8c70acccd62d724dd7219aa9042f54b533cca1",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-22.dds",
+    "path": "remastered/map/nm11.map/-22.dds",
+    "sha256": "cd37bfbddafd92f9241e07ac1b9d0b34d66c01e5270afa3bcb4001ca5ab0395f",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-23.dds",
+    "path": "remastered/map/nm11.map/-23.dds",
+    "sha256": "233763baba5fa92e0646b5e8c34a03599f82f5cee01aeb1ae53eaebfbce21644",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-24.dds",
+    "path": "remastered/map/nm11.map/-24.dds",
+    "sha256": "e403b1741a3fa8100c39e6214e2109f03154995db29765c596f579284ec207d0",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-25.dds",
+    "path": "remastered/map/nm11.map/-25.dds",
+    "sha256": "19f33a539a807a6dfc1b44f485cb6c6924dd5af4c8aae138fd4bd2d28434ea91",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-26.dds",
+    "path": "remastered/map/nm11.map/-26.dds",
+    "sha256": "2d26815daad63f2f3a36f39d0d177b205bf157bc50e8a7eac1d9d91baec4f069",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-27.dds",
+    "path": "remastered/map/nm11.map/-27.dds",
+    "sha256": "f13a9cfd10f0ca6b3a6efc4015d14b855ff050a61e80150afe9a0a1a651a4535",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-28.dds",
+    "path": "remastered/map/nm11.map/-28.dds",
+    "sha256": "7cc689c41deded1db0a6317bfc9d5af7eddbe6b79cf3bb5e954b180e6df4e9e4",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-29.dds",
+    "path": "remastered/map/nm11.map/-29.dds",
+    "sha256": "84efaa2d25b4ebb9385f2b93fac6e387f92c3362d3ab9b840c32b704e60828ac",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-3.dds",
+    "path": "remastered/map/nm11.map/-3.dds",
+    "sha256": "eb45c1de9c1722c1bf13f33c7c383ca90191c35e68f0c9940dd3bf4968c17e44",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-30.dds",
+    "path": "remastered/map/nm11.map/-30.dds",
+    "sha256": "16571343201a4c37b86fcd0ae102e788eeba463daa4c55189ac5c9ccba5612d4",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-31.dds",
+    "path": "remastered/map/nm11.map/-31.dds",
+    "sha256": "5c82540c13f48a9297246907c255ec841f993ed5e5cd2e18a5c2a001e84897a3",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-32.dds",
+    "path": "remastered/map/nm11.map/-32.dds",
+    "sha256": "7fff137a1658afe366baaba8ae221e9e77c33245a2396559761ab6eae72260c9",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-33.dds",
+    "path": "remastered/map/nm11.map/-33.dds",
+    "sha256": "e2a66f456836a06d78d3f529d0092599f25ed1e5005c230ab3e78d3fc4144dfa",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-34.dds",
+    "path": "remastered/map/nm11.map/-34.dds",
+    "sha256": "5c856709a8ef6faa9137a79965bf8eb1c65e7a252a6c5c2b41e8a1c213c5e1e0",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-35.dds",
+    "path": "remastered/map/nm11.map/-35.dds",
+    "sha256": "9d71b393d8bb12ab06efccd58524f49c45e4729c79d1d9c10ccafd2a19504b4a",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-36.dds",
+    "path": "remastered/map/nm11.map/-36.dds",
+    "sha256": "416fc2d5d7e5809350725827d57ebb1dd27854a50a054b2520ad1682249cd169",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-37.dds",
+    "path": "remastered/map/nm11.map/-37.dds",
+    "sha256": "b1dc8d460bb3bcaae5987fa577532521d28e2fe3b175e2bfeaed49c8e4f48255",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-38.dds",
+    "path": "remastered/map/nm11.map/-38.dds",
+    "sha256": "bc7151f582ae95049d3e3b667a3ebe13b0c8efd238eb8b868a29ffa762b5ca1b",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-39.dds",
+    "path": "remastered/map/nm11.map/-39.dds",
+    "sha256": "6c8db5c696a8feccb41b06f05c8e056e5fba2ea2c97250b690ee6522ffb2cb9d",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-4.dds",
+    "path": "remastered/map/nm11.map/-4.dds",
+    "sha256": "ff1a0ef98150beaf5586291894485b4369cbe732c352845dc3e68df26655c567",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-40.dds",
+    "path": "remastered/map/nm11.map/-40.dds",
+    "sha256": "736fa72dfa44f6064dcb37067a1fea125d565870325e6af26b87c275db44a07d",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-5.dds",
+    "path": "remastered/map/nm11.map/-5.dds",
+    "sha256": "7c223004e20c81c5687392ff8df2f494a513d59a21a8baefa88e057458c0d239",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-6.dds",
+    "path": "remastered/map/nm11.map/-6.dds",
+    "sha256": "da0af9b05334a9591d3c0b1bbf106847974e664abd24a0b237b8925ec5765b09",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-7.dds",
+    "path": "remastered/map/nm11.map/-7.dds",
+    "sha256": "da0af9b05334a9591d3c0b1bbf106847974e664abd24a0b237b8925ec5765b09",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-8.dds",
+    "path": "remastered/map/nm11.map/-8.dds",
+    "sha256": "da0af9b05334a9591d3c0b1bbf106847974e664abd24a0b237b8925ec5765b09",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/nm07.map/-9.dds",
+    "path": "remastered/map/nm11.map/-9.dds",
+    "sha256": "da0af9b05334a9591d3c0b1bbf106847974e664abd24a0b237b8925ec5765b09",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "map/us/nm07.bar",
+    "path": "map/us/nm11.bar",
+    "sha256": "d44279e499b421138f03b974665a961c2f7ac94ec98d0de268dc38ba20e7f4b8",
+    "old": null,
+    "op": "copy"
+  },
+  {
+    "source": "remastered/map/us/nm07.bar/US_nm07_bar0.dds",
+    "path": "remastered/map/us/nm11.bar/US_nm11_bar0.dds",
+    "sha256": "2a156c1f2f1462ee51935851be3d1d67917cc3974afde991fe97711d18539c0b",
+    "old": null,
+    "op": "copy"
+  }
+]

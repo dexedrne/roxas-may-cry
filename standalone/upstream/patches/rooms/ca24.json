@@ -1,0 +1,50 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "36c0344220ac2f3dfa49e90d98cc63630b1ce3bae5be1fefca2972cc02d67760",
+    "op": "clean",
+    "from": "ca24:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "4d80e79cb894cde51cb5f278b8b9f273d53fb26b72d240581675cefe660265f7",
+    "op": "clean",
+    "from": "ca24:1"
+  },
+  {
+    "type": 12,
+    "name": "m_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "op": "clean",
+    "from": "ca24:2"
+  },
+  {
+    "type": 12,
+    "name": "m_51",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d4a64e1aef2f6884d459c46d106c2f5aae0cbeb64ad961f7173d14517da464d8",
+    "op": "clean",
+    "from": "ca24:3"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5a654d7a3a1445159264fc774fbc680862afba263d5a8d43da68123966b85a85",
+    "from": "ca24:4",
+    "op": "records",
+    "splices": [[10, 1, [["AreaSettings", 0, -1, ["flag", 16394], ["set5", 1], ["event", 2, "107"], ["jump", 0, 1, 16, 1, 51, 0, 1], ["set7", 0]]]]]
+  },
+  {"type": 22, "name": "107", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "214", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

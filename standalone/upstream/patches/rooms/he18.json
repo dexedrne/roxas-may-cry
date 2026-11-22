@@ -1,0 +1,59 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1ecc38d403e3d4e8da32d25d380fe620a52adf3b2499cc29227cc9c92b92ea1b",
+    "op": "clean",
+    "from": "he18:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "7d4f0481f36b4971b80440cb7d4908f394dff287d542e40a70cb22e9ecece898",
+    "op": "clean",
+    "from": "he18:1"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3288206877711a3f1919985a61923cb81db694477d1823324f043b23e2501c6d",
+    "op": "clean",
+    "from": "he18:2"
+  },
+  {
+    "type": 12,
+    "name": "b_40",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8c42a6ea3dc2799b929a13f1a6ed3114066f83750deae3ec1d8049aaa1a8157a",
+    "from": "he18:3",
+    "op": "records",
+    "splices": [[0, 3, [["record", "al00:2", 0], ["group", 1, {"entities": 4}], ["entity", 2, {"object": 1596, "x": 0.0, "y": 0.0, "z": -180.3179931640625}]]], [6, 8, []]]
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8fb55cb83da27acb483ff34e6280465ed53fb706f5f825cc13517eb1a206bb11",
+    "from": "he18:4",
+    "op": "records",
+    "splices": [[2, 1, [["AreaSettings", 0, -1, ["jump", 0, 6, 6, 0, 0, 0, 65535], ["set7", 0]]]]]
+  },
+  {
+    "type": 3,
+    "name": "he_d",
+    "link": 0,
+    "gap": 0,
+    "sha256": "810c0b022b0c3d5561029e95cf9bf8f69172687ee7146f5c04d3d1cad9299efb",
+    "op": "clean",
+    "from": "he18:5"
+  },
+  {"type": 22, "name": "139", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

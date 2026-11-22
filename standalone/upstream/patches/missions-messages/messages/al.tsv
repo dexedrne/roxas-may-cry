@@ -1,0 +1,10 @@
+ids_hex	operation	argument
+0076	local-wording	
+0077	result-choice	0076/0053
+0078	result-choice	0076/0054
+0079	result-choice	0076/0055
+007a	result-choice	0076/0056
+007b	result-choice	0076/007c
+007c	result-choice	0076/007d
+007e	result-choice	0076/007e
+4938	clean-id	hb/5043

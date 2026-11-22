@@ -1,0 +1,643 @@
+{
+  "base_sha256": "fd4b8469ae33b337304198382c19e5562dabd11b72546a548070baef2daf4204",
+  "alignment": 1,
+  "members": [
+    {
+      "ordinal": 1,
+      "kind": 2,
+      "name": "cmd",
+      "link": 0,
+      "sections": [
+        {
+          "schema": "cmd",
+          "offset": 8,
+          "clean_rows": 751,
+          "edits": {
+            "2": {"set": {"Execute": 1}},
+            "4": {"set": {"Group": 4}},
+            "6": {"set": {"Group": 4}},
+            "7": {"set": {"Cost": 4, "Group": 4}},
+            "10": {"set": {"Group": 4}},
+            "11": {"set": {"Group": 4}},
+            "12": {"set": {"Group": 4}},
+            "59": {"set": {"Group": 3}},
+            "73": {"set": {"Group": 3}},
+            "74": {"set": {"Group": 3}},
+            "152": {"set": {"Cost": 40}},
+            "153": {"set": {"Cost": 40}},
+            "154": {"set": {"Cost": 40}},
+            "155": {"set": {"Cost": 30}},
+            "156": {"set": {"Cost": 30}},
+            "157": {"set": {"Cost": 30}},
+            "282": {"set": {"Group": 3}},
+            "309": {"set": {"Mark": 0}},
+            "319": {"set": {"Flags": 45329}},
+            "346": {"set": {"Execute": 31, "Argument": 373}},
+            "399": {"set": {"Flags": 45401}},
+            "405": {"set": {"Flags": 275}},
+            "417": {"set": {"Flags": 45329}},
+            "420": {"set": {"Group": 3}},
+            "426": {"set": {"Flags": 19}},
+            "427": {"set": {"Flags": 272}},
+            "428": {"set": {"Camera": 0}},
+            "429": {"set": {"Flags": 345, "Mark": 4}},
+            "489": {"set": {"Flags": 65873, "Cost": 150, "Time": 350}},
+            "499": {"set": {"Flags": 65809, "Cost": 150, "Time": 400}},
+            "630": {"set": {"Flags": 45329}},
+            "631": {"set": {"Flags": 45331}},
+            "637": {"set": {"Group": 4}},
+            "647": {"set": {"Cost": 1}},
+            "653": {"set": {"Flags": 65808, "Cost": 15}},
+            "654": {"set": {"Flags": 848}},
+            "655": {"set": {"Flags": 336}},
+            "656": {"set": {"Flags": 65808, "Cost": 1}},
+            "657": {"set": {"Flags": 848}},
+            "658": {"set": {"Flags": 336}},
+            "659": {"set": {"Flags": 65808, "Cost": 15}},
+            "660": {"set": {"Flags": 848}},
+            "661": {"set": {"Flags": 336}},
+            "676": {"set": {"Mark": 0}},
+            "677": {"set": {"Mark": 0}},
+            "678": {"set": {"Mark": 0}},
+            "679": {"set": {"Mark": 0}},
+            "680": {"set": {"Mark": 0}},
+            "681": {"set": {"Mark": 0}},
+            "682": {"set": {"Mark": 0}},
+            "683": {"set": {"Mark": 0}},
+            "684": {"set": {"Mark": 0}},
+            "685": {"set": {"Mark": 0}},
+            "686": {"set": {"Mark": 0}}
+          }
+        }
+      ]
+    },
+    {
+      "ordinal": 3,
+      "kind": 2,
+      "name": "wmst",
+      "link": 0,
+      "sections": [
+        {
+          "schema": "wmst",
+          "offset": 0,
+          "clean_rows": 140,
+          "edits": {
+            "6": {"set": {"Moveset": "W_EX010_HTLF_R"}},
+            "7": {"set": {"Moveset": "W_EX010_HTLF_L"}},
+            "12": {"set": {"Moveset": "W_EX010_HTLF_R"}},
+            "13": {"set": {"Moveset": "W_EX010_HTLF_L"}},
+            "20": {"set": {"Moveset": "W_EX010_KH1F"}},
+            "21": {"set": {"Moveset": "W_EX010_KH1F_L"}},
+            "26": {"set": {"Moveset": "W_EX010_HTLF_R"}},
+            "27": {"set": {"Moveset": "W_EX010_HTLF_L"}},
+            "32": {"set": {"Moveset": "W_EX010_HTLF_R"}},
+            "33": {"set": {"Moveset": "W_EX010_HTLF_L"}},
+            "78": {"set": {"Moveset": "W_EX010_HTLF_R"}},
+            "79": {"set": {"Moveset": "W_EX010_HTLF_L"}},
+            "84": {"set": {"Moveset": "W_EX010_HTLF_R"}},
+            "85": {"set": {"Moveset": "W_EX010_HTLF_L"}},
+            "90": {"set": {"Moveset": "W_EX010_HTLF_R"}},
+            "91": {"set": {"Moveset": "W_EX010_HTLF_L"}},
+            "96": {"set": {"Moveset": "W_EX010_HTLF_R"}},
+            "97": {"set": {"Moveset": "W_EX010_HTLF_L"}},
+            "133": {"set": {"Moveset": "W_EX010_KH1F_L"}},
+            "135": {"set": {"Moveset": "W_EX010_KH1F_L"}},
+            "137": {"set": {"Moveset": "W_EX010_KH1F_L"}},
+            "139": {"set": {"Moveset": "W_EX010_KH1F_L"}}
+          }
+        }
+      ]
+    },
+    {
+      "ordinal": 4,
+      "kind": 2,
+      "name": "arif",
+      "link": 0,
+      "sections": [
+        {
+          "schema": "world-directory",
+          "offset": 8,
+          "clean_rows": 19,
+          "edits": {
+            "14": {"set": {"Count": 12}},
+            "15": {"set": {"Offset": 18324}},
+            "16": {"set": {"Count": 27, "Offset": 18388}},
+            "17": {"set": {"Offset": 20116}},
+            "18": {"set": {"Offset": 20884}}
+          }
+        },
+        {
+          "schema": "area",
+          "offset": 13140,
+          "clean_rows": 14,
+          "group": "world 8",
+          "edits": {"13": {"set": {"FieldBgm0": 0, "BattleBgm0": 0, "NavigationMapItem": 0, "Command": 1}}}
+        },
+        {
+          "schema": "area",
+          "offset": 14036,
+          "clean_rows": 10,
+          "group": "world 9",
+          "edits": {
+            "0": {"copy_row": 6, "set": {"Flags": 2, "FieldBgm0": 244, "BattleBgm0": 244}},
+            "1": {"copy_row": 6, "set": {"Flags": 16, "FieldBgm0": 118, "BattleBgm0": 119, "Command": 1}},
+            "2": {"copy_row": 6, "set": {"Flags": 16, "FieldBgm0": 118, "BattleBgm0": 119, "Command": 1}},
+            "3": {"copy_row": 6, "set": {"Flags": 16, "FieldBgm0": 118, "BattleBgm0": 119, "Command": 1}},
+            "4": {"copy_row": 6, "set": {"FieldBgm0": 101, "BattleBgm0": 104, "Command": 2}},
+            "5": {"copy_row": 6, "set": {"FieldBgm0": 101, "BattleBgm0": 104, "Command": 2}},
+            "6": {"set": {"Flags": 1, "FieldBgm0": 101, "BattleBgm0": 104, "Command": 2}},
+            "7": {"set": {"FieldBgm0": 101, "BattleBgm0": 104, "Command": 2}},
+            "8": {"set": {"Flags": 16, "FieldBgm0": 118, "BattleBgm0": 119, "Command": 1}},
+            "9": {"copy_row": 8, "set": {"Flags": 19, "FieldBgm0": 118, "BattleBgm0": 119, "Command": 1}}
+          }
+        },
+        {
+          "schema": "area",
+          "offset": 15764,
+          "clean_rows": 11,
+          "group": "world 11",
+          "edits": {
+            "0": {"set": {"BattleBgm0": 248}},
+            "1": {"set": {"FieldBgm0": 129, "BattleBgm0": 248}},
+            "2": {"set": {"Flags": 18, "BattleBgm0": 248}},
+            "3": {"copy_row": 1, "set": {"FieldBgm0": 129, "BattleBgm0": 248}},
+            "4": {"set": {"Flags": 19, "FieldBgm0": 129, "BattleBgm0": 248}},
+            "5": {"copy_row": 1, "set": {"FieldBgm0": 129, "BattleBgm0": 248}},
+            "6": {"copy_row": 1, "set": {"FieldBgm0": 129, "BattleBgm0": 248}},
+            "7": {"set": {"Flags": 19, "FieldBgm0": 129, "BattleBgm0": 248}},
+            "8": {"set": {"FieldBgm0": 129, "BattleBgm0": 248}},
+            "9": {"set": {"FieldBgm0": 129, "BattleBgm0": 248}},
+            "10": {"set": {"FieldBgm0": 129, "BattleBgm0": 248}}
+          }
+        },
+        {
+          "schema": "area",
+          "offset": 17556,
+          "clean_rows": 11,
+          "group": "world 14",
+          "output_rows": 12,
+          "edits": {"11": {"copy_row": 10, "set": {"FieldBgm0": 0, "BattleBgm0": 0, "NavigationMapItem": 0, "Command": 2}}}
+        },
+        {
+          "schema": "area",
+          "offset": 18324,
+          "clean_rows": 26,
+          "group": "world 16",
+          "output_rows": 27,
+          "edits": {"26": {"copy_row": 25, "set": {"FieldBgm0": 0, "BattleBgm0": 0, "NavigationMapItem": 0, "Command": 1}}}
+        }
+      ]
+    },
+    {
+      "ordinal": 5,
+      "kind": 2,
+      "name": "item",
+      "link": 0,
+      "sections": [
+        {"schema": "count32", "offset": 4, "clean_rows": 1, "edits": {"0": {"set": {"Count": 539}}}},
+        {
+          "schema": "item",
+          "offset": 8,
+          "clean_rows": 535,
+          "output_rows": 539,
+          "edits": {
+            "156": {"set": {"Picture": 360}},
+            "162": {"set": {"ShopBuy": 1}},
+            "163": {"set": {"ShopBuy": 1}},
+            "164": {"set": {"ShopBuy": 1}},
+            "165": {"set": {"ShopBuy": 1}},
+            "170": {"set": {"ShopBuy": 1}},
+            "171": {"set": {"ShopBuy": 1}},
+            "172": {"set": {"ShopBuy": 1}},
+            "173": {"set": {"ShopBuy": 1}},
+            "186": {"set": {"Stat": 768}},
+            "188": {"set": {"Stat": 3}},
+            "211": {"set": {"Flag1": 200}},
+            "212": {"set": {"Flag1": 199}},
+            "213": {"set": {"Flag1": 201}},
+            "216": {"set": {"Stat": 2}},
+            "244": {"set": {"Stat": 3}},
+            "247": {"set": {"Stat": 0}},
+            "268": {"set": {"Stat": 0}},
+            "269": {"set": {"Flag1": 160, "Stat": 0}},
+            "287": {"set": {"Stat": 0}},
+            "535": {"copy_row": 180, "set": {"Id": 602, "Type": 17, "Flag1": 0, "Stat": 0, "Slot": 312, "Picture": 361}},
+            "536": {"copy_row": 178, "set": {"Id": 603, "Type": 17, "Flag1": 0, "Stat": 0, "Slot": 313, "Picture": 362}},
+            "537": {"copy_row": 181, "set": {"Id": 604, "Type": 17, "Flag1": 0, "Stat": 0, "Slot": 314, "Picture": 363}},
+            "538": {"copy_row": 179, "set": {"Id": 605, "Type": 17, "Flag1": 0, "Stat": 0, "Slot": 315, "Picture": 364}}
+          }
+        },
+        {
+          "schema": "stat",
+          "offset": 12856,
+          "clean_rows": 151,
+          "edits": {
+            "0": {"set": {"Ability": 167, "Defense": 0}},
+            "4": {"set": {"Ability": 412}},
+            "5": {"set": {"Ability": 425}},
+            "6": {"set": {"Ability": 215}},
+            "33": {"set": {"Ability": 522}},
+            "34": {"set": {"Ability": 176, "AP": 0}},
+            "38": {"set": {"Ability": 166}},
+            "39": {"set": {"Ability": 444}},
+            "43": {"set": {"Ability": 427}},
+            "51": {"set": {"Ability": 168}},
+            "52": {"set": {"Ability": 165}},
+            "57": {"set": {"Ability": 177}},
+            "59": {"set": {"Ability": 520}},
+            "66": {"set": {"Ability": 421}},
+            "67": {"set": {"Ability": 428}},
+            "68": {"set": {"Ability": 430, "Magic": 1}},
+            "107": {"set": {"Ability": 431}},
+            "108": {"set": {"Ability": 432, "Attack": 3, "Magic": 0}},
+            "111": {"set": {"Ability": 433}},
+            "112": {"set": {"Ability": 434, "Attack": 2, "Magic": 3}},
+            "113": {"set": {"Ability": 435, "Magic": 2}},
+            "114": {"set": {"Ability": 436}},
+            "115": {"set": {"Ability": 438}},
+            "116": {"set": {"Ability": 439, "Attack": 1, "Magic": 1}},
+            "117": {"set": {"Ability": 440, "Magic": 1}},
+            "118": {"set": {"Ability": 446, "Attack": 3, "Magic": 4}},
+            "119": {"set": {"Ability": 447, "Attack": 6, "Magic": 0, "Unknown8": 60}},
+            "120": {"set": {"Ability": 448, "Attack": 4, "Magic": 3}},
+            "121": {"set": {"Ability": 218, "Magic": 5}},
+            "122": {"set": {"Ability": 217, "Magic": 0}},
+            "123": {"set": {"Ability": 216, "Attack": 5, "Magic": 1}},
+            "124": {"set": {"Ability": 219, "Attack": 5, "Magic": 2}},
+            "125": {"set": {"Ability": 187}},
+            "126": {"set": {"Ability": 257, "Attack": 3, "Magic": 0}},
+            "127": {"set": {"Ability": 258, "Attack": 7, "Magic": 6}},
+            "132": {"set": {"Ability": 190}},
+            "133": {"set": {"Ability": 261, "Attack": 3, "Magic": 1}},
+            "148": {"set": {"Ability": 541}}
+          }
+        }
+      ]
+    },
+    {
+      "ordinal": 6,
+      "kind": 2,
+      "name": "trsr",
+      "link": 0,
+      "sections": [
+        {"schema": "count16", "offset": 2, "clean_rows": 1, "edits": {"0": {"set": {"Count": 452}}}},
+        {
+          "schema": "treasure",
+          "offset": 4,
+          "clean_rows": 430,
+          "output_rows": 452,
+          "copy_rows": [
+            [54, 46, 16],
+            [84, 76, 89],
+            [174, 166, 19],
+            [194, 186, 8],
+            [227, 219, 98],
+            [332, 317, 21],
+            [354, 339, 12],
+            [367, 352, 78]
+          ],
+          "edits": {
+            "47": {"copy_row": 46},
+            "48": {"copy_row": 46},
+            "49": {"copy_row": 46},
+            "50": {"copy_row": 46},
+            "51": {"copy_row": 46},
+            "52": {"copy_row": 46},
+            "53": {"copy_row": 46},
+            "70": {"copy_row": 63, "set": {"Id": 313, "Room": 1, "OverallChest": 239}},
+            "71": {"copy_row": 63, "set": {"ItemId": 317, "Room": 1, "Chest": 1}},
+            "72": {"copy_row": 64, "set": {"ItemId": 1, "Chest": 0}},
+            "73": {"copy_row": 65, "set": {"ItemId": 1, "Room": 2, "Chest": 1}},
+            "74": {"copy_row": 66, "set": {"Room": 3}},
+            "75": {"copy_row": 67, "set": {"ItemId": 3, "Chest": 0}},
+            "76": {"copy_row": 68, "set": {"ItemId": 378, "Room": 5, "Chest": 0}},
+            "77": {"copy_row": 69, "set": {"ItemId": 3, "Room": 6}},
+            "78": {"copy_row": 70, "set": {"ItemId": 3, "Room": 6}},
+            "79": {"copy_row": 71, "set": {"ItemId": 3, "Room": 7, "Chest": 0}},
+            "80": {"copy_row": 72, "set": {"ItemId": 3, "Room": 7, "Chest": 1}},
+            "81": {"copy_row": 73, "set": {"ItemId": 3, "Room": 7, "Chest": 2}},
+            "82": {"copy_row": 74, "set": {"Room": 1, "Chest": 2}},
+            "83": {"copy_row": 75, "set": {"ItemId": 327, "Room": 2}},
+            "173": {"copy_row": 165, "set": {"ItemId": 377}},
+            "193": {"copy_row": 185, "set": {"ItemId": 360}},
+            "202": {"copy_row": 194, "set": {"Room": 5}},
+            "203": {"copy_row": 195, "set": {"Room": 5}},
+            "204": {"copy_row": 196, "set": {"Room": 5}},
+            "205": {"copy_row": 197, "set": {"Chest": 2}},
+            "206": {"copy_row": 198, "set": {"Chest": 3}},
+            "207": {"copy_row": 199, "set": {"Chest": 4}},
+            "208": {"copy_row": 200, "set": {"Room": 4, "Chest": 0}},
+            "209": {"copy_row": 201, "set": {"Room": 4, "Chest": 1}},
+            "210": {"copy_row": 202, "set": {"Room": 4}},
+            "211": {"copy_row": 203, "set": {"Room": 4, "Chest": 2}},
+            "212": {"copy_row": 204, "set": {"Room": 4, "Chest": 3}},
+            "213": {"copy_row": 205, "set": {"Room": 4, "Chest": 4}},
+            "214": {"copy_row": 206, "set": {"Room": 4, "Chest": 5}},
+            "215": {"copy_row": 207, "set": {"Chest": 0}},
+            "216": {"copy_row": 208, "set": {"Chest": 1}},
+            "217": {"copy_row": 209, "set": {"Chest": 2}},
+            "218": {"copy_row": 210, "set": {"Room": 3, "Chest": 3}},
+            "219": {"copy_row": 211, "set": {"Room": 3, "Chest": 4}},
+            "220": {"copy_row": 212, "set": {"Room": 3, "Chest": 5}},
+            "221": {"copy_row": 213, "set": {"ItemId": 32, "Room": 3, "Chest": 100}},
+            "222": {"copy_row": 214, "set": {"Room": 2}},
+            "223": {"copy_row": 215, "set": {"Room": 2}},
+            "224": {"copy_row": 216, "set": {"Room": 1}},
+            "225": {"copy_row": 217, "set": {"ItemId": 359, "Room": 1, "Chest": 0}},
+            "226": {"copy_row": 218, "set": {"Room": 2}},
+            "325": {"copy_row": 274, "set": {"Id": 602, "ItemId": 1, "World": 11, "EventId": 0, "OverallChest": 1000}},
+            "326": {"copy_row": 275, "set": {"Id": 603, "ItemId": 4, "World": 11, "EventId": 0, "OverallChest": 1001}},
+            "327": {"copy_row": 276, "set": {"Id": 604, "ItemId": 4, "World": 11, "EventId": 0, "OverallChest": 1002}},
+            "328": {"copy_row": 282, "set": {"Id": 605, "ItemId": 4, "World": 11, "EventId": 0, "OverallChest": 1003}},
+            "329": {"copy_row": 283, "set": {"Id": 606, "ItemId": 4, "World": 11, "EventId": 0, "OverallChest": 1004}},
+            "330": {"copy_row": 284, "set": {"Id": 607, "ItemId": 4, "World": 11, "EventId": 0, "OverallChest": 1005}},
+            "331": {"copy_row": 213, "set": {"Id": 608, "ItemId": 4, "World": 11, "EventId": 0, "OverallChest": 1006}},
+            "353": {"copy_row": 338, "set": {"ItemId": 159}},
+            "366": {"copy_row": 351, "set": {"ItemId": 25}},
+            "445": {"copy_row": 338, "set": {"Id": 592}},
+            "446": {"copy_row": 419, "set": {"Id": 593, "ItemId": 1}},
+            "447": {"copy_row": 419, "set": {"Id": 609, "ItemId": 377}},
+            "448": {"copy_row": 419, "set": {"Id": 610, "ItemId": 602}},
+            "449": {"copy_row": 419, "set": {"Id": 611, "ItemId": 603}},
+            "450": {"copy_row": 419, "set": {"Id": 612, "ItemId": 604}},
+            "451": {"copy_row": 419, "set": {"Id": 613, "ItemId": 605}}
+          }
+        }
+      ]
+    },
+    {
+      "ordinal": 7,
+      "kind": 2,
+      "name": "memt",
+      "link": 0,
+      "sections": [
+        {"schema": "count32", "offset": 4, "clean_rows": 1, "edits": {"0": {"set": {"Count": 40}}}},
+        {
+          "schema": "party",
+          "offset": 8,
+          "clean_rows": 37,
+          "output_rows": 40,
+          "copy_rows": [[31, 28, 4]],
+          "edits": {
+            "0": {"set": {"Mickey": 792}},
+            "3": {"set": {"Player": 98}},
+            "4": {"set": {"Player": 94}},
+            "5": {"set": {"Player": 98}},
+            "12": {"set": {"WorldCharacter": 0}},
+            "15": {"set": {"WorldCharacter": 0}},
+            "16": {"set": {"WorldCharacter": 0}},
+            "17": {"set": {"WorldCharacter": 0}},
+            "20": {"set": {"WorldCharacter": 0}},
+            "21": {"copy_row": 20, "set": {"World": 14, "WorldCharacter": 0}},
+            "22": {"copy_row": 23, "set": {"Flag": 14360, "FlagNeg": 14361, "Friend2": 96, "WorldCharacter": 0}},
+            "23": {"set": {"Flag": 14361, "Friend2": 93, "WorldCharacter": 0}},
+            "24": {"copy_row": 23, "set": {"WorldCharacter": 0}},
+            "25": {"copy_row": 24, "set": {"WorldCharacter": 0}},
+            "26": {"copy_row": 25, "set": {"WorldCharacter": 0}},
+            "27": {"copy_row": 26, "set": {"WorldCharacter": 0}},
+            "28": {"copy_row": 27, "set": {"WorldCharacter": 0}},
+            "29": {"set": {"Flag": 18472, "FlagNeg": 18474, "Player": 85, "WorldCharacter": 0}},
+            "30": {"set": {"Flag": 18474, "FlagNeg": 18433, "Unknown14": 28, "Player": 1519}},
+            "35": {"copy_row": 30, "set": {"World": 17, "Flag": 0, "Unknown12": 128, "Unknown13": 51, "Unknown14": 27}},
+            "36": {"copy_row": 33, "set": {"Friend1": 92, "Friend2": 93, "Valor": 0, "Master": 0, "Anti": 0}},
+            "37": {"copy_row": 34, "set": {"Player": 0, "Friend1": 0, "Friend2": 0, "WorldCharacter": 0}},
+            "38": {"copy_row": 35, "set": {"Player": 0, "Friend1": 0, "Friend2": 0}},
+            "39": {"copy_row": 36}
+          }
+        },
+        {
+          "schema": "party-selection",
+          "offset": 1932,
+          "clean_rows": 7,
+          "edits": {
+            "0": {"set": {"Friend1": 1, "Friend2": 2}},
+            "2": {"set": {"Friend1": 1, "WorldFriend": 18}},
+            "3": {"set": {"Friend1": 1, "WorldFriend": 18}},
+            "4": {"set": {"Friend1": 1, "WorldFriend": 18}},
+            "5": {"set": {"Friend1": 1, "Friend2": 2}},
+            "6": {"set": {"Friend2": 2}}
+          }
+        }
+      ]
+    },
+    {
+      "ordinal": 10,
+      "kind": 2,
+      "name": "sklt",
+      "link": 0,
+      "sections": [
+        {
+          "schema": "skeleton",
+          "offset": 8,
+          "clean_rows": 26,
+          "edits": {
+            "3": {"set": {"PrimaryBone": 35}},
+            "12": {"set": {"PrimaryBone": 178, "SecondaryBone": 86}},
+            "16": {"set": {"PrimaryBone": 35}},
+            "24": {"set": {"PrimaryBone": 35}}
+          }
+        }
+      ]
+    },
+    {
+      "ordinal": 11,
+      "kind": 1,
+      "name": "pref",
+      "link": 0,
+      "alignment": 1,
+      "members": [
+        {
+          "ordinal": 1,
+          "kind": 2,
+          "name": "fmab",
+          "link": 0,
+          "sections": [
+            {
+              "schema": "fmab",
+              "offset": 24,
+              "clean_rows": 5,
+              "edits": {"3": {"set": {"GlideSpeed": 40.0, "GlideAcceleration": 0.0, "GlideTurnSpeed": 0.2617993950843811}}}
+            }
+          ]
+        },
+        {
+          "ordinal": 2,
+          "kind": 2,
+          "name": "prty",
+          "link": 0,
+          "sections": [
+            {
+              "schema": "prty",
+              "offset": 284,
+              "clean_rows": 33,
+              "edits": {
+                "0": {"set": {"UpDownSpeed": 40.0, "Acceleration": 0.949999988079071, "Brake": 0.9200000166893005}},
+                "1": {"set": {"RunSpeed": 8.0, "JumpHeight": 385.0, "TurnSpeed": 0.3499999940395355}},
+                "2": {
+                  "set": {
+                    "RunSpeed": 8.0,
+                    "TurnSpeed": 0.2617993950843811,
+                    "Acceleration": 0.949999988079071,
+                    "Brake": 0.9200000166893005
+                  }
+                },
+                "4": {"set": {"RunSpeed": 8.0, "TurnSpeed": 0.13089969754219055, "Acceleration": 0.0, "Brake": 0.0}},
+                "5": {
+                  "set": {"RunSpeed": 8.0, "JumpHeight": 285.0, "Acceleration": 0.949999988079071, "Brake": 0.9200000166893005}
+                },
+                "7": {"set": {"Acceleration": 0.949999988079071}},
+                "17": {"set": {"JumpHeight": 285.0, "HangHeight": 150.0}},
+                "31": {"set": {"UpDownSpeed": 10.0, "Acceleration": 0.0, "Brake": 0.0}},
+                "32": {"set": {"UpDownSpeed": 10.0, "Acceleration": 0.949999988079071, "Brake": 0.9200000166893005}}
+              }
+            }
+          ]
+        },
+        {
+          "ordinal": 3,
+          "kind": 2,
+          "name": "sstm",
+          "link": 0,
+          "sections": [
+            {
+              "schema": "sstm",
+              "offset": 8,
+              "clean_rows": 1,
+              "edits": {"0": {"set": {"WordAt288": 0, "WordAt292": 0, "WordAt296": 0, "WordAt312": 0, "WordAt336": 0}}}
+            }
+          ]
+        },
+        {
+          "ordinal": 4,
+          "kind": 2,
+          "name": "magi",
+          "link": 0,
+          "sections": [
+            {
+              "schema": "magi",
+              "offset": 148,
+              "clean_rows": 24,
+              "edits": {
+                "0": {"set": {"FloatAt64": 0.15000000596046448, "FloatAt68": 40.0, "FloatAt72": 0.5, "FloatAt76": 300.0}},
+                "1": {"set": {"FloatAt64": 0.15000000596046448, "FloatAt68": 40.0, "FloatAt72": 0.5, "FloatAt76": 300.0}},
+                "2": {"set": {"FloatAt64": 0.20000000298023224, "FloatAt68": 40.0, "FloatAt72": 0.75, "FloatAt76": 480.0}},
+                "3": {"set": {"FloatAt64": 0.20000000298023224, "FloatAt68": 40.0, "FloatAt72": 0.75, "FloatAt76": 480.0}},
+                "4": {"set": {"FloatAt64": 0.25, "FloatAt68": 40.0, "FloatAt72": 1.0, "FloatAt76": 650.0}},
+                "5": {"set": {"FloatAt64": 0.25, "FloatAt68": 40.0, "FloatAt72": 1.0, "FloatAt76": 650.0}},
+                "6": {"set": {"FloatAt64": 0.15000000596046448, "FloatAt68": 40.0, "FloatAt72": 0.5, "FloatAt76": 300.0}},
+                "7": {
+                  "set": {
+                    "FloatAt12": 0.05235987901687622,
+                    "FloatAt16": 100.0,
+                    "FloatAt64": 0.15000000596046448,
+                    "FloatAt68": 40.0,
+                    "FloatAt72": 0.5,
+                    "FloatAt76": 300.0
+                  }
+                },
+                "8": {
+                  "set": {
+                    "FloatAt16": 30.0,
+                    "FloatAt64": 0.20000000298023224,
+                    "FloatAt68": 40.0,
+                    "FloatAt72": 0.75,
+                    "FloatAt76": 480.0
+                  }
+                },
+                "9": {
+                  "set": {
+                    "FloatAt12": 0.05235987901687622,
+                    "FloatAt16": 100.0,
+                    "FloatAt20": 40.0,
+                    "FloatAt64": 0.20000000298023224,
+                    "FloatAt68": 40.0,
+                    "FloatAt72": 0.75,
+                    "FloatAt76": 480.0
+                  }
+                },
+                "10": {
+                  "set": {
+                    "FloatAt16": 30.0,
+                    "FloatAt20": 60.0,
+                    "FloatAt64": 0.25,
+                    "FloatAt68": 40.0,
+                    "FloatAt72": 1.0,
+                    "FloatAt76": 650.0
+                  }
+                },
+                "11": {
+                  "set": {
+                    "FloatAt16": 100.0,
+                    "FloatAt20": 40.0,
+                    "FloatAt64": 0.25,
+                    "FloatAt68": 40.0,
+                    "FloatAt72": 1.0,
+                    "FloatAt76": 650.0
+                  }
+                },
+                "18": {
+                  "set": {
+                    "FloatAt12": 0.20000000298023224,
+                    "FloatAt64": 0.15000000596046448,
+                    "FloatAt68": 40.0,
+                    "FloatAt72": 0.5,
+                    "FloatAt76": 300.0
+                  }
+                },
+                "19": {
+                  "set": {
+                    "FloatAt12": 0.10000000149011612,
+                    "FloatAt28": 0.0,
+                    "FloatAt64": 0.15000000596046448,
+                    "FloatAt68": 40.0,
+                    "FloatAt72": 0.5,
+                    "FloatAt76": 300.0
+                  }
+                },
+                "20": {
+                  "set": {
+                    "FloatAt12": 0.20000000298023224,
+                    "FloatAt64": 0.20000000298023224,
+                    "FloatAt68": 40.0,
+                    "FloatAt72": 0.75,
+                    "FloatAt76": 480.0
+                  }
+                },
+                "21": {
+                  "set": {
+                    "FloatAt12": 0.10000000149011612,
+                    "FloatAt28": 0.0,
+                    "FloatAt64": 0.20000000298023224,
+                    "FloatAt68": 40.0,
+                    "FloatAt72": 0.75,
+                    "FloatAt76": 480.0
+                  }
+                },
+                "22": {
+                  "set": {
+                    "FloatAt12": 0.20000000298023224,
+                    "FloatAt56": 280.0,
+                    "FloatAt64": 0.25,
+                    "FloatAt68": 40.0,
+                    "FloatAt72": 1.0,
+                    "FloatAt76": 650.0
+                  }
+                },
+                "23": {
+                  "set": {
+                    "FloatAt12": 0.10000000149011612,
+                    "FloatAt28": 0.0,
+                    "FloatAt64": 0.25,
+                    "FloatAt68": 40.0,
+                    "FloatAt72": 1.0,
+                    "FloatAt76": 650.0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

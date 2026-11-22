@@ -1,0 +1,1656 @@
+{
+  "AL00_MS101#0": {
+    "from": "msn/us/AL00_MS101.bar#0",
+    "fields": {
+      "finish_sound": 53
+    },
+    "splices": [
+      [
+        3,
+        1,
+        [
+          [
+            "CameraComplete",
+            [4, 0, 902]
+          ]
+        ]
+      ]
+    ],
+    "zero_tail": 16
+  },
+  "AL03_BETA#0": {
+    "from": "msn/us/AL14_MS201A.bar#0",
+    "fields": {
+      "id": 192,
+      "flags": 417,
+      "information_id": 15235,
+      "pause_information_id": 15235
+    }
+  },
+  "AL05_FM_LEX#0": {
+    "from": "msn/us/HB33_FM_LEX.bar#0",
+    "fields": {
+      "id": 69,
+      "pause_information_id": 18744,
+      "bonus_reward": 15,
+      "antiform_multiplier": 1
+    },
+    "splices": [
+      [
+        1,
+        1,
+        [
+          [
+            "CameraComplete",
+            [3, 0, 18744]
+          ]
+        ]
+      ]
+    ]
+  },
+  "AL10_MS102#0": {
+    "from": "msn/us/AL10_MS102.bar#0",
+    "fields": {
+      "id": 192,
+      "flags": 417,
+      "pause_information_id": 48003
+    },
+    "splices": [
+      [
+        2,
+        1,
+        []
+      ]
+    ]
+  },
+  "AL14_MS201A#0": {
+    "from": "msn/us/AL14_MS201A.bar#0",
+    "fields": {
+      "flags": 497
+    }
+  },
+  "AL14_MS201B#0": {
+    "from": "msn/us/AL14_MS201B.bar#0",
+    "fields": {
+      "flags": 497
+    }
+  },
+  "AL14_MS201B#2": {
+    "commands": [
+      {
+        "from": "msn/us/AL00_MS101.bar#2/0",
+        "project": "re_msstart-2a",
+        "zero_tail": 1
+      },
+      {
+        "from": "msn/us/AL00_MS101.bar#2/1"
+      },
+      {
+        "from": "msn/us/AL00_MS101.bar#2/2"
+      },
+      {
+        "from": "msn/us/AL00_MS101.bar#2/3"
+      },
+      {
+        "camera_asset": "c15d537d906c7730d4559323cd3f9f0678a4d0a1cfd9a730835aed758b2045a4"
+      },
+      {
+        "from": "msn/us/AL00_MS101.bar#2/5"
+      },
+      {
+        "from": "msn/us/AL00_MS101.bar#2/6"
+      },
+      {
+        "from": "msn/us/AL10_MS102.bar#3/12",
+        "set_u16": [
+          [0, 15, 120]
+        ]
+      },
+      {
+        "from": "msn/us/CA01_MS102.bar#2/8"
+      }
+    ]
+  },
+  "AL14_MS_K#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "flags": 4272
+    }
+  },
+  "AL14_MS_M#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "flags": 4304
+    }
+  },
+  "AL14_MS_P#0": {
+    "from": "msn/us/AL14_MS_P.bar#0",
+    "fields": {
+      "finish_sound": 0
+    },
+    "splices": [
+      [
+        0,
+        2,
+        []
+      ]
+    ],
+    "zero_tail": 32
+  },
+  "AL14_MS_P#5": {
+    "from": "msn/us/AL14_MS_P.bar#5",
+    "fields": [
+      ["sprites", 0, 4, 1, 42],
+      ["sprites", 0, 8, 46, 69],
+      ["sprites", 0, 12, 96, 127],
+      ["sprites", 0, 16, 63, 86],
+      ["sprites", 1, 4, 56, 0],
+      ["sprites", 1, 8, 85, 45],
+      ["sprites", 1, 12, 97, 41],
+      ["sprites", 1, 16, 127, 86],
+      ["sprites", 2, 12, 26, 25],
+      ["sprites", 3, 12, 49, 48],
+      ["sprites", 4, 12, 72, 71],
+      ["sprites", 5, 12, 95, 94],
+      ["sprites", 6, 12, 118, 117],
+      ["sprites", 7, 12, 26, 25],
+      ["sprites", 8, 12, 49, 48],
+      ["sprites", 9, 12, 72, 71],
+      ["sprites", 10, 12, 95, 94],
+      ["sprites", 11, 12, 118, 117],
+      ["sprites", 12, 12, 128, 127],
+      ["sprites", 13, 12, 128, 127],
+      ["sprites", 14, 12, 128, 127],
+      ["sprites", 21, 4, 146, 149],
+      ["sprites", 21, 8, 28, 32],
+      ["sprites", 21, 12, 250, 243],
+      ["sprites", 22, 4, 193, 197],
+      ["sprites", 22, 12, 255, 253],
+      ["sprites", 23, 4, 95, 99],
+      ["sprites", 25, 16, 18, 16],
+      ["parts", 0, 0, 4294967245, 4294967248],
+      ["parts", 0, 4, 4294967242, 4294967246],
+      ["parts", 0, 8, 53, 46],
+      ["parts", 1, 0, 4294967264, 4294967268],
+      ["parts", 1, 8, 30, 28],
+      ["parts", 2, 0, 4294967248, 4294967252],
+      ["parts", 8, 8, 110, 100],
+      ["parts", 9, 0, 4294967277, 4294967276],
+      ["parts", 9, 4, 4294967272, 4294967274],
+      ["parts", 9, 8, 22, 21],
+      ["parts", 9, 12, 18, 19],
+      ["parts", 13, 12, 22, 20],
+      ["parts", 14, 8, 23, 22],
+      ["parts", 15, 8, 23, 22],
+      ["parts", 16, 8, 22, 21],
+      ["parts", 17, 8, 23, 22],
+      ["parts", 18, 8, 24, 23],
+      ["parts", 19, 8, 23, 22],
+      ["parts", 20, 8, 23, 22],
+      ["parts", 21, 8, 24, 23],
+      ["parts", 22, 8, 23, 22],
+      ["parts", 23, 8, 24, 23],
+      ["parts", 24, 8, 10, 9],
+      ["parts", 25, 8, 13, 12],
+      ["parts", 26, 0, 0, 1],
+      ["parts", 27, 0, 4, 5],
+      ["parts", 28, 8, 23, 22]
+    ]
+  },
+  "AL14_NO_DROPS#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "id": 234,
+      "flags": 4292,
+      "information_id": 0,
+      "pause_controller": 5
+    }
+  },
+  "ARCHIVE_CONDITIONS#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "id": 234,
+      "flags": 20486,
+      "information_id": 0
+    }
+  },
+  "BB01_MS101#0": {
+    "from": "msn/us/BB01_MS101.bar#0",
+    "fields": {
+      "finish_sound": 53
+    },
+    "splices": [
+      [
+        1,
+        3,
+        [
+          [
+            "CameraComplete",
+            [3, 0, 902]
+          ]
+        ]
+      ]
+    ]
+  },
+  "BB03_MS103#0": {
+    "from": "msn/us/BB03_MS103.bar#0",
+    "splices": [
+      [
+        1,
+        1,
+        [
+          [
+            "CameraComplete",
+            [3, 0, 902]
+          ]
+        ]
+      ]
+    ]
+  },
+  "BB04_MS201#0": {
+    "from": "msn/us/BB04_MS201.bar#0",
+    "fields": {
+      "information_id": 48003
+    }
+  },
+  "BB08_GIMMICK#0": {
+    "from": "msn/us/AL14_MS201A.bar#0",
+    "fields": {
+      "id": 192,
+      "flags": 417,
+      "information_id": 3044,
+      "pause_information_id": 0
+    }
+  },
+  "CA01_MS102#0": {
+    "from": "msn/us/CA01_MS102.bar#0",
+    "fields": {
+      "id": 125,
+      "information_id": 8129,
+      "pause_information_id": 8130
+    },
+    "splices": [
+      [
+        2,
+        1,
+        []
+      ]
+    ]
+  },
+  "CA14_MS203#0": {
+    "from": "msn/us/BB04_MS201.bar#0",
+    "fields": {
+      "id": 127,
+      "flags": 417,
+      "information_id": 8131,
+      "pause_information_id": 8132
+    }
+  },
+  "CA18_FM_LAR#0": {
+    "from": "msn/us/HB34_FM_ZEX.bar#0",
+    "fields": {
+      "id": 409,
+      "pause_information_id": 20546,
+      "bonus_reward": 68
+    }
+  },
+  "CA18_FM_LAR#2": {
+    "commands": [
+      {
+        "from": "msn/us/EH14_MS103.bar#2/0",
+        "project": "re_13-12a",
+        "zero_tail": 1
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/1"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/2"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/3"
+      },
+      {
+        "camera_asset": "1f840c389f6c7958a56ec47aaa8c2c7388ede836dd678c3baf4a3092c3976c00"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/5"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/6"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/7"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/8"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/9"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/10"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/11"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/12"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/13"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/14"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/15"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/16"
+      }
+    ]
+  },
+  "CA26_FM_MAR#0": {
+    "from": "msn/us/HB38_FM_MAR.bar#0",
+    "fields": {
+      "pause_information_id": 10182,
+      "bonus_reward": 22,
+      "antiform_multiplier": 2
+    }
+  },
+  "DEFEAT_ENEMY_TEST#0": {
+    "from": "msn/us/AL14_MS201A.bar#0",
+    "fields": {
+      "id": 192,
+      "flags": 417,
+      "information_id": 14188,
+      "pause_information_id": 18613
+    }
+  },
+  "EH02_MS404A#0": {
+    "from": "msn/us/HB16_MS404A.bar#0",
+    "fields": {
+      "information_id": 16214,
+      "pause_information_id": 16215
+    },
+    "splices": [
+      [
+        2,
+        0,
+        [
+          [
+            "DriveRefillRatio",
+            {
+              "parameters": [1092616192]
+            }
+          ]
+        ]
+      ]
+    ],
+    "zero_tail": 12
+  },
+  "EH02_MS404B#0": {
+    "from": "msn/us/HB16_MS404B.bar#0",
+    "fields": {
+      "flags": 4276,
+      "pause_information_id": 16215
+    },
+    "splices": [
+      [
+        1,
+        0,
+        [
+          [
+            "DriveRefillRatio",
+            {
+              "parameters": [1092616192]
+            }
+          ]
+        ]
+      ]
+    ]
+  },
+  "EH03_INFINITE#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "id": 234,
+      "flags": 4100,
+      "information_id": 0
+    }
+  },
+  "EH03_INTRO1#0": {
+    "from": "msn/us/AL14_MS201A.bar#0",
+    "fields": {
+      "id": 179,
+      "flags": 241,
+      "information_id": 16217,
+      "pause_information_id": 0,
+      "finish_sound": 53
+    },
+    "splices": [
+      [
+        0,
+        1,
+        []
+      ]
+    ],
+    "zero_tail": 12
+  },
+  "EH03_INTRO2#0": {
+    "from": "msn/us/TT04_MS301.bar#0",
+    "fields": {
+      "id": 2,
+      "flags": 369,
+      "information_id": 16220,
+      "pause_information_id": 16220,
+      "finish_sound": 53
+    },
+    "splices": [
+      [
+        0,
+        2,
+        [
+          [
+            "CameraComplete",
+            [3, 0, 566]
+          ]
+        ]
+      ]
+    ]
+  },
+  "EH03_INTRO2#2": {
+    "commands": [
+      {
+        "from": "msn/us/LK05_MS101.bar#2/0",
+        "project": "re_msstart-1b",
+        "zero_tail": 1
+      },
+      {
+        "from": "msn/us/LK05_MS101.bar#2/1"
+      },
+      {
+        "from": "msn/us/LK05_MS101.bar#2/2"
+      },
+      {
+        "from": "msn/us/LK05_MS101.bar#2/3"
+      },
+      {
+        "camera_asset": "6d79f2ba5cac660400aef38bc6a10a4c61facf9f84835bd92c6f53bbde993033"
+      },
+      {
+        "from": "msn/us/LK05_MS101.bar#2/5"
+      },
+      {
+        "from": "msn/us/AL00_MS101.bar#2/6"
+      },
+      {
+        "from": "msn/us/LK05_MS101.bar#2/7"
+      }
+    ]
+  },
+  "EH03_MS405#0": {
+    "from": "msn/us/HB17_MS405.bar#0",
+    "fields": {
+      "id": 239,
+      "flags": 449,
+      "information_id": 16217,
+      "pause_information_id": 16218,
+      "bonus_reward": 69
+    },
+    "splices": [
+      [
+        2,
+        1,
+        [
+          [
+            "Counter",
+            {
+              "parameters": [0, 25, 0, 6]
+            }
+          ],
+          [
+            "DriveRefillRatio",
+            {
+              "parameters": [1092616192]
+            }
+          ]
+        ]
+      ]
+    ],
+    "zero_tail": 8
+  },
+  "EH03_MS405#6": {
+    "from": "msn/us/AL10_MS102.bar#6",
+    "fields": [
+      ["sprites", 0, 4, 1, 33],
+      ["sprites", 0, 8, 46, 69],
+      ["sprites", 0, 12, 96, 127],
+      ["sprites", 0, 16, 63, 86],
+      ["sprites", 1, 4, 56, 0],
+      ["sprites", 1, 8, 85, 45],
+      ["sprites", 1, 12, 97, 33],
+      ["sprites", 1, 16, 127, 86],
+      ["sprites", 2, 12, 26, 25],
+      ["sprites", 3, 12, 49, 48],
+      ["sprites", 4, 12, 72, 71],
+      ["sprites", 5, 12, 95, 94],
+      ["sprites", 6, 12, 118, 117],
+      ["sprites", 7, 12, 26, 25],
+      ["sprites", 8, 12, 49, 48],
+      ["sprites", 9, 12, 72, 71],
+      ["sprites", 10, 12, 95, 94],
+      ["sprites", 11, 12, 118, 117],
+      ["sprites", 12, 12, 128, 127],
+      ["sprites", 13, 12, 128, 127],
+      ["sprites", 14, 12, 128, 127],
+      ["parts", 4, 8, 110, 109],
+      ["parts", 5, 0, 4294967276, 4294967279],
+      ["parts", 5, 4, 4294967273, 4294967275],
+      ["parts", 5, 8, 21, 16],
+      ["parts", 5, 12, 19, 20],
+      ["parts", 9, 8, 23, 22],
+      ["parts", 10, 8, 23, 22],
+      ["parts", 11, 8, 22, 21],
+      ["parts", 12, 8, 23, 22],
+      ["parts", 13, 8, 24, 23],
+      ["parts", 14, 8, 23, 22],
+      ["parts", 15, 8, 23, 22],
+      ["parts", 16, 8, 24, 23],
+      ["parts", 17, 8, 23, 22],
+      ["parts", 18, 8, 24, 23],
+      ["parts", 19, 0, 1, 0],
+      ["parts", 19, 8, 11, 9],
+      ["parts", 20, 8, 10, 9],
+      ["parts", 21, 8, 23, 22]
+    ]
+  },
+  "EH03_RIKU3#0": {
+    "from": "msn/us/HB34_FM_ZEX.bar#0",
+    "fields": {
+      "id": 239,
+      "pause_information_id": 20549,
+      "bonus_reward": 69,
+      "antiform_multiplier": 1
+    }
+  },
+  "EH03_RIKU3#2": {
+    "commands": [
+      {
+        "from": "msn/us/EH14_MS103.bar#2/0",
+        "project": "re_13-13a",
+        "zero_tail": 1
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/1"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/2"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/3"
+      },
+      {
+        "camera_asset": "2e9bd59f43df7e882da6724de7aaca76a4d24003928dc844cd9e2a0905fe5bce"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/5"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/6"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/7"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/8"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/9"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/10"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/11"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/12"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/13"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/14"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/15"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/16"
+      }
+    ]
+  },
+  "EH07_CONFINE#0": {
+    "from": "msn/us/HB16_MS404B.bar#0",
+    "fields": {
+      "id": 428,
+      "flags": 4260,
+      "pause_controller": 0,
+      "antiform_multiplier": 2
+    }
+  },
+  "EH11_INFO#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "information_id": 16214,
+      "pause_controller": 5,
+      "pause_information_id": 16214
+    }
+  },
+  "EH11_NOKILL#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "flags": 4304,
+      "information_id": 16214,
+      "pause_controller": 5,
+      "pause_information_id": 16214
+    }
+  },
+  "EH39_CONFINE#0": {
+    "from": "msn/us/AL14_MS201A.bar#0",
+    "fields": {
+      "id": 192,
+      "flags": 4513,
+      "information_id": 48004,
+      "pause_information_id": 48004
+    }
+  },
+  "HB09_MS901#0": {
+    "from": "msn/us/HB09_MS901.bar#0",
+    "fields": {
+      "flags": 4515,
+      "information_id": 0,
+      "pause_information_id": 0
+    },
+    "splices": [
+      [
+        0,
+        1,
+        []
+      ],
+      [
+        2,
+        1,
+        [
+          [
+            "Gauge",
+            {
+              "parameters": [1, 100, 0, 0]
+            }
+          ]
+        ]
+      ]
+    ],
+    "zero_tail": 12
+  },
+  "HB09_MS902#0": {
+    "from": "msn/us/HB09_MS901.bar#0",
+    "fields": {
+      "id": 192,
+      "pause_information_id": 8085
+    },
+    "splices": [
+      [
+        2,
+        1,
+        []
+      ]
+    ]
+  },
+  "HB16_MS404A#0": {
+    "from": "msn/us/HB16_MS404A.bar#0",
+    "fields": {
+      "flags": 1441
+    }
+  },
+  "HB16_MS404B#0": {
+    "from": "msn/us/HB16_MS404B.bar#0",
+    "fields": {
+      "flags": 1200
+    }
+  },
+  "HB16_MS404C#0": {
+    "from": "msn/us/HB16_MS404C.bar#0",
+    "fields": {
+      "flags": 1200
+    }
+  },
+  "HB16_MS404D#0": {
+    "from": "msn/us/HB16_MS404D.bar#0",
+    "fields": {
+      "flags": 1200
+    }
+  },
+  "HB17_MS405#0": {
+    "from": "msn/us/HB34_FM_ZEX.bar#0",
+    "fields": {
+      "id": 189,
+      "pause_information_id": 8084,
+      "bonus_reward": 60,
+      "antiform_multiplier": 1
+    }
+  },
+  "HB42_FM_ZEX#0": {
+    "from": "msn/us/HB34_FM_ZEX.bar#0",
+    "fields": {
+      "bonus_reward": 10
+    }
+  },
+  "HE02_MS104C infinite spawner test#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "id": 234,
+      "flags": 320,
+      "information_id": 0
+    }
+  },
+  "HE18_MS108#0": {
+    "from": "msn/us/HE18_MS108.bar#0",
+    "splices": [
+      [
+        0,
+        1,
+        [
+          [
+            "CameraStart",
+            [2, 0, 566]
+          ]
+        ]
+      ]
+    ]
+  },
+  "LK00_MS202#0": {
+    "from": "msn/us/TR09_MS205.bar#0",
+    "fields": {
+      "id": 24,
+      "flags": 17329,
+      "pause_information_id": 18747,
+      "bonus_reward": 30
+    },
+    "splices": [
+      [
+        0,
+        1,
+        [
+          [
+            "CameraStart",
+            [2, 0, 357]
+          ]
+        ]
+      ]
+    ]
+  },
+  "LK00_MS202#2": {
+    "commands": [
+      {
+        "from": "msn/us/TR02_MS102_FREE.bar#2/0",
+        "project": "re_mu08_ms204-0a",
+        "zero_tail": 2
+      },
+      {
+        "from": "msn/us/TR02_MS102_FREE.bar#2/1"
+      },
+      {
+        "from": "msn/us/TR02_MS102_FREE.bar#2/2"
+      },
+      {
+        "from": "msn/us/AL00_MS101.bar#2/3",
+        "set_u16": [
+          [0, 120, 145]
+        ]
+      },
+      {
+        "camera_asset": "52fae3d143465ab38861c0f35b40282d0e6f43a8fe8b43305f23c2dc4d53f8f1"
+      },
+      {
+        "from": "msn/us/TR02_MS102_FREE.bar#2/5"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#3/14",
+        "set_u16": [
+          [0, 64, 91],
+          [7, 30716, 1240]
+        ]
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#3/16",
+        "set_u16": [
+          [0, 77, 99],
+          [1, 28673, 14337],
+          [7, 30716, 1240]
+        ]
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#3/14",
+        "set_u16": [
+          [0, 64, 133],
+          [1, 15360, 15361],
+          [7, 30716, 1240]
+        ]
+      },
+      {
+        "from": "msn/us/TR02_MS102_FREE.bar#2/8",
+        "set_u16": [
+          [0, 145, 133]
+        ]
+      },
+      {
+        "from": "msn/us/TR02_MS102_FREE.bar#2/9",
+        "set_u16": [
+          [0, 144, 132]
+        ]
+      }
+    ]
+  },
+  "LK02_MS103#0": {
+    "from": "msn/us/LK05_MS101.bar#0",
+    "fields": {
+      "flags": 16817
+    }
+  },
+  "LK02_MS104#0": {
+    "from": "msn/us/HB34_FM_ZEX.bar#0",
+    "fields": {
+      "id": 107,
+      "flags": 16817,
+      "pause_information_id": 18746,
+      "bonus_reward": 29,
+      "antiform_multiplier": 1
+    }
+  },
+  "LK02_MS104#2": {
+    "commands": [
+      {
+        "from": "msn/us/AL00_MS101.bar#2/0",
+        "project": "re_lk14_ms103-0a",
+        "zero_tail": 2
+      },
+      {
+        "from": "msn/us/AL00_MS101.bar#2/1"
+      },
+      {
+        "from": "msn/us/AL00_MS101.bar#2/2"
+      },
+      {
+        "from": "msn/us/AL00_MS101.bar#2/3"
+      },
+      {
+        "camera_asset": "f4009615ff9a7a3aeae040479a24919170fdb32088833a3f47e301dbe785adeb"
+      },
+      {
+        "from": "msn/us/AL00_MS101.bar#2/5"
+      },
+      {
+        "from": "msn/us/AL00_MS101.bar#2/6"
+      },
+      {
+        "from": "msn/us/AL10_MS102.bar#3/12",
+        "set_u16": [
+          [0, 15, 120]
+        ]
+      },
+      {
+        "from": "msn/us/CA01_MS102.bar#2/8"
+      }
+    ]
+  },
+  "LK03_MS201#0": {
+    "from": "msn/us/LK05_MS101.bar#0",
+    "fields": {
+      "bonus_reward": 50
+    }
+  },
+  "LM07_MS103#0": {
+    "from": "msn/us/HB16_MS404A.bar#0",
+    "fields": {
+      "id": 90,
+      "information_id": 48003,
+      "pause_information_id": 48003,
+      "bonus_reward": 43
+    }
+  },
+  "LM_NO_LEAVE#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "id": 0,
+      "flags": 4128,
+      "information_id": 0
+    }
+  },
+  "MICKEY_TEST#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "flags": 4752,
+      "information_id": 16214,
+      "pause_controller": 5,
+      "pause_information_id": 16214
+    }
+  },
+  "MU13_FM_ZEX#0": {
+    "from": "msn/us/HB34_FM_ZEX.bar#0",
+    "fields": {
+      "pause_information_id": 18745,
+      "bonus_reward": 10
+    }
+  },
+  "NEVERLAND_CONDITIONS#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "id": 234,
+      "flags": 16388,
+      "information_id": 0
+    }
+  },
+  "NM00_MS101#0": {
+    "from": "msn/us/HB16_MS404A.bar#0",
+    "fields": {
+      "id": 90,
+      "information_id": 48003,
+      "pause_information_id": 7958,
+      "bonus_reward": 43
+    }
+  },
+  "NM09_MS104#2": {
+    "commands": [
+      {
+        "from": "msn/us/NM09_MS104.bar#2/0"
+      },
+      {
+        "from": "msn/us/NM09_MS104.bar#2/1"
+      },
+      {
+        "from": "msn/us/NM09_MS104.bar#2/2"
+      },
+      {
+        "from": "msn/us/NM09_MS104.bar#2/3"
+      },
+      {
+        "camera_asset": "5fbc91b12ebb71b0fb82bf40e1813f86e1f4efc8ce24aac1c643b08d7f7846dc"
+      },
+      {
+        "from": "msn/us/NM09_MS104.bar#2/5"
+      },
+      {
+        "from": "msn/us/NM09_MS104.bar#2/6"
+      },
+      {
+        "from": "msn/us/NM09_MS104.bar#2/7"
+      },
+      {
+        "from": "msn/us/NM09_MS104.bar#2/8"
+      },
+      {
+        "from": "msn/us/NM09_MS104.bar#2/9"
+      },
+      {
+        "from": "msn/us/NM09_MS104.bar#2/10"
+      },
+      {
+        "from": "msn/us/NM09_MS104.bar#2/11"
+      },
+      {
+        "from": "msn/us/NM09_MS104.bar#2/12"
+      },
+      {
+        "from": "msn/us/NM09_MS104.bar#2/13"
+      }
+    ]
+  },
+  "NM11_FM_LAR#0": {
+    "from": "msn/us/HB34_FM_ZEX.bar#0",
+    "fields": {
+      "id": 117,
+      "flags": 929,
+      "pause_information_id": 18750,
+      "bonus_reward": 20,
+      "antiform_multiplier": 2
+    }
+  },
+  "PO03_MS001 days version#0": {
+    "from": "msn/us/HB16_MS404B.bar#0",
+    "fields": {
+      "id": 71,
+      "flags": 945,
+      "reserved09": 7,
+      "antiform_multiplier": 2,
+      "finish_sound": 23
+    },
+    "splices": [
+      [
+        0,
+        1,
+        [
+          [
+            "CameraStart",
+            [2, 0, 355]
+          ],
+          [
+            "CameraComplete",
+            [5, 7, 0]
+          ]
+        ]
+      ]
+    ]
+  },
+  "PO03_MS001 days version#2": {
+    "commands": [
+      {
+        "from": "msn/us/TR09_MS205.bar#2/0",
+        "project": "re_tt34_ms304-0a",
+        "zero_tail": 2
+      },
+      {
+        "from": "msn/us/TR09_MS205.bar#2/1"
+      },
+      {
+        "from": "msn/us/TR09_MS205.bar#2/2"
+      },
+      {
+        "from": "msn/us/AL00_MS101.bar#2/3",
+        "set_u16": [
+          [0, 120, 191]
+        ]
+      },
+      {
+        "camera_asset": "b4fdebde7e46e972266a8e198649716acfc8073f5800ad0f54aa9c35851a1143"
+      },
+      {
+        "camera_asset": "4ac7b498234be90862b607360cf6cbfbe4a15f99868f45087599a653336eebaa"
+      },
+      {
+        "from": "ard/us/tt03.ard#50/20"
+      },
+      {
+        "from": "ard/us/tr04.ard#19/37",
+        "set_u16": [
+          [2, 241, 191]
+        ]
+      },
+      {
+        "from": "msn/us/TR09_MS205.bar#2/10",
+        "set_u16": [
+          [0, 31, 117],
+          [1, 15360, 24576]
+        ]
+      },
+      {
+        "from": "msn/us/TR09_MS205.bar#2/10",
+        "set_u16": [
+          [0, 31, 142],
+          [1, 15360, 25600]
+        ]
+      },
+      {
+        "from": "msn/us/TR09_MS205.bar#2/11",
+        "set_u16": [
+          [0, 62, 162]
+        ]
+      }
+    ]
+  },
+  "PO03_MS001#0": {
+    "from": "msn/us/NM09_MS104.bar#0",
+    "fields": {
+      "id": 71,
+      "flags": 16819,
+      "information_id": 7900,
+      "pause_information_id": 7900,
+      "bonus_reward": 0
+    },
+    "splices": [
+      [
+        0,
+        2,
+        [
+          [
+            "CameraStart",
+            [2, 0, 355]
+          ],
+          [
+            "CameraComplete",
+            [5, 7, 1679]
+          ]
+        ]
+      ]
+    ]
+  },
+  "PO03_MS001#2": {
+    "commands": [
+      {
+        "from": "msn/us/TR09_MS205.bar#2/0",
+        "project": "re_tt34_ms304-0a",
+        "zero_tail": 2
+      },
+      {
+        "from": "msn/us/TR09_MS205.bar#2/1"
+      },
+      {
+        "from": "msn/us/TR09_MS205.bar#2/2"
+      },
+      {
+        "from": "msn/us/AL00_MS101.bar#2/3",
+        "set_u16": [
+          [0, 120, 191]
+        ]
+      },
+      {
+        "camera_asset": "f5607fe10b1e1df6e146ea39806852c6bba4e033f6cbae7b53fcd6623fcdef5f"
+      },
+      {
+        "camera_asset": "4ac7b498234be90862b607360cf6cbfbe4a15f99868f45087599a653336eebaa"
+      },
+      {
+        "from": "ard/us/tt03.ard#50/20"
+      },
+      {
+        "from": "ard/us/tr04.ard#19/37",
+        "set_u16": [
+          [2, 241, 191]
+        ]
+      },
+      {
+        "from": "msn/us/TR09_MS205.bar#2/10",
+        "set_u16": [
+          [0, 31, 117],
+          [1, 15360, 24576]
+        ]
+      },
+      {
+        "from": "msn/us/TR09_MS205.bar#2/10",
+        "set_u16": [
+          [0, 31, 142],
+          [1, 15360, 25600]
+        ]
+      },
+      {
+        "from": "msn/us/TR09_MS205.bar#2/11",
+        "set_u16": [
+          [0, 62, 162]
+        ]
+      }
+    ]
+  },
+  "PO03_MS202#0": {
+    "from": "msn/us/BB04_MS201.bar#0",
+    "fields": {
+      "id": 71,
+      "flags": 16883,
+      "information_id": 7909,
+      "pause_information_id": 7909,
+      "finish_sound": 53
+    },
+    "splices": [
+      [
+        1,
+        1,
+        [
+          [
+            "CameraComplete",
+            [5, 7, 1679]
+          ]
+        ]
+      ]
+    ]
+  },
+  "PO07_MS101#0": {
+    "from": "msn/us/BB04_MS201.bar#0",
+    "fields": {
+      "id": 71,
+      "flags": 16883,
+      "information_id": 7905,
+      "pause_information_id": 7905,
+      "finish_sound": 53
+    },
+    "splices": [
+      [
+        1,
+        1,
+        [
+          [
+            "CameraComplete",
+            [5, 7, 1679]
+          ]
+        ]
+      ]
+    ]
+  },
+  "PO08_MS201#0": {
+    "from": "msn/us/AL14_MS201A.bar#0",
+    "fields": {
+      "id": 192,
+      "flags": 16883,
+      "information_id": 7906,
+      "pause_information_id": 7908
+    }
+  },
+  "PO_001_INFO#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "flags": 0,
+      "information_id": 0,
+      "pause_controller": 24
+    }
+  },
+  "PO_CONDITIONS#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "id": 234,
+      "flags": 20502,
+      "information_id": 0,
+      "pause_controller": 5
+    }
+  },
+  "PO_STEALTH#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "id": 234,
+      "flags": 20502,
+      "information_id": 7904,
+      "pause_controller": 5,
+      "fail_sound": 51
+    },
+    "splices": [
+      [
+        0,
+        0,
+        [
+          [
+            "CameraFailed",
+            [2, 0, 566]
+          ]
+        ]
+      ]
+    ],
+    "zero_tail": 12
+  },
+  "TR01_MS101#0": {
+    "from": "msn/us/AL14_MS201A.bar#0",
+    "fields": {
+      "id": 192,
+      "flags": 417,
+      "information_id": 15235,
+      "pause_information_id": 18613
+    }
+  },
+  "TR02_MS102_FREE#0": {
+    "from": "msn/us/TR02_MS102_FREE.bar#0",
+    "fields": {
+      "flags": 353
+    },
+    "splices": [
+      [
+        5,
+        0,
+        [
+          [
+            "Timer",
+            {
+              "parameters": [90, 90, 0, 65551]
+            }
+          ]
+        ]
+      ]
+    ],
+    "zero_tail": 0
+  },
+  "TR07_MS203#7": {
+    "from": "msn/us/TR07_MS203.bar#7",
+    "fields": [
+      ["sprites", 0, 4, 43, 0],
+      ["sprites", 0, 12, 80, 41],
+      ["sprites", 1, 4, 80, 42],
+      ["sprites", 1, 8, 88, 87],
+      ["sprites", 1, 12, 80, 50],
+      ["sprites", 2, 4, 80, 42],
+      ["sprites", 2, 8, 88, 87],
+      ["sprites", 2, 12, 80, 50],
+      ["sprites", 3, 4, 1, 99],
+      ["sprites", 3, 8, 103, 97],
+      ["sprites", 3, 12, 29, 127],
+      ["sprites", 3, 16, 127, 121],
+      ["sprites", 4, 4, 82, 60],
+      ["sprites", 4, 8, 88, 87],
+      ["sprites", 4, 12, 88, 66],
+      ["sprites", 5, 4, 91, 70],
+      ["sprites", 5, 8, 88, 87],
+      ["sprites", 5, 12, 97, 76],
+      ["sprites", 7, 8, 17, 16],
+      ["sprites", 7, 16, 32, 31],
+      ["sprites", 8, 4, 100, 75],
+      ["sprites", 8, 8, 103, 44],
+      ["sprites", 8, 12, 122, 97],
+      ["sprites", 8, 16, 127, 68],
+      ["sprites", 9, 4, 0, 1],
+      ["sprites", 9, 16, 90, 89],
+      ["sprites", 10, 4, 99, 45],
+      ["sprites", 10, 8, 79, 46],
+      ["sprites", 10, 12, 122, 68],
+      ["sprites", 10, 16, 102, 69],
+      ["sprites", 11, 4, 90, 124],
+      ["sprites", 11, 8, 88, 125],
+      ["sprites", 11, 12, 91, 126],
+      ["sprites", 12, 4, 90, 124],
+      ["sprites", 12, 8, 88, 125],
+      ["sprites", 12, 12, 90, 126],
+      ["sprites", 13, 4, 43, 42],
+      ["sprites", 13, 8, 61, 69],
+      ["sprites", 13, 12, 128, 127],
+      ["sprites", 13, 16, 78, 86],
+      ["parts", 0, 0, 4294967278, 4294967274],
+      ["parts", 1, 4, 4294967277, 4294967276],
+      ["parts", 2, 4, 4294967277, 4294967276],
+      ["parts", 6, 4, 4294967276, 2],
+      ["parts", 6, 12, 19, 4],
+      ["parts", 7, 4, 4294967276, 4294967275],
+      ["parts", 8, 4, 4294967276, 2],
+      ["parts", 8, 12, 19, 4],
+      ["animations", 19, 64, 1074796586, 1074869790],
+      ["animations", 20, 0, 59696, 60272],
+      ["animations", 20, 80, 0, 1065353216],
+      ["animations", 23, 0, 59696, 60272],
+      ["animations", 23, 80, 0, 1065353216],
+      ["animations", 32, 0, 293168, 293744],
+      ["animations", 32, 84, 0, 1065353216],
+      ["animations", 35, 0, 293168, 293744],
+      ["animations", 35, 84, 0, 1065353216],
+      ["animation_groups", 3, 4, 35848193, 36372481],
+      ["animation_groups", 5, 4, 40042497, 40566785]
+    ]
+  },
+  "TT04_MS107#0": {
+    "from": "msn/us/TT04_MS107.bar#0",
+    "splices": [
+      [
+        0,
+        1,
+        [
+          [
+            "Counter",
+            {
+              "parameters": [0, 1073741827, 0, 3]
+            }
+          ],
+          [
+            "Counter",
+            {
+              "parameters": [0, 1073741827, 0, 17039365]
+            }
+          ],
+          [
+            "Gauge",
+            {
+              "parameters": [1, 100, 0],
+              "declared_count": 4
+            }
+          ]
+        ]
+      ]
+    ],
+    "zero_tail": 0
+  },
+  "TT04_MS107#3": {
+    "from": "msn/us/TR02_MS102_FREE.bar#11",
+    "fields": [
+      ["animations", 41, 0, 325936, 325648],
+      ["animations", 41, 64, 0, 3234402267],
+      ["animation_groups", 9, 4, 48693249, 48431105]
+    ]
+  },
+  "TT08_MS701#0": {
+    "from": "msn/us/TT08_MS701.bar#0",
+    "fields": {
+      "finish_sound": 52
+    },
+    "splices": [
+      [
+        1,
+        3,
+        [
+          [
+            "CameraComplete",
+            [4, 0, 902]
+          ]
+        ]
+      ]
+    ]
+  },
+  "TT10_WORK_TIMBER#0": {
+    "from": "msn/us/AL14_MS201A.bar#0",
+    "fields": {
+      "id": 121,
+      "flags": 320,
+      "information_id": 14203,
+      "pause_information_id": 18621
+    },
+    "splices": [
+      [
+        2,
+        0,
+        [
+          [
+            "Timer",
+            {
+              "parameters": [60, 60, 0, 6]
+            }
+          ]
+        ]
+      ]
+    ]
+  },
+  "TT12_WORK_BOX#0": {
+    "from": "msn/us/AL14_MS201A.bar#0",
+    "fields": {
+      "id": 243,
+      "flags": 417,
+      "information_id": 14223,
+      "pause_information_id": 18619
+    }
+  },
+  "TT14_MS001#0": {
+    "from": "msn/us/HB33_FM_LEX.bar#0",
+    "fields": {
+      "id": 405,
+      "pause_information_id": 14191,
+      "bonus_reward": 56
+    },
+    "splices": [
+      [
+        2,
+        2,
+        [
+          [
+            "Gauge",
+            {
+              "parameters": [0, 100, 0, 6]
+            }
+          ],
+          [
+            "Counter",
+            {
+              "parameters": [0, 5, 0, 8]
+            }
+          ]
+        ]
+      ]
+    ]
+  },
+  "TT14_MS001#2": {
+    "commands": [
+      {
+        "from": "msn/us/EH14_MS103.bar#2/0",
+        "project": "re_13-8a",
+        "zero_tail": 2
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/1"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/2"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/3"
+      },
+      {
+        "camera_asset": "8e707e5d6c30dc56550f654e617bf27d418f9d6544ece097c116253eca30ebc5"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/5"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/6"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/8"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/9"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/10"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/11"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/12"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/13"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/14"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/15"
+      },
+      {
+        "from": "msn/us/EH14_MS103.bar#2/16"
+      }
+    ]
+  },
+  "TT25_MS801#0": {
+    "from": "msn/us/TT25_MS801.bar#0",
+    "fields": {
+      "flags": 433
+    }
+  },
+  "TT32_MS304#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "id": 180,
+      "flags": 64,
+      "information_id": 0
+    }
+  },
+  "TT32_MS305#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "id": 313,
+      "flags": 64,
+      "information_id": 0,
+      "pause_controller": 20
+    }
+  },
+  "TT40_MS003 twilight thorn#0": {
+    "from": "msn/us/TR09_MS205.bar#0",
+    "fields": {
+      "id": 181,
+      "information_id": 14177,
+      "pause_information_id": 18602,
+      "bonus_reward": 63,
+      "antiform_multiplier": 1
+    }
+  },
+  "TT40_MS003 twilight thorn#2": {
+    "commands": [
+      {
+        "from": "msn/us/TR09_MS205.bar#2/0",
+        "project": "re_tt34_ms304-0a",
+        "zero_tail": 2
+      },
+      {
+        "from": "msn/us/TR09_MS205.bar#2/1"
+      },
+      {
+        "from": "msn/us/TR09_MS205.bar#2/2"
+      },
+      {
+        "from": "msn/us/AL00_MS101.bar#2/3",
+        "set_u16": [
+          [0, 120, 191]
+        ]
+      },
+      {
+        "camera_asset": "65311e6f602ba753f2ff830c9fce20a579e40b7d36e7bb8269b522a70e3aa55f"
+      },
+      {
+        "camera_asset": "4c08991fc2276367dd42d0db884b8f050233c3a5a45e04b0097210264df790ff"
+      },
+      {
+        "from": "ard/us/tt03.ard#50/20"
+      },
+      {
+        "from": "ard/us/tr04.ard#19/37",
+        "set_u16": [
+          [2, 241, 191]
+        ]
+      },
+      {
+        "from": "msn/us/TR09_MS205.bar#2/10",
+        "set_u16": [
+          [0, 31, 117],
+          [1, 15360, 24576]
+        ]
+      },
+      {
+        "from": "msn/us/TR09_MS205.bar#2/10",
+        "set_u16": [
+          [0, 31, 142],
+          [1, 15360, 25600]
+        ]
+      },
+      {
+        "from": "msn/us/TR09_MS205.bar#2/11",
+        "set_u16": [
+          [0, 62, 162]
+        ]
+      }
+    ]
+  },
+  "TT42_CONFINE_1#0": {
+    "from": "msn/us/HB16_MS404B.bar#0",
+    "fields": {
+      "id": 427,
+      "flags": 4260,
+      "pause_controller": 0,
+      "antiform_multiplier": 1
+    }
+  },
+  "VENDOR_WAVES#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "id": 234,
+      "flags": 4132,
+      "information_id": 34279
+    }
+  },
+  "WEAPON_RETURN#0": {
+    "from": "msn/us/AL14_MS_M.bar#0",
+    "fields": {
+      "id": 234,
+      "flags": 4132,
+      "information_id": 0
+    }
+  }
+}

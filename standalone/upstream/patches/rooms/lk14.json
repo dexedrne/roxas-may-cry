@@ -1,0 +1,48 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "542872d1ec44f5df27c019ca4cc1c0cae660650345975e4659352bd3b6637d71",
+    "op": "clean",
+    "from": "lk14:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 12,
+    "sha256": "ceed87339c3279be8368fffe65f88325e164c4a8e337e5d6074b7b510f536a10",
+    "op": "clean",
+    "from": "lk14:1"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 12,
+    "sha256": "a69754befd842f9b0a52643aee193d82f5ef204fccec48e80c543c227ba8b8c9",
+    "op": "clean",
+    "from": "lk14:2"
+  },
+  {
+    "type": 12,
+    "name": "b_40",
+    "link": 0,
+    "gap": 0,
+    "sha256": "bbbee90a485fa9d71c205898492d7454df277f91ad38cd5f41db018d3df77c36",
+    "op": "clean",
+    "from": "lk14:3"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 12,
+    "sha256": "e84dba2679fcc11f399062d89a1462e213213b5b28f07c1bcbc67fea9761cec3",
+    "op": "clean",
+    "from": "lk14:4"
+  },
+  {"type": 22, "name": "122", "link": 0, "gap": 4, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

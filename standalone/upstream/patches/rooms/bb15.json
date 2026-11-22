@@ -1,0 +1,69 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "fd8233a0fc2b7b0daf4eee558377784120bbb976c14b6966392fff22e0f970b9",
+    "op": "clean",
+    "from": "bb15:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 4,
+    "sha256": "63056e0cc74640f68ada61d45ef3f783e265f77acc71be215116e1cd1f00e795",
+    "op": "clean",
+    "from": "bb15:1"
+  },
+  {
+    "type": 12,
+    "name": "m_22",
+    "link": 0,
+    "gap": 12,
+    "sha256": "114bb6fea3db58655e7477abc5efb9fc39a05e8136f53e7a643463048e093211",
+    "op": "clean",
+    "from": "bb15:2"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 12,
+    "sha256": "220b3902082f53c9a564969da072fcbc693b3302299ce9538a7e06d551b9cf72",
+    "op": "clean",
+    "from": "bb15:3"
+  },
+  {
+    "type": 12,
+    "name": "b_60",
+    "link": 0,
+    "gap": 0,
+    "sha256": "a9a2c170321a401c660dc7ebec092b4b5e500c681910405ccea579076a440ceb",
+    "op": "clean",
+    "from": "bb15:4"
+  },
+  {
+    "type": 12,
+    "name": "b_80",
+    "link": 0,
+    "gap": 12,
+    "sha256": "775ca3adf55f079f0b2934847c4509118b5d33d6b62cd8b4e9e813f7238543a6",
+    "op": "clean",
+    "from": "bb15:5"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 12,
+    "sha256": "b43f8c7f68d85dc891e7d0fe0ac60c80145ffea74316fc3cdddcb76bcd63c631",
+    "from": "bb15:6",
+    "op": "records",
+    "splices": [[5, 1, [["AreaSettings", 16, -1, ["flag", 5130], ["event", 18, "215"], ["jump", 0, 1, 5, 6, 0, 0, 1], ["list", 270, 528], ["set7", 0]]]]]
+  },
+  {"type": 22, "name": "215", "link": 0, "gap": 4, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "301", "link": 0, "gap": 8, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "302", "link": 0, "gap": 8, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

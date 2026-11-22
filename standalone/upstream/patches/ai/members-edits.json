@@ -1,0 +1,353 @@
+{
+  "magnet1.mag#1": {
+    "word_edits": [
+      {
+        "operation": "encode push.s",
+        "expect": 144,
+        "write": 16,
+        "at_word_pc": [120, 123, 274]
+      },
+      {
+        "operation": "encode push",
+        "expect": 128,
+        "write": 0,
+        "at_word_pc": [130, 133, 136, 156, 159, 162, 237, 240, 243, 319, 338, 341, 549, 552]
+      },
+      {
+        "operation": "encode beqz",
+        "expect": 87,
+        "write": 71,
+        "at_word_pc": [201, 286, 382]
+      },
+      {
+        "operation": "encode push.s",
+        "expect": 1040,
+        "write": 16,
+        "at_word_pc": [230]
+      },
+      {
+        "operation": "encode ret",
+        "expect": 185,
+        "write": 137,
+        "at_word_pc": [372]
+      },
+      {
+        "operation": "encode push.s",
+        "expect": 80,
+        "write": 16,
+        "at_word_pc": [411]
+      },
+      {
+        "operation": "encode sin",
+        "expect": 409,
+        "write": 393,
+        "at_word_pc": [415]
+      },
+      {
+        "operation": "encode push.s",
+        "expect": 400,
+        "write": 16,
+        "at_word_pc": [416]
+      },
+      {
+        "operation": "encode push",
+        "expect": 192,
+        "write": 0,
+        "at_word_pc": [491]
+      },
+      {
+        "operation": "encode seqz",
+        "expect": 517,
+        "write": 261,
+        "at_word_pc": [583]
+      }
+    ]
+  },
+  "M_EX850.mdlx#2": {
+    "word_edits": [
+      {
+        "operation": "encode dup",
+        "expect": 377,
+        "write": 329,
+        "at_word_pc": [34, 2072]
+      },
+      {
+        "operation": "encode push",
+        "expect": 320,
+        "write": 0,
+        "at_word_pc": [35, 60, 67, 1546, 1553, 2073, 2585, 2602, 2619, 2651, 2668, 2685, 2710, 2727, 2744]
+      },
+      {
+        "operation": "encode push",
+        "expect": 128,
+        "write": 0,
+        "at_word_pc": [192, 243, 605, 653, 766, 773, 828, 838, 1504, 1514, 1524, 1812, 2904]
+      },
+      {
+        "operation": "encode ret",
+        "expect": 169,
+        "write": 137,
+        "at_word_pc": [208, 484, 823]
+      },
+      {
+        "operation": "encode push",
+        "expect": 256,
+        "write": 0,
+        "at_word_pc": [228, 1446, 1462]
+      },
+      {
+        "operation": "encode ret",
+        "expect": 185,
+        "write": 137,
+        "at_word_pc": [279, 518, 2121, 2265, 2430, 2528]
+      },
+      {
+        "operation": "encode beqz",
+        "expect": 87,
+        "write": 71,
+        "at_word_pc": [352, 499, 1788, 1979, 2303, 2323, 2548, 2845]
+      },
+      {
+        "operation": "encode push.s",
+        "expect": 144,
+        "write": 16,
+        "at_word_pc": [410, 494, 1467, 1481, 1494, 1499, 1509, 1519, 1862, 1874, 1882, 2840]
+      },
+      {
+        "operation": "encode ret",
+        "expect": 153,
+        "write": 137,
+        "at_word_pc": [415]
+      },
+      {
+        "operation": "encode push",
+        "expect": 768,
+        "write": 0,
+        "at_word_pc": [587]
+      },
+      {
+        "operation": "encode seqz",
+        "expect": 517,
+        "write": 261,
+        "at_word_pc": [609, 2778]
+      },
+      {
+        "operation": "encode push",
+        "expect": 192,
+        "write": 0,
+        "at_word_pc": [917, 920, 923, 926, 929, 932, 935, 938, 941, 944, 953, 956, 959, 962, 965, 968, 971, 974, 977, 980, 989, 992, 995, 998, 1001, 1004, 1007, 1010, 1013, 1016, 1025, 1028, 1031, 1034, 1037, 1040, 1043, 1046, 1049, 1052, 1061, 1064, 1067, 1070, 1073, 1076, 1079, 1082, 1085, 1088, 1097, 1100, 1103, 1106, 1109, 1112, 1115, 1118, 1121, 1124, 1133, 1136, 1139, 1142, 1145, 1148, 1151, 1154, 1157, 1160, 1169, 1172, 1175, 1178, 1181, 1184, 1187, 1190, 1193, 1196, 1205, 1208, 1211, 1214, 1217, 1220, 1223, 1226, 1229, 1232, 1241, 1244, 1247, 1250, 1253, 1256, 1259, 1262, 1265, 1268, 1277, 1280, 1283, 1286, 1289, 1292, 1295, 1298, 1301, 1304, 1313, 1316, 1319, 1322, 1325, 1328, 1331, 1334, 1337, 1340, 1349, 1352, 1355, 1358, 1361, 1364, 1367, 1370, 1373, 1376, 1385, 1388, 1391, 1394, 1397, 1400, 1403, 1406, 1409, 1412]
+      },
+      {
+        "operation": "encode push.s",
+        "expect": 208,
+        "write": 16,
+        "at_word_pc": [1437]
+      },
+      {
+        "operation": "encode push.s",
+        "expect": 272,
+        "write": 16,
+        "at_word_pc": [1476]
+      },
+      {
+        "operation": "encode push",
+        "expect": 64,
+        "write": 0,
+        "at_word_pc": [1614, 1646, 2087, 2101, 2256, 2364, 2377]
+      },
+      {
+        "operation": "encode push.s",
+        "expect": 80,
+        "write": 16,
+        "at_word_pc": [2109]
+      }
+    ],
+    "push_float": [
+      {
+        "pc": 302,
+        "from": 180.0,
+        "to": 40.0
+      }
+    ]
+  },
+  "M_EX870.mdlx#1": {
+    "word_edits": [
+      {
+        "operation": "encode push",
+        "expect": 128,
+        "write": 0,
+        "at_word_pc": [238, 1002, 1113, 1123, 1133, 1433, 2536, 2625, 2628, 3190, 3193, 3219, 3245, 3258, 3268]
+      },
+      {
+        "operation": "encode seqz",
+        "expect": 517,
+        "write": 261,
+        "at_word_pc": [242]
+      },
+      {
+        "operation": "encode push",
+        "expect": 192,
+        "write": 0,
+        "at_word_pc": [314, 317, 320, 323, 326, 329, 332, 335, 338, 341, 350, 353, 356, 359, 362, 365, 368, 371, 374, 377, 386, 389, 392, 395, 398, 401, 404, 407, 410, 413, 422, 425, 428, 431, 434, 437, 440, 443, 446, 449, 458, 461, 464, 467, 470, 473, 476, 479, 482, 485, 494, 497, 500, 503, 506, 509, 512, 515, 518, 521, 530, 533, 536, 539, 542, 545, 548, 551, 554, 557, 566, 569, 572, 575, 578, 581, 584, 587, 590, 593, 602, 605, 608, 611, 614, 617, 620, 623, 626, 629, 638, 641, 644, 647, 650, 653, 656, 659, 662, 665, 674, 677, 680, 683, 686, 689, 692, 695, 698, 701, 710, 713, 716, 719, 722, 725, 728, 731, 734, 737, 746, 749, 752, 755, 758, 761, 764, 767, 770, 773, 782, 785, 788, 791, 794, 797, 800, 803, 806, 809, 818, 821, 824, 827, 830, 833, 836, 839, 842, 845, 854, 857, 860, 863, 866, 869, 872, 875, 878, 881, 890, 893, 896, 899, 902, 905, 908, 911, 914, 917, 926, 929, 932, 935, 938, 941, 944, 947, 950, 953, 962, 965, 968, 971, 974, 977, 980, 983, 986, 989]
+      },
+      {
+        "operation": "encode push",
+        "expect": 64,
+        "write": 0,
+        "at_word_pc": [1033, 1223, 1255, 1704, 1718, 1873, 3214]
+      },
+      {
+        "operation": "encode push",
+        "expect": 256,
+        "write": 0,
+        "at_word_pc": [1062]
+      },
+      {
+        "operation": "encode push.s",
+        "expect": 144,
+        "write": 16,
+        "at_word_pc": [1067, 1081, 1103, 1108, 1118, 1128, 1483, 1495, 1503]
+      },
+      {
+        "operation": "encode push.s",
+        "expect": 272,
+        "write": 16,
+        "at_word_pc": [1076]
+      },
+      {
+        "operation": "encode push",
+        "expect": 320,
+        "write": 0,
+        "at_word_pc": [1155, 1162, 1690, 2005, 2022, 2039, 2071, 2088, 2105, 2130, 2147, 2164]
+      },
+      {
+        "operation": "encode ret",
+        "expect": 169,
+        "write": 137,
+        "at_word_pc": [1344, 2674, 3133]
+      },
+      {
+        "operation": "encode beqz",
+        "expect": 87,
+        "write": 71,
+        "at_word_pc": [1409, 1596, 1902, 2301, 3052]
+      },
+      {
+        "operation": "encode dup",
+        "expect": 377,
+        "write": 329,
+        "at_word_pc": [1689]
+      },
+      {
+        "operation": "encode push.s",
+        "expect": 80,
+        "write": 16,
+        "at_word_pc": [1726, 3054]
+      },
+      {
+        "operation": "encode ret",
+        "expect": 185,
+        "write": 137,
+        "at_word_pc": [1738, 1882, 1990, 3206]
+      },
+      {
+        "operation": "encode beqz",
+        "expect": 119,
+        "write": 71,
+        "at_word_pc": [2257, 2316]
+      }
+    ]
+  },
+  "AL14_MS_K.bar#1": {
+    "pool_start_byte": 372,
+    "pool_order": [11, 12, 15, 13, 14, 17, 16, 18, 5, 19, 0, 1, 10, 3, 4, 2, 6, 7, 8, 9]
+  },
+  "HB16_MS404A.bar#1": {
+    "pool_start_byte": 402,
+    "pool_order": [11, 12, 15, 13, 14, 17, 16, 18, 5, 19, 0, 1, 10, 3, 4, 2, 6, 7, 8, 9]
+  },
+  "HB16_MS404B.bar#1": {
+    "pool_start_byte": 492,
+    "pool_order": [16, 18, 19, 2, 0, 1, 4, 3, 5, 12, 6, 7, 8, 17, 10, 11, 9, 13, 14, 15]
+  },
+  "HB16_MS404D.bar#1": {
+    "pool_start_byte": 592,
+    "pool_order": [16, 18, 19, 2, 0, 1, 4, 3, 5, 12, 6, 7, 8, 17, 10, 11, 9, 13, 14, 15]
+  },
+  "TR07_MS203.bar#1": {
+    "word_edits": [
+      {
+        "operation": "encode dup",
+        "expect": 377,
+        "write": 329,
+        "at_word_pc": [24, 301]
+      },
+      {
+        "operation": "encode push",
+        "expect": 320,
+        "write": 0,
+        "at_word_pc": [25, 43, 302, 317, 332, 345]
+      },
+      {
+        "operation": "encode push",
+        "expect": 64,
+        "write": 0,
+        "at_word_pc": [35, 68, 89, 104, 107, 110, 113, 188]
+      },
+      {
+        "operation": "encode push",
+        "expect": 128,
+        "write": 0,
+        "at_word_pc": [99, 278, 370, 380]
+      },
+      {
+        "operation": "encode push.s",
+        "expect": 144,
+        "write": 16,
+        "at_word_pc": [124, 163, 231]
+      },
+      {
+        "operation": "encode push.s",
+        "expect": 272,
+        "write": 16,
+        "at_word_pc": [136]
+      },
+      {
+        "operation": "encode beqz",
+        "expect": 87,
+        "write": 71,
+        "at_word_pc": [149, 214]
+      },
+      {
+        "operation": "encode push",
+        "expect": 256,
+        "write": 0,
+        "at_word_pc": [193]
+      },
+      {
+        "operation": "encode ret",
+        "expect": 185,
+        "write": 137,
+        "at_word_pc": [259]
+      },
+      {
+        "operation": "encode seqz",
+        "expect": 517,
+        "write": 261,
+        "at_word_pc": [384]
+      }
+    ],
+    "push_float": [
+      {
+        "pc": 159,
+        "from": 9.999999747378752e-05,
+        "to": 4.999999873689376e-05
+      },
+      {
+        "pc": 163,
+        "from": 0.009999999776482582,
+        "to": 0.004999999888241291
+      }
+    ]
+  }
+}

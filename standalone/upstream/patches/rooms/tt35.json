@@ -1,0 +1,48 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "383ae618e0507a48730551bf60f33792be1f2aa5151a6c3698939ab4275baa34",
+    "op": "clean",
+    "from": "tt35:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "859dada73009d3da56c84953db538049c567f3dd7bf695a285bb8660c3fd4b4b",
+    "op": "clean",
+    "from": "tt35:1"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "0d4ac88dae189ca1def267a04d075add36f306cbdbc5a72db5e825855b28118f",
+    "from": "tt35:2",
+    "op": "records",
+    "splices": [[3, 1, [["AreaSettings", 0, -1, ["flag", 2207], ["set5", 2], ["jump", 0, 2, 2, 0, 0, 215, 1], ["set7", 0]]]]]
+  },
+  {
+    "type": 22,
+    "name": "711",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c5e2b990578bd2248f2cb38e833ac503b39bc945cdc690e4c8ae7a8477bf48b1",
+    "from": "tt35:3",
+    "op": "records",
+    "splices": [
+      [4, 1, [["performance", 4, 5]]],
+      [45, 1, [["record", "al00:37", 117]]],
+      [54, 1, [["record", "hb09:38", 67]]],
+      [59, 1, [["performance", 63, 1]]],
+      [80, 2, [["performance", 84, 2]]],
+      [110, 1, [["performance", 114, 1]]]
+    ],
+    "performance_sha256": "fc2093463840e85f913282deb47399a05066685414006a36f51402f2ac61bbd8"
+  }
+]

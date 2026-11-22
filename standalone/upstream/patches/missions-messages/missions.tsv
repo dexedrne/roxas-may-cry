@@ -1,0 +1,569 @@
+path	ordinal	type	name	link	zero_gap	operation	source_or_rule
+msn/us/AL00_MS101.bar	0	2	AL00	0	0	metadata	AL00_MS101#0
+msn/us/AL00_MS101.bar	1	3	ms_a	0	12	ai	
+msn/us/AL00_MS101.bar	2	22	0a	0	2	clean	msn/us/AL00_MS101.bar#2
+msn/us/AL00_MS101.bar	3	18	miss	0	2	clean	msn/us/AL00_MS101.bar#3
+msn/us/AL00_MS101.bar	4	22	1a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/AL03_BETA.bar	0	2	TT29	0	0	metadata	AL03_BETA#0
+msn/us/AL03_BETA.bar	1	3	ms_d	0	0	ai	
+msn/us/AL03_BETA.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/AL03_BETA.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/AL03_BETA.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/AL05_FM_LEX.bar	0	2	HB33	0	0	metadata	AL05_FM_LEX#0
+msn/us/AL05_FM_LEX.bar	1	3	ms_b	0	8	ai	
+msn/us/AL05_FM_LEX.bar	2	22	9a	0	14	clean	msn/us/HB33_FM_LEX.bar#2
+msn/us/AL05_FM_LEX.bar	3	22	0a	0	4	clean	msn/us/EH14_MS103.bar#3
+msn/us/AL05_FM_LEX.bar	4	18	miss	0	12	clean	msn/us/AL10_MS102.bar#4
+msn/us/AL05_FM_LEX.bar	5	24	ct_h	0	0	asset	b01429e951c2e232b6fb735b47e888725dfbb738332748421c52de44e990edae
+msn/us/AL05_FM_LEX.bar	6	25	ct_h	0	0	asset	87e124c4a67880458696240fd2bad7c964c840e1a048a6504e732fad94c28d03
+msn/us/AL05_FM_LEX.bar	7	24	ct_h	0	12	clean	msn/us/HB33_FM_LEX.bar#7
+msn/us/AL05_FM_LEX.bar	8	25	ct_h	0	0	asset	8165e13edd9dd6c1b1e073ca2fabd01af801db34b1f8d38908abc9fa45bb5285
+msn/us/AL10_MS102.bar	0	2	TT29	0	0	metadata	AL10_MS102#0
+msn/us/AL10_MS102.bar	1	3	ms_d	0	0	ai	
+msn/us/AL10_MS102.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/AL10_MS102.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/AL10_MS102.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/AL14_MS201A.bar	0	2	AL14	0	0	metadata	AL14_MS201A#0
+msn/us/AL14_MS201A.bar	1	3	ms_d	0	0	ai	
+msn/us/AL14_MS201A.bar	2	22	0b	0	0	clean	msn/us/AL14_MS201A.bar#2
+msn/us/AL14_MS201A.bar	3	22	0a	0	0	clean	msn/us/AL14_MS201A.bar#3
+msn/us/AL14_MS201A.bar	4	18	miss	0	4	clean	msn/us/AL14_MS201A.bar#4
+msn/us/AL14_MS201B.bar	0	2	AL14	0	0	metadata	AL14_MS201B#0
+msn/us/AL14_MS201B.bar	1	3	ms_d	0	0	ai	
+msn/us/AL14_MS201B.bar	2	22	0b	0	8	event	AL14_MS201B#2
+msn/us/AL14_MS201B.bar	3	22	0a	0	4	clean	msn/us/AL14_MS201B.bar#3
+msn/us/AL14_MS201B.bar	4	18	miss	0	8	clean	msn/us/AL14_MS201B.bar#4
+msn/us/AL14_MS_K.bar	0	2	AL14	0	0	metadata	AL14_MS_K#0
+msn/us/AL14_MS_K.bar	1	3	al14	0	0	ai	
+msn/us/AL14_MS_M.bar	0	2	AL14	0	0	metadata	AL14_MS_M#0
+msn/us/AL14_MS_M.bar	1	3	al14	0	0	ai	
+msn/us/AL14_MS_P.bar	0	2	AL14	0	0	metadata	AL14_MS_P#0
+msn/us/AL14_MS_P.bar	1	3	al14	0	0	ai	
+msn/us/AL14_MS_P.bar	2	22	0a	0	0	clean	msn/us/AL14_MS_P.bar#2
+msn/us/AL14_MS_P.bar	3	18	miss	0	8	clean	msn/us/AL14_MS_P.bar#3
+msn/us/AL14_MS_P.bar	4	24	ti_a	0	0	clean	msn/us/AL14_MS_P.bar#4
+msn/us/AL14_MS_P.bar	5	25	ti_a	0	0	seqd	AL14_MS_P#5
+msn/us/AL14_NO_DROPS.bar	0	2	HE02	0	0	metadata	AL14_NO_DROPS#0
+msn/us/ARCHIVE_CONDITIONS.bar	0	2	HE02	0	0	metadata	ARCHIVE_CONDITIONS#0
+msn/us/BB01_MS101.bar	0	2	TT29	0	0	metadata	BB01_MS101#0
+msn/us/BB01_MS101.bar	1	3	ms_d	0	0	ai	
+msn/us/BB01_MS101.bar	2	22	1a	0	2	clean	msn/us/AL14_MS201A.bar#2
+msn/us/BB01_MS101.bar	3	22	0a	0	4	clean	msn/us/AL10_MS102.bar#3
+msn/us/BB01_MS101.bar	4	18	miss	0	8	clean	msn/us/BB01_MS101.bar#3
+msn/us/BB03_MS103.bar	0	2	BB03	0	0	metadata	BB03_MS103#0
+msn/us/BB03_MS103.bar	1	3	ms_b	0	0	ai	
+msn/us/BB03_MS103.bar	2	22	0b	0	8	clean	msn/us/BB03_MS103.bar#2
+msn/us/BB03_MS103.bar	3	22	0a	0	4	clean	msn/us/BB03_MS103.bar#3
+msn/us/BB03_MS103.bar	4	18	miss	0	8	clean	msn/us/BB03_MS103.bar#4
+msn/us/BB04_MS201.bar	0	2	BB04	0	0	metadata	BB04_MS201#0
+msn/us/BB04_MS201.bar	1	3	ms_d	0	0	ai	
+msn/us/BB04_MS201.bar	2	22	0b	0	8	clean	msn/us/BB04_MS201.bar#2
+msn/us/BB04_MS201.bar	3	22	0a	0	4	clean	msn/us/BB04_MS201.bar#3
+msn/us/BB04_MS201.bar	4	18	miss	0	8	clean	msn/us/BB04_MS201.bar#4
+msn/us/BB08_GIMMICK.bar	0	2	TT29	0	0	metadata	BB08_GIMMICK#0
+msn/us/BB08_GIMMICK.bar	1	3	ms_d	0	0	ai	
+msn/us/BB08_GIMMICK.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/BB08_GIMMICK.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/BB08_GIMMICK.bar	4	18	miss	0	4	clean	msn/us/BB08_GIMMICK.bar#3
+msn/us/CA01_MS102 original.bar	0	2	CA01	0	0	clean	msn/us/CA01_MS102.bar#0
+msn/us/CA01_MS102 original.bar	1	3	ms_d	0	0	ai	
+msn/us/CA01_MS102 original.bar	2	22	2b	0	2	clean	msn/us/CA01_MS102.bar#2
+msn/us/CA01_MS102 original.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/CA01_MS102 original.bar	4	18	miss	0	8	clean	msn/us/AL10_MS102.bar#4
+msn/us/CA01_MS102.bar	0	2	CA01	0	0	metadata	CA01_MS102#0
+msn/us/CA01_MS102.bar	1	3	ms_d	0	0	ai	
+msn/us/CA01_MS102.bar	2	22	2a	0	0	event	AL14_MS201B#2
+msn/us/CA01_MS102.bar	3	22	0a	0	0	clean	msn/us/CA01_MS102.bar#3
+msn/us/CA01_MS102.bar	4	18	miss	0	4	clean	msn/us/CA01_MS102.bar#4
+msn/us/CA14_MS203 original.bar	0	2	CA14	0	0	clean	msn/us/CA14_MS203.bar#0
+msn/us/CA14_MS203 original.bar	1	3	ms_d	0	8	ai	
+msn/us/CA14_MS203 original.bar	2	22	0a	0	8	clean	msn/us/AL14_MS_P.bar#2
+msn/us/CA14_MS203 original.bar	3	18	miss	0	8	clean	msn/us/AL00_MS101.bar#3
+msn/us/CA14_MS203.bar	0	2	MU08	0	0	metadata	CA14_MS203#0
+msn/us/CA14_MS203.bar	1	3	ms_d	0	0	ai	
+msn/us/CA14_MS203.bar	2	22	2a	0	8	clean	msn/us/BB03_MS103.bar#2
+msn/us/CA14_MS203.bar	3	22	0a	0	4	clean	msn/us/CA14_MS203.bar#2
+msn/us/CA14_MS203.bar	4	18	miss	0	8	clean	msn/us/CA14_MS203.bar#3
+msn/us/CA18_FM_LAR.bar	0	2	HB33	0	0	metadata	CA18_FM_LAR#0
+msn/us/CA18_FM_LAR.bar	1	3	ms_b	0	0	ai	
+msn/us/CA18_FM_LAR.bar	2	22	12a	0	14	event	CA18_FM_LAR#2
+msn/us/CA18_FM_LAR.bar	3	22	0a	0	4	clean	msn/us/EH14_MS103.bar#3
+msn/us/CA18_FM_LAR.bar	4	18	miss	0	12	clean	msn/us/AL10_MS102.bar#4
+msn/us/CA26_FM_MAR.bar	0	2	HB38	0	0	metadata	CA26_FM_MAR#0
+msn/us/CA26_FM_MAR.bar	1	3	ms_b	0	0	ai	
+msn/us/CA26_FM_MAR.bar	2	22	11a	0	10	clean	msn/us/HB38_FM_MAR.bar#2
+msn/us/CA26_FM_MAR.bar	3	22	0a	0	4	clean	msn/us/EH14_MS103.bar#3
+msn/us/CA26_FM_MAR.bar	4	18	miss	0	12	clean	msn/us/AL10_MS102.bar#4
+msn/us/DEFEAT_ENEMY_TEST.bar	0	2	TT29	0	0	metadata	DEFEAT_ENEMY_TEST#0
+msn/us/DEFEAT_ENEMY_TEST.bar	1	3	ms_d	0	0	ai	
+msn/us/DEFEAT_ENEMY_TEST.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/DEFEAT_ENEMY_TEST.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/DEFEAT_ENEMY_TEST.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/EH02_MS404A.bar	0	2	HB16	0	0	metadata	EH02_MS404A#0
+msn/us/EH02_MS404A.bar	1	3	hb16	0	0	ai	
+msn/us/EH02_MS404A.bar	2	22	1a	0	10	clean	msn/us/HB09_MS501.bar#2
+msn/us/EH02_MS404A.bar	3	22	0a	0	4	clean	msn/us/AL10_MS102.bar#3
+msn/us/EH02_MS404A.bar	4	18	miss	0	8	clean	msn/us/AL10_MS102.bar#4
+msn/us/EH02_MS404B.bar	0	2	HB16	0	0	metadata	EH02_MS404B#0
+msn/us/EH02_MS404B.bar	1	3	hb16	0	0	ai	
+msn/us/EH02_MS404B.bar	2	22	0a	0	10	clean	msn/us/AL14_MS_P.bar#2
+msn/us/EH02_MS404B.bar	3	18	miss	0	8	clean	msn/us/AL00_MS101.bar#3
+msn/us/EH02_MS404C.bar	0	2	HB16	0	0	metadata	EH02_MS404B#0
+msn/us/EH02_MS404C.bar	1	3	hb16	0	0	ai	
+msn/us/EH02_MS404C.bar	2	22	0a	0	10	clean	msn/us/AL14_MS_P.bar#2
+msn/us/EH02_MS404C.bar	3	18	miss	0	8	clean	msn/us/AL00_MS101.bar#3
+msn/us/EH02_MS404D.bar	0	2	HB16	0	0	metadata	EH02_MS404B#0
+msn/us/EH02_MS404D.bar	1	3	hb16	0	0	ai	
+msn/us/EH02_MS404D.bar	2	22	0a	0	10	clean	msn/us/AL14_MS_P.bar#2
+msn/us/EH02_MS404D.bar	3	18	miss	0	8	clean	msn/us/AL00_MS101.bar#3
+msn/us/EH03_INFINITE.bar	0	2	HE02	0	0	metadata	EH03_INFINITE#0
+msn/us/EH03_INFINITE.bar	1	3	he02	0	0	ai	
+msn/us/EH03_INFINITE.bar	2	22	re_m	0	12	clean	msn/us/TR01_MS101.bar#2
+msn/us/EH03_INFINITE.bar	3	24	st_h	0	12	asset	9156803d45480d4423836a3fb1f6605ffffc606c0aa3db4927201969d6de1f96
+msn/us/EH03_INFINITE.bar	4	25	st_h	0	0	asset	8f3693c51ea07681bdd83a59e7bd185b3f67c5fb7f4ee258a52a6b02605d17b3
+msn/us/EH03_INFINITE.bar	5	18	miss	0	8	clean	msn/us/EH14_MS103.bar#5
+msn/us/EH03_INTRO1.bar	0	2	TT32	0	0	metadata	EH03_INTRO1#0
+msn/us/EH03_INTRO1.bar	1	3	tt32	0	0	ai	
+msn/us/EH03_INTRO1.bar	2	22	0b	0	12	clean	msn/us/AL14_MS_P.bar#2
+msn/us/EH03_INTRO1.bar	3	22	0a	0	8	clean	msn/us/AL10_MS102.bar#3
+msn/us/EH03_INTRO1.bar	4	18	miss	0	8	clean	msn/us/AL10_MS102.bar#4
+msn/us/EH03_INTRO2.bar	0	2	TT04	0	0	metadata	EH03_INTRO2#0
+msn/us/EH03_INTRO2.bar	1	3	tt04	0	4	ai	
+msn/us/EH03_INTRO2.bar	2	22	1b	0	14	event	EH03_INTRO2#2
+msn/us/EH03_INTRO2.bar	3	22	0a	0	12	clean	msn/us/AL10_MS102.bar#3
+msn/us/EH03_INTRO2.bar	4	18	miss	0	8	clean	msn/us/AL10_MS102.bar#4
+msn/us/EH03_MS405.bar	0	2	HB17	0	0	metadata	EH03_MS405#0
+msn/us/EH03_MS405.bar	1	3	hb17	0	0	ai	
+msn/us/EH03_MS405.bar	2	22	0b	0	10	clean	msn/us/AL14_MS201A.bar#2
+msn/us/EH03_MS405.bar	3	22	0a	0	4	clean	msn/us/AL10_MS102.bar#3
+msn/us/EH03_MS405.bar	4	18	miss	0	8	clean	msn/us/AL10_MS102.bar#4
+msn/us/EH03_MS405.bar	5	24	ct_e	0	0	clean	msn/us/AL10_MS102.bar#5
+msn/us/EH03_MS405.bar	6	25	ct_e	0	0	seqd	EH03_MS405#6
+msn/us/EH03_RIKU3.bar	0	2	EH21	0	0	metadata	EH03_RIKU3#0
+msn/us/EH03_RIKU3.bar	1	3	ms_b	0	0	ai	
+msn/us/EH03_RIKU3.bar	2	22	13a	0	2	event	EH03_RIKU3#2
+msn/us/EH03_RIKU3.bar	3	22	0a	0	0	clean	msn/us/EH14_MS103.bar#3
+msn/us/EH03_RIKU3.bar	4	18	miss	0	12	clean	msn/us/AL10_MS102.bar#4
+msn/us/EH07_CONFINE.bar	0	2	HB25	0	0	metadata	EH07_CONFINE#0
+msn/us/EH07_CONFINE.bar	1	3	hb25	0	0	ai	
+msn/us/EH07_CONFINE.bar	2	22	0a	0	0	clean	msn/us/AL14_MS_P.bar#2
+msn/us/EH07_CONFINE.bar	3	18	miss	0	12	clean	msn/us/AL00_MS101.bar#3
+msn/us/EH10_INFINITE.bar	0	2	HE02	0	0	metadata	EH03_INFINITE#0
+msn/us/EH10_INFINITE.bar	1	3	he02	0	0	ai	
+msn/us/EH10_INFINITE.bar	2	22	re_m	0	8	clean	msn/us/TR01_MS101.bar#2
+msn/us/EH10_INFINITE.bar	3	24	st_h	0	12	asset	9156803d45480d4423836a3fb1f6605ffffc606c0aa3db4927201969d6de1f96
+msn/us/EH10_INFINITE.bar	4	25	st_h	0	0	asset	8f3693c51ea07681bdd83a59e7bd185b3f67c5fb7f4ee258a52a6b02605d17b3
+msn/us/EH10_INFINITE.bar	5	18	miss	0	8	clean	msn/us/EH14_MS103.bar#5
+msn/us/EH11_CONFINE.bar	0	2	HB25	0	0	metadata	EH07_CONFINE#0
+msn/us/EH11_CONFINE.bar	1	3	hb25	0	0	ai	
+msn/us/EH11_CONFINE.bar	2	22	0a	0	0	clean	msn/us/AL14_MS_P.bar#2
+msn/us/EH11_CONFINE.bar	3	18	miss	0	12	clean	msn/us/AL00_MS101.bar#3
+msn/us/EH11_INFO.bar	0	2	AL14	0	0	metadata	EH11_INFO#0
+msn/us/EH11_INFO.bar	1	3	al14	0	0	ai	
+msn/us/EH11_NOKILL.bar	0	2	AL14	0	0	metadata	EH11_NOKILL#0
+msn/us/EH11_NOKILL.bar	1	3	al14	0	0	ai	
+msn/us/EH14_INFINITE.bar	0	2	HE02	0	0	metadata	EH03_INFINITE#0
+msn/us/EH14_INFINITE.bar	1	3	he02	0	0	ai	
+msn/us/EH14_INFINITE.bar	2	22	re_m	0	8	clean	msn/us/TR01_MS101.bar#2
+msn/us/EH14_INFINITE.bar	3	24	st_h	0	12	asset	9156803d45480d4423836a3fb1f6605ffffc606c0aa3db4927201969d6de1f96
+msn/us/EH14_INFINITE.bar	4	25	st_h	0	0	asset	8f3693c51ea07681bdd83a59e7bd185b3f67c5fb7f4ee258a52a6b02605d17b3
+msn/us/EH14_INFINITE.bar	5	18	miss	0	8	clean	msn/us/EH14_MS103.bar#5
+msn/us/EH15_INFINITE.bar	0	2	HE02	0	0	metadata	EH03_INFINITE#0
+msn/us/EH15_INFINITE.bar	1	3	he02	0	0	ai	
+msn/us/EH15_INFINITE.bar	2	22	re_m	0	8	clean	msn/us/TR01_MS101.bar#2
+msn/us/EH15_INFINITE.bar	3	24	st_h	0	12	asset	9156803d45480d4423836a3fb1f6605ffffc606c0aa3db4927201969d6de1f96
+msn/us/EH15_INFINITE.bar	4	25	st_h	0	0	asset	8f3693c51ea07681bdd83a59e7bd185b3f67c5fb7f4ee258a52a6b02605d17b3
+msn/us/EH15_INFINITE.bar	5	18	miss	0	8	clean	msn/us/EH14_MS103.bar#5
+msn/us/EH19_BETA.bar	0	2	TT29	0	0	metadata	AL03_BETA#0
+msn/us/EH19_BETA.bar	1	3	ms_d	0	0	ai	
+msn/us/EH19_BETA.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/EH19_BETA.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/EH19_BETA.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/EH30_MS404A test.bar	0	2	HB16	0	0	metadata	EH02_MS404A#0
+msn/us/EH30_MS404A test.bar	1	3	hb16	0	0	ai	
+msn/us/EH30_MS404A test.bar	2	22	1a	0	8	clean	msn/us/HB09_MS501.bar#2
+msn/us/EH30_MS404A test.bar	3	22	0a	0	4	clean	msn/us/AL10_MS102.bar#3
+msn/us/EH30_MS404A test.bar	4	18	miss	0	8	clean	msn/us/AL10_MS102.bar#4
+msn/us/EH39_CONFINE.bar	0	2	TT29	0	0	metadata	EH39_CONFINE#0
+msn/us/EH39_CONFINE.bar	1	3	ms_d	0	0	ai	
+msn/us/EH39_CONFINE.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/EH39_CONFINE.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/EH39_CONFINE.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/EH_NOKILL.bar	0	2	AL14	0	0	metadata	EH11_NOKILL#0
+msn/us/EH_NOKILL.bar	1	3	al14	0	0	ai	
+msn/us/HB09_MS101.bar	0	2	HB09	0	0	clean	msn/us/HB09_MS101.bar#0
+msn/us/HB09_MS101.bar	1	3	ms_d	0	12	ai	
+msn/us/HB09_MS101.bar	2	22	0a	0	8	clean	msn/us/HB09_MS101.bar#2
+msn/us/HB09_MS101.bar	3	22	0a	0	2	clean	msn/us/HB09_MS101.bar#3
+msn/us/HB09_MS101.bar	4	18	miss	0	8	clean	msn/us/HB09_MS101.bar#4
+msn/us/HB09_MS501.bar	0	2	HB09	0	0	clean	msn/us/HB09_MS501.bar#0
+msn/us/HB09_MS501.bar	1	3	ms_d	0	12	ai	
+msn/us/HB09_MS501.bar	2	22	0a	0	8	clean	msn/us/HB09_MS501.bar#2
+msn/us/HB09_MS501.bar	3	22	0a	0	4	clean	msn/us/HB09_MS501.bar#3
+msn/us/HB09_MS501.bar	4	18	miss	0	8	clean	msn/us/HB09_MS501.bar#4
+msn/us/HB09_MS901.bar	0	2	HB09	0	0	metadata	HB09_MS901#0
+msn/us/HB09_MS901.bar	1	3	ms_d	0	12	ai	
+msn/us/HB09_MS901.bar	2	22	0b	0	10	clean	msn/us/HB09_MS901.bar#2
+msn/us/HB09_MS901.bar	3	22	0a	0	4	clean	msn/us/HB09_MS901.bar#3
+msn/us/HB09_MS901.bar	4	18	miss	0	8	clean	msn/us/HB09_MS901.bar#4
+msn/us/HB09_MS902.bar	0	2	TT29	0	0	metadata	HB09_MS902#0
+msn/us/HB09_MS902.bar	1	3	ms_d	0	0	ai	
+msn/us/HB09_MS902.bar	2	22	1a	0	8	clean	msn/us/AL14_MS201A.bar#2
+msn/us/HB09_MS902.bar	3	22	0a	0	4	clean	msn/us/AL10_MS102.bar#3
+msn/us/HB09_MS902.bar	4	18	miss	0	8	clean	msn/us/AL10_MS102.bar#4
+msn/us/HB16_MS404A.bar	0	2	HB16	0	0	metadata	HB16_MS404A#0
+msn/us/HB16_MS404A.bar	1	3	hb16	0	0	ai	
+msn/us/HB16_MS404A.bar	2	22	1a	0	0	clean	msn/us/HB16_MS404A.bar#2
+msn/us/HB16_MS404A.bar	3	22	0a	0	0	clean	msn/us/HB16_MS404A.bar#3
+msn/us/HB16_MS404A.bar	4	18	miss	0	12	clean	msn/us/HB16_MS404A.bar#4
+msn/us/HB16_MS404B.bar	0	2	HB16	0	0	metadata	HB16_MS404B#0
+msn/us/HB16_MS404B.bar	1	3	hb16	0	0	ai	
+msn/us/HB16_MS404B.bar	2	22	0a	0	2	clean	msn/us/HB16_MS404B.bar#2
+msn/us/HB16_MS404B.bar	3	18	miss	0	4	clean	msn/us/HB16_MS404B.bar#3
+msn/us/HB16_MS404C.bar	0	2	HB16	0	0	metadata	HB16_MS404C#0
+msn/us/HB16_MS404C.bar	1	3	hb16	0	0	ai	
+msn/us/HB16_MS404C.bar	2	22	0a	0	2	clean	msn/us/HB16_MS404C.bar#2
+msn/us/HB16_MS404C.bar	3	18	miss	0	4	clean	msn/us/HB16_MS404C.bar#3
+msn/us/HB16_MS404D.bar	0	2	HB16	0	0	metadata	HB16_MS404D#0
+msn/us/HB16_MS404D.bar	1	3	hb16	0	0	ai	
+msn/us/HB16_MS404D.bar	2	22	0a	0	2	clean	msn/us/HB16_MS404D.bar#2
+msn/us/HB16_MS404D.bar	3	18	miss	0	0	clean	msn/us/HB16_MS404D.bar#3
+msn/us/HB17_MS405 defeat enemies.bar	0	2	HB17	0	0	clean	msn/us/HB17_MS405.bar#0
+msn/us/HB17_MS405 defeat enemies.bar	1	3	hb17	0	12	ai	
+msn/us/HB17_MS405 defeat enemies.bar	2	22	0b	0	8	clean	msn/us/AL14_MS201A.bar#2
+msn/us/HB17_MS405 defeat enemies.bar	3	22	0a	0	4	clean	msn/us/AL10_MS102.bar#3
+msn/us/HB17_MS405 defeat enemies.bar	4	18	miss	0	8	clean	msn/us/AL10_MS102.bar#4
+msn/us/HB17_MS405.bar	0	2	TT20	0	0	metadata	HB17_MS405#0
+msn/us/HB17_MS405.bar	1	3	ms_b	0	0	ai	
+msn/us/HB17_MS405.bar	2	22	3a	0	2	clean	msn/us/TT05_MS404.bar#2
+msn/us/HB17_MS405.bar	3	22	0a	0	0	clean	msn/us/EH14_MS103.bar#3
+msn/us/HB17_MS405.bar	4	18	miss	0	12	clean	msn/us/HB17_MS405.bar#4
+msn/us/HB18_INFINITE.bar	0	2	HE02	0	0	metadata	EH03_INFINITE#0
+msn/us/HB18_INFINITE.bar	1	3	he02	0	0	ai	
+msn/us/HB18_INFINITE.bar	2	22	re_m	0	6	clean	msn/us/TR01_MS101.bar#2
+msn/us/HB18_INFINITE.bar	3	24	st_h	0	12	asset	9156803d45480d4423836a3fb1f6605ffffc606c0aa3db4927201969d6de1f96
+msn/us/HB18_INFINITE.bar	4	25	st_h	0	0	asset	8f3693c51ea07681bdd83a59e7bd185b3f67c5fb7f4ee258a52a6b02605d17b3
+msn/us/HB18_INFINITE.bar	5	18	miss	0	8	clean	msn/us/EH14_MS103.bar#5
+msn/us/HB34_FM_ZEX.bar	0	2	HB34	0	0	clean	msn/us/HB34_FM_ZEX.bar#0
+msn/us/HB34_FM_ZEX.bar	1	3	ms_b	0	0	ai	
+msn/us/HB34_FM_ZEX.bar	2	22	10a	0	2	clean	msn/us/HB34_FM_ZEX.bar#2
+msn/us/HB34_FM_ZEX.bar	3	22	0a	0	0	clean	msn/us/HB34_FM_ZEX.bar#3
+msn/us/HB34_FM_ZEX.bar	4	18	miss	0	12	clean	msn/us/HB34_FM_ZEX.bar#4
+msn/us/HB38_FM_MAR.bar	0	2	HB38	0	0	clean	msn/us/HB38_FM_MAR.bar#0
+msn/us/HB38_FM_MAR.bar	1	3	ms_b	0	0	ai	
+msn/us/HB38_FM_MAR.bar	2	22	11a	0	10	clean	msn/us/HB38_FM_MAR.bar#2
+msn/us/HB38_FM_MAR.bar	3	22	0a	0	4	clean	msn/us/HB38_FM_MAR.bar#3
+msn/us/HB38_FM_MAR.bar	4	18	miss	0	12	clean	msn/us/HB38_FM_MAR.bar#4
+msn/us/HB42_FM_ZEX.bar	0	2	HB34	0	0	metadata	HB42_FM_ZEX#0
+msn/us/HB42_FM_ZEX.bar	1	3	ms_b	0	0	ai	
+msn/us/HB42_FM_ZEX.bar	2	22	10a	0	14	clean	msn/us/HB34_FM_ZEX.bar#2
+msn/us/HB42_FM_ZEX.bar	3	22	0a	0	4	clean	msn/us/EH14_MS103.bar#3
+msn/us/HB42_FM_ZEX.bar	4	18	miss	0	12	clean	msn/us/AL10_MS102.bar#4
+msn/us/HE02_MS104C infinite spawner test.bar	0	2	HE02	0	0	metadata	HE02_MS104C infinite spawner test#0
+msn/us/HE02_MS104C infinite spawner test.bar	1	3	he02	0	0	ai	
+msn/us/HE02_MS104C infinite spawner test.bar	2	22	re_m	0	14	clean	msn/us/TR01_MS101.bar#2
+msn/us/HE02_MS104C infinite spawner test.bar	3	24	st_h	0	12	asset	9156803d45480d4423836a3fb1f6605ffffc606c0aa3db4927201969d6de1f96
+msn/us/HE02_MS104C infinite spawner test.bar	4	25	st_h	0	0	asset	8f3693c51ea07681bdd83a59e7bd185b3f67c5fb7f4ee258a52a6b02605d17b3
+msn/us/HE02_MS104C infinite spawner test.bar	5	18	miss	0	8	clean	msn/us/EH14_MS103.bar#5
+msn/us/HE05_INFINITE.bar	0	2	HE02	0	0	metadata	EH03_INFINITE#0
+msn/us/HE05_INFINITE.bar	1	3	he02	0	0	ai	
+msn/us/HE05_INFINITE.bar	2	22	re_m	0	6	clean	msn/us/TR01_MS101.bar#2
+msn/us/HE05_INFINITE.bar	3	24	st_h	0	12	asset	9156803d45480d4423836a3fb1f6605ffffc606c0aa3db4927201969d6de1f96
+msn/us/HE05_INFINITE.bar	4	25	st_h	0	0	asset	8f3693c51ea07681bdd83a59e7bd185b3f67c5fb7f4ee258a52a6b02605d17b3
+msn/us/HE05_INFINITE.bar	5	18	miss	0	8	clean	msn/us/EH14_MS103.bar#5
+msn/us/HE18_MS108.bar	0	2	HE18	0	0	metadata	HE18_MS108#0
+msn/us/HE18_MS108.bar	1	3	ms_b	0	0	ai	
+msn/us/HE18_MS108.bar	2	22	0a	0	14	clean	msn/us/BB03_MS103.bar#2
+msn/us/HE18_MS108.bar	3	22	1a	0	4	clean	msn/us/HE18_MS108.bar#3
+msn/us/HE18_MS108.bar	4	18	miss	0	12	clean	msn/us/HE18_MS108.bar#4
+msn/us/LK00_MS202.bar	0	2	MU08	0	0	metadata	LK00_MS202#0
+msn/us/LK00_MS202.bar	1	3	ms_b	0	0	ai	
+msn/us/LK00_MS202.bar	2	22	0a	0	2	event	LK00_MS202#2
+msn/us/LK00_MS202.bar	3	22	1a	0	0	clean	msn/us/HE18_MS108.bar#3
+msn/us/LK00_MS202.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/LK02_MS103.bar	0	2	LK05	0	0	metadata	LK02_MS103#0
+msn/us/LK02_MS103.bar	1	3	ms_d	0	0	ai	
+msn/us/LK02_MS103.bar	2	22	0a	0	8	clean	msn/us/HB09_MS501.bar#2
+msn/us/LK02_MS103.bar	3	22	0a	0	4	clean	msn/us/AL10_MS102.bar#3
+msn/us/LK02_MS103.bar	4	18	miss	0	8	clean	msn/us/AL10_MS102.bar#4
+msn/us/LK02_MS104.bar	0	2	LK14	0	0	metadata	LK02_MS104#0
+msn/us/LK02_MS104.bar	1	3	ms_b	0	0	ai	
+msn/us/LK02_MS104.bar	2	22	0a	0	2	event	LK02_MS104#2
+msn/us/LK02_MS104.bar	3	22	0a	0	0	clean	msn/us/EH14_MS103.bar#3
+msn/us/LK02_MS104.bar	4	18	miss	0	8	clean	msn/us/AL10_MS102.bar#4
+msn/us/LK03_MS201.bar	0	2	LK05	0	0	metadata	LK03_MS201#0
+msn/us/LK03_MS201.bar	1	3	ms_d	0	0	ai	
+msn/us/LK03_MS201.bar	2	22	0a	0	0	clean	msn/us/LK05_MS101.bar#2
+msn/us/LK03_MS201.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/LK03_MS201.bar	4	18	miss	0	8	clean	msn/us/AL10_MS102.bar#4
+msn/us/LK04_MS102.bar	0	2	LK05	0	0	clean	msn/us/LK05_MS101.bar#0
+msn/us/LK04_MS102.bar	1	3	ms_d	0	0	ai	
+msn/us/LK04_MS102.bar	2	22	0a	0	0	clean	msn/us/LK05_MS101.bar#2
+msn/us/LK04_MS102.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/LK04_MS102.bar	4	18	miss	0	8	clean	msn/us/AL10_MS102.bar#4
+msn/us/LK05_MS101.bar	0	2	LK05	0	0	metadata	LK02_MS103#0
+msn/us/LK05_MS101.bar	1	3	ms_d	0	0	ai	
+msn/us/LK05_MS101.bar	2	22	0a	0	0	clean	msn/us/LK05_MS101.bar#2
+msn/us/LK05_MS101.bar	3	22	0a	0	0	clean	msn/us/LK05_MS101.bar#3
+msn/us/LK05_MS101.bar	4	18	miss	0	8	clean	msn/us/LK05_MS101.bar#4
+msn/us/LM07_MS103.bar	0	2	MU05	0	0	metadata	LM07_MS103#0
+msn/us/LM07_MS103.bar	1	3	ms_d	0	0	ai	
+msn/us/LM07_MS103.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/LM07_MS103.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/LM07_MS103.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/LM07_MS103_FREE.bar	0	2	MU05	0	0	metadata	LM07_MS103#0
+msn/us/LM07_MS103_FREE.bar	1	3	ms_d	0	0	ai	
+msn/us/LM07_MS103_FREE.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/LM07_MS103_FREE.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/LM07_MS103_FREE.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/LM07_MS201.bar	0	2	MU05	0	0	metadata	LM07_MS103#0
+msn/us/LM07_MS201.bar	1	3	ms_d	0	0	ai	
+msn/us/LM07_MS201.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/LM07_MS201.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/LM07_MS201.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/LM07_MS201_FREE.bar	0	2	MU05	0	0	metadata	LM07_MS103#0
+msn/us/LM07_MS201_FREE.bar	1	3	ms_d	0	0	ai	
+msn/us/LM07_MS201_FREE.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/LM07_MS201_FREE.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/LM07_MS201_FREE.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/LM07_MS301.bar	0	2	MU05	0	0	metadata	LM07_MS103#0
+msn/us/LM07_MS301.bar	1	3	ms_d	0	0	ai	
+msn/us/LM07_MS301.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/LM07_MS301.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/LM07_MS301.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/LM07_MS301_FREE.bar	0	2	MU05	0	0	metadata	LM07_MS103#0
+msn/us/LM07_MS301_FREE.bar	1	3	ms_d	0	0	ai	
+msn/us/LM07_MS301_FREE.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/LM07_MS301_FREE.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/LM07_MS301_FREE.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/LM07_MS401.bar	0	2	MU05	0	0	metadata	LM07_MS103#0
+msn/us/LM07_MS401.bar	1	3	ms_d	0	0	ai	
+msn/us/LM07_MS401.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/LM07_MS401.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/LM07_MS401.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/LM07_MS401_FREE.bar	0	2	MU05	0	0	metadata	LM07_MS103#0
+msn/us/LM07_MS401_FREE.bar	1	3	ms_d	0	0	ai	
+msn/us/LM07_MS401_FREE.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/LM07_MS401_FREE.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/LM07_MS401_FREE.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/LM07_MS501.bar	0	2	MU05	0	0	metadata	LM07_MS103#0
+msn/us/LM07_MS501.bar	1	3	ms_d	0	0	ai	
+msn/us/LM07_MS501.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/LM07_MS501.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/LM07_MS501.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/LM07_MS501_FREE.bar	0	2	MU05	0	0	metadata	LM07_MS103#0
+msn/us/LM07_MS501_FREE.bar	1	3	ms_d	0	0	ai	
+msn/us/LM07_MS501_FREE.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/LM07_MS501_FREE.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/LM07_MS501_FREE.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/LM_NO_LEAVE.bar	0	2	AL14	0	0	metadata	LM_NO_LEAVE#0
+msn/us/LM_NO_LEAVE.bar	1	3	al14	0	0	ai	
+msn/us/MICKEY_TEST.bar	0	2	AL14	0	0	metadata	MICKEY_TEST#0
+msn/us/MICKEY_TEST.bar	1	3	al14	0	0	ai	
+msn/us/MU01_INFINITE.bar	0	2	HE02	0	0	metadata	EH03_INFINITE#0
+msn/us/MU01_INFINITE.bar	1	3	he02	0	0	ai	
+msn/us/MU01_INFINITE.bar	2	22	re_m	0	6	clean	msn/us/TR01_MS101.bar#2
+msn/us/MU01_INFINITE.bar	3	24	st_h	0	12	asset	9156803d45480d4423836a3fb1f6605ffffc606c0aa3db4927201969d6de1f96
+msn/us/MU01_INFINITE.bar	4	25	st_h	0	0	asset	8f3693c51ea07681bdd83a59e7bd185b3f67c5fb7f4ee258a52a6b02605d17b3
+msn/us/MU01_INFINITE.bar	5	18	miss	0	8	clean	msn/us/EH14_MS103.bar#5
+msn/us/MU02_BETA.bar	0	2	TT29	0	0	metadata	AL03_BETA#0
+msn/us/MU02_BETA.bar	1	3	ms_d	0	0	ai	
+msn/us/MU02_BETA.bar	2	22	1a	0	8	event	EH03_INTRO2#2
+msn/us/MU02_BETA.bar	3	22	0a	0	12	clean	msn/us/AL10_MS102.bar#3
+msn/us/MU02_BETA.bar	4	18	miss	0	8	clean	msn/us/AL10_MS102.bar#4
+msn/us/MU07_MS201.bar	0	2	MU07	0	0	clean	msn/us/MU07_MS201.bar#0
+msn/us/MU07_MS201.bar	1	3	mu07	0	8	ai	
+msn/us/MU07_MS201.bar	2	22	0a	0	14	clean	msn/us/MU07_MS201.bar#2
+msn/us/MU07_MS201.bar	3	18	miss	0	2	clean	msn/us/MU07_MS201.bar#3
+msn/us/MU13_FM_MAR.bar	0	2	HB38	0	0	clean	msn/us/HB38_FM_MAR.bar#0
+msn/us/MU13_FM_MAR.bar	1	3	ms_b	0	0	ai	
+msn/us/MU13_FM_MAR.bar	2	22	11a	0	2	clean	msn/us/HB38_FM_MAR.bar#2
+msn/us/MU13_FM_MAR.bar	3	22	0a	0	0	clean	msn/us/EH14_MS103.bar#3
+msn/us/MU13_FM_MAR.bar	4	18	miss	0	8	clean	msn/us/AL10_MS102.bar#4
+msn/us/MU13_FM_ZEX.bar	0	2	HB34	0	0	metadata	MU13_FM_ZEX#0
+msn/us/MU13_FM_ZEX.bar	1	3	ms_b	0	0	ai	
+msn/us/MU13_FM_ZEX.bar	2	22	10a	0	14	clean	msn/us/HB34_FM_ZEX.bar#2
+msn/us/MU13_FM_ZEX.bar	3	22	0a	0	4	clean	msn/us/EH14_MS103.bar#3
+msn/us/MU13_FM_ZEX.bar	4	18	miss	0	12	clean	msn/us/AL10_MS102.bar#4
+msn/us/NEVERLAND_CONDITIONS.bar	0	2	HE02	0	0	metadata	NEVERLAND_CONDITIONS#0
+msn/us/NM00_MS101.bar	0	2	MU05	0	0	metadata	NM00_MS101#0
+msn/us/NM00_MS101.bar	1	3	ms_d	0	0	ai	
+msn/us/NM00_MS101.bar	2	22	1a	0	0	clean	msn/us/NM00_MS101.bar#2
+msn/us/NM00_MS101.bar	3	22	0a	0	0	clean	msn/us/NM00_MS101.bar#3
+msn/us/NM00_MS101.bar	4	18	miss	0	4	clean	msn/us/NM00_MS101.bar#4
+msn/us/NM00_MS202.bar	0	2	MU05	0	0	metadata	NM00_MS101#0
+msn/us/NM00_MS202.bar	1	3	ms_d	0	0	ai	
+msn/us/NM00_MS202.bar	2	22	1a	0	0	clean	msn/us/NM00_MS202.bar#2
+msn/us/NM00_MS202.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/NM00_MS202.bar	4	18	miss	0	4	clean	msn/us/NM00_MS202.bar#6
+msn/us/NM09_MS104.bar	0	2	NM09	0	0	clean	msn/us/NM09_MS104.bar#0
+msn/us/NM09_MS104.bar	1	3	ms_b	0	0	ai	
+msn/us/NM09_MS104.bar	2	22	0a	0	14	event	NM09_MS104#2
+msn/us/NM09_MS104.bar	3	22	0a	0	4	clean	msn/us/NM09_MS104.bar#3
+msn/us/NM09_MS104.bar	4	18	miss	0	12	clean	msn/us/NM09_MS104.bar#4
+msn/us/NM11_FM_LAR.bar	0	2	HB33	0	0	metadata	NM11_FM_LAR#0
+msn/us/NM11_FM_LAR.bar	1	3	ms_b	0	0	ai	
+msn/us/NM11_FM_LAR.bar	2	22	12a	0	14	event	CA18_FM_LAR#2
+msn/us/NM11_FM_LAR.bar	3	22	0a	0	4	clean	msn/us/EH14_MS103.bar#3
+msn/us/NM11_FM_LAR.bar	4	18	miss	0	12	clean	msn/us/AL10_MS102.bar#4
+msn/us/PO03_MS001 days version.bar	0	2	BB05	0	0	metadata	PO03_MS001 days version#0
+msn/us/PO03_MS001 days version.bar	1	3	ms_b	0	0	ai	
+msn/us/PO03_MS001 days version.bar	2	22	0b	0	14	event	PO03_MS001 days version#2
+msn/us/PO03_MS001 days version.bar	3	22	0a	0	10	clean	msn/us/EH14_MS103.bar#3
+msn/us/PO03_MS001 days version.bar	4	18	miss	0	12	clean	msn/us/AL10_MS102.bar#4
+msn/us/PO03_MS001 days version.bar	5	22	re_m	1	0	clean	msn/us/TR01_MS101.bar#5
+msn/us/PO03_MS001 days version.bar	6	24	ed_e	0	12	asset	e63bd1261f71fbc9e9550a4051b034922bbabd7c66ba10722ac4d312c1af89f8
+msn/us/PO03_MS001 days version.bar	7	25	ed_e	0	0	asset	fa5aa9b1c80bb67b9f6176bbf9f56f19fce36bf763f5bc490f2ae587dbfd2928
+msn/us/PO03_MS001.bar	0	2	BB05	0	0	metadata	PO03_MS001#0
+msn/us/PO03_MS001.bar	1	3	ms_b	0	0	ai	
+msn/us/PO03_MS001.bar	2	22	0b	0	12	event	PO03_MS001#2
+msn/us/PO03_MS001.bar	3	22	0a	0	10	clean	msn/us/EH14_MS103.bar#3
+msn/us/PO03_MS001.bar	4	18	miss	0	12	clean	msn/us/AL10_MS102.bar#4
+msn/us/PO03_MS001.bar	5	22	re_m	1	0	clean	msn/us/TR01_MS101.bar#5
+msn/us/PO03_MS001.bar	6	24	ed_e	0	12	asset	e63bd1261f71fbc9e9550a4051b034922bbabd7c66ba10722ac4d312c1af89f8
+msn/us/PO03_MS001.bar	7	25	ed_e	0	0	asset	956e2af26d9dda9e90054a710ece45bb40781e28f233ea5df3c24f51f52d570d
+msn/us/PO03_MS202.bar	0	2	BB05	0	0	metadata	PO03_MS202#0
+msn/us/PO03_MS202.bar	1	3	ms_b	0	0	ai	
+msn/us/PO03_MS202.bar	2	22	0b	0	12	event	AL14_MS201B#2
+msn/us/PO03_MS202.bar	3	22	0a	0	4	clean	msn/us/EH14_MS103.bar#3
+msn/us/PO03_MS202.bar	4	18	miss	0	12	clean	msn/us/AL10_MS102.bar#4
+msn/us/PO03_MS202.bar	5	22	re_m	1	0	clean	msn/us/TR01_MS101.bar#5
+msn/us/PO03_MS202.bar	6	24	ed_e	0	12	asset	e63bd1261f71fbc9e9550a4051b034922bbabd7c66ba10722ac4d312c1af89f8
+msn/us/PO03_MS202.bar	7	25	ed_e	0	0	asset	956e2af26d9dda9e90054a710ece45bb40781e28f233ea5df3c24f51f52d570d
+msn/us/PO07_MS101.bar	0	2	BB05	0	0	metadata	PO07_MS101#0
+msn/us/PO07_MS101.bar	1	3	ms_b	0	0	ai	
+msn/us/PO07_MS101.bar	2	22	0b	0	12	clean	msn/us/BB03_MS103.bar#2
+msn/us/PO07_MS101.bar	3	22	0a	0	4	clean	msn/us/EH14_MS103.bar#3
+msn/us/PO07_MS101.bar	4	18	miss	0	12	clean	msn/us/AL10_MS102.bar#4
+msn/us/PO07_MS101.bar	5	22	re_m	1	0	clean	msn/us/TR01_MS101.bar#5
+msn/us/PO07_MS101.bar	6	24	ed_e	0	12	asset	e63bd1261f71fbc9e9550a4051b034922bbabd7c66ba10722ac4d312c1af89f8
+msn/us/PO07_MS101.bar	7	25	ed_e	0	0	asset	956e2af26d9dda9e90054a710ece45bb40781e28f233ea5df3c24f51f52d570d
+msn/us/PO08_MS201.bar	0	2	TT29	0	0	metadata	PO08_MS201#0
+msn/us/PO08_MS201.bar	1	3	ms_d	0	0	ai	
+msn/us/PO08_MS201.bar	2	22	1a	0	8	clean	msn/us/BB03_MS103.bar#2
+msn/us/PO08_MS201.bar	3	22	0a	0	4	clean	msn/us/AL10_MS102.bar#3
+msn/us/PO08_MS201.bar	4	18	miss	0	8	clean	msn/us/AL10_MS102.bar#4
+msn/us/PO_001_INFO.bar	0	2	AL14	0	0	metadata	PO_001_INFO#0
+msn/us/PO_001_INFO.bar	1	3	al14	0	0	ai	
+msn/us/PO_CONDITIONS.bar	0	2	HE02	0	0	metadata	PO_CONDITIONS#0
+msn/us/PO_STEALTH.bar	0	2	HE02	0	0	metadata	PO_STEALTH#0
+msn/us/PO_STEALTH.bar	1	3	hide	0	0	ai	
+msn/us/PO_STEALTH.bar	2	22	0a	0	2	clean	msn/us/EH14_MS103.bar#4
+msn/us/TR01_MS101.bar	0	2	TT29	0	0	metadata	TR01_MS101#0
+msn/us/TR01_MS101.bar	1	3	ms_d	0	0	ai	
+msn/us/TR01_MS101.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/TR01_MS101.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/TR01_MS101.bar	4	18	miss	0	4	clean	msn/us/TR01_MS101.bar#8
+msn/us/TR02_MS102_FREE.bar	0	2	TR02	0	0	metadata	TR02_MS102_FREE#0
+msn/us/TR02_MS102_FREE.bar	1	3	tr02	0	0	ai	
+msn/us/TR02_MS102_FREE.bar	2	22	0a	0	4	clean	msn/us/TR02_MS102_FREE.bar#2
+msn/us/TR02_MS102_FREE.bar	3	24	st_t	0	8	clean	msn/us/TR02_MS102_FREE.bar#3
+msn/us/TR02_MS102_FREE.bar	4	25	st_t	0	0	clean	msn/us/TR02_MS102_FREE.bar#4
+msn/us/TR02_MS102_FREE.bar	5	22	0a	0	0	clean	msn/us/TR02_MS102_FREE.bar#5
+msn/us/TR02_MS102_FREE.bar	6	22	0a	0	8	clean	msn/us/TR02_MS102_FREE.bar#6
+msn/us/TR02_MS102_FREE.bar	7	18	miss	0	12	clean	msn/us/TR02_MS102_FREE.bar#7
+msn/us/TR02_MS102_FREE.bar	8	24	ct_e	0	0	clean	msn/us/TR02_MS102_FREE.bar#8
+msn/us/TR02_MS102_FREE.bar	9	25	ct_e	0	0	clean	msn/us/TR02_MS102_FREE.bar#9
+msn/us/TR02_MS102_FREE.bar	10	24	ct_e	0	4	clean	msn/us/TR02_MS102_FREE.bar#10
+msn/us/TR02_MS102_FREE.bar	11	25	ct_e	0	0	clean	msn/us/TR02_MS102_FREE.bar#11
+msn/us/TR02_MS102_FREE.bar	12	24	gh_t	0	0	clean	msn/us/TR02_MS102_FREE.bar#12
+msn/us/TR02_MS102_FREE.bar	13	25	gh_t	0	0	clean	msn/us/TR02_MS102_FREE.bar#13
+msn/us/TR02_MS102_FREE.bar	14	24	ct_t	0	8	clean	msn/us/TR01_MS101.bar#11
+msn/us/TR02_MS102_FREE.bar	15	25	ct_t	0	0	clean	msn/us/TR01_MS101.bar#12
+msn/us/TR04_BETA.bar	0	2	TT29	0	0	metadata	AL03_BETA#0
+msn/us/TR04_BETA.bar	1	3	ms_d	0	0	ai	
+msn/us/TR04_BETA.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/TR04_BETA.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/TR04_BETA.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/TR07_MS203.bar	0	2	TR07	0	0	clean	msn/us/TR07_MS203.bar#0
+msn/us/TR07_MS203.bar	1	3	tr07	0	4	ai	
+msn/us/TR07_MS203.bar	2	22	2b	0	14	clean	msn/us/TR07_MS203.bar#2
+msn/us/TR07_MS203.bar	3	22	0a	0	4	clean	msn/us/TR07_MS203.bar#3
+msn/us/TR07_MS203.bar	4	22	0a	0	8	clean	msn/us/TR07_MS203.bar#4
+msn/us/TR07_MS203.bar	5	18	miss	0	12	clean	msn/us/TR07_MS203.bar#5
+msn/us/TR07_MS203.bar	6	24	gg_t	0	0	clean	msn/us/TR07_MS203.bar#6
+msn/us/TR07_MS203.bar	7	25	gg_t	0	0	seqd	TR07_MS203#7
+msn/us/TR09_MS205.bar	0	2	EH21	0	0	clean	msn/us/TR09_MS205.bar#0
+msn/us/TR09_MS205.bar	1	3	ms_b	0	0	ai	
+msn/us/TR09_MS205.bar	2	22	13a	0	14	event	EH03_RIKU3#2
+msn/us/TR09_MS205.bar	3	22	0a	0	4	clean	msn/us/EH14_MS103.bar#3
+msn/us/TR09_MS205.bar	4	18	miss	0	12	clean	msn/us/TR09_MS205.bar#4
+msn/us/TT03_MS601.bar	0	2	TT03	0	0	clean	msn/us/TT03_MS601.bar#0
+msn/us/TT03_MS601.bar	1	3	ms_d	0	12	ai	
+msn/us/TT03_MS601.bar	2	22	0a	0	0	clean	msn/us/TT03_MS601.bar#2
+msn/us/TT03_MS601.bar	3	22	0a	0	2	clean	msn/us/TT03_MS601.bar#3
+msn/us/TT03_MS601.bar	4	18	miss	0	8	clean	msn/us/TT03_MS601.bar#4
+msn/us/TT04_BETA.bar	0	2	TT29	0	0	metadata	AL03_BETA#0
+msn/us/TT04_BETA.bar	1	3	ms_d	0	0	ai	
+msn/us/TT04_BETA.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/TT04_BETA.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/TT04_BETA.bar	4	18	miss	0	4	clean	msn/us/AL10_MS102.bar#4
+msn/us/TT04_MS107.bar	0	2	TT04	0	0	metadata	TT04_MS107#0
+msn/us/TT04_MS107.bar	1	3	tt04	0	12	ai	
+msn/us/TT04_MS107.bar	2	24	grd_	0	8	asset	c4e93020b712c2926bc52ae31c2a4d3d382b3d7cd2e6d96e8724100c9f14414c
+msn/us/TT04_MS107.bar	3	25	grd_	0	0	seqd	TT04_MS107#3
+msn/us/TT04_MS107.bar	4	24	rvrs	0	0	asset	c4e93020b712c2926bc52ae31c2a4d3d382b3d7cd2e6d96e8724100c9f14414c
+msn/us/TT04_MS107.bar	5	25	rvrs	0	0	seqd	TT04_MS107#3
+msn/us/TT04_MS301.bar	0	2	TT04	0	0	clean	msn/us/TT04_MS301.bar#0
+msn/us/TT04_MS301.bar	1	3	tt04	0	0	ai	
+msn/us/TT04_MS301.bar	2	22	0b	0	0	clean	msn/us/TT04_MS301.bar#2
+msn/us/TT04_MS301.bar	3	18	miss	0	4	clean	msn/us/TT04_MS301.bar#3
+msn/us/TT05_MS403.bar	0	2	TT05	0	0	clean	msn/us/TT05_MS403.bar#0
+msn/us/TT05_MS403.bar	1	3	tt05	0	0	ai	
+msn/us/TT05_MS403.bar	2	22	0b	0	14	clean	msn/us/TT05_MS403.bar#2
+msn/us/TT05_MS403.bar	3	22	0a	0	4	clean	msn/us/TT05_MS403.bar#3
+msn/us/TT05_MS403.bar	4	18	miss	0	8	clean	msn/us/TT05_MS403.bar#4
+msn/us/TT05_MS404.bar	0	2	TT05	0	0	clean	msn/us/TT05_MS404.bar#0
+msn/us/TT05_MS404.bar	1	3	tt05	0	0	ai	
+msn/us/TT05_MS404.bar	2	22	3a	0	14	clean	msn/us/TT05_MS404.bar#2
+msn/us/TT05_MS404.bar	3	22	0a	0	4	clean	msn/us/TT05_MS404.bar#3
+msn/us/TT05_MS404.bar	4	18	miss	0	8	clean	msn/us/TT05_MS404.bar#4
+msn/us/TT08_MS701.bar	0	2	TT08	0	0	metadata	TT08_MS701#0
+msn/us/TT08_MS701.bar	1	3	ms_a	0	0	ai	
+msn/us/TT08_MS701.bar	2	22	0b	0	12	clean	msn/us/TT08_MS701.bar#2
+msn/us/TT08_MS701.bar	3	18	miss	0	4	clean	msn/us/TT08_MS701.bar#3
+msn/us/TT08_MS701.bar	4	22	0c	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/TT10_WORK_TIMBER.bar	0	2	CA09	0	0	metadata	TT10_WORK_TIMBER#0
+msn/us/TT10_WORK_TIMBER.bar	1	3	ca09	0	12	ai	
+msn/us/TT10_WORK_TIMBER.bar	2	22	1a	0	0	clean	msn/us/AL00_MS101.bar#2
+msn/us/TT10_WORK_TIMBER.bar	3	22	0a	0	2	clean	msn/us/AL10_MS102.bar#3
+msn/us/TT10_WORK_TIMBER.bar	4	18	miss	0	8	clean	msn/us/TT10_WORK_TIMBER.bar#11
+msn/us/TT10_WORK_TIMBER.bar	5	24	ti_c	0	0	asset	bafd6730c1485b959f45cc0b955ce06721758258bb5a3a899643fb905c4f0b3d
+msn/us/TT10_WORK_TIMBER.bar	6	25	ti_c	0	0	clean	msn/us/AL14_MS_P.bar#5
+msn/us/TT12_WORK_BOX.bar	0	2	TT29	0	0	metadata	TT12_WORK_BOX#0
+msn/us/TT12_WORK_BOX.bar	1	3	ms_d	0	0	ai	
+msn/us/TT12_WORK_BOX.bar	2	22	1a	0	0	clean	msn/us/HB09_MS501.bar#2
+msn/us/TT12_WORK_BOX.bar	3	22	0a	0	0	clean	msn/us/AL10_MS102.bar#3
+msn/us/TT12_WORK_BOX.bar	4	18	miss	0	4	clean	msn/us/TT12_WORK_BOX.bar#11
+msn/us/TT14_MS001.bar	0	2	HB32	0	0	metadata	TT14_MS001#0
+msn/us/TT14_MS001.bar	1	3	ms_b	0	8	ai	
+msn/us/TT14_MS001.bar	2	22	8a	0	14	event	TT14_MS001#2
+msn/us/TT14_MS001.bar	3	22	0a	0	12	clean	msn/us/EH14_MS103.bar#3
+msn/us/TT14_MS001.bar	4	18	miss	0	12	clean	msn/us/TT14_MS001.bar#4
+msn/us/TT14_MS001.bar	5	24	gg_h	0	0	asset	c2a0c0b731034ae9895f2211ef54508fd7fffb9b1e25ee3d40b17f267087bc96
+msn/us/TT14_MS001.bar	6	25	gg_h	0	0	asset	a61724c9040c781a0d8582f79b72b8085e803afe694325593acf462f65123ebb
+msn/us/TT14_MS001.bar	7	24	ct_h	0	4	asset	af2bd648a914f2a29946babc787e7f48f3090f5db811350894029474bcec3b32
+msn/us/TT14_MS001.bar	8	25	ct_h	0	0	asset	2188b45fc374d32db514b8fe018e8b7916898ad4278c3d1a0223fb0c84eb34ae
+msn/us/TT25_MS801.bar	0	2	TT25	0	0	metadata	TT25_MS801#0
+msn/us/TT25_MS801.bar	1	3	ms_d	0	12	ai	
+msn/us/TT25_MS801.bar	2	22	0b	0	8	clean	msn/us/TT25_MS801.bar#2
+msn/us/TT25_MS801.bar	3	22	0a	0	4	clean	msn/us/TT25_MS801.bar#3
+msn/us/TT25_MS801.bar	4	18	miss	0	8	clean	msn/us/TT25_MS801.bar#4
+msn/us/TT32_MS304.bar	0	2	TT32	0	0	metadata	TT32_MS304#0
+msn/us/TT32_MS304.bar	1	3	tt32	0	0	ai	
+msn/us/TT32_MS305.bar	0	2	HB13	0	0	metadata	TT32_MS305#0
+msn/us/TT32_MS305.bar	1	3	hb13	0	0	ai	
+msn/us/TT40_MS003 twilight thorn.bar	0	2	TT34	0	0	metadata	TT40_MS003 twilight thorn#0
+msn/us/TT40_MS003 twilight thorn.bar	1	3	ms_b	0	0	ai	
+msn/us/TT40_MS003 twilight thorn.bar	2	22	0a	0	2	event	TT40_MS003 twilight thorn#2
+msn/us/TT40_MS003 twilight thorn.bar	3	22	1a	0	2	clean	msn/us/HE18_MS108.bar#3
+msn/us/TT40_MS003 twilight thorn.bar	4	18	miss	0	0	clean	msn/us/AL10_MS102.bar#4
+msn/us/TT42_CONFINE_1.bar	0	2	HB24	0	0	metadata	TT42_CONFINE_1#0
+msn/us/TT42_CONFINE_1.bar	1	3	hb24	0	0	ai	
+msn/us/TT42_CONFINE_1.bar	2	22	0a	0	0	clean	msn/us/AL14_MS_P.bar#2
+msn/us/TT42_CONFINE_1.bar	3	18	miss	0	0	clean	msn/us/AL00_MS101.bar#3
+msn/us/VENDOR_WAVES.bar	0	2	HE02	0	0	metadata	VENDOR_WAVES#0
+msn/us/WEAPON_RETURN.bar	0	2	HE02	0	0	metadata	WEAPON_RETURN#0
+msn/us/WEAPON_RETURN.bar	1	3	test	0	0	ai	
+msn/us/WEAPON_TEST.bar	0	2	HE02	0	0	metadata	WEAPON_RETURN#0
+msn/us/WEAPON_TEST.bar	1	3	test	0	0	ai	

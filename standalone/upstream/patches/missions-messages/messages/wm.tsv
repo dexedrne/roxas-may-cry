@@ -1,0 +1,5 @@
+ids_hex	operation	argument
+487b	rename	Pride Lands -> Neverland
+487c	rename	Atlantica -> Traverse Town
+4984,4bba,4c2a,4c31	local-wording	
+4c2b-4c2d	result-id	4c2a

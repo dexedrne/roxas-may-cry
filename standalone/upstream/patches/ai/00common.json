@@ -1,0 +1,17 @@
+{
+  "source": "kh2_first/original/00common.bdx",
+  "source_sha256": "eecb490fcbc74e472b203162f9c587361009eb0259c00a5d16cc0ac7bd2692b6",
+  "work_bytes": 4,
+  "canonicalize_opcode": {
+    "dup": [38, 126],
+    "push": [39, 46, 53, 60, 76, 91, 106, 127, 134, 141, 157, 166, 174, 185, 193, 196, 199]
+  },
+  "set_weapon": {"character": 12, "first_push_pc": 314, "from": [74, 0], "to": [43, 42]},
+  "insert_before_constants_pc": 393,
+  "append_routines": [
+    {"operation": "clear_upper_bits_before_address", "preceding_bytes": 3},
+    {"operation": "clear_upper_bits_before_address", "preceding_bytes": 2},
+    {"operation": "add_to_dword"}
+  ],
+  "constant_bytes": 22
+}

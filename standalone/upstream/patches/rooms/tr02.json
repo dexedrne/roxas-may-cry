@@ -1,0 +1,245 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3c3f2fab54dffa12c5a96564f6fe5ff81def37dcd0900fcaca1892f0c0bab669",
+    "from": "tr02:0",
+    "op": "records",
+    "splices": [[1, 1, [["MapVisibility", 13, 1073741824], ["BarrierFlag", 0, 1073741824]]]]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ce95900af83cec6486eebeafdfbf50412dce4d5c5ebf67277c60f373fe113ecb",
+    "op": "clean",
+    "from": "tr02:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c35fd42a731e17c25face36a7bd2b51912c15b68d16bf16b8e22f7e442db825e",
+    "op": "clean",
+    "from": "tr02:2"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "2344022fa656c2b828edef376586be0e17981bfb4351da6b50298f218a3cd6b4",
+    "from": "tr02:3",
+    "op": "records",
+    "splices": [[1, 0, [["Party", 1]]], [2, 1, [["Mission", 1, "TR02_MS102_FREE", 32]]], [4, 1, [["Capacity", 60]]], [6, 3, []]]
+  },
+  {
+    "type": 12,
+    "name": "b_9d",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b2db7bdc2b0f02e3c941bfc9b6836a701c17a9b8f7781cc964ee41f2ddd2ab68",
+    "op": "clean",
+    "from": "tr02:4"
+  },
+  {
+    "type": 12,
+    "name": "b_92",
+    "link": 0,
+    "gap": 0,
+    "sha256": "69d8c7b40d4f1fc831d9d26cea2996d28f26448029de1cb73caa430813974d45",
+    "op": "clean",
+    "from": "tr02:5"
+  },
+  {
+    "type": 12,
+    "name": "b_93",
+    "link": 0,
+    "gap": 0,
+    "sha256": "eaccaf4caee5cc178793e107234f068f5ede50fa2a4c0d97699783591c391fb5",
+    "op": "clean",
+    "from": "tr02:6"
+  },
+  {
+    "type": 12,
+    "name": "b_99",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3855477d61e40d89f03cbdb34dd8519f159ea60bb3d7a80d339bbb522fa36c7b",
+    "op": "clean",
+    "from": "tr02:7"
+  },
+  {
+    "type": 12,
+    "name": "b_9a",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8c08d65a162e6883340a40ec2c6aa009dc9f5828b8b2cf15359f5d3faf77fec9",
+    "from": "tr02:8",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        405,
+        [
+          ["record", "al00:2", 0],
+          ["group", 1, {"type": 1, "id": 1000, "entities": 4, "activators": 0, "returns": 0, "signals": 0}],
+          ["entity", 2, {"object": 566, "x": 0.0, "y": 0.0, "z": -50.0, "spawn_type": 0, "serial": 1001}],
+          ["entity", 3, {"object": 1867, "x": 0.0, "z": -0.0, "spawn_type": 0, "serial": 1002}],
+          ["entity", 4, {"object": 567, "x": 0.0, "y": 0.0, "z": 0.0, "spawn_type": 0, "serial": 1003}],
+          ["entity", 5, {"object": 568, "x": 0.0, "y": 0.0, "z": 0.0, "spawn_type": 0, "serial": 1004, "delay": 0}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "b_9b",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8e3a02315e937d926c686a1763b5b6bc8e5a10bef3d51e2679f0a07f24979d14",
+    "from": "bb01:6",
+    "op": "records",
+    "splices": [
+      [
+        6,
+        16,
+        [
+          ["entity", 6, {"object": 16, "x": 0.0, "y": -100.0, "z": -490.0, "ry": -3.1415927410125732}],
+          ["entity", 7, {"object": 1875, "x": -175.0, "z": -351.0, "ry": 2.8885200023651123}],
+          ["entity", 8, {"object": 1875, "x": -382.0, "z": -229.0, "ry": 2.56563401222229}],
+          ["entity", 9, {"object": 1875, "x": 173.0, "z": -337.0, "ry": 3.468841791152954}],
+          ["entity", 10, {"object": 1875, "x": 384.0, "z": -216.0, "ry": -2.5612707138061523}],
+          ["entity", 11, {"object": 1875, "spawn_type": 2, "argument": 1, "range": 400, "level": 100}],
+          ["entity", 12, {"object": 1875, "spawn_type": 2, "argument": 1, "range": 400, "level": 100}],
+          ["entity", 13, {"object": 1875, "spawn_type": 2, "argument": 1, "range": 400, "level": 100}],
+          ["entity", 14, {"object": 16, "y": -100.0}],
+          ["entity", 15, {"object": 1875}],
+          ["entity", 16, {"object": 1875}],
+          ["entity", 17, {"object": 1875}],
+          ["entity", 18, {"object": 1875}],
+          ["entity", 19, {"object": 16}],
+          ["entity", 20, {"object": 1875}],
+          ["entity", 21, {"object": 1875}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "b_97",
+    "link": 0,
+    "gap": 0,
+    "sha256": "0f0cfa0ebc3c5574473365cdc7bfe7ec79f87e7b780e4e9594535e7c20df73b4",
+    "op": "clean",
+    "from": "he02:9"
+  },
+  {
+    "type": 12,
+    "name": "b_9c",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5ea7c613ac9e96486cde28f0d4da4a6c790cd6ae103eb932bec7eeddfa8080d2",
+    "op": "clean",
+    "from": "he02:10"
+  },
+  {
+    "type": 12,
+    "name": "b_9f",
+    "link": 0,
+    "gap": 0,
+    "sha256": "01a3ed95751a039682b7b30191deb58312e76781bcb7b3c8b9d152e4f828da95",
+    "op": "clean",
+    "from": "he02:11"
+  },
+  {
+    "type": 12,
+    "name": "b_60",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1279a3e06d3c03925fc32f17164faebd31b816289f437945af5ce06df60a2f71",
+    "from": "tr02:13",
+    "op": "records",
+    "splices": [
+      [
+        6,
+        8,
+        [
+          ["entity", 6, {"x": 0.0, "y": -34.0, "z": -519.2230224609375, "ry": -3.0761427879333496}],
+          ["entity", 7, {"object": 121, "x": -545.8519897460938, "y": 0.0}],
+          ["entity", 8, {"x": 533.1480102539062, "z": 64.7770004272461, "ry": -1.16500723361969}],
+          ["entity", 9, {"object": 16, "x": -433.85198974609375, "y": -239.0, "z": -714.2230224609375, "spawn_type": 2, "arg1": 2, "level": 1}],
+          ["entity", 10, {"object": 16, "x": 381.34600830078125, "y": -252.0, "z": -699.7100219726562, "ry": -2.879793405532837, "arg1": 2}],
+          ["entity", 11, {"object": 1114, "x": -790.6539916992188}],
+          ["entity", 12, {"object": 1114, "x": 848.3460083007812, "z": 384.2900085449219, "ry": -0.9555677771568298}],
+          ["entity", 13, {"object": 1114, "x": 0.0, "z": 616.2899780273438, "ry": 6.20464563369751}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "b_96",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "op": "clean",
+    "from": "tr02:14"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3692c62172054ac322a84cd5f3ade23b77379a4ddd87bf4a810e1f80dae5aa04",
+    "from": "tr02:15",
+    "op": "records",
+    "splices": [
+      [
+        2,
+        3,
+        [
+          ["AreaSettings", 139, -1, ["set5", 1], ["jump", 0, 2, 17, 0, 0, 63, 65535], ["set7", 0]],
+          ["AreaSettings", 141, -1, ["set5", 1], ["jump", 0, 3, 17, 0, 0, 0, 1], ["set7", 0]],
+          ["AreaSettings", 7, 1, ["set5", 1], ["event", 2, "109"], ["jump", 0, 3, 17, 0, 0, 0, 16385], ["list", 593], ["set7", 0]],
+          ["AreaSettings", 7, 2, ["set5", 1], ["event", 2, "109"], ["jump", 0, 3, 17, 0, 0, 0, 16385], ["list", 609], ["set7", 0]]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "e_01",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+    "op": "clean",
+    "from": "tr02:16"
+  },
+  {
+    "type": 12,
+    "name": "e_02",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+    "op": "clean",
+    "from": "tr02:17"
+  },
+  {
+    "type": 12,
+    "name": "e_03",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+    "op": "clean",
+    "from": "tr02:18"
+  },
+  {"type": 22, "name": "109", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "118", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "203", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "204s", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

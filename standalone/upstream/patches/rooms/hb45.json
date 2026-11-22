@@ -1,0 +1,173 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "0d3c3b34180ea8136f79be3762c6a83cfabaa6b32a7d48fa7dab05e314c96170",
+    "from": "al05:0",
+    "op": "records",
+    "splices": [
+      [0, 4, [["program", 0, {"id": 150}], ["MapVisibility", 3, 0]]],
+      [5, 1, [["MapVisibility", 3, 0]]],
+      [7, 1, [["program", null, {"id": 1}], ["MapVisibility", 5, 0], ["Spawn", "m_00"]]],
+      [9, 7, [["MapVisibility", 3, 0]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "7dc1cf06c16646b2e3b32915f988980f333ab90447926dbc119ba3fe632e5259",
+    "op": "clean",
+    "from": "hb40:1"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "866778f1960f25534a0ff0434d421d05f66a25967a93a7f6682a368bc7e16847",
+    "from": "hb04:4",
+    "op": "records",
+    "splices": [
+      [0, 7, [["program", 0, {"id": 150}], ["AllocEnemy", 3145728]]],
+      [8, 5, [["AllocEffect", 1048576, 524288], ["Mission", 408, "HB38_FM_MAR", 32]]],
+      [15, 0, [["program", null, {"id": 145}], ["Party", 1], ["Mission", 408, "HB45_FM_MAR", 32], ["Spawn", "b_81"]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "b_81",
+    "link": 0,
+    "gap": 0,
+    "sha256": "216eaa64b6911ad2598bbc35285faf9b47e7bab484c5a9521c4b51e3c136bc73",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        0,
+        [
+          ["record", "al00:2", 0],
+          ["group", null, {"type": 1, "id": 64, "entities": 4}],
+          ["entity", null, {"object": 566, "x": -29.354999542236328, "y": -1.545432041893946e-06, "z": 119.64469909667969, "serial": 8}],
+          [
+            "entity",
+            null,
+            {"object": 567, "x": 261.0660095214844, "y": -3.635668974766304e-07, "z": 119.64469909667969, "ry": -0.7853981852531433, "serial": 9}
+          ],
+          [
+            "entity",
+            null,
+            {"object": 568, "x": 119.64469909667969, "y": -6.545290943904547e-06, "z": 261.0660095214844, "ry": -0.7853981852531433, "serial": 10}
+          ],
+          [
+            "entity",
+            null,
+            {
+              "object": 2339,
+              "x": -35.84299850463867,
+              "y": 1.2363449968688656e-05,
+              "z": -209.84300231933594,
+              "ry": 3.1415927410125732,
+              "spawn_type": 3,
+              "serial": 13
+            }
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "b_80",
+    "link": 0,
+    "gap": 0,
+    "sha256": "29ece1900626fbb536bc0f53c03bfe1bcbe71bf2bc616065aa90126434030697",
+    "op": "reuse",
+    "from": "ca26:4"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "484ef7715ee3c03b8d269edac3b8c337f946ca888b4d576937d428feb01a921b",
+    "from": "tt25:16",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        7,
+        [
+          ["program", 0, {"id": 137}],
+          ["Party", 1],
+          ["Bgm", 63, 63],
+          ["AreaSettings", 0, -1, ["set5", 2], ["event", 3, "738"], ["jump", 0, 1, 4, 26, 31, 0, 1], ["list", 553], ["set7", 0]],
+          ["program", 4, {"id": 126}]
+        ]
+      ],
+      [9, 2, [["AreaSettings", 0, -1, ["event", 2, "727"], ["jump", 0, 2, 4, 0, 0, 145, 1], ["set7", 0]], ["program", 10, {"id": 127}]]],
+      [
+        12,
+        6,
+        [
+          ["Bgm", 63, 63],
+          ["AreaSettings", 0, -1, ["set5", 2], ["event", 3, "728"], ["jump", 0, 1, 5, 3, 21, 0, 1], ["list", 548, 553], ["set7", 0]],
+          ["program", null, {"id": 150}],
+          ["Bgm", 63, 63],
+          ["AreaSettings", 16, -1, ["flag", 4279], ["jump", 0, 2, 4, 0, 0, 137, 16386], ["set7", 0]],
+          ["program", 17, {"id": 136}],
+          ["Party", 1]
+        ]
+      ],
+      [
+        19,
+        7,
+        [
+          ["AreaSettings", 0, -1, ["event", 2, "737"], ["jump", 0, 2, 4, 0, 0, 150, 1], ["set7", 0]],
+          ["program", 20, {"id": 145}],
+          ["Bgm", 63, 63],
+          ["AreaSettings", 16, -1, ["flag", 4255], ["flag", 16431], ["jump", 0, 1, 16, 5, 0, 0, 1], ["list", 530], ["set7", 0]]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 22,
+    "name": "727",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ae25c789dafe90495e51590021beb53371ac8546ab1e7005dcf635269084f2b5",
+    "op": "reuse",
+    "from": "ca26:6"
+  },
+  {
+    "type": 22,
+    "name": "728",
+    "link": 0,
+    "gap": 0,
+    "sha256": "087373caf3c128015b41b2f40165e30af84e29f6cf79b3112e91a2c211f4a246",
+    "op": "reuse",
+    "from": "ca26:7"
+  },
+  {
+    "type": 22,
+    "name": "737",
+    "link": 0,
+    "gap": 2,
+    "sha256": "4ea17853f3fee3fe9133d5eada7f780ebe10c72a4d9969047fe7cd2071f68ed7",
+    "op": "reuse",
+    "from": "ca26:8"
+  },
+  {
+    "type": 22,
+    "name": "738",
+    "link": 0,
+    "gap": 2,
+    "sha256": "8f8f7a7701ba70de324f6c4a6548f1eeefa582b1e958cb6127b7f4c335fa0665",
+    "op": "reuse",
+    "from": "ca26:9"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5727ea87cdb930dadce3ee86378ac415a220725cabfbf01b9436f696707357b5",
+    "op": "clean",
+    "from": "di02:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 12,
+    "sha256": "bdfa8028ce8c8cb46c34abac97e412f86186097ae46c7b290c04e6d39966d9d1",
+    "op": "clean",
+    "from": "di02:1"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 12,
+    "sha256": "4fae7ae20ca4199a32334e9938238c51bab9b3570ec701b8a6afbf27ed0d68b7",
+    "op": "clean",
+    "from": "di02:2"
+  },
+  {
+    "type": 22,
+    "name": "999",
+    "link": 0,
+    "gap": 12,
+    "sha256": "021136464a20fdecc1e5c70b261d58e585bdd6a43a61b388451010d770d8d2db",
+    "from": "di02:3",
+    "op": "records",
+    "splices": [
+      [0, 1, [["performance", 0, 1]]],
+      [4, 1, [["performance", 4, 4]]],
+      [34, 1, [["performance", 37, 1]]],
+      [36, 1, [["performance", 39, 1]]],
+      [43, 2, [["performance", 46, 2]]],
+      [55, 3, [["performance", 58, 3]]],
+      [64, 2, [["performance", 67, 2]]],
+      [78, 5, [["performance", 81, 5]]],
+      [98, 5, [["performance", 101, 5]]],
+      [119, 3, [["performance", 122, 3]]],
+      [131, 1, [["performance", 134, 1]]]
+    ],
+    "performance_sha256": "1da7dbef2a7f659d5c9ec21a7ba8acce0b771d993e8504fa4bc16c4fafccc8f1"
+  },
+  {"type": 22, "name": "899", "link": 0, "gap": 10, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

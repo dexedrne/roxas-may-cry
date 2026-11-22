@@ -1,0 +1,31 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "612da92ff80124d4bff0fbbbced540cb73f580e6437516d5d825f7fc07e60e43",
+    "op": "clean",
+    "from": "lk12:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "36ed800e5f67075c2518732b2ee72f69f82ab9445e30537a8280770feb02f731",
+    "op": "clean",
+    "from": "lk12:1"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "953c18bec35bbab1919193b88df55df3066e3b5713d6407db8c66b726442523d",
+    "from": "lk12:2",
+    "op": "records",
+    "splices": [[6, 1, [["AreaSettings", 0, -1, ["flag", 10257], ["set5", 1], ["event", 2, "117"], ["jump", 0, 1, 10, 9, 50, 0, 1], ["list", 264], ["set7", 0]]]]]
+  },
+  {"type": 22, "name": "117", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

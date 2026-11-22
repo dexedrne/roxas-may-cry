@@ -1,5 +1,7 @@
 # Roxas May Cry 1.2.4
 
+The [standalone stage-2 builder](standalone/README.md) builds a partial campaign from the player's Steam collection. Its opening route reaches eight combat hits. The complete 1.2.4 ZIP below still uses a player-supplied NMC copy for its remaining assets.
+
 ![Roxas May Cry](docs/img/roxas-may-cry.webp)
 
 Play Nobody May Cry’s Roxas campaign through The World That Never Was, the ending and postgame in the Steam edition of Kingdom Hearts II Final Mix. This repository is a builder: it makes the mod on your PC from your own copy of the game. It holds patches and code, no game files.

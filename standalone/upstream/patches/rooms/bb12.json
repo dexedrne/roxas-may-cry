@@ -1,0 +1,347 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "58fcedeb4d6103bb3c364e5dd42593c7f8eda123e5ca8770b77d104febee7668",
+    "op": "clean",
+    "from": "bb12:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "593692c6d699c4a74fa0220317442fe3ac549c09d9356cf2f2969b4d36e6f53e",
+    "op": "clean",
+    "from": "bb12:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "82058b2f62bcae9e5c75d015058e75322b5ed7d9bbc8d562abf87d61809b4ba1",
+    "op": "clean",
+    "from": "bb12:2"
+  },
+  {
+    "type": 12,
+    "name": "m_11",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ad424b24485e60ee8d52205251c76adbd79680a75448e22a19bb23fa975c1986",
+    "op": "clean",
+    "from": "bb12:3"
+  },
+  {
+    "type": 12,
+    "name": "m_22",
+    "link": 0,
+    "gap": 0,
+    "sha256": "58da06c3d59f05e7e25f16de15ecefea14a07299da0245c3ae5f377b4f0f64f3",
+    "op": "clean",
+    "from": "bb12:4"
+  },
+  {
+    "type": 12,
+    "name": "m_42",
+    "link": 0,
+    "gap": 0,
+    "sha256": "dea0fb3d9b23bb6c8403b9bfd52b7d7f929d97ef292c125891cc26dc26feeb42",
+    "op": "clean",
+    "from": "bb12:5"
+  },
+  {
+    "type": 12,
+    "name": "m_70",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b3f74e20efcd092f0a49ccf8c01e0058d29b0171bdd55387ebb4100b40dcfecb",
+    "op": "clean",
+    "from": "bb12:6"
+  },
+  {
+    "type": 12,
+    "name": "m_71",
+    "link": 0,
+    "gap": 0,
+    "sha256": "79f43998f2b315925f7ccad22de814bbf86d61a2f6851afcf39d87c2fbf82efa",
+    "op": "clean",
+    "from": "bb12:7"
+  },
+  {
+    "type": 12,
+    "name": "m_80",
+    "link": 0,
+    "gap": 0,
+    "sha256": "589dd2a9b88d6f9cd2e74fddcb756e5309c6a89203e3aa7aa9b8feefcff0c948",
+    "op": "clean",
+    "from": "bb12:8"
+  },
+  {
+    "type": 12,
+    "name": "m_40",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b7d4ddf8318790e990717c37373f01a12f91cbba28e64f00454f97cc959b02e1",
+    "op": "clean",
+    "from": "bb12:9"
+  },
+  {
+    "type": 12,
+    "name": "m_41",
+    "link": 0,
+    "gap": 0,
+    "sha256": "f188f25e93e9877e28818eb9f6612c74b1ea33220d898dac572b02f95ad5b1b5",
+    "op": "clean",
+    "from": "bb12:10"
+  },
+  {
+    "type": 12,
+    "name": "m_01",
+    "link": 0,
+    "gap": 0,
+    "sha256": "45899d96f29bccb05494a1b7be682f6d9be87bebe4b33830579c9b392697c93b",
+    "op": "clean",
+    "from": "bb12:11"
+  },
+  {
+    "type": 12,
+    "name": "m_21",
+    "link": 0,
+    "gap": 0,
+    "sha256": "f88e002116f9353999c0a8acbfbc84460c2eaf9d1df7a1d9bf8e102ddbfa579e",
+    "op": "clean",
+    "from": "bb12:12"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c3a8b0a4e1fd625e68ea246eca0ddf971a7fde0f9f05fb7e6c16479cc15bb994",
+    "from": "bb12:13",
+    "op": "records",
+    "splices": [[8, 0, [["Spawn", "j01_"]]], [12, 0, [["Spawn", "j01_"]]]]
+  },
+  {
+    "type": 12,
+    "name": "b_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3c8ddaa7bd80068267f4edca3eba2965fc00a2ea76b0fac5e1a322e6195b7517",
+    "op": "clean",
+    "from": "bb12:14"
+  },
+  {
+    "type": 12,
+    "name": "b_52",
+    "link": 0,
+    "gap": 0,
+    "sha256": "4880c5a2e9406f7a076e11ab4a794192d2e7107f0769c7acec7e5c1997b64d0a",
+    "op": "clean",
+    "from": "bb12:15"
+  },
+  {
+    "type": 12,
+    "name": "b_20",
+    "link": 0,
+    "gap": 0,
+    "sha256": "0cbe4ebc1f7e2d355266bab3d03488f8ca54edfacfbb05cbc10ffdd424fdbbba",
+    "op": "clean",
+    "from": "bb12:16"
+  },
+  {
+    "type": 12,
+    "name": "b_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8c49d650d65ff0a03bc723328d94724f0f0942fb9f106214e1ddfc04c9c99da6",
+    "op": "clean",
+    "from": "bb12:17"
+  },
+  {
+    "type": 12,
+    "name": "b_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8f00a86e561ac2321a903a8939f91cff2421fca5ad23ccd2ae52065d58214fc5",
+    "from": "bb12:14",
+    "op": "records",
+    "splices": [
+      [
+        2,
+        4,
+        [
+          ["entity", 2, {"object": 120, "x": -742.3400268554688, "z": 1289.4530029296875, "ry": -1.5707963705062866}],
+          ["entity", 3, {"object": 752, "x": -736.3400268554688, "z": 1555.4530029296875, "ry": -1.6580628156661987}],
+          ["entity", 4, {"object": 752, "x": -827.3400268554688, "z": 1053.4530029296875, "ry": -1.7627824544906616}],
+          ["activator", 5, {"x": -898.22998046875}]
+        ]
+      ],
+      [
+        7,
+        5,
+        [
+          ["entity", 7, {"object": 120, "x": 117.87899780273438, "z": -1536.113037109375, "ry": -2.094395160675049}],
+          ["entity", 8, {"object": 120, "x": 240.87899780273438, "z": -1222.113037109375, "ry": -1.9024088382720947}],
+          ["entity", 9, {"object": 752, "x": 539.8790283203125, "z": -1514.113037109375, "ry": -2.076941728591919}],
+          ["entity", 10, {"object": 752, "x": 492.8789978027344, "z": -1186.113037109375, "ry": -1.9722219705581665}],
+          ["activator", 11, {"x": -22.639999389648438, "y": -493.0}]
+        ]
+      ],
+      [
+        13,
+        5,
+        [
+          ["entity", 13, {"object": 752, "x": 2441.18994140625, "y": -559.0, "z": 538.2260131835938, "ry": -0.8726646900177002}],
+          ["entity", 14, {"object": 120, "x": 2141.18994140625, "y": -563.0, "z": 668.2260131835938, "ry": -0.6283185482025146}],
+          ["entity", 15, {"object": 120, "x": 2384.18994140625, "y": -559.0, "z": 253.2259979248047, "ry": -0.7853981852531433}],
+          ["entity", 16, {"object": 120, "x": 2004.18994140625, "y": -561.0, "ry": -0.6981316804885864}],
+          ["activator", 17, {"y": -720.0}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "936343329cb398033025d0dacd63a74cb29c7c8c12de58cb077718369afaffb3",
+    "from": "bb12:19",
+    "op": "records",
+    "splices": [
+      [4, 1, [["AreaSettings", 0, -1, ["flag", 5176], ["jump", 0, 1, 5, 12, 50, 0, 1], ["set7", 0]]]],
+      [8, 1, [["AreaSettings", 7, -1, ["flag", 5177], ["set5", 3], ["jump", 0, 1, 5, 12, 51, 0, 1], ["set7", 0]]]],
+      [11, 1, []]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "e_51",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e8f99fd880c9108a0270ec7d0aa74eee6c948376d63e9d5f31c63c78f772fd95",
+    "op": "clean",
+    "from": "bb12:20"
+  },
+  {
+    "type": 12,
+    "name": "e_01",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+    "op": "clean",
+    "from": "bb12:21"
+  },
+  {
+    "type": 12,
+    "name": "e_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "883b90237ba9a3e1654bf56c6de9dc780dc76b6cee02ebaba152615eef482ec5",
+    "op": "clean",
+    "from": "bb12:22"
+  },
+  {
+    "type": 12,
+    "name": "j01_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "15da31b0100995a3a0c2b2a38857fdf1f8c7c9f6e537ce11f40b363978b4c0f7",
+    "from": "bb12:23",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 92, "talk": 0, "reaction": 0}]]], [28, 1, [["entity", 28, {"object": 752}]]]]
+  },
+  {
+    "type": 22,
+    "name": "112",
+    "link": 0,
+    "gap": 0,
+    "sha256": "2c5d398369ec7ff6c3dda8277556398b8dce4e7f3eaad5291f771a0c63632281",
+    "from": "bb12:24",
+    "op": "records",
+    "splices": [
+      [3, 2, [["event8", {"frame": 1597, "parameter": 18}], ["performance", 4, 4]]],
+      [
+        27,
+        272,
+        [
+          ["record", "al04:4", 22],
+          ["record", "hb09:36", 28],
+          ["performance", 32, 7],
+          ["record", "al03:17", 72],
+          ["record", "al02:18", 28],
+          ["performance", 41, 1],
+          ["record", "al04:4", 30],
+          ["record", "al05:8", 85],
+          ["record", "al06:24", 87],
+          ["performance", 45, 2],
+          ["record", "hb19:18", 22],
+          ["record", "hb19:18", 23],
+          ["performance", 49, 28],
+          ["record", "eh04:15", 72],
+          ["performance", 78, 84],
+          ["event18", {"frame": 911, "duration": 5, "mode": 1}],
+          ["performance", 163, 12],
+          ["event18", {"frame": 922, "duration": 5, "mode": 0}],
+          ["performance", 176, 36],
+          ["event18", {"frame": 1058, "duration": 5, "mode": 1}],
+          ["performance", 213, 6],
+          ["event18", {"frame": 1070, "duration": 5, "mode": 0}],
+          ["performance", 220, 73],
+          ["event18", {"frame": 1574, "duration": 20, "mode": 1}],
+          ["performance", 294, 3]
+        ]
+      ]
+    ],
+    "performance_sha256": "f49dc7db2c2657674a26712ca2f556317cb43dcdfc0d4b971571e42159379a9d"
+  },
+  {
+    "type": 22,
+    "name": "113",
+    "link": 0,
+    "gap": 2,
+    "sha256": "2bd98c42d9bca345fbc12a9c84c81fbf46f785cac44f9a13a7abba4781551260",
+    "from": "bb12:25",
+    "op": "records",
+    "splices": [
+      [3, 3, [["record", "tt08:40", 3], ["performance", 4, 2]]],
+      [
+        27,
+        223,
+        [
+          ["performance", 27, 8],
+          ["record", "bb09:21", 41],
+          ["record", "bb03:24", 66],
+          ["record", "bb11:28", 31],
+          ["performance", 38, 4],
+          ["record", "al02:18", 25],
+          ["performance", 43, 16],
+          ["record", "bb06:21", 99],
+          ["record", "eh14:16", 30],
+          ["record", "hb05:66", 29],
+          ["performance", 62, 3],
+          ["record", "ca01:31", 112],
+          ["performance", 66, 71],
+          ["event18", {"frame": 647, "duration": 10, "mode": 1}],
+          ["performance", 138, 12],
+          ["event18", {"frame": 658, "duration": 10, "mode": 0}],
+          ["performance", 151, 4],
+          ["record", "mu00:19", 189],
+          ["performance", 156, 9],
+          ["event18", {"frame": 1078, "duration": 20, "mode": 1}],
+          ["performance", 166, 29],
+          ["event18", {"frame": 1120, "duration": 20, "mode": 0}],
+          ["performance", 196, 44],
+          ["event18", {"frame": 1411, "duration": 20, "mode": 1}],
+          ["performance", 241, 5]
+        ]
+      ]
+    ],
+    "performance_sha256": "987b8c6452f1bc11c7e9bd265c8817fd1351ae47361d6f20039d1fd27ae50f42"
+  }
+]

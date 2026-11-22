@@ -1,0 +1,141 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "23399a06834fbdb50ccda5d53d61c92d82a0c6c3ff9d31852575cd4225710ce2",
+    "from": "dc06:0",
+    "op": "records",
+    "splices": [[6, 0, [["Spawn", "SAVE"]]], [12, 0, [["Spawn", "SAVE"]]], [17, 0, [["Spawn", "SAVE"]]]]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8466517d22568d559183249235d6bd610c4d779735ffa878d67da982f976a6f6",
+    "op": "clean",
+    "from": "dc06:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e82b4f6a8458fde1f551f035d93d0e98d440e9803a9557fec4561a7c10c15b25",
+    "op": "clean",
+    "from": "dc06:2"
+  },
+  {
+    "type": 12,
+    "name": "m_20",
+    "link": 0,
+    "gap": 0,
+    "sha256": "812bd2188ceabef344486d0f71c1b4a2252876bda4798d4f9bbb807fb9a8ac3c",
+    "op": "clean",
+    "from": "dc06:3"
+  },
+  {
+    "type": 12,
+    "name": "m_22",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d205ba33f6935307b658ac2fd070d85a5f29f978655c84c60c82e574de5c3550",
+    "op": "clean",
+    "from": "dc06:4"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ad171a838a4773875ee9ae3004d999301ec914e794ec81b37779683f63f07123",
+    "from": "dc06:5",
+    "op": "records",
+    "splices": [[15, 1, [["AreaSettings", 0, -1, ["set4", 1], ["flag", 12290], ["event", 2, "102"], ["jump", 0, 1, 12, 6, 50, 0, 1], ["set7", 1]]]]]
+  },
+  {
+    "type": 12,
+    "name": "e_01",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+    "op": "clean",
+    "from": "dc06:6"
+  },
+  {
+    "type": 12,
+    "name": "e_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3151abf4dd34bcaae9087e8b0524004d4e3afec2b14c441a3c3391946afbe804",
+    "op": "clean",
+    "from": "dc06:7"
+  },
+  {
+    "type": 12,
+    "name": "e_02",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+    "op": "clean",
+    "from": "dc06:8"
+  },
+  {
+    "type": 12,
+    "name": "c00_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "95a344a4e97aceb886b36ea1c3f67e5f6f794aa46bf542d625a2d30dc4208f0a",
+    "op": "clean",
+    "from": "dc06:9"
+  },
+  {
+    "type": 12,
+    "name": "c02_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "13d8bd666de6282dfcc8879d0a7a4f2c6c680414ac5e2d4c82f12aa27e96fb1c",
+    "op": "clean",
+    "from": "dc06:10"
+  },
+  {
+    "type": 12,
+    "name": "c03_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "42d77c07b0d8570fd27dbbabd2fa7c7eb32c5fc17fba77b2b16a8bd9232347ce",
+    "op": "clean",
+    "from": "dc06:11"
+  },
+  {
+    "type": 12,
+    "name": "c01_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5b32c86a843a207480f2c3b71a2aad98bedd854a6730e3378842d6585633a34c",
+    "op": "clean",
+    "from": "dc06:12"
+  },
+  {
+    "type": 12,
+    "name": "d80_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "caec302387e2b3913a5ad0a65fa7ae66492701421e332293abbc755c1b0e1914",
+    "op": "clean",
+    "from": "dc06:13"
+  },
+  {"type": 22, "name": "102", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {
+    "type": 12,
+    "name": "SAVE",
+    "link": 0,
+    "gap": 0,
+    "sha256": "dd0299e023695cf83fa60795e2c73edec4c7ee83fbaca1e25e06b7c753f6956e",
+    "from": "al11:3",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 445, "x": 430.0, "y": -159.41619873046875, "z": 650.0}]]]]
+  }
+]

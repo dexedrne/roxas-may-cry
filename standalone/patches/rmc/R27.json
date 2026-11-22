@@ -1,0 +1,38 @@
+[
+  {
+    "path": "ard/us/po07.ard",
+    "sha256": "f85623620d937779d9779e75855ba99f6228f4b13347ec5a6df46100a34c18a3",
+    "ordinal": 5,
+    "kind": 12,
+    "name": "b_60",
+    "link": 0,
+    "op": "remove-entities",
+    "old_count": 5,
+    "entities": [
+      [
+        4,
+        567
+      ]
+    ]
+  },
+  {
+    "path": "ard/us/tr01.ard",
+    "sha256": "5aba6a5e1e915b549f7e02729d2d150cb5d7f7288f3cb45c941e0bbcf5e81e8b",
+    "ordinal": 36,
+    "kind": 12,
+    "name": "b_41",
+    "link": 0,
+    "op": "remove-entities",
+    "old_count": 17,
+    "entities": [
+      [
+        16,
+        567
+      ],
+      [
+        17,
+        568
+      ]
+    ]
+  }
+]

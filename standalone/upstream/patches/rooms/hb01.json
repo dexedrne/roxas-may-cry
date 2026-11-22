@@ -1,0 +1,179 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "58afdbbea1496d5f4eb8c0becea77d0f90b1e914cd01031947b5766e005532a4",
+    "from": "hb01:0",
+    "op": "records",
+    "splices": [[45, 0, [["program", null, {"id": 267}], ["MapVisibility", 1, 1073741824], ["BarrierFlag", 0, 1073741824]]]]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "09bf8632ffbc43ba7efd7dcfa5b8c16196fa313e6a921fa52e1451c0191575a1",
+    "op": "clean",
+    "from": "hb01:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "504f568b873c7425aebff794ef724bbf74d619fd83acf1a1987373ddd2d25c7b",
+    "op": "clean",
+    "from": "hb01:2"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5c1b7fbca73c9cf20b1796ffd1dcf60ae6ff0267ab297fa15c8f8d7fe95c5384",
+    "from": "hb01:3",
+    "op": "records",
+    "splices": [[16, 0, [["program", null, {"id": 267}], ["Party", 0], ["Mission", 236, "HB01_MS601", 32], ["BattleLevel", 80], ["Recov", 4], ["Spawn", "b_60"]]]]
+  },
+  {
+    "type": 12,
+    "name": "b_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "21c397cf60dcad0dafef757b6cf890d61f872c4d9b00e0a9a4b1f975e8f56c7d",
+    "op": "clean",
+    "from": "hb01:4"
+  },
+  {
+    "type": 12,
+    "name": "b_20",
+    "link": 0,
+    "gap": 0,
+    "sha256": "7c5191b2d52cf4ab0cd6e7edae0d5ea5b3209051fbce38ef22df226cb9d4e5e5",
+    "op": "clean",
+    "from": "hb01:5"
+  },
+  {
+    "type": 12,
+    "name": "b_21",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3921b50a6fab13b9068ce800b04e487e1b39c118e9edaae56ddebf8810ad43ed",
+    "from": "hb01:6",
+    "op": "records",
+    "splices": [
+      [
+        1,
+        9,
+        [
+          ["group", 1, {"type": 1, "entities": 1, "activators": 0, "returns": 0}],
+          [
+            "entity",
+            2,
+            {"object": 1608, "x": -147.28799438476562, "y": -90.0, "z": 1677.0, "ry": 0.10471975803375244, "spawn_type": 0, "talk": 4865, "reaction": 30}
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "b_60",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d72ea58e2243c429846f6dfa599cdffc4b516c6ec1489ee05d9ce6ec73c1139e",
+    "op": "clean",
+    "from": "hb01:7"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "42927880f700e4ecdb49957cbf46ed7b73d0d436c840cb07a1b1a07e23fcfdfa",
+    "from": "hb01:8",
+    "op": "records",
+    "splices": [
+      [37, 1, [["AreaSettings", 0, -1, ["flag", 4171], ["set5", 1], ["event", 2, "417"], ["jump", 0, 1, 4, 19, 0, 0, 1], ["list", 525, 278, 592], ["set7", 0]]]],
+      [42, 1, [["AreaSettings", 0, -1, ["event", 2, "109"], ["flag", 4216], ["jump", 0, 1, 4, 8, 0, 0, 1], ["set7", 0]]]],
+      [
+        52,
+        0,
+        [
+          ["program", null, {"id": 20}],
+          ["AreaSettings", 9, -1, ["flag", 4223], ["set4", 1], ["event", 1, "607"], ["jump", 0, 1, 4, 1, 50, 0, 1], ["list", 282], ["set7", 0]],
+          ["Spawn", "j52e"]
+        ]
+      ],
+      [53, 1, [["AreaSettings", 4864, -1, ["set5", 1], ["jump", 0, 2, 4, 0, 0, 266, 1], ["set7", 0]]]],
+      [
+        56,
+        3,
+        [
+          ["program", 56, {"id": 266}],
+          ["Party", 1],
+          ["Bgm", 0, 0],
+          ["AreaSettings", 0, -1, ["event", 1, "601"], ["jump", 0, 2, 4, 0, 0, 267, 1], ["set7", 0]],
+          ["program", null, {"id": 267}],
+          ["Bgm", 188, 188],
+          ["AreaSettings", 16, -1, ["set4", 1], ["set5", 1], ["event", 18, "602"], ["jump", 0, 1, 4, 1, 51, 0, 1], ["set7", 0]]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "e_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ae191326c77ccc73df1560359ae7ddc333a188fb4a6d92d8a2049e45f5acefe3",
+    "op": "clean",
+    "from": "hb01:9"
+  },
+  {
+    "type": 12,
+    "name": "e_51",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c9ba2c3dc2f59f21d3775fdb9de9980046e861d2ed64351363f2b78ebd45278b",
+    "from": "hb01:10",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"x": -147.0, "z": 1523.6820068359375, "ry": 3.1415927410125732}]]]]
+  },
+  {
+    "type": 12,
+    "name": "j50e",
+    "link": 0,
+    "gap": 0,
+    "sha256": "087a2256f435f9d8727fe70967e708d8ce9bb8c24eea48a9005992bd51f29847",
+    "op": "clean",
+    "from": "hb01:11"
+  },
+  {
+    "type": 12,
+    "name": "j51_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "22344e62f98c7a828345e34d6ef6276020c214dbf94919f2994c8e9e5a1ee2e0",
+    "op": "clean",
+    "from": "hb01:12"
+  },
+  {
+    "type": 12,
+    "name": "j52e",
+    "link": 0,
+    "gap": 0,
+    "sha256": "7539bf8b57a4601e62c2b8015b248f198e621977ee781e1bb3a452dba975c220",
+    "op": "clean",
+    "from": "hb01:13"
+  },
+  {"type": 22, "name": "109", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "417", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "420", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "601", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "602", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "607", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "605s", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e24e13458392bbe12ef91d6f0c9a4e8e07b0298e07086db5e3e91df9f833ba50",
+    "from": "eh04:0",
+    "op": "records",
+    "splices": [
+      [7, 0, [["Spawn", "SAVE"]]],
+      [14, 0, [["Spawn", "SAVE"]]],
+      [21, 0, [["Spawn", "SAVE"]]],
+      [28, 0, [["Spawn", "SAVE"]]],
+      [35, 0, [["Spawn", "SAVE"]]],
+      [42, 0, [["Spawn", "SAVE"]]],
+      [49, 0, [["Spawn", "SAVE"]]],
+      [56, 0, [["Spawn", "SAVE"]]],
+      [64, 0, [["Spawn", "SAVE"]]],
+      [71, 0, [["Spawn", "SAVE"]]],
+      [78, 0, [["Spawn", "SAVE"]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "9cf8e858d1ccebd3ab2e096879a5d9961f36cc680e7bf0abed85c39b72e47152",
+    "op": "clean",
+    "from": "eh04:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "bc25b3b7a81fb84cff2b8f4c6643a4228fe9fb59f69f002e3c517228e57090ff",
+    "op": "clean",
+    "from": "eh04:2"
+  },
+  {
+    "type": 12,
+    "name": "m_11",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3be0039b2799d2e1e52052d575565daaaaa055cc07b1948c261ec2dfbd92433b",
+    "op": "clean",
+    "from": "eh04:3"
+  },
+  {
+    "type": 12,
+    "name": "m_20",
+    "link": 0,
+    "gap": 0,
+    "sha256": "43401f4a27915e688fa481a63c0b3138ff04080e778465f028d28489a2f35516",
+    "op": "clean",
+    "from": "eh04:4"
+  },
+  {
+    "type": 12,
+    "name": "m_70",
+    "link": 0,
+    "gap": 0,
+    "sha256": "73a3449347164f330f4c63491846f61d34c02b0e55baaab2007c474df212ee3d",
+    "op": "clean",
+    "from": "eh04:5"
+  },
+  {
+    "type": 12,
+    "name": "m_01",
+    "link": 0,
+    "gap": 0,
+    "sha256": "013bcb6439d3670067a74ca83a2e9c334858c53a8965e30bb6f2a309d2bb786e",
+    "op": "clean",
+    "from": "eh04:6"
+  },
+  {
+    "type": 12,
+    "name": "m_21",
+    "link": 0,
+    "gap": 0,
+    "sha256": "16555ec64d4ec00740af6d06b817fdf654945df49b80136bbfe363762a4745f8",
+    "op": "clean",
+    "from": "eh04:7"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "61b47b41ef7f12f770923ed59b34280594a74ed733e8744f849d434810834cd3",
+    "op": "clean",
+    "from": "eh04:8"
+  },
+  {
+    "type": 12,
+    "name": "e_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "f3aac4455ee38e2ff8a4468b08f8b41384945670390e77e5675ce119ab4541f6",
+    "op": "clean",
+    "from": "eh04:9"
+  },
+  {
+    "type": 12,
+    "name": "a00_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "17787206ee4f8df56a402bcb2f35af18adeba951bf1ba09f73a747269b3cb216",
+    "from": "eh04:10",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 752}]]]]
+  },
+  {
+    "type": 12,
+    "name": "e01_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "03facef4d632dcccc9877eb25c0ae2d527ff604bbb7347df871481659648caf1",
+    "from": "eh04:11",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 92, "talk": 0, "reaction": 0}]]], [24, 1, [["entity", 24, {"object": 752}]]]]
+  },
+  {
+    "type": 12,
+    "name": "z00s",
+    "link": 0,
+    "gap": 0,
+    "sha256": "eb70b4bc2a88a4fc9782441627cdea50ba842be16642e907ff9269b98f4355ce",
+    "from": "eh04:12",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 1159, "y": -80.0}]]]]
+  },
+  {"type": 22, "name": "106", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "108", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "125", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {
+    "type": 12,
+    "name": "SAVE",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b77add8b85eb0893b210940f5cde13cd7c3e9a598f1583ff56dc4d8f0967cf75",
+    "from": "eh04:4",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 445}]]]]
+  }
+]

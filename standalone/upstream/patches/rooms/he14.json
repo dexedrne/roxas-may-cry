@@ -1,0 +1,30 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b04b610201e7175e1118f2a692adf04bad451b33fd0f59b79187b5d203268b2c",
+    "op": "clean",
+    "from": "he14:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 4,
+    "sha256": "f6e3be6ebf0fdd91ce022c6a29c5457f468794d239446c4a74268c82f70785da",
+    "op": "clean",
+    "from": "he14:1"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 12,
+    "sha256": "99f037513d77e95cb763c064ec91985ffc75a0f2feca4fef729cd40a6a953652",
+    "op": "clean",
+    "from": "he14:2"
+  },
+  {"type": 22, "name": "217", "link": 0, "gap": 12, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

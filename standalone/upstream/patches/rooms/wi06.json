@@ -1,0 +1,174 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1997c92e93dd2bbda830417011fb5d3c33c52fc1d44350ae68a5097a3e1111bf",
+    "op": "clean",
+    "from": "wi06:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5066f64b5a487f7dd1046df252f42c7bac2a523ca44ec03ee84fdccd7b49cd90",
+    "op": "clean",
+    "from": "wi06:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ecc3eb11ff201e619aec1dd5e27d6d9c19493c2d7aa9b8db8d399553cf973d02",
+    "op": "clean",
+    "from": "wi06:2"
+  },
+  {
+    "type": 12,
+    "name": "m_11",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8c6effc4943eeae1acef3c6ed6aa6ce6a0fae38eda043e82cf000c3071d976c7",
+    "op": "clean",
+    "from": "wi06:3"
+  },
+  {
+    "type": 12,
+    "name": "m_12",
+    "link": 0,
+    "gap": 0,
+    "sha256": "464456e6f1dc7b230ae0d1da21e58895344986c4094aab7bd4933f28063acea3",
+    "op": "clean",
+    "from": "wi06:4"
+  },
+  {
+    "type": 12,
+    "name": "m_80",
+    "link": 0,
+    "gap": 0,
+    "sha256": "51c76f3194f81c7cadb335e9ac2fd1c2d75e43dec3ab0362969522ffa6008ac1",
+    "op": "clean",
+    "from": "wi06:5"
+  },
+  {
+    "type": 12,
+    "name": "m_40",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "op": "clean",
+    "from": "wi06:6"
+  },
+  {
+    "type": 12,
+    "name": "m_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d79bb84cf49b83c2d812ea86f1a6c14ae198312b6adb6afcd8ec6c35176df413",
+    "op": "clean",
+    "from": "wi06:7"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1a22902e09ca53d36061211fe9568d4019d926a3af84cfff08e802b2fde969c6",
+    "op": "clean",
+    "from": "wi06:8"
+  },
+  {
+    "type": 12,
+    "name": "b_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "9db8a9c8d344ec2af7a9ad3f17df1255c35173e9f7996796383f93057e4d4549",
+    "op": "clean",
+    "from": "wi06:9"
+  },
+  {
+    "type": 12,
+    "name": "b_20",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d59c6b10dac01b7febacde753cdd2dd6cc72e4400fc73362354060dd7e7c516f",
+    "op": "clean",
+    "from": "wi06:10"
+  },
+  {
+    "type": 12,
+    "name": "b_40",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c190af04a89a27bac89b719d4a845206bce5cb634efd9c277a18aae69e82e330",
+    "from": "wi06:11",
+    "op": "records",
+    "splices": [
+      [
+        6,
+        7,
+        [
+          ["entity", 6, {"object": 752}],
+          ["entity", 7, {"object": 752}],
+          ["entity", 8, {"object": 120}],
+          ["entity", 9, {"object": 120}],
+          ["entity", 10, {"object": 752}],
+          ["entity", 11, {"object": 120}],
+          ["entity", 12, {"object": 120}]
+        ]
+      ],
+      [16, 3, [["entity", 16, {"object": 752}], ["entity", 17, {"object": 120}], ["entity", 18, {"object": 120}]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "b_41",
+    "link": 0,
+    "gap": 0,
+    "sha256": "23b015537bf9770359ce933cdf4af0f787d222c285fd4a606b375109bed7789b",
+    "op": "clean",
+    "from": "wi06:12"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "7409b1f9268eb0e8cfe32f39c6e09915afb88bdd3bd735352d4c9c681e561d3e",
+    "op": "clean",
+    "from": "wi06:13"
+  },
+  {
+    "type": 12,
+    "name": "e_01",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+    "op": "clean",
+    "from": "wi06:14"
+  },
+  {
+    "type": 12,
+    "name": "e_03",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "op": "clean",
+    "from": "wi06:15"
+  },
+  {
+    "type": 12,
+    "name": "e_02",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+    "op": "clean",
+    "from": "wi06:16"
+  },
+  {"type": 22, "name": "107", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "128", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "108", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"}
+]

@@ -1,0 +1,11 @@
+{
+  "room": "ard/us/eh05.ard",
+  "member": [3,22,"107"],
+  "requester": [2,13,"evt"],
+  "program_ids": [225,0,184,1],
+  "project_room": "ard/us/bb03.ard",
+  "project_member": [27,22,"209"],
+  "commands": [
+    ["borrow_project"], ["setup"], ["start",0], ["end_frame",50,18], ["fade",1,0,1]
+  ]
+}

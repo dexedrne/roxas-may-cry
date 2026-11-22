@@ -1,0 +1,102 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "087a32b1b1fe8f22ba1bc61316a9abf3f9e2a24880dc9d50c2fcb29d41ed07f9",
+    "from": "di00:0",
+    "op": "records",
+    "splices": [[1, 4, [["MapVisibility", 4294967289, 0]]], [6, 6, [["Spawn", "riku"], ["Spawn", "kair"]]]]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b4d65f69a31af313fdacdcb04e0d4352704c73f696900e7191d54fde0272fdaa",
+    "from": "eh20:1",
+    "op": "records",
+    "splices": [
+      [
+        2,
+        3,
+        [
+          ["entity", 2, {"x": 0.0, "y": 0.0, "z": -669.0, "ry": 3.1415927410125732}],
+          ["entity", 3, {"object": 1876, "x": 112.0, "z": -726.0, "ry": 3.1415927410125732}],
+          ["entity", 4, {"x": -102.0, "y": 0.0, "z": -726.0, "ry": 3.1415927410125732}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "mog_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "9489d7f4f2a3d6a6f1d9c5b2fa23750347a5a896257979bd3cdc0b28320d4e56",
+    "from": "eh04:12",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"x": 453.0, "z": -730.0, "ry": -2.478367567062378}]]]]
+  },
+  {
+    "type": 12,
+    "name": "save",
+    "link": 0,
+    "gap": 0,
+    "sha256": "a891dc4972dfcf6553e93918a2bc79b51290a93e4d0f68b825c43ff4539792f0",
+    "from": "hb06:5",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"x": -530.0, "y": 0.0, "z": -672.0}]]]]
+  },
+  {
+    "type": 12,
+    "name": "m_01",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8e3bfdd4e5a13d2531d1ffd135ef77b7cc06c0a2f898828e98f71d9410236615",
+    "from": "di00:1",
+    "op": "records",
+    "splices": [
+      [
+        1,
+        2,
+        [
+          ["group", 1, {"id": 100, "entities": 3, "area": 20}],
+          ["entity", 2, {"x": -530.0, "y": 0.0, "z": -672.0, "ry": 2.626720666885376, "spawn_type": 1, "argument": 99, "serial": 100}],
+          ["entity", null, {"object": 567, "x": -425.0, "z": -732.0, "ry": 2.9146997928619385, "spawn_type": 1, "argument": 99, "serial": 101}],
+          ["entity", null, {"object": 568, "x": -669.0, "z": -618.0, "ry": 2.0245819091796875, "spawn_type": 1, "argument": 99, "serial": 102}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "10beca1641e4a2fea00644d987a63c9b05e7dec9d2f4630e850d163b30fd4439",
+    "op": "records",
+    "splices": [[0, 0, [["program", null, {}], ["Bgm", 201, 201]]]]
+  },
+  {
+    "type": 12,
+    "name": "riku",
+    "link": 0,
+    "gap": 0,
+    "sha256": "8903aa646597cd1952f96c2fde499a65a3f32d159709916bcb4156f6d87cc0a0",
+    "from": "eh18:13",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"x": 4114.6572265625, "y": -198.0, "z": -525.9810180664062, "ry": 0.6283185482025146}]]]]
+  },
+  {
+    "type": 12,
+    "name": "kair",
+    "link": 0,
+    "gap": 0,
+    "sha256": "09b399a9c8ce08fdd9f1b8244cf118aadaf0a689c9a55adb97ef34ec73700628",
+    "from": "eh18:12",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"x": 1992.2659912109375, "y": -73.0, "z": 2913.341064453125, "ry": 0.9075712561607361}]]]]
+  }
+]

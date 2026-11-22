@@ -1,0 +1,95 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b6c8d05654f6fccefc1bbc1134af8eb978a2bef12a1cf12e77b2cdcf27c3aef3",
+    "from": "ca16:0",
+    "op": "records",
+    "splices": [[6, 0, [["Spawn", "SAVE"]]], [12, 0, [["Spawn", "SAVE"]]]]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "637d82aab3578f587f0c7f8e9a257c4a71892dc93a9cd69d592703c523259833",
+    "op": "clean",
+    "from": "ca16:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "f5e4bd836baecd8daf89f89c21f33859c627b52de3cd2f4e894a48e033a29e4c",
+    "op": "clean",
+    "from": "ca16:2"
+  },
+  {
+    "type": 12,
+    "name": "m_11",
+    "link": 0,
+    "gap": 0,
+    "sha256": "dafc3da03c456a2476d8adfd7667390be631d4434757592c79ad09dc0dc8172c",
+    "op": "clean",
+    "from": "ca16:3"
+  },
+  {
+    "type": 12,
+    "name": "m_20",
+    "link": 0,
+    "gap": 0,
+    "sha256": "0fdd6c928a50f974ebc00ad456deea336382c5c82797ff47893879c1bf1d8e4a",
+    "op": "clean",
+    "from": "ca16:4"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "4b2a146713b44a727b845e41da10005518ccd890c498f428fc53baeba7fc0c8b",
+    "op": "clean",
+    "from": "ca16:5"
+  },
+  {
+    "type": 12,
+    "name": "b_80",
+    "link": 0,
+    "gap": 0,
+    "sha256": "a6bdfc657ebd7ebb0c7b7f78c37dae4e159caeaf84a0f91ff6ab9ff3dda1a28e",
+    "from": "ca16:6",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 752}]]]]
+  },
+  {
+    "type": 12,
+    "name": "b_99",
+    "link": 0,
+    "gap": 0,
+    "sha256": "a19c819ecd5de3f8491345dfad02cbfdd005a1e9168825a32ef30ac52746e36c",
+    "op": "clean",
+    "from": "ca16:7"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "edb704a4d7e9db7b03286cc7ab1e99e41ccbdca1957c14fe07372d503239e89a",
+    "op": "clean",
+    "from": "ca16:8"
+  },
+  {
+    "type": 12,
+    "name": "SAVE",
+    "link": 0,
+    "gap": 0,
+    "sha256": "51287242d781e3a1b379f7d023ecc5fa7b2f75d1f1945b10366984118a992237",
+    "from": "ca16:4",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 445}]]]]
+  }
+]

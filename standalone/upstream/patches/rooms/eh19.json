@@ -1,0 +1,140 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d27f5c401e9c513076683b2b2aad8f0441b2fffce03f7ada4ae4e863565d5fe7",
+    "from": "eh19:0",
+    "op": "records",
+    "splices": [[26, 0, [["program", null, {"id": 255}], ["MapVisibility", 1, 1073741824], ["BarrierFlag", 0, 1073741824]]]]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c9cee2d7c091eeb9a54dc0851bf0381cb2ef66ed8b3eec448caf60ce2053d544",
+    "op": "clean",
+    "from": "eh19:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "188a15b050951d15dd997b2c3e6728380494b2d8c58eb641c8078e8d29120454",
+    "op": "clean",
+    "from": "eh19:2"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ece5b985a1855963055ae937f962ae52e20379d039ecf4c532db3d54701abeba",
+    "from": "eh19:3",
+    "op": "records",
+    "splices": [[11, 0, [["program", null, {"id": 255}], ["Mission", 202, "EH19_BETA", 32], ["Spawn", "b_99"]]]]
+  },
+  {
+    "type": 12,
+    "name": "b_40",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5c6d15f91565e5fb5a3993a7c594c6dc136ceeb605cf451aa9fb348a987711f3",
+    "op": "clean",
+    "from": "eh19:4"
+  },
+  {
+    "type": 12,
+    "name": "b_80",
+    "link": 0,
+    "gap": 0,
+    "sha256": "cd5a7f9f26edef6106392e04924d3c903206abce2e955e677cf9f08c283976a6",
+    "op": "clean",
+    "from": "eh19:5"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "eecb50ad223f8088c53f1e694e61e9e37088e701008af95e9653076a6b17aa7b",
+    "from": "eh19:6",
+    "op": "records",
+    "splices": [[30, 0, [["program", null, {"id": 255}], ["Bgm", 87, 87], ["AreaSettings", 7, -1, ["set5", 1], ["jump", 0, 1, 18, 18, 0, 0, 16386], ["set7", 0]]]]]
+  },
+  {"type": 22, "name": "131", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "132", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {
+    "type": 22,
+    "name": "601",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c555599de71988ff8d6f6a951640083c32e6fc7ea30975ec47a4e67b08e7b79e",
+    "op": "clean",
+    "from": "eh19:9"
+  },
+  {
+    "type": 22,
+    "name": "602",
+    "link": 0,
+    "gap": 0,
+    "sha256": "cd49a2d3478883c19b543b6f45734cfd8d09f463d8136d888efaec6417a96345",
+    "op": "clean",
+    "from": "eh19:10"
+  },
+  {
+    "type": 12,
+    "name": "b_99",
+    "link": 0,
+    "gap": 0,
+    "sha256": "505a40a174e61f19ba291743828b78c4aa9c324a3ac1e2332c19cac7ab3b1ecc",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        0,
+        [
+          ["record", "al00:34", 0],
+          ["group", null, {"type": 2, "id": 505, "entities": 25, "activators": 1}],
+          ["entity", null, {"object": 308, "y": -160.0, "z": 1199.0, "spawn_type": 3, "serial": 1031}],
+          ["entity", null, {"object": 308, "x": -297.0, "y": -160.0, "z": 1199.0, "ry": 0.1745329201221466, "spawn_type": 3, "serial": 1032, "level": 2}],
+          ["entity", null, {"object": 308, "x": 297.0, "y": -160.0, "z": 1199.0, "ry": -0.1745329201221466, "spawn_type": 3, "serial": 1033}],
+          ["entity", null, {"object": 308, "x": 425.0, "y": -227.0, "z": 1161.0, "ry": -0.6283185482025146, "spawn_type": 2, "serial": 1034, "level": 1}],
+          ["entity", null, {"object": 308, "x": -425.0, "y": -227.0, "z": 1161.0, "ry": 0.6283185482025146, "spawn_type": 2, "serial": 1035, "level": 1}],
+          ["entity", null, {"object": 311, "y": -239.0, "z": 1173.0, "spawn_type": 2, "serial": 1036, "level": 1}],
+          ["entity", null, {"object": 311, "x": -404.0, "y": -226.0, "z": 1173.0, "spawn_type": 2, "serial": 1037, "level": 2}],
+          ["entity", null, {"object": 311, "x": 404.0, "y": -226.0, "z": 1173.0, "spawn_type": 2, "serial": 1038, "level": 2}],
+          ["entity", null, {"object": 311, "y": -226.0, "z": 1173.0, "spawn_type": 2, "serial": 1039, "level": 2}],
+          ["entity", null, {"object": 316, "y": -350.0, "z": 1369.0, "spawn_type": 2, "serial": 1000, "level": 3}],
+          ["entity", null, {"object": 311, "x": -480.0, "y": -350.0, "z": 1369.0, "spawn_type": 2, "serial": 1001, "level": 3}],
+          ["entity", null, {"object": 311, "x": 480.0, "y": -350.0, "z": 1369.0, "spawn_type": 2, "serial": 1002, "level": 3}],
+          ["entity", null, {"object": 311, "x": 450.0, "y": -200.0, "z": 1550.0, "spawn_type": 2, "serial": 1003, "level": 4}],
+          ["entity", null, {"object": 311, "x": -450.0, "y": -200.0, "z": 1550.0, "spawn_type": 2, "serial": 1004, "level": 4}],
+          ["entity", null, {"object": 308, "x": -450.0, "y": -300.0, "z": 900.0, "spawn_type": 2, "serial": 1005, "level": 4}],
+          ["entity", null, {"object": 308, "x": 450.0, "y": -300.0, "z": 900.0, "spawn_type": 2, "serial": 1006, "level": 4}],
+          ["entity", null, {"object": 316, "y": -300.0, "z": 1300.0, "spawn_type": 2, "serial": 1007, "level": 5}],
+          ["entity", null, {"object": 308, "x": 400.0, "y": -302.0, "z": 1100.0, "spawn_type": 2, "serial": 1008, "level": 5}],
+          ["entity", null, {"object": 308, "x": -400.0, "y": -302.0, "z": 1100.0, "spawn_type": 2, "serial": 1009, "level": 5}],
+          ["entity", null, {"object": 316, "x": 300.0, "y": -300.0, "z": 1200.0, "spawn_type": 2, "serial": 1010, "level": 6}],
+          ["entity", null, {"object": 316, "x": -300.0, "y": -300.0, "z": 1200.0, "spawn_type": 2, "serial": 1011, "level": 6}],
+          ["entity", null, {"object": 308, "x": -422.0, "y": -300.0, "z": 1550.0, "spawn_type": 2, "serial": 1012, "level": 6}],
+          ["entity", null, {"object": 308, "x": 422.0, "y": -300.0, "z": 1550.0, "spawn_type": 2, "serial": 1013, "level": 6}],
+          ["entity", null, {"object": 311, "x": -461.0, "y": -300.0, "z": 913.0, "spawn_type": 2, "serial": 1014, "level": 6}],
+          ["entity", null, {"object": 311, "x": 461.0, "y": -300.0, "z": 913.0, "spawn_type": 2, "serial": 1015, "level": 6}],
+          [
+            "activator",
+            null,
+            {"shape": 2, "x": 14.144000053405762, "y": -317.0, "z": 2305.9169921875, "sx": 100.0, "sy": 100.0, "sz": 100.0, "ry": 0.41887903213500977}
+          ],
+          ["group", null, {"type": 2, "id": 2000, "entities": 3}],
+          ["entity", null, {"object": 566, "z": 650.0, "ry": 3.1415927410125732, "serial": 2001}],
+          ["entity", null, {"object": 567, "serial": 2002}],
+          ["entity", null, {"object": 568, "serial": 2003}]
+        ]
+      ]
+    ]
+  }
+]

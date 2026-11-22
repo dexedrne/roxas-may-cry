@@ -1,0 +1,151 @@
+{
+  "base_sha256": "cb220f8828e01f67f96729dd0225667ed189abfa454c5405bc61233b23757306",
+  "alignment": 16,
+  "members": [
+    {
+      "ordinal": 7,
+      "kind": 2,
+      "name": "al",
+      "link": 0,
+      "sections": [{"schema": "sound", "offset": 4, "clean_rows": 16, "edits": {"5": {"copy_row": 14}}}]
+    },
+    {
+      "ordinal": 8,
+      "kind": 2,
+      "name": "mu",
+      "link": 0,
+      "sections": [
+        {"schema": "count32", "offset": 0, "clean_rows": 1, "edits": {"0": {"set": {"Count": 14}}}},
+        {"schema": "sound", "offset": 4, "clean_rows": 13, "output_rows": 14, "edits": {"13": {"copy_member_row": [4, 34]}}}
+      ]
+    },
+    {
+      "ordinal": 9,
+      "kind": 2,
+      "name": "po",
+      "link": 0,
+      "sections": [
+        {
+          "schema": "sound",
+          "offset": 4,
+          "clean_rows": 10,
+          "edits": {
+            "0": {"copy_member_row": [18, 0], "set": {"Rate": -1, "EnvironmentWAV": 1027, "EnvironmentSEB": 3}},
+            "1": {"copy_member_row": [2, 3]},
+            "2": {"copy_member_row": [2, 3]},
+            "3": {"copy_member_row": [2, 3], "set": {"Rate": 1000}},
+            "4": {"copy_member_row": [5, 12]},
+            "5": {"copy_member_row": [5, 8]},
+            "6": {"copy_member_row": [5, 0]},
+            "7": {"copy_member_row": [5, 4]},
+            "8": {"copy_member_row": [2, 4]},
+            "9": {"copy_member_row": [2, 4]}
+          }
+        }
+      ]
+    },
+    {
+      "ordinal": 10,
+      "kind": 2,
+      "name": "lk",
+      "link": 0,
+      "sections": [
+        {
+          "schema": "sound",
+          "offset": 4,
+          "clean_rows": 17,
+          "edits": {
+            "0": {"copy_member_row": [8, 0], "set": {"Reverb": 10, "Rate": 1000, "EnvironmentWAV": 1058, "EnvironmentSEB": 11}},
+            "1": {
+              "copy_member_row": [4, 5],
+              "set": {"Reverb": 30, "EnvironmentWAV": 1047, "EnvironmentSEB": 17, "EnvironmentNumber": 5}
+            },
+            "2": {"copy_member_row": [16, 5]},
+            "3": {"set": {"FootstepWAV": 611, "Sora": 641, "Donald": 642, "Goofy": 643, "WorldFriend": 644}},
+            "4": {"copy_member_row": [8, 0], "set": {"Reverb": 10, "Rate": 1000, "EnvironmentWAV": 1058, "EnvironmentSEB": 11}},
+            "5": {"copy_member_row": [8, 0], "set": {"Rate": 500}},
+            "6": {"copy_member_row": [8, 0]}
+          }
+        }
+      ]
+    },
+    {
+      "ordinal": 11,
+      "kind": 2,
+      "name": "lm",
+      "link": 0,
+      "sections": [
+        {"schema": "count32", "offset": 0, "clean_rows": 1, "edits": {"0": {"set": {"Count": 41}}}},
+        {
+          "schema": "sound",
+          "offset": 4,
+          "clean_rows": 11,
+          "output_rows": 41,
+          "edits": {
+            "0": {"copy_member_row": [2, 0]},
+            "1": {"copy_member_row": [2, 1]},
+            "2": {"copy_member_row": [2, 3], "set": {"Donald": 698, "Goofy": 699}},
+            "3": {"copy_member_row": [2, 3]},
+            "4": {"copy_member_row": [2, 7], "set": {"Donald": 698, "Goofy": 699}},
+            "5": {"copy_member_row": [2, 5], "set": {"FootstepWAV": 624}},
+            "6": {"copy_member_row": [2, 7]},
+            "7": {"copy_member_row": [2, 7]},
+            "8": {"copy_member_row": [2, 8], "set": {"Reverb": 40}},
+            "9": {"copy_member_row": [2, 9], "set": {"Reverb": 20}},
+            "10": {"copy_member_row": [2, 10]},
+            "11": {"copy_member_row": [2, 11]},
+            "12": {"copy_member_row": [2, 12]},
+            "13": {"copy_member_row": [2, 13]},
+            "14": {"copy_member_row": [2, 14]},
+            "15": {"copy_member_row": [2, 15]},
+            "16": {"copy_member_row": [2, 16]},
+            "17": {"copy_member_row": [2, 17]},
+            "18": {"copy_member_row": [2, 18]},
+            "19": {"copy_member_row": [2, 19]},
+            "20": {"copy_member_row": [2, 20]},
+            "21": {"copy_member_row": [2, 21]},
+            "22": {"copy_member_row": [2, 22]},
+            "23": {"copy_member_row": [2, 23]},
+            "24": {"copy_member_row": [2, 24]},
+            "25": {"copy_member_row": [2, 25]},
+            "26": {"copy_member_row": [2, 26]},
+            "27": {"copy_member_row": [2, 27]},
+            "28": {"copy_member_row": [2, 28]},
+            "29": {"copy_member_row": [2, 29]},
+            "30": {"copy_member_row": [2, 30]},
+            "31": {"copy_member_row": [2, 31]},
+            "32": {"copy_member_row": [2, 32]},
+            "33": {"copy_member_row": [2, 33]},
+            "34": {"copy_member_row": [2, 34]},
+            "35": {"copy_member_row": [2, 35]},
+            "36": {"copy_member_row": [2, 36]},
+            "37": {"copy_member_row": [2, 37]},
+            "38": {"copy_member_row": [2, 38]},
+            "39": {"copy_member_row": [2, 39]},
+            "40": {"copy_member_row": [2, 40]}
+          }
+        }
+      ]
+    },
+    {
+      "ordinal": 14,
+      "kind": 2,
+      "name": "nm",
+      "link": 0,
+      "sections": [
+        {"schema": "count32", "offset": 0, "clean_rows": 1, "edits": {"0": {"set": {"Count": 12}}}},
+        {"schema": "sound", "offset": 4, "clean_rows": 11, "output_rows": 12, "edits": {"11": {"copy_member_row": [4, 33]}}}
+      ]
+    },
+    {
+      "ordinal": 16,
+      "kind": 2,
+      "name": "ca",
+      "link": 0,
+      "sections": [
+        {"schema": "count32", "offset": 0, "clean_rows": 1, "edits": {"0": {"set": {"Count": 27}}}},
+        {"schema": "sound", "offset": 4, "clean_rows": 26, "output_rows": 27, "edits": {"26": {"copy_member_row": [4, 33]}}}
+      ]
+    }
+  ]
+}

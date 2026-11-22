@@ -1,0 +1,3 @@
+path	operation	package	source	sha256
+msg/us/fontimage.bar	retain-file	kh2_first	original/msg/us/fontimage.bar	6a1cf0d2ddca0f8e9bbc80325d59b5e175a21e5dcb85021f85b2b9fdf91226d3
+msg/us/fontinfo.bar	retain-file	kh2_first	original/msg/us/fontinfo.bar	7697d8e4c36d718b3d92f9241db86c3fbbfebe34949b0796a962053306c5e952

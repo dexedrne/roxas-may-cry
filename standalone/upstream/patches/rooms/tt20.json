@@ -1,0 +1,76 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5903bbc44608bd1dd09250f332a6bf44861668eb03d4ab3ce19f66e1cc364954",
+    "op": "clean",
+    "from": "tt20:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "bcb9e744a19db276ef8be2af1f9a5ea9d1359872ec6ba8cacd5f24fca6202e72",
+    "op": "clean",
+    "from": "tt20:1"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e65b72bb08c047d3264a55b2d4a558141bea6daf7eefad9780fe36c3c81963fd",
+    "from": "tt20:2",
+    "op": "records",
+    "splices": [[8, 1, []]]
+  },
+  {
+    "type": 12,
+    "name": "b_40",
+    "link": 0,
+    "gap": 0,
+    "sha256": "278a0e421e1ec6a2a8ae1e6888c5a152897c95631200d3d54c86ecec7b9b2517",
+    "op": "clean",
+    "from": "tt20:3"
+  },
+  {
+    "type": 12,
+    "name": "b_80",
+    "link": 0,
+    "gap": 0,
+    "sha256": "2a6cd25b53a1f8e21f9c7778e6a0b1673529165dd92d1de988a496f90a3ed9ac",
+    "op": "clean",
+    "from": "tt20:4"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "6c14ce66edd51ffada378c30d1b3de30c702d01e09ed324cbc27d66d1eaaec8e",
+    "from": "tt20:5",
+    "op": "records",
+    "splices": [[10, 1, [["AreaSettings", 16, -1, ["flag", 2252], ["set5", 3], ["jump", 0, 2, 2, 0, 0, 135, 16386]]]]]
+  },
+  {
+    "type": 22,
+    "name": "071",
+    "link": 0,
+    "gap": 0,
+    "sha256": "bd76d69e09c69a530cc055e02764e0deb7c86c1198a8e9255661262916551852",
+    "op": "clean",
+    "from": "tt20:6"
+  },
+  {
+    "type": 22,
+    "name": "072",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d5ed0d599c856467758de5032262809b8e83173eb07e0f4a43c771d97dd7f3c9",
+    "op": "clean",
+    "from": "tt20:7"
+  }
+]

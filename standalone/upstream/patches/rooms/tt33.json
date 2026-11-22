@@ -1,0 +1,84 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ec4074d6b2a7f7c004ada02026a62dd4ce2475bfc438a69bf0e963e037829a81",
+    "op": "clean",
+    "from": "tt33:0"
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "bd8820138f4353ea8ff85ed713a0bbfb21fc6cff6e06b6d62290cbaf27a07a67",
+    "from": "tt33:1",
+    "op": "records",
+    "splices": [[1, 1, [["group", 1, {"entities": 3}]]], [3, 0, [["entity", null, {"object": 567, "serial": 100}], ["entity", null, {"object": 568, "serial": 101}]]]]
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "600e95efb951d1c5b3a5809adf59da9ae31bb02c1c30592527d242922405f58e",
+    "op": "clean",
+    "from": "tt33:2"
+  },
+  {
+    "type": 12,
+    "name": "m_11",
+    "link": 0,
+    "gap": 0,
+    "sha256": "491fdd5f363c9f624fb8cc7d71431eab2da1ba8a81d988633439c3531270fc6c",
+    "op": "clean",
+    "from": "tt33:3"
+  },
+  {
+    "type": 12,
+    "name": "m_70",
+    "link": 0,
+    "gap": 0,
+    "sha256": "c4509f2558a496f0234b82ea59b9771f7d44330d557ab45970d1c63b1e6f3479",
+    "op": "clean",
+    "from": "tt33:4"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3c9433da30be83d664a8e56acc292705a532d4d58fed652daefbe03db1b47079",
+    "op": "clean",
+    "from": "tt33:5"
+  },
+  {
+    "type": 12,
+    "name": "b_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b52efce3cd32a105db26d2bff159b05f85200394cc789bb368f730ff178e4a55",
+    "op": "clean",
+    "from": "tt33:6"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "fe9be77bab9aab284ff200a15d13f0e33ce2912568239e8aad836749f3c69140",
+    "op": "clean",
+    "from": "tt33:7"
+  },
+  {
+    "type": 12,
+    "name": "dona",
+    "link": 0,
+    "gap": 0,
+    "sha256": "93033e5b0ef2c0fa8d0871f78ba7182ca12e264e9eabae7eab281af2a08259f4",
+    "op": "reuse",
+    "from": "dc00:22"
+  }
+]

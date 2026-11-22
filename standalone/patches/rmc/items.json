@@ -1,0 +1,30 @@
+[
+  {
+    "path": "msg/us/sys.bar",
+    "sha256": "c0f84007d677c977e0cc89ab1377e93451653f0c0eb893fd1d0d73d615844ce3",
+    "mirror": "msg/us/sys.text",
+    "op": "wording",
+    "ordinal": 0,
+    "name": "sys",
+    "kind": 2,
+    "link": 0,
+    "id": 14093,
+    "old": "or use items in stock",
+    "new": "or use items in stock.\nEquip items to use them in battle",
+    "old_sha256": "067ebcfc46a89643ece50dea5bdcfbe87898db17c6cde222b4e897c5cf312bf9"
+  },
+  {
+    "path": "msg/us/sys.bar",
+    "sha256": "c0f84007d677c977e0cc89ab1377e93451653f0c0eb893fd1d0d73d615844ce3",
+    "mirror": "msg/us/sys.text",
+    "op": "wording",
+    "ordinal": 0,
+    "name": "sys",
+    "kind": 2,
+    "link": 0,
+    "id": 482,
+    "old": "Items",
+    "new": "Item Slots",
+    "old_sha256": "ef6ca18649970ebb90cde1604ef360455f9beb3967d5706e1c059c4b9311e34f"
+  }
+]

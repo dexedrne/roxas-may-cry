@@ -1,0 +1,63 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3602fbd3f9117da063fa6e3f1bd11ad5723f8528cae80060e2b406b00b4f579c",
+    "from": "hb17:0",
+    "op": "records",
+    "splices": [
+      [0, 2, [["program", 0, {"id": 255}], ["MapVisibility", 4293919747, 1023]]],
+      [6, 1, [["MapVisibility", 4293919747, 1023]]],
+      [10, 1, [["MapVisibility", 4293919747, 1023]]],
+      [13, 2, [["program", 13, {"id": 0}], ["MapVisibility", 4293919747, 1023]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "13665c00bde86798fc428d57fff5e3e8c07f9c50cdf33ef1fc80723ce7085b1c",
+    "op": "clean",
+    "from": "hb17:1"
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "32e3e7d4fb561bc1b45547b13d9a93e97c9e35f86447953559ac383ecac78c30",
+    "from": "hb17:2",
+    "op": "records",
+    "splices": [[2, 1, [["Mission", 165, "EH38_MS405", 32]]], [8, 4, [["program", 8, {"id": 0}], ["Capacity", 50], ["Mission", 165, "EH38_MS405", 32]]]]
+  },
+  {
+    "type": 12,
+    "name": "b_99",
+    "link": 0,
+    "gap": 0,
+    "sha256": "566a5875d38623f0ae5ef9d1292120b60e67755d53d3d7e7d187c8fac795ef12",
+    "op": "reuse",
+    "from": "eh03:31"
+  },
+  {
+    "type": 12,
+    "name": "b_40",
+    "link": 0,
+    "gap": 0,
+    "sha256": "43a3d79f09c61c1df0f70e1dc73ab4d884bc3fa55af5af6b838d2d22f99d7aaf",
+    "op": "reuse",
+    "from": "eh03:30"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "4e5152aa160f9b85a4c0a6aca2bdf54fb2ec0cda4f02071eaa77e6d8cd27f772",
+    "op": "records",
+    "splices": [[0, 0, [["program", null, {}], ["Bgm", 241, 241], ["AreaSettings", 7, -1, ["flag", 4186], ["set5", 1], ["jump", 0, 1, 18, 21, 0, 0, 1], ["set7", 0]]]]]
+  }
+]

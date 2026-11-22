@@ -1,0 +1,159 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "5676c991f8db15ab091996b09c7edaca6e6a1adfb061760b305dd99f9f0170f2",
+    "from": "ca04:0",
+    "op": "records",
+    "splices": [
+      [6, 0, [["Spawn", "SAVE"]]],
+      [12, 0, [["Spawn", "SAVE"]]],
+      [18, 0, [["Spawn", "SAVE"]]],
+      [25, 0, [["Spawn", "SAVE"]]],
+      [30, 0, [["Spawn", "SAVE"]]],
+      [34, 0, [["Spawn", "SAVE"]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ff80fb9372a28ecbf216073eeef4ccdd113c8bfcc16f83a9163f6232b836b7be",
+    "op": "clean",
+    "from": "ca04:1"
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "546137ba82a597aa4c1efc1ea25d188b04ec3472852eecf1dc215c479629be81",
+    "op": "clean",
+    "from": "ca04:2"
+  },
+  {
+    "type": 12,
+    "name": "m_20",
+    "link": 0,
+    "gap": 0,
+    "sha256": "bc37b275f775a16487a9b99e40ad12989f15cfae4b480687a1caa4dbfdefe446",
+    "op": "clean",
+    "from": "ca04:3"
+  },
+  {
+    "type": 12,
+    "name": "m_80",
+    "link": 0,
+    "gap": 0,
+    "sha256": "af48f20bcb06defb5d693d05cd944fb07b104bd11ce422bd431c3f2abef486f8",
+    "op": "clean",
+    "from": "ca04:4"
+  },
+  {
+    "type": 12,
+    "name": "m_01",
+    "link": 0,
+    "gap": 0,
+    "sha256": "9a8c2cea09ec3da36c793bea3c577d347d7e68566ee31495ffea62722614bcbb",
+    "op": "clean",
+    "from": "ca04:5"
+  },
+  {
+    "type": 12,
+    "name": "m_21",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b8cbf1c6d56465d0ce02f7eb1f612e6785441baf2820ec9c5febcd0d3e8e65a2",
+    "op": "clean",
+    "from": "ca04:6"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "ce575064dec4eef0c3d10e0429fde8a537d0b5aa5c4f5a98d323b16a9e4deb07",
+    "from": "ca04:7",
+    "op": "records",
+    "splices": [[16, 1, [["AreaSettings", 0, -1, ["flag", 16409], ["set5", 1], ["event", 2, "121"], ["jump", 0, 1, 16, 4, 50, 0, 1], ["set7", 0]]]]]
+  },
+  {
+    "type": 12,
+    "name": "e_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "9736c9d90ed2ddb3d9d8bf3eb4a44c82130ad27587cd3418202b0af7fea3d6ae",
+    "op": "clean",
+    "from": "ca04:8"
+  },
+  {
+    "type": 12,
+    "name": "c01_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "7c42739012daca780239fdba8627963f767e5006acd5279a9a9eca2f5ad96cea",
+    "op": "clean",
+    "from": "ca04:9"
+  },
+  {
+    "type": 12,
+    "name": "c02_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d4b557f76ad1b28b8f57742f6735b5ca9aa0478db1ed6f0de8e9b2099e5f171f",
+    "op": "clean",
+    "from": "ca04:10"
+  },
+  {
+    "type": 12,
+    "name": "c00_",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3dd6d37847faddc211d610dc8c31bb0995449dde41a7dff29a205cdc84bfed8b",
+    "op": "clean",
+    "from": "ca04:11"
+  },
+  {
+    "type": 12,
+    "name": "z00s",
+    "link": 0,
+    "gap": 0,
+    "sha256": "0f51ee343fd53abb18080ad7d5b1d34472e3b66dd179aba0f9b3005a72bae780",
+    "from": "ca04:12",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 1159, "y": -83.79499816894531, "arg2": 1}]]]]
+  },
+  {
+    "type": 12,
+    "name": "test",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "op": "clean",
+    "from": "ca04:13"
+  },
+  {
+    "type": 12,
+    "name": "z01s",
+    "link": 0,
+    "gap": 0,
+    "sha256": "baa44e6e4773dbcbba1e65f154b84affad4416daf5c5743669561793a3356bb8",
+    "op": "clean",
+    "from": "ca04:14"
+  },
+  {"type": 22, "name": "117", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "121", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {
+    "type": 12,
+    "name": "SAVE",
+    "link": 0,
+    "gap": 0,
+    "sha256": "77fbe105754cdcce684a4f6c79507d82e4fc54d5ef6e1ce238cdf3a279e93286",
+    "from": "ca04:3",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 445}]]]]
+  }
+]

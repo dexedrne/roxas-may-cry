@@ -1,0 +1,569 @@
+[
+  {
+    "type": 13,
+    "name": "map",
+    "link": 0,
+    "gap": 0,
+    "sha256": "dbf24b00c392d493504d99ad1c43a56c8905cbc1b1e8cbc14ce8dc6c26e43c08",
+    "from": "po00:0",
+    "op": "records",
+    "splices": [
+      [3, 1, []],
+      [14, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [17, 1, []],
+      [28, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [31, 1, []],
+      [40, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [43, 1, []],
+      [54, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [57, 1, []],
+      [66, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [69, 1, []],
+      [80, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [83, 1, []],
+      [94, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [97, 1, []],
+      [101, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [104, 1, []],
+      [107, 0, [["Spawn", "m_20"]]],
+      [108, 1, []],
+      [110, 0, [["Spawn", "SAVE"], ["Spawn", "dona"]]],
+      [113, 1, []],
+      [124, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [127, 1, []],
+      [137, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [140, 1, []],
+      [146, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [149, 1, []],
+      [160, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [163, 1, []],
+      [173, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [176, 8, []],
+      [
+        194,
+        0,
+        [
+          ["Spawn", "dona"],
+          ["Spawn", "SAVE"],
+          ["program", null, {"id": 99}],
+          ["MapVisibility", 559243, 0],
+          ["AreaSettings", 11, -1, ["set5", 1], ["jump", 0, 1, 4, 13, 1, 0, 1], ["set7", 0]],
+          ["Spawn", "m_00"],
+          ["Spawn", "m_10"],
+          ["Spawn", "m_11"],
+          ["Spawn", "m_12"],
+          ["Spawn", "m_13"],
+          ["Spawn", "m_14"],
+          ["Spawn", "m_15"],
+          ["Spawn", "m_50"],
+          ["Spawn", "m_20"],
+          ["SpawnAlt", "m_21"],
+          ["Spawn", "dona"],
+          ["Spawn", "SAVE"]
+        ]
+      ],
+      [197, 1, []],
+      [201, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [204, 1, []],
+      [211, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [214, 1, []],
+      [225, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [228, 1, []],
+      [235, 0, [["Spawn", "dona"], ["Spawn", "SAVE"]]],
+      [
+        236,
+        0,
+        [
+          ["MapVisibility", 4473923, 0],
+          ["Spawn", "m_00"],
+          ["Spawn", "m_10"],
+          ["Spawn", "m_50"],
+          ["Spawn", "m_20"],
+          ["SpawnAlt", "m_21"],
+          ["Spawn", "dona"],
+          ["Spawn", "SAVE"],
+          ["program", null, {"id": 17}]
+        ]
+      ],
+      [238, 1, []],
+      [
+        249,
+        1,
+        [
+          ["Spawn", "dona"],
+          ["Spawn", "SAVE"],
+          ["program", null, {"id": 6}],
+          ["MapVisibility", 4472843, 0],
+          ["AreaSettings", 11, -1, ["set5", 1], ["jump", 0, 1, 4, 13, 1, 0, 1], ["set7", 0]],
+          ["Spawn", "m_50"],
+          ["Spawn", "m_20"],
+          ["SpawnAlt", "m_21"],
+          ["Spawn", "dona"],
+          ["Spawn", "SAVE"],
+          ["program", null, {"id": 83}]
+        ]
+      ],
+      [252, 1, []],
+      [263, 2, [["Spawn", "dona"], ["Spawn", "SAVE"], ["program", null, {"id": 26}], ["MapVisibility", 559243, 0]]],
+      [
+        266,
+        1,
+        [
+          ["Spawn", "m_00"],
+          ["Spawn", "m_20"],
+          ["SpawnAlt", "m_21"],
+          ["Spawn", "dona"],
+          ["Spawn", "SAVE"],
+          ["program", null, {"id": 7}],
+          ["MapVisibility", 4473355, 0],
+          ["AreaSettings", 11, -1, ["set5", 1], ["jump", 0, 1, 4, 13, 1, 0, 1], ["set7", 0]],
+          ["Spawn", "m_00"],
+          ["Spawn", "m_10"],
+          ["Spawn", "m_12"],
+          ["Spawn", "m_31"]
+        ]
+      ],
+      [270, 1, [["Spawn", "dona"], ["Spawn", "SAVE"], ["program", null, {"id": 88}]]],
+      [273, 1, []],
+      [284, 4, [["Spawn", "dona"], ["Spawn", "SAVE"], ["program", null, {"id": 27}], ["MapVisibility", 163, 0]]],
+      [289, 10, []],
+      [
+        302,
+        1,
+        [
+          ["Spawn", "dona"],
+          ["Spawn", "SAVE"],
+          ["program", null, {"id": 8}],
+          ["MapVisibility", 4472971, 0],
+          ["AreaSettings", 11, -1, ["set5", 1], ["jump", 0, 1, 4, 13, 1, 0, 1], ["set7", 0]],
+          ["Spawn", "m_00"],
+          ["Spawn", "m_10"],
+          ["Spawn", "m_11"],
+          ["Spawn", "m_12"],
+          ["Spawn", "m_50"],
+          ["Spawn", "m_20"],
+          ["SpawnAlt", "m_21"],
+          ["Spawn", "dona"],
+          ["Spawn", "SAVE"],
+          ["program", null, {"id": 94}]
+        ]
+      ],
+      [305, 1, []],
+      [
+        316,
+        4,
+        [
+          ["Spawn", "dona"],
+          ["Spawn", "SAVE"],
+          ["program", null, {"id": 9}],
+          ["MapVisibility", 4456587, 0],
+          ["AreaSettings", 11, -1, ["set5", 1], ["jump", 0, 1, 4, 13, 1, 0, 1], ["set7", 0]]
+        ]
+      ],
+      [323, 32, [["Spawn", "dona"], ["Spawn", "SAVE"]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "m_00",
+    "link": 0,
+    "gap": 0,
+    "sha256": "476dee6fe9339b7d0f186882cf5c99915c6dab8698f6f1119fd88b310d8c1181",
+    "from": "po00:1",
+    "op": "records",
+    "splices": [
+      [2, 1, [["entity", 2, {"x": -545.0, "y": 0.0, "z": 720.0, "ry": 0.0}]]],
+      [4, 1, [["entity", 4, {"x": 0.0, "y": 0.0, "z": 90.0, "ry": 0.0}]]],
+      [6, 1, [["entity", 6, {"x": 0.0, "y": 0.0, "z": 90.0, "ry": 0.0}]]],
+      [8, 1, [["entity", 8, {"x": 0.0, "y": 0.0, "z": 90.0, "ry": 0.0}]]],
+      [10, 1, [["entity", 10, {"x": 0.0, "y": 0.0, "z": 90.0, "ry": 0.0}]]],
+      [12, 1, [["entity", 12, {"x": 0.0, "y": 0.0, "z": 90.0, "ry": 0.0}]]],
+      [14, 1, [["entity", 14, {"x": 0.0, "y": 0.0, "z": 1000.0, "ry": 0.0}]]],
+      [16, 1, [["entity", 16, {"x": 0.0, "y": 0.0, "z": 90.0, "ry": 0.0}]]]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "m_10",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1299ac0d6d157bae693db6851c181f74f0b600128862f0427897f98d58ed8328",
+    "op": "clean",
+    "from": "po00:2"
+  },
+  {
+    "type": 12,
+    "name": "m_11",
+    "link": 0,
+    "gap": 0,
+    "sha256": "bd88417a001aa1b412cd15c532af36515391d06803d423f640d5c11391091c6f",
+    "op": "clean",
+    "from": "po00:3"
+  },
+  {
+    "type": 12,
+    "name": "m_12",
+    "link": 0,
+    "gap": 0,
+    "sha256": "0757f3139eb77852b7407dfab26445f1a75d29ea291da0eb27b952a36d936ec5",
+    "op": "clean",
+    "from": "po00:4"
+  },
+  {
+    "type": 12,
+    "name": "m_13",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e34ee6e89bb3877560ac3fa4f4d4bd5f08961e36ce599829bcacb01f1acf3fd4",
+    "op": "clean",
+    "from": "po00:5"
+  },
+  {
+    "type": 12,
+    "name": "m_14",
+    "link": 0,
+    "gap": 0,
+    "sha256": "cd4b4e514e1913d9122ae3d7c672348a23ce3599f5a3517514ac68ae871c7793",
+    "op": "clean",
+    "from": "po00:6"
+  },
+  {
+    "type": 12,
+    "name": "m_15",
+    "link": 0,
+    "gap": 0,
+    "sha256": "39f4ac340bd17c5f4175c3e3a44fa8dd7232ee9a52162ee82ea9025f80f07d3d",
+    "op": "clean",
+    "from": "po00:7"
+  },
+  {
+    "type": 12,
+    "name": "m_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "2a2ff058fa0a7ef5ae1d811df6ab1e7e5bc99a6d70ecfd357957b3b1389be778",
+    "from": "po00:8",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"object": 1490, "x": 0.0, "y": 0.0, "z": 1150.0}]]]]
+  },
+  {
+    "type": 12,
+    "name": "m_20",
+    "link": 0,
+    "gap": 0,
+    "sha256": "7016fa5c8e0fa9a8b9e5a536f683a2cf359b7c81b213b9690625a3c2424df5c9",
+    "from": "po00:9",
+    "op": "records",
+    "splices": [[2, 1, [["entity", 2, {"x": -545.0, "y": -7.0, "z": 720.0}]]]]
+  },
+  {
+    "type": 12,
+    "name": "m_21",
+    "link": 0,
+    "gap": 0,
+    "sha256": "962e50ca822b0adfb9e00b839828f13b5f1651d26903c8bb1e4e0ce5db18ab47",
+    "op": "clean",
+    "from": "po00:10"
+  },
+  {
+    "type": 12,
+    "name": "m_32",
+    "link": 0,
+    "gap": 0,
+    "sha256": "f85182f3b6af9bb80c3a0870faa5fe46d829feef89fc3398058af5b1f222c65d",
+    "op": "clean",
+    "from": "po00:11"
+  },
+  {
+    "type": 12,
+    "name": "m_31",
+    "link": 0,
+    "gap": 0,
+    "sha256": "15fa32741b8181f36eb4f312e27c8c3341953f877b3f21f9ccf9092914463e33",
+    "op": "clean",
+    "from": "po00:12"
+  },
+  {
+    "type": 12,
+    "name": "m_33",
+    "link": 0,
+    "gap": 0,
+    "sha256": "b9ccd03a4fbf0142cd440c12e740fd6b2e34049797e97dc4099adcb3bbbbd803",
+    "op": "clean",
+    "from": "po00:13"
+  },
+  {
+    "type": 12,
+    "name": "m_34",
+    "link": 0,
+    "gap": 0,
+    "sha256": "e23c8b9f0944e753ef225a59cef44cdc75b6919e66dfa973e89c5100388f1570",
+    "op": "clean",
+    "from": "po00:14"
+  },
+  {
+    "type": 12,
+    "name": "m_35",
+    "link": 0,
+    "gap": 0,
+    "sha256": "1dffc73609c7f6e13485d31c405898d0833d3b3900bc47f71ca2beac096bc385",
+    "op": "clean",
+    "from": "po00:15"
+  },
+  {
+    "type": 13,
+    "name": "evt",
+    "link": 0,
+    "gap": 0,
+    "sha256": "d1a9d61ea2cb4b4841e8bfb5d91624054ca3190d322735854801d3ec7eb7d263",
+    "from": "po00:16",
+    "op": "records",
+    "splices": [
+      [0, 18, []],
+      [20, 3, []],
+      [24, 1, [["Bgm", 244, 244]]],
+      [26, 3, []],
+      [30, 1, [["Bgm", 244, 244]]],
+      [32, 3, []],
+      [36, 1, [["Bgm", 244, 244]]],
+      [38, 3, []],
+      [42, 1, [["Bgm", 244, 244]]],
+      [45, 1, [["Bgm", 244, 244]]],
+      [
+        47,
+        0,
+        [
+          ["program", null, {"id": 6}],
+          ["Bgm", 244, 244],
+          ["AreaSettings", 0, -1, ["flag", 9269], ["set5", 1], ["event", 2, "206"], ["jump", 0, 1, 4, 13, 1, 0, 1], ["set7", 0]],
+          ["program", null, {"id": 7}],
+          ["Bgm", 244, 244],
+          ["AreaSettings", 0, -1, ["flag", 9241], ["event", 2, "301"], ["jump", 0, 1, 9, 0, 53, 0, 1], ["set7", 0]],
+          ["program", null, {"id": 8}],
+          ["Bgm", 244, 244],
+          ["AreaSettings", 0, -1, ["flag", 9270], ["set5", 1], ["event", 2, "307"], ["jump", 0, 1, 4, 13, 1, 0, 1], ["set7", 0]],
+          ["program", null, {"id": 9}],
+          ["Bgm", 244, 244],
+          ["AreaSettings", 0, -1, ["flag", 9249], ["event", 2, "401"], ["jump", 0, 1, 9, 0, 54, 0, 1], ["set7", 0]],
+          ["program", null, {"id": 10}],
+          ["Bgm", 244, 244],
+          ["AreaSettings", 0, -1, ["flag", 9271], ["set5", 1], ["event", 2, "405"], ["jump", 0, 1, 4, 13, 1, 0, 1], ["set7", 0]],
+          ["program", null, {"id": 11}],
+          ["Bgm", 244, 244],
+          ["AreaSettings", 0, -1, ["flag", 9256], ["event", 2, "501"], ["jump", 0, 1, 9, 0, 55, 0, 1], ["set7", 0]],
+          ["program", null, {"id": 22}],
+          ["Bgm", 244, 244],
+          ["Spawn", "e_50"],
+          ["AreaSettings", 9, -1, ["jump", 0, 2, 9, 0, 0, 73, 1], ["set7", 0]],
+          ["Spawn", "m_51"],
+          ["program", null, {"id": 23}],
+          ["Bgm", 244, 244],
+          ["Spawn", "e_50"],
+          ["AreaSettings", 9, -1, ["jump", 0, 2, 9, 0, 0, 98, 1], ["set7", 0]],
+          ["Spawn", "m_51"],
+          ["program", null, {"id": 24}],
+          ["Bgm", 244, 244],
+          ["Spawn", "e_50"],
+          ["AreaSettings", 9, -1, ["jump", 0, 2, 9, 0, 0, 98, 1], ["set7", 0]],
+          ["AreaSettings", 8, -1, ["jump", 0, 2, 9, 0, 0, 75, 1], ["set7", 0]],
+          ["Spawn", "m_52"],
+          ["program", null, {"id": 25}],
+          ["Bgm", 244, 244],
+          ["Spawn", "e_50"],
+          ["AreaSettings", 9, -1, ["jump", 0, 2, 9, 0, 0, 98, 1], ["set7", 0]],
+          ["AreaSettings", 8, -1, ["jump", 0, 2, 9, 0, 0, 85, 1], ["set7", 0]],
+          ["Spawn", "m_52"],
+          ["program", null, {"id": 26}],
+          ["Bgm", 244, 244],
+          ["Spawn", "e_50"],
+          ["AreaSettings", 9, -1, ["jump", 0, 2, 9, 0, 0, 98, 1], ["set7", 0]],
+          ["AreaSettings", 8, -1, ["jump", 0, 2, 9, 0, 0, 85, 1], ["set7", 0]],
+          ["AreaSettings", 7, -1, ["jump", 0, 2, 9, 0, 0, 51, 1], ["set7", 0]],
+          ["Spawn", "m_53"],
+          ["program", null, {"id": 27}],
+          ["Bgm", 244, 244],
+          ["Spawn", "e_50"],
+          ["AreaSettings", 9, -1, ["jump", 0, 2, 9, 0, 0, 98, 1], ["set7", 0]],
+          ["AreaSettings", 8, -1, ["jump", 0, 2, 9, 0, 0, 85, 1], ["set7", 0]],
+          ["AreaSettings", 7, -1, ["jump", 0, 2, 9, 0, 0, 52, 1], ["set7", 0]],
+          ["Spawn", "m_53"]
+        ]
+      ],
+      [
+        48,
+        5,
+        [
+          ["Bgm", 244, 244],
+          ["AreaSettings", 0, -1, ["flag", 9222], ["jump", 0, 1, 9, 1, 0, 0, 1], ["set7", 0]],
+          ["program", 50, {"id": 80}],
+          ["Bgm", 244, 244],
+          ["AreaSettings", 0, -1, ["event", 66, "005"], ["jump", 0, 2, 9, 0, 0, 81, 1], ["set7", 0]]
+        ]
+      ],
+      [54, 1, [["Bgm", 244, 244]]],
+      [56, 3, [["program", 56, {"id": 87}], ["Bgm", 244, 244], ["AreaSettings", 0, -1, ["event", 66, "106"], ["jump", 0, 2, 9, 0, 0, 88, 1], ["set7", 0]]]],
+      [60, 1, [["Bgm", 244, 244]]],
+      [62, 3, [["program", 62, {"id": 93}], ["Bgm", 244, 244], ["AreaSettings", 0, -1, ["event", 66, "206"], ["jump", 0, 2, 9, 0, 0, 94, 1], ["set7", 0]]]],
+      [66, 1, [["Bgm", 244, 244]]],
+      [
+        68,
+        3,
+        [
+          ["program", 68, {"id": 99}],
+          ["Bgm", 244, 244],
+          ["AreaSettings", 0, -1, ["event", 66, "307"], ["jump", 0, 2, 9, 0, 0, 100, 1], ["set7", 0]],
+          ["program", null, {"id": 100}],
+          ["Bgm", 244, 244],
+          ["AreaSettings", 0, -1, ["event", 66, "401"], ["jump", 0, 2, 9, 0, 0, 101, 1], ["set7", 0]],
+          ["program", null, {"id": 103}],
+          ["Bgm", 244, 244],
+          ["AreaSettings", 0, -1, ["event", 66, "405"], ["jump", 0, 2, 9, 0, 0, 104, 1], ["set7", 0]],
+          ["program", null, {"id": 104}],
+          ["Bgm", 244, 244],
+          ["AreaSettings", 0, -1, ["event", 66, "501"], ["jump", 0, 2, 9, 0, 0, 105, 1], ["set7", 0]]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "e_50",
+    "link": 0,
+    "gap": 0,
+    "sha256": "56bf65e6236ab0cc323f9c05ccc76767f7b99aa3fb4c39657c4a1d49b5f49f96",
+    "from": "po00:17",
+    "op": "records",
+    "splices": [
+      [
+        2,
+        6,
+        [
+          ["entity", 2, {"x": 0.0, "y": 0.0, "z": 1000.0, "ry": 0.0}],
+          ["entity", 3, {"x": 0.0, "y": 0.0, "z": 1000.0, "ry": 0.0}],
+          ["entity", 4, {"x": 0.0, "y": 0.0, "z": 1000.0, "ry": 0.0}],
+          ["entity", 5, {"x": 0.0, "y": 0.0, "z": 1000.0, "ry": 0.0}],
+          ["entity", 6, {"x": 0.0, "y": 0.0, "z": 1000.0, "ry": 0.0}],
+          ["entity", 7, {"x": 0.0, "y": 0.0, "z": 1000.0, "ry": 0.0}]
+        ]
+      ]
+    ]
+  },
+  {"type": 22, "name": "001", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "005", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "101", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "106", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "201", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "206", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "301", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "307", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "401", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "405", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {"type": 22, "name": "501", "link": 0, "gap": 0, "sha256": "3e5404039aef14fe8ca2964e500f48fb98a2a8c3b7fa4a114292e42e5f1b80fa", "op": "stub-plain"},
+  {
+    "type": 12,
+    "name": "dona",
+    "link": 0,
+    "gap": 0,
+    "sha256": "62a197f72214e363b95c13f2e46bd75364f7fbbb821b0bcab309a12d8ac20d8f",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        0,
+        [
+          ["record", "al00:2", 0],
+          ["group", null, {"type": 1, "id": 2395, "entities": 1, "returns": 3}],
+          ["entity", null, {"object": 92, "y": -90.0, "z": 500.0, "serial": 2016}],
+          ["record", "al00:12", 3],
+          ["record", "al00:12", 3],
+          ["record", "al00:12", 3]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "m_51",
+    "link": 0,
+    "gap": 0,
+    "sha256": "50cf040ecc921a1acab7d5e40349714a4d1863508b4fa6fdbb75df878d512c0d",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        0,
+        [
+          ["record", "al00:2", 0],
+          ["group", null, {"type": 1, "id": 1000, "entities": 1}],
+          ["entity", null, {"object": 319, "y": -239.0, "z": -71.0, "ry": 3.1415927410125732, "serial": 1001, "talk": 558, "reaction": 30}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "SAVE",
+    "link": 0,
+    "gap": 0,
+    "sha256": "de5dfa847c4c6fc4f9253db4872a6957e7ce37938d50561857b692b17979a34e",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        0,
+        [
+          ["record", "al00:2", 0],
+          ["group", null, {"type": 1, "id": 1010, "entities": 1}],
+          ["entity", null, {"object": 445, "x": -545.0, "y": -7.0, "z": 720.0, "serial": 1012}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 12,
+    "name": "m_52",
+    "link": 0,
+    "gap": 0,
+    "sha256": "3fb7d6f590c18584c1ecbeb5c84f0b687394b62e37b568cc0e428451fe987c9f",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        0,
+        [
+          ["record", "al00:2", 0],
+          ["group", null, {"type": 1, "id": 1001, "entities": 1}],
+          ["entity", null, {"object": 319, "y": -239.0, "z": -71.0, "ry": 3.1415927410125732, "serial": 1002, "talk": 561, "reaction": 30}]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": 13,
+    "name": "btl",
+    "link": 0,
+    "gap": 0,
+    "sha256": "4262cbea78d139c7cba6d35ed143e322aa66c1ba91e7b29f44c551e5c98cc18a",
+    "op": "records",
+    "splices": [[0, 0, [["program", null, {}], ["Mission", 1, "ARCHIVE_CONDITIONS", 32]]]]
+  },
+  {
+    "type": 12,
+    "name": "m_53",
+    "link": 0,
+    "gap": 0,
+    "sha256": "15b2ee899e9c37c6cc9d4368ab9686de068a6e418b46e3342fde54005a49fdfd",
+    "op": "records",
+    "splices": [
+      [
+        0,
+        0,
+        [
+          ["record", "al00:2", 0],
+          ["group", null, {"id": 1003, "entities": 1}],
+          ["entity", null, {"object": 319, "y": -239.0, "z": -71.0, "ry": -3.1415927410125732, "serial": 1004, "talk": 569, "reaction": 30}]
+        ]
+      ]
+    ]
+  }
+]
