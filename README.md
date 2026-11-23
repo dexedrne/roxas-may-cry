@@ -1,10 +1,10 @@
-# Roxas May Cry 1.2.4
+# Roxas May Cry 1.2.7
 
-The [standalone stage-2 builder](standalone/README.md) builds a partial campaign from the player's Steam collection. Its opening route reaches eight combat hits. The complete 1.2.4 ZIP below still uses a player-supplied NMC copy for its remaining assets.
+The [standalone stage-2 builder](standalone/README.md) builds a partial campaign from the player's Steam collection. Its opening route reaches eight combat hits. The complete 1.2.7 ZIP below still uses a player-supplied NMC copy for its remaining assets.
 
 ![Roxas May Cry](docs/img/roxas-may-cry.webp)
 
-Play Nobody May Cry’s Roxas campaign through The World That Never Was, the ending and postgame in the Steam edition of Kingdom Hearts II Final Mix. This repository is a builder: it makes the mod on your PC from your own copy of the game. It holds patches and code, no game files.
+Play Nobody May Cry’s Roxas campaign through The World That Never Was, the ending and postgame in the Steam edition of Kingdom Hearts II Final Mix, as Roxas, Xion or Axel. This repository is a builder: it makes the mod on your PC from your own copy of the game. It holds patches and code, no game files.
 
 ## what's in it
 
@@ -18,7 +18,7 @@ Play Nobody May Cry’s Roxas campaign through The World That Never Was, the end
 <td width="50%" valign="top"><img src="docs/img/settings.webp" alt="Brass gears behind a glowing clock face, an open notebook of gear sketches on a beam" width="100%"><br><b>settings menu and cheats</b><br>infinite HP, MP and Drive, EXP and drop multipliers, names and title logos, changed in game.</td>
 </tr>
 <tr>
-<td width="50%" valign="top"><img src="docs/img/switch.webp" alt="A stone ledge split between sunset and moonlight: an ice cream bar, a folded black coat, a seashell" width="100%"><br><b>Character switching</b><br>swap between Roxas and Xion whenever you want, in every mode.</td>
+<td width="50%" valign="top"><img src="docs/img/switch.webp" alt="A stone ledge split between sunset and moonlight: an ice cream bar, a folded black coat, a seashell" width="100%"><br><b>Character switching</b><br>swap between Roxas, Xion (hooded or HD) and Axel at save points or in the cheats menu, in every mode; cutscenes keep Roxas.</td>
 <td width="50%" valign="top"><img src="docs/img/ending.webp" alt="An empty beach at sunset, a seashell and two bare ice cream sticks in the sand" width="100%"><br><b>the ending and PS2 rules</b><br>the final battles with their PS2 resistance and one-HP rules, pause-to-skip and the results screen.</td>
 </tr>
 <tr>
@@ -28,12 +28,16 @@ Play Nobody May Cry’s Roxas campaign through The World That Never Was, the end
 </table>
 
 - Finish the Summit duel, the Organization encounters and the castle ascent. The Betwixt and Between reward includes Awakened alongside Bond of Flame.
-- New in 1.2.4: the Marluxia and Larxene story arenas are built as their own rooms from your game, their intro scenes show the right weapons, the Space Paranoids room of the Day 96 mission loads, and the menu text explains Item Slots and Less Than Nothing’s recovery drain.
+- New in 1.2.7: three title screens, Roxas May Cry, Xion Always Cries and Axel Won’t Cry, switched live on the title with R3, or F7 on PC. Each has its own painted title and logo, drawn by dexedrne. New Game offers Critical and Less Than Nothing.
+- Less Than Nothing is NMC’s own hardest mode: no potions and no Cure, and enemies attack almost without pause.
+- Playable looks: Roxas, HD Xion (the KH3 model rigged for KH2), hooded Xion (KH2’s own hooded Roxas) and Axel (KH3 model, his chakrams), each with its own HUD face. Switch at any save point or in the cheats menu; cutscenes keep Roxas.
+- 1.2.7 fixes: a crash when the game read the HD looks’ textures (their DDS headers), the Load hang on the title screen, and the Items label is back. The Limit and Light & Dark form crash in Timeless River is fixed in the next build.
+- The Marluxia and Larxene story arenas are built as their own rooms from your game, their intro scenes show the right weapons, the Space Paranoids room of the Day 96 mission loads, and the menu text explains Item Slots and Less Than Nothing’s recovery drain.
 - The Holo-Missions work from start to finish. The computer in Merlin’s House launches the Day 25, Day 96 and Day 193 missions, later terminal pages open, the Day 96 boss room loads, its chests give their own items, an aborted replay returns to the terminal and the Sandlot fight continues after the shield drops.
 - The final battles restore PS2 resistance and one-HP rules. The ending supports pause-to-skip and the results screen.
 - Postgame fixes cover the Cavern of Remembrance Necromancer, Absent Silhouette books, the Zexion fight, Data Marluxia’s Doom count and three Mushroom XIII encounters.
 - Change cheats, EXP and drop multipliers, tutorial HP, names and title logos in the settings menu. Open it with RB/R1 or F2 at New Game / Load, or hold L3 or Shift while opening camp.
-- Menu, pause screen, HUD and save point fixes for both characters.
+- Menu, pause screen, HUD and save point fixes for every look.
 - The HD Xion pack adds character switching, Xion Knows Best and Xion Always Cries. The standard build offers Beginner, Standard, Critical and Less Than Nothing.
 
 ## build and install
@@ -71,4 +75,4 @@ our code is MIT ([LICENSE](LICENSE)). the two script fonts keep their SIL Open F
 - [Nobody May Cry: Recompiled](https://github.com/dexedrne/nmc-recomp): the game and the mod recompiled to run natively on iPhone, macOS and Linux
 - [nmc-decomposed](https://github.com/dexedrne/nmc-decomposed): the mod as readable patches, rebuilt from your own copy of the game
 - [kh2fm-save-converter](https://github.com/dexedrne/kh2fm-save-converter): bring a PS2 (PCSX2) Final Mix save into the Steam version
-- [358/2 Days on iPhone](https://github.com/dexedrne/khdays-port/tree/ios) (work in progress): the native Days port brought to iPhone and iPad, dual screens, touch and controllers
+- [358/2 Days on iPhone](https://github.com/dexedrne/khdays-port/tree/ios) (work in progress): the native Days port brought to iPhone and iPad, single screen, DualSense and Switch Pro controllers, touch controls (auto, on or off), HD cutscenes, 60 to 120 fps
