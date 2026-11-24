@@ -4,6 +4,14 @@ The [standalone stage-2 builder](standalone/README.md) builds a partial campaign
 
 ![Roxas May Cry](docs/img/roxas-may-cry.webp)
 
+## download
+
+**[Download Roxas May Cry 1.2.9](https://rmc-download.dexedrne.workers.dev/roxasmaycry-1.2.9.zip)** (856 MB), ready to install: import `roxasmaycry-1.2.9.zip` as a local ZIP in OpenKH Mods Manager, select KH2 PC, disable other copies of NMC, enable Roxas May Cry, then build and launch with Panacea enabled. You still need the Steam KH 1.5+2.5 collection.
+
+New in 1.2.9: safer character switching (a switch that has no room waits for the next area instead of crashing) and the mod description shows the current names.
+
+Days keyblade models by Jun (Catmaster0116).
+
 Play Roxas’s campaign through The World That Never Was, the ending and postgame in the Steam edition of Kingdom Hearts II Final Mix, as Roxas, Xion or Axel. This repository is a builder: it makes the mod on your PC from your own copy of the game. It holds patches and code, no game files.
 
 ## what's in it
@@ -52,7 +60,7 @@ Play Roxas’s campaign through The World That Never Was, the ending and postgam
    If you already rebuilt NMC with the decomposition’s default preset, use `--rebuilt "NMC_BUILD/installed"` in place of the two NMC arguments. An existing six-package decomposition extraction can be passed with `--clean`.
 
 3. For the PS2 Xemnas I costume, motions and Betwixt reward icon, add `--ps2 "KH2FM.NEW.ISO"` using your own PS2 NMC image. The default uses PC form assets and a KH2 item icon.
-4. Import the resulting `roxasmaycry.zip` as a local ZIP in OpenKH Mods Manager. Select KH2 PC, disable other copies of NMC, enable Roxas May Cry, then build and launch with Panacea enabled. Keep the generated ZIP private.
+4. Import the resulting `roxasmaycry.zip` as a local ZIP in OpenKH Mods Manager. Select KH2 PC, disable other copies of NMC, enable Roxas May Cry, then build and launch with Panacea enabled.
 
 ## optional HD Xion
 
