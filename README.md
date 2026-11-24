@@ -65,6 +65,10 @@ py -3 tools/build-rmc.py "STEAM_COLLECTION" --decomposition "NMC_DECOMPOSED" --n
 
 Use a fresh output path for each build. Both Xion looks use the player’s KH2/NMC HUD, shop faces and voice banks. The KH3 export supplies the face on the character model.
 
+## a note from me
+
+i've burnt an unbelievable amount of time, money and my own health grinding this out. whether or not anyone enjoys it, it's here, it's available, and it's free. no paywall, no early access. people deserve to enjoy it without being obligated to pay for something that was always one obvious github search away. thanks for playing.
+
 ## license
 
 our code is MIT ([LICENSE](LICENSE)). the two script fonts keep their SIL Open Font Licenses ([fonts/](fonts)). the OpenKH package reader keeps its own license ([tools/LICENSE-OpenKH](tools/LICENSE-OpenKH)).
