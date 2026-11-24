@@ -6,7 +6,7 @@ The [standalone stage-2 builder](standalone/README.md) builds a partial campaign
 
 ## download
 
-**[Download Roxas May Cry 1.2.9](https://rmc-download.dexedrne.workers.dev/roxasmaycry-1.2.9.zip)** (856 MB), ready to install: import `roxasmaycry-1.2.9.zip` as a local ZIP in OpenKH Mods Manager, select KH2 PC, disable other copies of NMC, enable Roxas May Cry, then build and launch with Panacea enabled. You still need the Steam KH 1.5+2.5 collection.
+**[Download Roxas May Cry 1.2.9](https://rmc-download.dexedrne.workers.dev/roxasmaycry-1.2.9.zip)** (856 MB), ready to install: import `roxasmaycry-1.2.9.zip` as a local ZIP in OpenKH Mods Manager, select KH2 PC, enable Roxas May Cry, then build and launch with Panacea enabled. You need the Steam KH 1.5+2.5 collection.
 
 New in 1.2.9: safer character switching (a switch that has no room waits for the next area instead of crashing) and the mod description shows the current names.
 
