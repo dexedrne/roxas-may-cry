@@ -28,7 +28,7 @@ Play Roxas’s campaign through The World That Never Was, the ending and postgam
 </table>
 
 - Finish the Summit duel, the Organization encounters and the castle ascent. The Betwixt and Between reward includes Awakened alongside Bond of Flame.
-- New in 1.2.7: three title screens, Roxas May Cry, Xion Knows Best and Axel Won’t Cry, switched live on the title with R3, or F7 on PC. Each has its own painted title and logo, drawn by dexedrne. New Game offers Critical and Less Than Nothing.
+- New in 1.2.7: three title screens, Roxas May Cry, Xion Knows Best and Axel Won’t Cry, switched live on the title with R3, or F7 on PC. Each has its own title art and logo. Title art and logos by dexedrne. New Game offers Critical and Less Than Nothing.
 - Less Than Nothing is the hardest mode: no potions and no Cure, and enemies attack almost without pause.
 - Playable looks: Roxas, HD Xion (the KH3 model rigged for KH2), hooded Xion (KH2’s own hooded Roxas) and Axel (KH3 model, his chakrams), each with its own HUD face. Switch at any save point or in the cheats menu; cutscenes keep Roxas.
 - 1.2.7 fixes: a crash when the game read the HD looks’ textures (their DDS headers), the Load hang on the title screen, and the Items label is back. The Limit and Light & Dark form crash in Timeless River is fixed in the next build.
