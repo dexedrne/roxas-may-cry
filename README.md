@@ -4,7 +4,7 @@ The [standalone stage-2 builder](standalone/README.md) builds a partial campaign
 
 ![Roxas May Cry](docs/img/roxas-may-cry.webp)
 
-Play Nobody May Cry’s Roxas campaign through The World That Never Was, the ending and postgame in the Steam edition of Kingdom Hearts II Final Mix, as Roxas, Xion or Axel. This repository is a builder: it makes the mod on your PC from your own copy of the game. It holds patches and code, no game files.
+Play Roxas’s campaign through The World That Never Was, the ending and postgame in the Steam edition of Kingdom Hearts II Final Mix, as Roxas, Xion or Axel. This repository is a builder: it makes the mod on your PC from your own copy of the game. It holds patches and code, no game files.
 
 ## what's in it
 
@@ -14,7 +14,7 @@ Play Nobody May Cry’s Roxas campaign through The World That Never Was, the end
 <td width="50%" valign="top"><img src="docs/img/holo.webp" alt="An old beige computer on a workbench at dusk, a glowing blue disc hovering over the keyboard" width="100%"><br><b>Holo-Missions</b><br>the computer in Merlin’s House runs all three missions again, with first clears, replays and rewards.</td>
 </tr>
 <tr>
-<td width="50%" valign="top"><img src="docs/img/modes.webp" alt="Four pale blue ice cream bars and a bare stick in a row on a stone ledge at sunset" width="100%"><br><b>four modes</b><br>Critical, Less Than Nothing, Xion Knows Best and Xion Always Cries.</td>
+<td width="50%" valign="top"><img src="docs/img/modes.webp" alt="Four pale blue ice cream bars and a bare stick in a row on a stone ledge at sunset" width="100%"><br><b>two modes</b><br>Critical and Less Than Nothing.</td>
 <td width="50%" valign="top"><img src="docs/img/settings.webp" alt="Brass gears behind a glowing clock face, an open notebook of gear sketches on a beam" width="100%"><br><b>settings menu and cheats</b><br>infinite HP, MP and Drive, EXP and drop multipliers, names and title logos, changed in game.</td>
 </tr>
 <tr>
@@ -28,8 +28,8 @@ Play Nobody May Cry’s Roxas campaign through The World That Never Was, the end
 </table>
 
 - Finish the Summit duel, the Organization encounters and the castle ascent. The Betwixt and Between reward includes Awakened alongside Bond of Flame.
-- New in 1.2.7: three title screens, Roxas May Cry, Xion Always Cries and Axel Won’t Cry, switched live on the title with R3, or F7 on PC. Each has its own painted title and logo, drawn by dexedrne. New Game offers Critical and Less Than Nothing.
-- Less Than Nothing is NMC’s own hardest mode: no potions and no Cure, and enemies attack almost without pause.
+- New in 1.2.7: three title screens, Roxas May Cry, Xion Knows Best and Axel Won’t Cry, switched live on the title with R3, or F7 on PC. Each has its own painted title and logo, drawn by dexedrne. New Game offers Critical and Less Than Nothing.
+- Less Than Nothing is the hardest mode: no potions and no Cure, and enemies attack almost without pause.
 - Playable looks: Roxas, HD Xion (the KH3 model rigged for KH2), hooded Xion (KH2’s own hooded Roxas) and Axel (KH3 model, his chakrams), each with its own HUD face. Switch at any save point or in the cheats menu; cutscenes keep Roxas.
 - 1.2.7 fixes: a crash when the game read the HD looks’ textures (their DDS headers), the Load hang on the title screen, and the Items label is back. The Limit and Light & Dark form crash in Timeless River is fixed in the next build.
 - The Marluxia and Larxene story arenas are built as their own rooms from your game, their intro scenes show the right weapons, the Space Paranoids room of the Day 96 mission loads, and the menu text explains Item Slots and Less Than Nothing’s recovery drain.
@@ -38,7 +38,7 @@ Play Nobody May Cry’s Roxas campaign through The World That Never Was, the end
 - Postgame fixes cover the Cavern of Remembrance Necromancer, Absent Silhouette books, the Zexion fight, Data Marluxia’s Doom count and three Mushroom XIII encounters.
 - Change cheats, EXP and drop multipliers, tutorial HP, names and title logos in the settings menu. Open it with RB/R1 or F2 at New Game / Load, or hold L3 or Shift while opening camp.
 - Menu, pause screen, HUD and save point fixes for every look.
-- The HD Xion pack adds character switching, Xion Knows Best and Xion Always Cries. The standard build offers Beginner, Standard, Critical and Less Than Nothing.
+- The HD Xion pack adds character switching and Xion’s own modes. The standard build offers Beginner, Standard, Critical and Less Than Nothing.
 
 ## build and install
 
