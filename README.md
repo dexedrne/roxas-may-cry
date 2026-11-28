@@ -26,6 +26,16 @@ You need the Steam KH 1.5+2.5 collection. The zip has everything else.
 
 There's also a builder in this repo (`tools/build-rmc.py`) if you want to make it from your own game and your own copy of the original PC mod. The repo holds patches and code, no game files.
 
+## coming next
+
+not out yet.
+
+![Friends May Cry](docs/img/friends-may-cry.webp)
+
+- Friends May Cry: play Roxas, Xion and Axel together, switch any time, each with their own moves. arena fights and co-op.
+- Roxas May Cry: just Roxas, close to the original, with Xion as your rescuer and holo-mission partner.
+- new keyblades, a guide in the menu and a restyled cheats menu.
+
 ## known issues
 
 - the Limit and Light & Dark form crash in Timeless River is fixed in the next build.
